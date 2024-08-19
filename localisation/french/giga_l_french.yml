@@ -7,12 +7,12 @@
   ### Headers #############################
   #########################################
   header_01_gigac:99 "§GGigastructural Constructs§!"
-  header_01_gigac_desc:99 "$header_01_gigac$\nThis technology unlocks a megastructure so large, that it can now be considered Gigastructural Engineering."
+  header_01_gigac_desc:0 "$header_01_gigac$\nCette technolgie débloque une mégastructure si large que cela peut-être considéré de l'Ingénieurie Gigastructurelle."
   
-  header_02_tetra:99 "§BTetradimensional Engineering§!"
+  header_02_tetra:0 "§BIngénieurie Tétradimensionnelle§!"
   header_02_tetra_desc:99 "$header_02_tetra$\nThis technology unlocks a megastructure of such sheer size and scope that it is necessary to employ high-dimensional engineering methods in order to make it work."
   
-  header_03_insane:99 "§RInsane Technology§!"
+  header_03_insane:0 "§RTechnologie Insensée§!"
   header_03_insane_desc:99 "$header_03_insane$\nThis technology would put our civilization so far ahead of the curve, it's considered insane to believe it could work."
   
   header_04_lud_insane:99 "§PLudicrously Insane Technology§!"
