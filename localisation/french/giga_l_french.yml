@@ -6,8 +6,8 @@
   #########################################
   ### Headers #############################
   #########################################
-  header_01_gigac:99 "§GGigastructural Constructs§!"
-  header_01_gigac_desc:0 "$header_01_gigac$\nCette technolgie débloque une mégastructure si large que cela peut-être considéré de l'Ingénieurie Gigastructurelle."
+  header_01_gigac:0 "§GIngénieurie des Gigastructures§!"
+  header_01_gigac_desc:0 "$header_01_gigac$\nCette technolgie débloque une mégastructure si large que cela peut-être considéré de l'Ingénieurie des Gigastructures."
   
   header_02_tetra:0 "§BIngénieurie Tétradimensionnelle§!"
   header_02_tetra_desc:99 "$header_02_tetra$\nThis technology unlocks a megastructure of such sheer size and scope that it is necessary to employ high-dimensional engineering methods in order to make it work."
