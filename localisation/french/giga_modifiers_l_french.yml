@@ -31,7 +31,7 @@
   
   mod_giga_planet_unemployment_coverage:99 "Jobs for Unemployed Pops"
   
-  mod_giga_pop_assimilation_speed:99 "Pop Assimilation Speed"
+  mod_giga_pop_assimilation_speed:0 "Vitesse d'Assimilation des Pops"
   
   mod_giga_virtual_colony_size:99 "['concept_giga_virtual_colony_size']"
   concept_giga_virtual_colony_size:99 "Virtual Ascension Colony Size"
