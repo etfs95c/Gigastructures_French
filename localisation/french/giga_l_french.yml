@@ -47,149 +47,149 @@
   allow_disco_moon:0 "§HDébloque la Mégastructure :§! $name_discomoon$"
   desc_disco_moon:0 "Une lune recouverte de panneaux cristallins polis au travers desquels la lumière scintille pour créer un impressionnant spectacle de lumière sur les planètes avoisinantes. Applique ses effets sur tous les corps du système planétaire local."
   
-  name_crystal_megabore:0 "Mégaforage de Crystal"
-  allow_crystal_megabore:99 "§HDébloque la Mégastructure :§! $name_crystal_megabore$"
-  desc_crystal_megabore:99 "A massive orbital facility which bores directly into a Molten Planet's core, extracting large amounts of rare crystals."
+  name_crystal_megabore:0 "Mégaforage à Crystal"
+  allow_crystal_megabore:0 "§HDébloque la Mégastructure :§! $name_crystal_megabore$"
+  desc_crystal_megabore:0 "Une immense installation orbitale qui fore directement dans le cœur d'une Planète en Fusion afin d'extraire une grande quantité de cristaux rares."
   
-  name_interstellar_hab:99 "Interstellar Habitat"
-  allow_interstellar_hab:99 "§HUnlocks Megastructure:§! $name_interstellar_hab$"
-  desc_interstellar_hab:99 "A habitat built in the void between stars.\n\n$name_interstellar_hab$s possess unique §YMining§! and §YResearch§! Districts. They can fit 15 Districts."
+  name_interstellar_hab:0 "Habitat Interstellaire"
+  allow_interstellar_hab:0 "§HDébloque la Mégastructure :§! $name_interstellar_hab$"
+  desc_interstellar_hab:0 "Un habitat construit dans le vide entre les étoiles.\n\nUn $name_interstellar_hab$ a accès à des Districts §YMinier§! et de §YRecherche§! uniques. Ils peuvent accueillir 15 Districts."
   
-  name_interstellar_ring:99 "Interstellar Ring World"
-  allow_interstellar_ring:99 "§HUnlocks Megastructure:§! $name_interstellar_ring$"
-  desc_interstellar_ring:99 "An upgrade to the $name_interstellar_hab$, this massive ringworld features 8 habitable segments.\n\nInterstellar Ringworlds possess unique §YGenerator§! and §YFoundry§! Districts. They can fit 25 Districts."
+  name_interstellar_ring:0 "Anneau Monde Interstellaire"
+  allow_interstellar_ring:0 "§HDébloque la Mégastructure :§! $name_interstellar_ring$"
+  desc_interstellar_ring:0 "Une amélioration par rapport à l'$name_interstellar_hab$, cet impressionnant anneau monde contient 8 segments habitables.\n\nL'Anneau Monde Interstellaire possède des Districts §YGénérateur§! et de §YForge§! unique. Ils peuvent accueillir 25 Districts."
   
   name_upgrade_ringworld:99 "Ringworld Habitat Upgrade"
   allow_upgrade_ringworld:99 "§HUnlocks Decision:§! Ringworld Habitat Upgrade"
   desc_upgrade_ringworld:99 "Lets us add more habitats to a ringworld by transforming a support segment into an habitable one.\n\n§HThe Decision should be made on the ringworld segment you wish to upgrade§!"
   
-  name_ringworld_titanic:99 "Titanic Ringworld"
-  allow_ringworld_titanic:99 "§HUnlocks Megastructure:§! $name_ringworld_titanic$"
-  desc_ringworld_titanic:99 "A $name_ringworld_titanic$ builds upon an existing ringworld system, providing more habitable space."
+  name_ringworld_titanic:0 "Anneau Monde Titanesque"
+  allow_ringworld_titanic:0 "§HDébloque la Mégastructure :§! $name_ringworld_titanic$"
+  desc_ringworld_titanic:0 "Un $name_ringworld_titanic$ construit dans un système accueillant déjà un anneau monde, étendant la surface habitable."
   
-  name_ringworld_behemoth:99 "Behemoth Ringworld"
-  allow_ringworld_behemoth:99 "§HUnlocks Megastructure:§! $name_ringworld_behemoth$"
-  desc_ringworld_behemoth:99 "A $name_ringworld_behemoth$ builds upon a double existing ringworld system, providing more habitable space."
+  name_ringworld_behemoth:0 "Anneau Monde Béhémoth"
+  allow_ringworld_behemoth:0 "§HDébloque la Mégastructure :§! $name_ringworld_behemoth$"
+  desc_ringworld_behemoth:0 "Un $name_ringworld_behemoth$ construit dans un système accueillant déjà un double anneau monde, étendant la surface habitable."
   
-  name_ringworld_gargan:99 "Gargantuan Ringworld"
-  allow_ringworld_gargan:99 "§HUnlocks Megastructure:§! $name_ringworld_gargan$"
-  desc_ringworld_gargan:99 "A $name_ringworld_gargan$ builds upon an triple existing ringworld system, providing more habitable space."
+  name_ringworld_gargan:0 "Anneau Monde Gargantuesque"
+  allow_ringworld_gargan:0 "§HDébloque la Mégastructure :§! $name_ringworld_gargan$"
+  desc_ringworld_gargan:0 "Un $name_ringworld_gargan$ construit dans un système accueillant déjà un triple anneau monde, étendant la surface habitable."
   
-  name_ringworld_square:99 "Square Ringworld"
-  allow_ringworld_square:99 "§HUnlocks Megastructure:§! $name_ringworld_square$"
+  name_ringworld_square:0 "Anneau Monde Carré"
+  allow_ringworld_square:0 "§HDébloque la Mégastructure :§! $name_ringworld_square$"
   allow_squareworld:99 "§HUnlocks Feature:§! Squareworld Restoration"
-  desc_squareworld:99 "While it still is shrouded in mystery, it might be possible to restore the Squareworld if we can manage to learn more about it."
+  desc_squareworld:0 "Bien qu'il soit toujours envolopé de mystère, il pourrait-être possible de réparer le Monde Carré... si nous arrivons en apprendre plus à son sujet."
   
-  name_ringworld_city:99 "Ecumenopolis Ringworld"
-  allow_ringworld_city:99 "§HUnlocks Megastructure:§! $name_ringworld_city$"
+  name_ringworld_city:0 "Anneau Monde Œcuménopole"
+  allow_ringworld_city:0 "§HDébloque la Mégastructure :§! $name_ringworld_city$"
   
   name_ringworld_hive:99 "Hive Ringworld"
-  allow_ringworld_hive:99 "§HUnlocks Megastructure:§! $name_ringworld_hive$"
+  allow_ringworld_hive:0 "§HDébloque la Mégastructure :§! $name_ringworld_hive$"
   
   name_ringworld_machine:99 "Machine Ringworld"
-  allow_ringworld_machine:99 "§HUnlocks Megastructure:§! $name_ringworld_machine$"
+  allow_ringworld_machine:0 "§HDébloque la Mégastructure :§! $name_ringworld_machine$"
   
   name_penrose_ring:99 "Penrose Ring World"
-  allow_penrose_ring:99 "§HUnlocks Megastructure:§! $name_penrose_ring$"
+  allow_penrose_ring:0 "§HDébloque la Mégastructure :§! $name_penrose_ring$"
   allow_penrose_stabilize:99 "§HUnlocks Feature:§! $name_penrose$ Stabilization"
   desc_penrose_stabilize:99 "Lets us stabilize an energy-generating $name_penrose$ to greatly increase its energy output."
   allow_penrose_ringworld:99 "§HUnlocks Feature:§! $name_penrose$ Ringworld"
   desc_penrose_ringworld:99 "A ringworld built around a stabilized $name_penrose$, powered by the Sphere itself. Some of the ringworld's infrastructure can be incorporated into the Sphere itself, allowing for more habitable segments.\n\n$name_penrose_ring$s possess unique §YGenerator§!, §YFarming§! and §YResearch§! Districts. They can fit 35 Districts."
   
   name_penrose:99 "Penrose Sphere"
-  allow_penrose:99 "§HUnlocks Megastructure:§! $name_penrose$"
+  allow_penrose:0 "§HDébloque la Mégastructure :§! $name_penrose$"
   desc_penrose_sphere:99 "A large mirror built around a Black Hole, exploiting superradiant scattering to generate energy using a Black Hole. At our current level of technology, it can either be used a very, very powerful bomb, or can generate some energy, but stabilizing the structure to reliably use it as a generator will require additional research."
   
   name_succ:99 "S.U.C.C."
-  allow_succ:99 "§HUnlocks Megastructure:§! $name_succ$"
+  allow_succ:0 "§HDébloque la Mégastructure :§! $name_succ$"
   desc_succ:99 "The $name_succ_full$, or $name_succ$ for short, is a massive facility which wraps around a Gas Giant. Using massive tractor beams, it steadily harvests the planet's atmosphere and refines it into Energy, Gases and Volatile Motes."
   
   name_succ_full:99 "Superatmospheric Umbegaseous Collecto-Condenser"
-  allow_succ_full:99 "§HUnlocks Megastructure:§! $name_succ_full$"
+  allow_succ_full:0 "§HDébloque la Mégastructure :§! $name_succ_full$"
   
   name_matrioshka_brain:99 "Matrioshka Brain"
-  allow_matrioshka_brain:99 "§HUnlocks Megastructure:§! $name_matrioshka_brain$"
+  allow_matrioshka_brain:0 "§HDébloque la Mégastructure :§! $name_matrioshka_brain$"
   desc_matrioshka_brain:99 "An incredible super computer of inconceivable size."
   name_virtual_reality:99 "Virtual Reality"
   allow_virtual_reality:99 "§HUnlocks Feature:§! $name_virtual_reality$"
   desc_virtual_reality:99 "Lets us upgrade a $name_matrioshka_brain$ into a Matrioshka Reality Simulator, capable of holding billions of minds."
   
   name_kugelblitz:99 "Kugelblitz Containment Silo"
-  allow_kugelblitz:99 "§HUnlocks Megastructure:§! $name_kugelblitz$"
+  allow_kugelblitz:0 "§HDébloque la Mégastructure :§! $name_kugelblitz$"
   desc_kugelblitz:99 "A large Kugelblitz maintained inside a special device. It can be fed energy and matter in the form of radiation in order to store them for later use, thanks to advanced energy-to-matter converters."
   
   name_psy_siphon:99 "Psychic Hypersiphon"
-  allow_psy_siphon:99 "§HUnlocks Megastructure:§! $name_psy_siphon$"
+  allow_psy_siphon:0 "§HDébloque la Mégastructure :§! $name_psy_siphon$"
   desc_psy_siphon:99 "A huge artificial portal connecting our universe with the Shroud itself. It is capable of generating glorious amounts of energy and research, and it could improve our psionic potential immensely."
   
   name_eng_test_site:99 "Macroengineering Testing Station"
-  allow_eng_test_site:99 "§HUnlocks Megastructure:§! $name_eng_test_site$"
+  allow_eng_test_site:0 "§HDébloque la Mégastructure :§! $name_eng_test_site$"
   desc_eng_test_site:99 "A large station orbiting a planet to freely conduct engineering experiments."
   
   name_atmosphere_shredder:99 "Atmospheric Storm Observatory"
-  allow_atmosphere_shredder:99 "§HUnlocks Megastructure:§! $name_atmosphere_shredder$"
+  allow_atmosphere_shredder:0 "§HDébloque la Mégastructure :§! $name_atmosphere_shredder$"
   desc_atmosphere_shredder:99 "An artificial complex capable of inducing enormous storms in the atmosphere of a gas giant."
   
   name_sub_compressor:99 "Substellar Compressor"
-  allow_sub_compressor:99 "§HUnlocks Megastructure:§! $name_sub_compressor$"
+  allow_sub_compressor:0 "§HDébloque la Mégastructure :§! $name_sub_compressor$"
   desc_sub_compressor:99 "A megastructure built around a Brown Dwarf, capable of triggering fusion reactions within the Brown Dwarf to ignite it."
   
   name_auto_stripmine:99 "Automated Strip Mine"
-  allow_auto_stripmine:99 "§HUnlocks Megastructure:§! $name_auto_stripmine$"
+  allow_auto_stripmine:0 "§HDébloque la Mégastructure :§! $name_auto_stripmine$"
   desc_auto_stripmine:99 "A massive industrial complex covering a planet and extracting its minerals, peeling off the surface layer by layer until there's nearly nothing left."
   
   name_yggdrasil:99 "Yggdrasil Orchid Complex"
-  allow_yggdrasil:99 "§HUnlocks Megastructure:§! $name_yggdrasil$"
+  allow_yggdrasil:0 "§HDébloque la Mégastructure :§! $name_yggdrasil$"
   desc_yggdrasil:99 "A massive complex built near a Gas Giant to seed its atmosphere with special plant life."
   
   name_the_vat:99 "B.I.G. Vat"
   name_the_vat_long:99 "Biological Impetuous Growth Vat"
-  allow_the_vat:99 "§HUnlocks Megastructure:§! $name_the_vat$"
+  allow_the_vat:0 "§HDébloque la Mégastructure :§! $name_the_vat$"
   desc_the_vat:99 "A mammoth cloning vat, built in space to accommodate the largest of clones."
   
   name_orbital_artificial_eco:99 "Orbital Artificial Ecosystem"
-  allow_orbital_artificial_eco:99 "§HUnlocks Megastructure:§! $name_orbital_artificial_eco$"
+  allow_orbital_artificial_eco:0 "§HDébloque la Mégastructure :§! $name_orbital_artificial_eco$"
   desc_orbital_artificial_eco:99 "A very large station housing a completely artificial ecosystem to study nature."
   
   name_neut_gigaforge:99 "Neutronium Gigaforge"
-  allow_neut_gigaforge:99 "§HUnlocks Megastructure:§! $name_neut_gigaforge$"
+  allow_neut_gigaforge:0 "§HDébloque la Mégastructure :§! $name_neut_gigaforge$"
   desc_neut_gigaforge:99 "A large forge constructed near a neutron star to easily harvest large amounts of neutronium."
   
   name_orb_elysium:99 "Orbital Elysium"
-  allow_orb_elysium:99 "§HUnlocks Megastructure:§! $name_orb_elysium$"
+  allow_orb_elysium:0 "§HDébloque la Mégastructure :§! $name_orb_elysium$"
   desc_orb_elysium:99 "A small, ring-shaped space station designed to exert control over a planetary population. Has districts for §YResearch§!, §YUnity§!, and maintaining the §YStability§! of the planet below.\n\n§YDisables buildings and drastically reduces district count§! on the host planet in exchange for a number of §Yjobs per pop§!, affected by planetary designation, primarily focused on §Yraw materials§!."
   name_habitats:99 "Habitats"
   
   name_giga_orbital:99 "Stellar Ring Habitat"
-  allow_giga_orbital:99 "§HUnlocks Megastructure:§! $name_giga_orbital$"
+  allow_giga_orbital:0 "§HDébloque la Mégastructure :§! $name_giga_orbital$"
   desc_giga_orbital:99 "A large, ring-shaped space station designed to provide planet-like living conditions. Has districts for §YFarming§!, §YUnity§!, §YAmenities§!, and planetary logistics.\n\nSynergizes with §Y$habitat_0$§! stations in the system, has extra effects for §Y$civic_machine_servitor$§! empires, and counts as a $habitat_0$ for §Y$trait_void_dweller_1$§! pops."
   
   name_particle_accel:99 "Stellar Particle Accelerator"
-  allow_particle_accel:99 "§HUnlocks Megastructure:§! $name_particle_accel$"
+  allow_particle_accel:0 "§HDébloque la Mégastructure :§! $name_particle_accel$"
   desc_particle_accel:99 "A very big particle accelerator built around a star, capable of accelerating particles to almost the speed of light."
   
   name_starlifter:99 "Star Lifter"
-  allow_starlifter:99 "§HUnlocks Megastructure:§! $name_starlifter$"
+  allow_starlifter:0 "§HDébloque la Mégastructure :§! $name_starlifter$"
   desc_starlifter:99 "A construct surrounding a star, directly tapping into its very essence and converting it into minerals."
   
   name_fusion_suppressor:99 "Fusion Suppressor"
-  allow_fusion_suppressor:99 "§HUnlocks Megastructure:§! $name_fusion_suppressor$"
+  allow_fusion_suppressor:0 "§HDébloque la Mégastructure :§! $name_fusion_suppressor$"
   desc_fusion_suppressor:99 "A large structure built around a star to disrupt its internal fusion processes, generating large amounts of scientific data. Can be used to eventually detonate a star, creating Iodizium Deposits on its planets, or to make a black hole."
   
   name_hraemc:99 "HRAE-MC"
-  allow_hraemc:99 "§HUnlocks Megastructure:§! $name_hraemc$"
+  allow_hraemc:0 "§HDébloque la Mégastructure :§! $name_hraemc$"
   desc_hraemc:99 "This incredible technological feat shall grant us huge amounts of energy, as well as lots of data on the nature of the strange bodies that are black holes."
   
   name_war_moon:99 "Attack Moon"
-  allow_war_moon:99 "§HUnlocks Megastructure:§! $name_war_moon$"
+  allow_war_moon:0 "§HDébloque la Mégastructure :§! $name_war_moon$"
   desc_war_moons:99 "A truly insane engineering project. A massive particle lance, powered by a gigantic reactor within a small moon's core. Propelled by huge thrusters built on the other side of the moon, this weaponized planetoid is a sight to behold."
   
   name_war_planet:99 "Behemoth Planetcraft"
-  allow_war_planet:99 "§HUnlocks Megastructure:§! $name_war_planet$"
+  allow_war_planet:0 "§HDébloque la Mégastructure :§! $name_war_planet$"
   desc_war_planet:99 "The logical evolution of the $name_war_moon$. An entire planet transformed into a mobile spaceship, equipped with a weapon that can obliterate §Ranything.§!"
   
   name_war_system:99 "Stellar Systemcraft"
-  allow_war_system:99 "§HUnlocks Megastructure:§! $name_war_system$"
+  allow_war_system:0 "§HDébloque la Mégastructure :§! $name_war_system$"
   allow_systemcraft_p0:99 "$allow_war_system$ Phase 0: Construction Site"
   desc_systemcraft_p0:99 "The Stellar Systemcraft is a fearsome hyperweapon capable of obliterating anything in its path."
   allow_systemcraft_p1:99 "$allow_war_system$ Phase 1: Solar Compressor"
@@ -206,24 +206,24 @@
   desc_systemcraft_p6:99 "Unlocks another step of the Systemcraft."
   
   name_terraform_molten:99 "Geothermal Stabilizer"
-  allow_terraform_molten:99 "§HUnlocks Megastructure:§! $name_terraform_molten$"
+  allow_terraform_molten:0 "§HDébloque la Mégastructure :§! $name_terraform_molten$"
   desc_terraform_molten:99 "A megastructure capable of transforming a molten planet into a habitable world."
   
   name_terraform_shattered:99 "G.L.U.E."
   name_terraform_shattered_full:99 "Global Land Unification Engine"
-  allow_terraform_shattered:99 "§HUnlocks Megastructure:§! $name_terraform_shattered$"
+  allow_terraform_shattered:0 "§HDébloque la Mégastructure :§! $name_terraform_shattered$"
   desc_terraform_shattered:99 "The $name_terraform_shattered_full$ or the $name_terraform_shattered$ for short, is capable of taking the remnants of a previously destroyed planet and reforming them into something closer resembling their original form."
   
   name_terraform_barren:99 "Dynamic Core Ignitor"
-  allow_terraform_barren:99 "§HUnlocks Megastructure:§! $name_terraform_barren$"
+  allow_terraform_barren:0 "§HDébloque la Mégastructure :§! $name_terraform_barren$"
   desc_terraform_barren:99 "A large construct built around a desolate world to make it more habitable."
   
   name_terraform_gasgiant:99 "Macroatmospheric Stabilizer"
-  allow_terraform_gasgiant:99 "§HUnlocks Megastructure:§! $name_terraform_gasgiant$"
+  allow_terraform_gasgiant:0 "§HDébloque la Mégastructure :§! $name_terraform_gasgiant$"
   desc_terraform_gasgiant:99 "The $name_terraform_gasgiant$ is capable of partially controlling a Gas Giant's upper atmosphere, rendering it somewhat habitable.\n\nGas Giant Colonies possess unique §YGenerator§!, §YResearch§! and §YRare Gases§! Districts, alongside unique §YPlanetary Features§!. The larger the Gas Giant, the larger the resulting colony."
   
   name_terraform_toxic:99 "Atmospheric Purifier"
-  allow_terraform_toxic:99 "§HUnlocks Megastructure:§! $name_terraform_toxic$"
+  allow_terraform_toxic:0 "§HDébloque la Mégastructure :§! $name_terraform_toxic$"
   desc_terraform_toxic:99 "A megastructure capable of transforming a toxic planet into a habitable world."
   
   name_orbital_arcology:99 "Orbital Arcology"
@@ -233,15 +233,15 @@
   desc_orbital_arcology:99 "A ring wrapping around a planet's equator, increasing the planet's max amount of districts."
   
   name_planetary_computer:99 "Planetary Computer"
-  allow_planetary_computer:99 "§HUnlocks Megastructure:§! $name_planetary_computer$"
+  allow_planetary_computer:0 "§HDébloque la Mégastructure :§! $name_planetary_computer$"
   desc_planetary_computer:99 "A truly massive project that transforms a planet into a colonizable planetary computer, providing huge buffs to researchers on the surface."
   
   name_nidavellir:99 "Nidavellir Hyperforge"
-  allow_nidavellir:99 "§HUnlocks Megastructure:§! $name_nidavellir$"
+  allow_nidavellir:0 "§HDébloque la Mégastructure :§! $name_nidavellir$"
   desc_nidavellir:99 "Similar in concept to the $name_neut_gigaforge$, but immensely more advanced, the $name_nidavellir$ bends time and space themselves to produce the purest alloys in the galaxy by merging minerals and neutronium, used to create the deadliest of weapons."
   
   name_quasistellar:99 "Quasi-Stellar Obliterator"
-  allow_quasistellar:99 "§HUnlocks Megastructure:§! $name_quasistellar$"
+  allow_quasistellar:0 "§HDébloque la Mégastructure :§! $name_quasistellar$"
   allow_qso_p0:99 "$allow_quasistellar$ Phase 0: Construction Site"
   desc_qso_p0:99 "The Quasi-Stellar Obliterator is the largest hyperweapon ever designed, possessing untold amounts of destructive power."
   allow_qso_p1:99 "$allow_quasistellar$ Phase 1: Accretion Compressor"
@@ -256,15 +256,15 @@
   desc_qso_p5:99 "Unlocks another step of the Quasar Gun."
   
   name_alderson:99 "Alderson Disk"
-  allow_alderson:99 "§HUnlocks Megastructure:§! $name_alderson$"
+  allow_alderson:0 "§HDébloque la Mégastructure :§! $name_alderson$"
   desc_alderson:99 "The Alderson Disk is a colossal disk built around a star, providing immense living space."
   
   name_hyperstructural_ass:99 "Hyperstructural Assembly Yard"
-  allow_hyperstructural_ass:99 "§HUnlocks Megastructure:§! $name_hyperstructural_ass$"
+  allow_hyperstructural_ass:0 "§HDébloque la Mégastructure :§! $name_hyperstructural_ass$"
   desc_hyperstructural_ass:99 "An immense shipyard built around a system's star. Provides 90 shipyard slots and increases naval capacity by 1500."
   
   name_orb_bastion:99 "Orbital Bastion"
-  allow_orb_bastion:99 "§HUnlocks Megastructure:§! $name_orb_bastion$"
+  allow_orb_bastion:0 "§HDébloque la Mégastructure :§! $name_orb_bastion$"
   
   #############################################################################################################################################
   ### Requirements ############################################################################################################################
@@ -5267,22 +5267,22 @@
   tech_arcane_g_r_desc:99 "The secrets of the $ehof_ep$ allow us to control sentient metal. With the help of it and negative mass, we are now able to entirely restore the Arcane Rift Generator to its former glory, allowing us to utilize it to its fullest potential."
   
   # Event Horizon Offset Facility Alpha
-  allow_ehof_p1:99 "§HUnlocks Megastructure:§! $ehof_ehofp1$"
+  allow_ehof_p1:0 "§HDébloque la Mégastructure :§! $ehof_ehofp1$"
   tech_ehof_phase_01:99 "$ehof_ehofp1$"
   tech_ehof_phase_01_desc:99 "Utilizes the $r_arcane_manipulator_1$ and squeezed electromagnetic fields to inflate and stabilize $ehof_wormholes_text$. Due to their indeterministic behavior, their destinations are entirely random."
   
   # Event Horizon Offset Facility Lambda
-  allow_ehof_p2:99 "§HUnlocks Megastructure:§! $ehof_ehofp2$"
+  allow_ehof_p2:0 "§HDébloque la Mégastructure :§! $ehof_ehofp2$"
   tech_ehof_phase_02:99 "$ehof_ehofp2$"
   tech_ehof_phase_02_desc:99 "Utilizes the $r_arcane_manipulator_1$, photonic matter, and negative pressure to inflate and stabilize $ehof_wormholes_text$ The photonic matter and negative pressure enhance the entire process, increasing the $ehof_ehofs$ precision and expanding its range of destinations."
   
   # Event Horizon Offset Facility Omega
-  allow_ehof_p3:99 "§HUnlocks Megastructure:§! $ehof_ehofp3$"
+  allow_ehof_p3:0 "§HDébloque la Mégastructure :§! $ehof_ehofp3$"
   tech_ehof_phase_03:99 "$ehof_ehofp3$"
   tech_ehof_phase_03_desc:99 "Utilizes the $r_arcane_manipulator_1$, hardlight constructs, sterile sub-neutrino detectors, and negative mass to manipulate and inflate $ehof_wormholes_text$. The utilization of negative mass induces total stabilization of wormholes, which allows us to keep the inflated $ehof_wormholes_text$ open for as long as we see fit. The sterile sub-neutrino detectors further expand the range of destinations our $ehof_wormholes_text$ can reach."
   
   # Event Horizon Offset Facility Ultima
-  allow_ehof_p4:99 "§HUnlocks Megastructure:§! $ehof_ehofp4$"
+  allow_ehof_p4:0 "§HDébloque la Mégastructure :§! $ehof_ehofp4$"
   tech_ehof_phase_04:99 "$ehof_ehofp4$"
   tech_ehof_phase_04_desc:99 "Utilizing the mysteries of the $ehof_the_sphere_named$, the $ehof_ehofp4$ is the perfect form of the $ehof_ehof$, capable of traveling to any location of our choosing without limitations and risks. Limitless possibilities await."
   
@@ -5367,7 +5367,7 @@
   
   tech_sm_megastructure:99 "Sentient Metal Forge"
   tech_sm_megastructure_desc:99 "£gigastructural£ $giga_list_category_megastructure$ - $giga_list_category_strategic_resource_production$\nThe §Y$tech_sm_megastructure$§! siphons material from the $ehof_the_sphere_named$, creating massive quantities of $ehof_sm$ and $ehof_qnm$."
-  allow_sm_megastructure:99 "§HUnlocks Megastructure:§! $tech_sm_megastructure$"
+  allow_sm_megastructure:0 "§HDébloque la Mégastructure :§! $tech_sm_megastructure$"
   ehof_sm_megastructure_DESC:99 "$tech_sm_megastructure_desc$"
   
   ehof_sm_forge_phase0:99 "$gc_mega$$tech_sm_megastructure$ Assembly"
@@ -10079,7 +10079,7 @@
   
   giga_tech_stellarite_kaiser_moon:99 "Esoteric Katzen Weaponry"
   giga_tech_stellarite_kaiser_moon_desc:99 "The study of the Stellarite Kaiser Moon has yielded some insight on what it is made out of. It seems to be built from a material containing ridiculous energies, which allowed the Stellarite Kaiser Moon to boast exceedingly powerful weapons. We are still uncertain as to how or why the Kaiser was able to acquire the necessary resources to build one, though."
-  allow_stellarite_kaiser_moon:99 "§HUnlocks Megastructure:§! Stellarite Kaiser Moon"
+  allow_stellarite_kaiser_moon:0 "§HDébloque la Mégastructure :§! Stellarite Kaiser Moon"
   desc_stellarite_kaiser_moon:99 "A truly insane engineering project, based on salvaged Katzen technologies. It is made out of a highly advanced material capable of unleashing massive amounts of energy, enabling the use of immensely powerful weaponry."
   
   giga_katzenartig_enabled_never:99 "£menu_disabled£Katzenartig Imperium (§RNonexistent§!)\nThe §YKatzenartig Imperium§!, the §YUFS§! and the §YCorronian Magocracy§! will §RNOT§! spawn.\n\nFlusion will be an §YIrradiated Desert World§!, devoid of civilisation and life. Corrona will be a §YShrouded world§!.\n\nNo events related to the Katzenartig Imperium or Flusion will fire, everything associated to them is effectively gone.\n\nTo completely remove both systems, get the §YNo Katzenartig Imperium§! submod."
@@ -13472,7 +13472,7 @@
   
   giga_tech_lunar_assembly:99 "Lunar-Scale Fabrication Protocols"
   giga_tech_lunar_assembly_desc:99 "By employing a plethora of methods such as Tetradimensional Engineering and nanites, it becomes possible to quickly and efficiently rearrange large quantities of planetary matter into whatever we want. This effectively enables us to create our own Attack Moons without the need for a naturally-occurring planetoid to build it on, provided we harvest enough planetary matter beforehand."
-  allow_lunar_assembly:99 "§HUnlocks Megastructure:§! Lunar Macro-Fabricator"
+  allow_lunar_assembly:0 "§HDébloque la Mégastructure :§! Lunar Macro-Fabricator"
   allow_lunar_assembly_desc:99 "An ambitious orbital megastructure which converts planetary matter and alloys into fabricated Attack Moons. This construct requires £sr_solar_energy£ §YPlanetary Mass§! to function, which itself can be acquired using a decision granted by the §Y$giga_tech_planetary_matter_harvesting$§! Technology."
   
   decision_harvest_matter_for_planetary_printing:99 "Harvest £sr_solar_energy£ §YPlanetary Mass§!"
@@ -13710,7 +13710,7 @@
   giga_tech_asteroid_artillery:99 "Planetoid Defensive Operations"
   giga_tech_asteroid_artillery_desc:99 "The ever-growing size of modern warships means that starbases will simply not cut it anymore when it comes to defending our territory, but logistical problems prevent a conventional defensive platform from getting too large. However, by embedding a defensive installation into a large asteroid, we can simultaneously solve the problems posed by recoil, as well as those caused by maintenance issue by integrating the structure's internals into the asteroid itself and mining it for resources whenever needed. This would effectively enable the construction of much larger and significantly more powerful defensive bastions."
   
-  allow_asteroid_artillery:99 "§HUnlocks Megastructure:§! Asteroid Artillery\n§BPursuing further research into this field will lead to increasingly large warships.§!"
+  allow_asteroid_artillery:0 "§HDébloque la Mégastructure :§! Asteroid Artillery\n§BPursuing further research into this field will lead to increasingly large warships.§!"
   desc_asteroid_artillery:99 "An Asteroid Artillery is a stationary defensive platform built into asteroid, designed to repel large enemy fleets on its own."
   
   giga_mobile_planet_quest_chain:99 "§BPursuing further research into this field will unlock increasingly large warships.§!"
@@ -15933,7 +15933,7 @@
   
   giga_tech_planet_assembly:99 "Planetary-Scale Fabrication Protocols"
   giga_tech_planet_assembly_desc:99 "A grand upscaling of Lunar Macro-Fabrication methods can enable us to fabricate entire Behemoth Planetcrafts instead of mere Attack Moons. It might seem ludicrous, but it might just be possible provided we harvest sufficient planetary matter beforehand."
-  allow_planet_assembly:99 "§HUnlocks Megastructure:§! Behemoth Assembly Plant"
+  allow_planet_assembly:0 "§HDébloque la Mégastructure :§! Behemoth Assembly Plant"
   allow_planet_assembly_desc:99 "An upscaled version of the Lunar Macro-Fabricator which converts planetary matter and alloys into fabricated Behemoth Planetcraft. This construct requires £sr_solar_energy£ §YPlanetary Mass§! to function, which itself can be acquired using a decision granted by the §Y$giga_tech_planetary_matter_harvesting$§! Technology."
   
   planetcraft_printer_0:99 "$gc_giga$Behemoth Assembly Plant Construction Site"
