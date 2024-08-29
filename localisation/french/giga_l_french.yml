@@ -255,15 +255,15 @@
   allow_qso_p5:99 "$allow_quasistellar$"
   desc_qso_p5:99 "Unlocks another step of the Quasar Gun."
   
-  name_alderson:99 "Alderson Disk"
+  name_alderson:0 "Disque d'Alderson"
   allow_alderson:0 "§HDébloque la Mégastructure :§! $name_alderson$"
-  desc_alderson:99 "The Alderson Disk is a colossal disk built around a star, providing immense living space."
+  desc_alderson:0 "Le Disque d'Alderson est un colossal disque construit autour d'une étoile offrant un immense biotope."
   
   name_hyperstructural_ass:99 "Hyperstructural Assembly Yard"
   allow_hyperstructural_ass:0 "§HDébloque la Mégastructure :§! $name_hyperstructural_ass$"
   desc_hyperstructural_ass:99 "An immense shipyard built around a system's star. Provides 90 shipyard slots and increases naval capacity by 1500."
   
-  name_orb_bastion:99 "Orbital Bastion"
+  name_orb_bastion:0 "Bastion Orbital"
   allow_orb_bastion:0 "§HDébloque la Mégastructure :§! $name_orb_bastion$"
   
   #############################################################################################################################################
@@ -430,7 +430,7 @@
   giga_menu.2.refresh.tooltip:99 "Here you can double check your active settings."
   
   giga_menu.1.name:99 ""
-  giga_menu.1.desc:99 "v 3.31"
+  giga_menu.1.desc:0 "v 3.31"
   
   giga_menu_1:99 "Megastructure Capacity: §H1§!"
   giga_menu_2:99 "Megastructure Capacity: §Y2§!"
@@ -440,16 +440,16 @@
   giga_menu_plus_5:99 "Megastructure Capacity: §Y+5§!"
   giga_menu_plus_10:99 "Megastructure Capacity: §G+10§!"
   
-  giga_menu_u:99 "Megastructure Capacity: §MUnlimited§!"
-  giga_menu_r:99 "Megastructure Capacity: §S1§! + §BRepeatables§!"
-  giga_menu_disabled:99 "Megastructure: §GEnabled§!"
-  giga_menu_enabled:99 "Megastructure: §RDisabled§!"
+  giga_menu_u:99 "Megastructure Capacity: §MIllimité§!"
+  giga_menu_r:99 "Megastructure Capacity: §S1§! + §BRépétables§!"
+  giga_menu_disabled:99 "Megastructure: §GActivé§!"
+  giga_menu_enabled:99 "Megastructure: §RDésactivé§!"
   
-  giga_enabled:99 "§GEnabled§!"
-  giga_disabled:99 "§RDisabled§!"
+  giga_enabled:0 "§GActivé§!"
+  giga_disabled:0 "§RDésactivé§!"
   
-  giga_all_enabled:99 "§GEnable§! all megastructures"
-  giga_all_disabled:99 "§RDisable§! all megastructures"
+  giga_all_enabled:0 "§GActivé§! toutes les mégastructures"
+  giga_all_disabled:0 "§RDésactivé§! toutes les mégastructures"
   giga_all_r:99 "Set all megastructure capacity: §S1§! + §BRepeatables§!"
   giga_all_u:99 "Set all megastructure capacity: §MUnlimited§!"
   giga_all_3:99 "Set all megastructure capacity: §G3§!"
@@ -548,7 +548,7 @@
   giga_menu.scaling_matrioshka:99 "[root.giga_chk_scaling_matrioshka]"
   giga_menu.influence_upkeep:99 "[root.giga_chk_influence_upkeep]"
   
-  giga_menu.2.name:99 "These are the currently selected settings. Hit the confirm settings button if everything looks okay."
+  giga_menu.2.name:99 "Voici les paramètres actuellement sélectionnés. Hit the confirm settings button if everything looks okay."
   giga_menu.2.desc:99 "$giga_menu.2.name$\n\n§EGame Start Options§!\n[root.giga_setting_fe_planetcrafts]\n[root.giga_setting_fed]\n[root.giga_setting_achievements]\n\n§EGalactic Core Options§!\n[root.giga_setting_aeternum]\n[root.giga_setting_core]\n\n§EEvent Horizon Offset Facility§!\n$giga_menu.ehof$\n[root.giga_setting_ehof_ai]\n\n§EThe Compound§!\n[root.giga_setting_compound]\n\n§EKatzen Imperium§!\n$giga_menu.katzen$\n$giga_menu.katzen_portraits$\n\n§EMegastructure Options§!\n[root.giga_setting_build_cap]\n[root.giga_setting_scaling_dyson]\n[root.giga_setting_scaling_lifter]\n[root.giga_setting_scaling_brain]\n[root.giga_setting_influence]\n[root.giga_setting_habitats]\n\n§EThe Blokkats§!\n$giga_menu.blokkats$\n$giga_menu.blokkats_date$\n$giga_menu.blokkats_portraits$\n$giga_menu.blokkats_guarantee$"
   
   giga_menu.3.desc:99 "§EVanilla Megastructures§!\n$giga_menu.vanilla_dyson$\n$giga_menu.vanilla_interstellar$\n$giga_menu.vanilla_matter$\n$giga_menu.vanilla_art$\n$giga_menu.vanilla_shipyard$\n$giga_menu.vanilla_ringworld$\n$giga_menu.vanilla_nexus$\n$giga_menu.vanilla_array$\n$giga_menu.vanilla_strategic$\n\n§ERingworld Options§!\n$giga_menu.ringworlds$\n$giga_menu.cityring$\n$giga_menu.hivering$\n$giga_menu.machinering$\n$giga_menu.upgrade$\n\n§EGigastructures§!\n$giga_menu.alderson$\n$giga_menu.asteroid_manufactory$\n$giga_menu.terraform_toxic$\n$giga_menu.drill$\n$giga_menu.warmoon$\n$giga_menu.warplanet$\n$giga_menu.birch$\n$giga_menu.crystal$\n$giga_menu.terraform_barren$\n$giga_menu.shipyard$\n$giga_menu.suppressor$\n$giga_menu.geothermal$\n$giga_menu.glue$\n$giga_menu.hraemc$\n$giga_menu.hyperstructural_ass$\n$giga_menu.stellarhabitat$\n$giga_menu.kugel$\n$giga_menu.disco_moon$\n$giga_menu.terraform_gasgiant$"
@@ -1890,14 +1890,14 @@
   #############################################################################################################################################
   ### Personalities ###########################################################################################################################
   #############################################################################################################################################
-  personality_pangalactic_defense_league:99 "Galactic Defenders"
-  personality_pangalactic_defense_league_desc:99 "This empire seeks to defend the galaxy from threats to intelligent life."
+  personality_pangalactic_defense_league:0 "Défenseur Galactique"
+  personality_pangalactic_defense_league_desc:0 "Cet empire cherche à défendre la galaxie des menaces contre la vie intelligente."
   
   #############################################################################################################################################
   ### Governments #############################################################################################################################
   #############################################################################################################################################
-  gov_pangalactic_defense_league:99 "Galactic Defense Council"
-  gov_pangalactic_defense_league_desc:99 "This government consists of several galactic states united under one banner for the specific purpose of vanquishing a threat to life in the galaxy. Its constituent members retain some degree of autonomy, but possess an united military force."
+  gov_pangalactic_defense_league:0 "Conseil de Défense Galactique"
+  gov_pangalactic_defense_league_desc:0 "Ce gouvernement est composé de plusieurs états galactiques unifiés sous une même bannière dans le but de vaincre une menace pour la vie dans la galaxie. Les états le constituant garde un certain degré d'autonomie, mais possède une force militaire unifiée."
   
   #############################################################################################################################################
   ### Origins #################################################################################################################################
@@ -1921,11 +1921,11 @@
   #########################################
   ### Equatorial Shipyard #################
   #########################################
-  origin_equatorial_shipyard:99 "Equatorial Shipyard"
+  origin_equatorial_shipyard:0 "Chantier Spatial Équatorial"
   origin_equatorial_shipyard_desc:99 "Having evolved on a ring around the scorching heat of a molten world, dwindling water and food supplies have forced this species to leave their home system."
   origin_equatorial_shipyard_effects:99 "Start on an Equatorial Shipyard around a molten world.\n- Gain access to £society_research£ §L$tech_hydroponics$§! technology if not a machine species."
-  giga_equatorial_shipyard_start_NAME:99 "Equatorial Shipyard"
-  giga_equatorial_shipyard_start_DESC:99 "Start on an Equatorial Shipyard."
+  giga_equatorial_shipyard_start_NAME:0 "Chantier Spatial Équatorial"
+  giga_equatorial_shipyard_start_DESC:0 "Commence sur un Chantier Spatial Équatorial."
   
   building_giga_matter_synthesizer:99 "Matter Synthesis Station"
   building_giga_matter_synthesizer_desc:99 "A sprawling complex of arcane energy-to-mass converters that create the raw materials required to keep a pre-FTL civilization running."
