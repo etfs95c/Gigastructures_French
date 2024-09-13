@@ -290,7 +290,7 @@
   requires_base_ringworld:0 "$TRIGGER_FAIL$Requires a regular Ringworld around the star first."
   requires_base_ringworld_one:0 "$TRIGGER_FAIL$Requires a $name_ringworld_titanic$ around the star first."
   requires_base_ringworld_two:0 "$TRIGGER_FAIL$Requires a $name_ringworld_behemoth$ around the star first."
-  requires_titanic_ringworld:0 "$TRIGGER_FAIL$Requires the £engineering_research£ §Y$giga_tech_ringworld_titanic_2$§! technology."
+  requires_titanic_ringworld:0 "$TRIGGER_FAIL$Requires the £engineering_research£ §Y$giga_tech_ringworld_titanic_1$§! technology."
   requires_gargantuan:0 "$TRIGGER_FAIL$Requires the £engineering_research£ §Y$giga_tech_ringworld_gargantuan_2$§! technology."
   requires_ap_colossus:0 "$TRIGGER_FAIL$Requires the §Y$ap_colossus$§! Ascension Perk."
   requires_ap_master_builders:0 "$TRIGGER_FAIL$Requires the §Y$ap_master_builders$§! Ascension Perk."
@@ -319,7 +319,7 @@
   requires_no_contingency:0 "$TRIGGER_FAIL$This Contingency planet emits signals that jam the $name_ndb$'s targeting systems. We cannot aim at it."
   requires_no_quberine:0 "$TRIGGER_FAIL$This structure is made up of Quberine. Its odd properties, combined with the structure's extremely advanced electronics, would reflect the energy beam right back!"
   requires_no_hostiles:0 "$TRIGGER_FAIL$There must not be any hostile ships in the system."
-  requires_built_or_repaired_gigastructure:0 "$TRIGGER_FAIL$Requires having repaired or fully upgraded any of the following Gigastructures: \n$dyson_sphere_5$ \n$matter_decompressor_4$ \n$name_psychic_beacon$ \n$name_psy_siphon$ \n$name_planetary_computer$ \n$name_fusion_suppressor$ \n$name_starlifter$ \n$name_neut_gigaforge$ \n$name_ringworld_titanic$ \n$name_penrose$ \n$name_interstellar_ring$ \n$ehof_ehofp4$"
+  requires_built_or_repaired_gigastructure:0 "$TRIGGER_FAIL$Requires having repaired or fully upgraded any £galwonders£ ['concept_giga_galwon_tier_megas']"
   requires_shipyard:0 "$TRIGGER_FAIL$Requires at least one $sm_shipyard$"
   requires_not_capped:0 "$TRIGGER_FAIL$We have reached the limit of this megastructure that we're capable of building."
   requires_non_giga_habitable_structure:0 "$TRIGGER_FAIL$Requires a planet."
@@ -1177,15 +1177,20 @@
   giga_menu_presets_03:0 "Smaller is better!"
   giga_menu_presets_04:0 "Glory to the rings"
   giga_menu_presets_05:0 "Dangerous Megastructures"
-  giga_menu_presets_07:0 "Developer: §RElowiny§!"
-  giga_menu_presets_06:0 "Developer: §RKreitani§!"
-  giga_menu_presets_11:0 "Developer: §BJames Fire§!"
-  giga_menu_presets_08:0 "Developer: §BNHunter§!"
+  giga_menu_presets_07:0 "Creator: §RElowiny§!"
+  giga_menu_presets_15:0 "PLACEHOLDER: §_TTFTCUTS§!"
+  giga_menu_presets_patreon_27:0 "Developer: §EBread§!"
+  giga_menu_presets_16:0 "PLACEHOLDER: §EAEROLFOS§!"
+  giga_menu_presets_17:0 "Developer: §EPIECAT§!"
+  giga_menu_presets_06:0 "Former Developer: §BKreitani§!"
+  giga_menu_presets_11:0 "Former Developer: §BJames Fire§!"
+  giga_menu_presets_08:0 "Former Developer: §BNHunter§!"
   giga_menu_presets_09:0 "Contributor: §LYanzihko§!"
   giga_menu_presets_10:0 "Contributor: §LCoruptedUsername§!"
   giga_menu_presets_12:0 "Contributor: §LNicolas§!"
   giga_menu_presets_13:0 "Contributor: §LDarkyPwnz§!"
   giga_menu_presets_14:0 "Contributor: §LMegumin§!"
+  giga_menu_presets_patreon_33:0 "Contributor: §LLucy§!"
 
     giga_menu_presets_patreon_01:0 "Patreon: §MASpec§!"
     giga_menu_presets_patreon_02:0 "Patreon: §MArnieKuma§!"
@@ -1213,15 +1218,15 @@
     giga_menu_presets_patreon_24:0 "Patreon: §MSapphire§!"
     giga_menu_presets_patreon_25:0 "Patreon: §MDragon of Desire§!"
     giga_menu_presets_patreon_26:0 "Patreon: §MPepsii§!"
-    giga_menu_presets_patreon_27:0 "Patreon: §MBread§!"
+
     giga_menu_presets_patreon_28:0 "Patreon: §MNINjad912§!"
     giga_menu_presets_patreon_29:0 "Patreon: §MThe GamingRaven§!"
     giga_menu_presets_patreon_30:0 "Patreon: §MZut0s§!"
     giga_menu_presets_patreon_31:0 "Patreon: §MMeolivia§!"
     giga_menu_presets_patreon_32:0 "Patreon: §MDusk§!"
-    giga_menu_presets_patreon_33:0 "Patreon: §MLucy§!"
     giga_menu_presets_patreon_34:0 "Patreon: §MSophia§!"
     giga_menu_presets_patreon_35:0 "Patreon: §MFishum§!"
+    giga_menu_presets_patreon_36:0 "Patreon: §MAeryn§!"
 
     giga_menu_presets_other_01:0 "Competition Winner: §HThe_Strateg1st§!"
 
@@ -1927,6 +1932,9 @@
   giga_equatorial_shipyard_start_NAME:0 "Equatorial Shipyard"
   giga_equatorial_shipyard_start_DESC:0 "Start on an Equatorial Shipyard."
 
+  d_predictable_solar_flares: "Predictable Solar Flares"
+  d_predictable_solar_flares_desc: "The star our homeworld orbits around exhibits specific behavior preceding a solar flare, making energy extraction significantly easier."
+
   building_giga_matter_synthesizer:0 "Matter Synthesis Station"
   building_giga_matter_synthesizer_desc:0 "A sprawling complex of arcane energy-to-mass converters that create the raw materials required to keep a pre-FTL civilization running."
 
@@ -2627,9 +2635,9 @@
   giga_storm_observatory_yes:0 "§G$name_atmosphere_shredder$§!"
   giga_storm_observatory_no:0  "§R$name_atmosphere_shredder$§!"
 
-  giga_has_particle_accel:0 "[root.has_particle_accel]"
-  giga_particle_accel_yes:0 "§G$name_particle_accel$§!"
-  giga_particle_accel_no:0  "§R$name_particle_accel$§!"
+  #giga_has_particle_accel:0 "[root.has_particle_accel]"
+  #giga_particle_accel_yes:0 "§G$name_particle_accel$§!"
+  #giga_particle_accel_no:0  "§R$name_particle_accel$§!"
 
   giga_has_asteroid_manufactory:0 "[root.has_asteroid_manufactory]"
   giga_asteroid_manufactory_yes:0 "§G$name_asteroid_manufactory$§!"
@@ -2983,7 +2991,7 @@
   giga_achievement_21_group_header:0 "Megastructure Entrepreneur"
   giga_achievement_21:0              "§EI§!"
   giga_achievement_21_title:0        "§E$giga_achievement_21_group_header$ $giga_achievement_21$§!"
-  giga_achievement_21_requirement:0  "Build any of the following megastructures:\n- $giga_has_orbital_artificial_eco$\n- $giga_has_eng_test_site$\n- $giga_has_particle_accel$\n- $giga_has_asteroid_manufactory$"
+  giga_achievement_21_requirement:0  "Build any of the following megastructures:\n- $giga_has_orbital_artificial_eco$\n- $giga_has_eng_test_site$\n- $giga_has_storm_observatory_site$\n- $giga_has_asteroid_manufactory$"
   giga_achievement_21_reward:0       "\n\n§HReward:§!\nMegastructure Build Speed: §G10%§!\n\n"
   giga_achievement_21_reward_check:0 "[root.giga_achievement_21_reward_chk]"
   giga_achievement_21_tooltip:0      "$giga_achievement_21_title$\n$giga_achievement_21_requirement$$giga_achievement_21_reward_check$"
@@ -3015,7 +3023,7 @@
 
   giga_achievement_25:0              "§RV§!"
   giga_achievement_25_title:0        "§R$giga_achievement_21_group_header$ $giga_achievement_25$§!"
-  giga_achievement_25_requirement:0  "Complete §M$giga_achievement_21_group_header$§! $giga_achievement_24$\nBuild any of the following megastructures:\n- $giga_has_ringworld_gargan$\n- $giga_has_virtual_reality$\n- $giga_has_hraemc$\n- $giga_has_nidavellir$\n- $giga_has_war_system$\n- $giga_has_hyperstructural_ass$\n- $giga_has_quasistellar$\n- $giga_has_alderson$\n- $giga_has_birch$"
+  giga_achievement_25_requirement:0  "Complete §M$giga_achievement_21_group_header$§! $giga_achievement_24$\nBuild any of the following megastructures:\n- $giga_has_ringworld_gargan$\n- $giga_has_hraemc$\n- $giga_has_nidavellir$\n- $giga_has_war_system$\n- $giga_has_hyperstructural_ass$\n- $giga_has_quasistellar$\n- $giga_has_alderson$\n- $giga_has_birch$"
   giga_achievement_25_reward:0       "\n\n§HReward:§!\nMegastructure Build Speed: §G50%§!\n\n"
   giga_achievement_25_reward_check:0 "[root.giga_achievement_25_reward_chk]"
   giga_achievement_25_tooltip:0      "$giga_achievement_25_title$\n$giga_achievement_25_requirement$$giga_achievement_25_reward_check$"
@@ -3024,7 +3032,7 @@
   giga_achievement_26_group_header:0 "Megastructure Mogul"
   giga_achievement_26:0              "§EI§!"
   giga_achievement_26_title:0        "§E$giga_achievement_26_group_header$ $giga_achievement_26$§!"
-  giga_achievement_26_requirement:0  "Build all of the following megastructures:\n- $giga_has_orbital_artificial_eco$\n- $giga_has_eng_test_site$\n- $giga_has_particle_accel$\n- $giga_has_asteroid_manufactory$"
+  giga_achievement_26_requirement:0  "Build all of the following megastructures:\n- $giga_has_orbital_artificial_eco$\n- $giga_has_eng_test_site$\n- $giga_has_storm_observatory_site$\n- $giga_has_asteroid_manufactory$"
   giga_achievement_26_reward:0       "\n\n§HReward:§!\nMegastructure Build Cost: §G-5%§!\n\n"
   giga_achievement_26_reward_check:0 "[root.giga_achievement_26_reward_chk]"
   giga_achievement_26_tooltip:0      "$giga_achievement_26_title$\n$giga_achievement_26_requirement$$giga_achievement_26_reward_check$"
@@ -3056,7 +3064,7 @@
 
   giga_achievement_30:0              "§RV§!"
   giga_achievement_30_title:0        "§R$giga_achievement_26_group_header$ $giga_achievement_30$§!"
-  giga_achievement_30_requirement:0  "Complete §M$giga_achievement_26_group_header$§! $giga_achievement_29$\nBuild all of the following megastructures:\n- $giga_has_ringworld_gargan$\n- $giga_has_virtual_reality$\n- $giga_has_hraemc$\n- $giga_has_nidavellir$\n- $giga_has_hyperstructural_ass$"
+  giga_achievement_30_requirement:0  "Complete §M$giga_achievement_26_group_header$§! $giga_achievement_29$\nBuild all of the following megastructures:\n- $giga_has_ringworld_gargan$\n- $giga_has_hraemc$\n- $giga_has_nidavellir$\n- $giga_has_hyperstructural_ass$"
   giga_achievement_30_reward:0       "\n\n§HReward:§!\nMegastructure Build Cost: §G-25%§!\n\n"
   giga_achievement_30_reward_check:0 "[root.giga_achievement_30_reward_chk]"
   giga_achievement_30_tooltip:0      "$giga_achievement_30_title$\n$giga_achievement_30_requirement$$giga_achievement_30_reward_check$"
@@ -3243,8 +3251,8 @@
   giga_achievement_52_tooltip:0      "$giga_achievement_52_title$\n$giga_achievement_52_requirement$$giga_achievement_52_reward_check$"
   achievement_52:0                   "$giga_achievement_52_title$"
 
-  giga_achievement_53:0              "§EParticular§!"
-  giga_achievement_53_requirement:0  "Construct a $giga_has_particle_accel$."
+  giga_achievement_53:0              "§EStorm Chaser§!"
+  giga_achievement_53_requirement:0  "Construct a $giga_has_storm_observatory_site$."
   giga_achievement_53_tooltip:0      "$giga_achievement_53$\n$giga_achievement_53_requirement$"
 
   giga_achievement_54:0              "§EOn Roids§!"
@@ -4738,7 +4746,7 @@
 
   ap_gigastructural_constructs:0 "Gigastructural Constructs"
   ap_gigastructural_constructs_desc:0 "Bigger is always better. By constructing megastructures of unthinkable size and scope, we can secure our place as a galactic hyperpower."
-  ap_gigastructural_constructs_add_research:0 "Research options gained:\n£physics_research£§Y$giga_tech_matrioshka_brain_1$§!\n£physics_research£§Y$giga_tech_hrae_mc$§!\n£engineering_research£§Y$giga_tech_ringworld_behemoth$§!\nThe Matrioshka Brain, HRAE-MC and Behemoth Ring world are incredibly powerful Gigastructures."
+  ap_gigastructural_constructs_add_research:0 "Research options gained:\n£physics_research£§Y$giga_tech_matrioshka_brain_1$§!\n£physics_research£§Y$giga_tech_hrae_mc$§!\n£engineering_research£§Y$giga_tech_ringworld_behemoth$§!\n\nResearch options requiring this:\n£physics_research£ §Y$giga_tech_tetradimensional_engineering$§!\n£physics_research£ §Y$giga_tech_ndb_1$§!\n£engineering_research£ §Y$giga_tech_hyperstructural_ass$§!\n£engineering_research£ §Y$giga_tech_nidavellir$§!\n£engineering_research£ §Y$giga_tech_war_planet$§!\n\nAscension Perks requiring this:\n§Y$ap_qso$§!\n§Y$ap_systemcraft$§!\n§Y$ap_celestial_printing$§!\n§Y$ap_slice_of_life$§!\n§Y$ap_vast_expanses$§!"
 
   ap_qso:0 "A Weapon to Pierce the Heavens"
   ap_qso_desc:0 "The discovery of an hyperenergetic quasar at the galactic core represents an incredible opportunity to construct a weapon that would dwarf even the $name_ndb$, or the Systemcraft. A weapon of such sheer size and scale that it would wield destructive power several orders of magnitudes higher than anything built before. A weapon, that would shatter the very heavens themselves.\n\nAllows an $ehof_ehofp4$ to find an §BActive Supermassive Quasar§! if our galaxy core is not one."
@@ -4978,6 +4986,9 @@
 
   orbital_arcology_modifier:0 "$name_orbital_arcology$"
   orbital_arcology_modifier_desc:0 "Space provided by the $name_orbital_arcology$ allows some energy generation, as well as food production."
+
+  orbital_arcology_modifier_1:0 "$name_orbital_arcology$"
+  orbital_arcology_modifier_1_desc:0 "Space provided by the $name_orbital_arcology$ allows some energy generation, as well as food production."
 
   orbital_arcology_modifier_2:0 "$name_orbital_arcology$"
   orbital_arcology_modifier_2_desc:0 "Space provided by the $name_orbital_arcology$ allows some energy generation, as well as food production."
@@ -13521,7 +13532,7 @@
   lunar_macroreplicator_make_moon_fake_DESC:0 "$lunar_macroreplicator_make_moon_DESC$"
 
   giga_printer.1000.name:0 "Attack Moon Fabricated!"
-  giga_printer.1000.desc:0 "The Lunar Macro-Fabricator above §Y[moon_printer_location.GetName]§! reports that it has successfully assembled a fully-functional §YAttack Moon§! from raw §YPlanetary Mass§! and large amounts of alloys!\n\nBuilt according to our designs, the celestial warship, which is several hundred kilometers in length, has subsequently been released from the megastructure, and is now ready to bolster the ranks of our interstellar armadas.\n\nWe may begin the construction of another one immediately, given we possess sufficient planetary matter and alloys."
+  giga_printer.1000.desc:0 "The Lunar Macro-Fabricator above §Y[from.GetName]§! reports that it has successfully assembled a fully-functional §YAttack Moon§! from raw §YPlanetary Mass§! and large amounts of alloys!\n\nBuilt according to our designs, the celestial warship, which is several hundred kilometers in length, has subsequently been released from the megastructure, and is now ready to bolster the ranks of our interstellar armadas.\n\nWe may begin the construction of another one immediately, given we possess sufficient planetary matter and alloys."
   giga_printer.1000.a:0 "Grandiose!"
   giga_printer.1000.a.tooltip:0 "An §YAttack Moon§! is added to our fleets.\nAs it was fabricated, it benefits from §G15%§! additional §YHull HP§!, §YArmor HP§! and §YShield HP§! as well as §G10%§! additional §YShip Fire Rate§!."
 
@@ -18172,7 +18183,7 @@
 
   megastructure_build:0 "debug"
   megastructure:0 "debug"
-  must_have_user_preset_mod:0 "debug"
+  must_have_user_preset_mod:0 "$TRIGGER_FAIL$§RMust have the User preset submod§!\n$t$-Can be acquired from our §YDiscord§! server."
 
   gigaLabel_01:0 "§EPress confirm settings button to play with default options.§!"
   gigaLabel_02:0 "§EMegastructure caps can only be set at game start.§!"
