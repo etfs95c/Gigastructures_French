@@ -1,23 +1,23 @@
 ﻿l_french:
   #DEFICITS SITUATIONS
   
-  situation_unity_deficit:99 "Unity Shortages"
+  situation_unity_deficit:0 "Pénurie d'Unité"
   situation_unity_deficit_type:99 "$situation_unity_deficit$"
-  situation_unity_deficit_desc:99 "Our unity deficit is out of control! $situation_deficit_desc_base$"
-  situation_unity_deficit_monthly_change_tooltip:99 "$situation_deficit_monthly_change_tooltip$"
+  situation_unity_deficit_desc:0 "Notre déficit d'unité est hors de contrôle ! $situation_deficit_desc_base$"
+  situation_unity_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
   deficit_approach_invest_in_culture:99 "Invest in [GetAdministratorPluralWithIcon]"
-  string_expenditures_greater_than_income_unity:99 "Unity Deficit"
-  string_not_in_deficit_unity:99 "Positive Monthly Unity Balance"
-  string_resource_reserves_unity:99 "Unity Reserves"
+  string_expenditures_greater_than_income_unity:0 "Déficit d'Unité"
+  string_not_in_deficit_unity:0 "Solde mensuel d'Unité positif"
+  string_resource_reserves_unity:0 "Réserves d'Unité"
   
-  situation_influence_deficit:99 "Influence Shortages"
-  situation_influence_deficit_type:99 "$situation_influence_deficit$"
-  situation_influence_deficit_desc:99 "Our influence deficit is out of control! $situation_deficit_desc_base$"
-  situation_influence_deficit_monthly_change_tooltip:99 "$situation_deficit_monthly_change_tooltip$"
+  situation_influence_deficit:0 "Pénurie d'Influence"
+  situation_influence_deficit_type:0 "$situation_influence_deficit$"
+  situation_influence_deficit_desc:0 "Notre déficit d'influence est hors de contrôle ! $situation_deficit_desc_base$"
+  situation_influence_deficit_monthly_change_tooltip:0 "$situation_deficit_monthly_change_tooltip$"
   deficit_approach_campaign_internationally:99 "Invest in International Campaigning"
   string_expenditures_greater_than_income_influence:99 "Influence Deficit"
   string_not_in_deficit_influence:99 "Positive Monthly Influence Balance"
-  string_resource_reserves_influence:99 "Influence Reserves"
+  string_resource_reserves_influence:0 "Réserves d'Influence"
   
   #SPECIAL RESOURCES
   
