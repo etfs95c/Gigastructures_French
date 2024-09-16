@@ -126,7 +126,7 @@
   ehof_megastructure_restored_DESC:99 "$ehof_megastructure_phase2_DESC$"
   ehof_megastructure_restored_MEGASTRUCTURE_DETAILS:99 "$ehof_megastructure_phase0_MEGASTRUCTURE_DETAILS$"
   
-  ehof_megastructure_ruined:99 "Ruined $ehof_ehofp2$"
+  ehof_megastructure_ruined:0 "$ehof_ehofp2$ en ruine"
   ehof_megastructure_ruined_DESC:99 "A partially constructed orbital structure in severe disrepair. This $ehof_ehof$ was once used for interstellar travel."
   ehof_megastructure_ruined_MEGASTRUCTURE_DETAILS:99 "$ehof_megastructure_phase0_MEGASTRUCTURE_DETAILS$"
   
@@ -297,7 +297,7 @@
   kugelblitz_3:99 "Grand $name_kugelblitz$"
   kugelblitz_3_DESC:99 "This construct houses an artificial Kugelblitz as well as devices capable of injecting and extracting energy from it. Utilizing tetra-dimensional engineering we're capable of an even higher increase in the amount of viable storage from a single generated kugelblitz."
   
-  kugelblitz_ruined:99 "Ruined $name_kugelblitz$"
+  kugelblitz_ruined:0 " $name_kugelblitz$ en ruine"
   kugelblitz_ruined_DESC:99 "A ruined $name_kugelblitz$. Built to house a controlled artificial singularity, this construct has suffered immense damage in the past, and is no longer operational. Albeit difficult, repairs might be possible."
   kugelblitz_ruined_MEGASTRUCTURE_DETAILS:99 "$kugelblitz_ruined_DESC$"
   
@@ -318,7 +318,7 @@
   giga_dialog.402.desc:99 "The $name_eng_test_site$ Built located in the [giga_system.GetName] system is now operational. It will serve as a testing ground for our engineers' most complex and potentially deadly designs for things such as spaceships and buildings. Experiments are already starting above the planet and we can expect many more to occur in the near future, greatly boosting our engineering research."
   giga_dialog.402.a:99 "Wonderful."
   
-  giga_dialog.403.name:99 "Ruined $name_eng_test_site$"
+  giga_dialog.403.name:0 "$name_eng_test_site$ en ruine"
   giga_dialog.403.desc:99 "Our science ship has spotted a rather large space station orbiting around a planet in the [from.GetName] system. Upon closer investigation, it appears that this space station is in fact a ruined $name_eng_test_site$, built long ago by some unknown species. This space station probably served as a testing ground for many experiments in the past, but it has since then sadly fallen into ruins."
   giga_dialog.403.a:99 "Intriguing."
   
@@ -339,7 +339,7 @@
   macro_test_site_3:99 "$name_eng_test_site$: Orbital Firing Range"
   macro_test_site_3_DESC:99 "The firing ranges allow for near constant bombardment of the planet below, as well as long range slower hostile munitions deliver to other planets in the system, though they're far too slow to be used in combat scenarios."
   
-  macro_test_site_ruined:99 "Ruined $name_eng_test_site$"
+  macro_test_site_ruined:0 "$name_eng_test_site$ en ruine"
   macro_test_site_ruined_DESC:99 "A ruined $name_eng_test_site$, constructed eons ago by a spacefaring race. While the interior is utterly wrecked, the external hull is mostly intact, and could be repaired."
   macro_test_site_ruined_MEGASTRUCTURE_DETAILS:99 "$macro_test_site_ruined_DESC$"
   
@@ -395,7 +395,7 @@
   
   atmosphere_shredder_complete_name:99 "$name_atmosphere_shredder$"
   
-  atmosphere_shredder_ruined:99 "Ruined $name_atmosphere_shredder$"
+  atmosphere_shredder_ruined:0 "$name_atmosphere_shredder$ en ruine"
   atmosphere_shredder_ruined_DESC:99 "A ruined $name_atmosphere_shredder$, constructed eons ago by a spacefaring race. While the storm control mechanism and internal components are destroyed, the external hull is mostly intact, and could be repaired."
   atmosphere_shredder_ruined_MEGASTRUCTURE_DETAILS:99 "$atmosphere_shredder_ruined_DESC$"
   
