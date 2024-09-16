@@ -18,8 +18,8 @@
   NAME_faust_pdf:99 "Planetary Defence Force"
   
   # corrona
-  NAME_bone:99 "Bone Legions"
-  NAME_madknight:99 "The Mad Knight"
+  NAME_bone:0 "Légions d'Os"
+  NAME_madknight:0 "Le Chevalier Fou"
   
   # flusion
   NAME_katzen_army:99 "The Katzenarmee"
