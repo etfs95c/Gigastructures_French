@@ -1984,6 +1984,8 @@
   building_giga_gas_giant_habitation_module: "Gas Giant Habitation Module"
   building_giga_gas_giant_habitation_module_desc: "Collection of facilities necessary to maintain a colony on a gas giant assembled by the original population of this planet. These facilities include reactors to provide power for the colony, docking bays to unload minerals collected from local moons and large climate-controlled hangars that can be used for hydroponic farms. In addition to that, these facilities serve as headquarters for resource distribution network and provide various services to the local populations."
 
+  giga_gas_giant_shredder_1: ""
+
   #########################################
   ### Great Ring ##########################
   #########################################
@@ -16321,13 +16323,13 @@
   district_giga_gas_giant_habitat_city_plural:0 "$district_hab_housing_desc$"
   district_giga_gas_giant_habitat_city_desc:0 "$district_hab_housing_plural$"
 
-  district_giga_gas_giant_habitat_hive:0 "$district_hive$"
-  district_giga_gas_giant_habitat_hive_plural:0 "$district_hive_plural$"
-  district_giga_gas_giant_habitat_hive_desc:0 "$district_hive_desc$"
+  #district_giga_gas_giant_habitat_hive:0 "$district_hive$"
+  #district_giga_gas_giant_habitat_hive_plural:0 "$district_hive_plural$"
+  #district_giga_gas_giant_habitat_hive_desc:0 "$district_hive_desc$"
 
-  district_giga_gas_giant_habitat_nexus:0 "$district_nexus$"
-  district_giga_gas_giant_habitat_nexus_plural:0 "$district_nexus_plural$"
-  district_giga_gas_giant_habitat_nexus_desc:0 "$district_nexus_desc$"
+  #district_giga_gas_giant_habitat_nexus:0 "$district_nexus$"
+  #district_giga_gas_giant_habitat_nexus_plural:0 "$district_nexus_plural$"
+  #district_giga_gas_giant_habitat_nexus_desc:0 "$district_nexus_desc$"
 
   district_giga_gas_giant_habitat_industrial:0 "$district_industrial$"
   district_giga_gas_giant_habitat_industrial_plural:0 "$district_industrial_plural$"
