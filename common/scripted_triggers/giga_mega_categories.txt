@@ -254,8 +254,8 @@ third_party_kilostructure_list = {
 		# real space planetary stations
 
 		# PKI Warforges
-		$CONDITION$ = katzen_war_forge_0
-		$CONDITION$ = katzen_war_forge_1
+		$CONDITION$ = pki_warforge_0
+		$CONDITION$ = pki_warforge_1
 	}
 }
 
