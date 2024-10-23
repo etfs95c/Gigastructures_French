@@ -7839,6 +7839,39 @@ giga_print_current_preset_options = {# bit of a large overhaul here, however wit
 	log = "----------------------------------------------------------"
 
 	if = {
+		limit = {
+			NOT = {
+				has_global_flag = giga_wrecked_ships_disabled
+			}
+		}
+		if = {
+			limit = {
+				has_global_flag = giga_wrecked_ships_colossi_disabled
+			}
+			log = "set_global_flag = giga_wrecked_ships_colossi_disabled"
+		}
+		if = {
+			limit = {
+				has_global_flag = giga_wrecked_ships_juggs_disabled
+			}
+			log = "set_global_flag = giga_wrecked_ships_juggs_disabled"
+		}
+		if = {
+			limit = {
+				has_global_flag = giga_wrecked_ships_titan_disabled
+			}
+			log = "set_global_flag = giga_wrecked_ships_titan_disabled"
+		}
+		if = {
+			limit = {
+				has_global_flag = giga_wrecked_ships_battle_disabled
+			}
+			log = "set_global_flag = giga_wrecked_ships_battle_disabled"
+		}
+	}
+
+
+	if = {
 		limit = {has_global_flag = giga_o_stars_disabled}
 		log = "set_global_flag = giga_o_stars_disabled"
 	} else = {
@@ -9515,12 +9548,51 @@ giga_print_current_preset_options = {# bit of a large overhaul here, however wit
 	}
 	# log = "----------------------------------------------------------------------------"
 	log = "event_target:global_event_country = {"
-	
+
 	if = {
 		limit = {
 			NOT = { has_global_flag = giga_wrecked_ships_disabled }
 		}
-		log = "set_variable = { which = giga_ruined_warships_perc value = \\[global_event_country.giga_ruined_warships_perc] }"
+		if = {
+			limit = {
+				event_target:global_event_country = {
+					is_variable_set = giga_ruined_warships_perc
+				}
+			}
+			log = "set_variable = { which = giga_ruined_warships_perc value = \\[global_event_country.giga_ruined_warships_perc] }"
+		}
+		if = {
+			limit = {
+				event_target:global_event_country = {
+					is_variable_set = giga_ruined_warships_perc_colossi
+				}
+			}
+			log = "set_variable = { which = giga_ruined_warships_perc_colossi value = \\[global_event_country.giga_ruined_warships_perc_colossi] }"
+		}
+		if = {
+			limit = {
+				event_target:global_event_country = {
+					is_variable_set = giga_ruined_warships_perc_juggs
+				}
+			}
+			log = "set_variable = { which = giga_ruined_warships_perc_juggs value = \\[global_event_country.giga_ruined_warships_perc_juggs] }"
+		}
+		if = {
+			limit = {
+				event_target:global_event_country = {
+					is_variable_set = giga_ruined_warships_perc_titan
+				}
+			}
+			log = "set_variable = { which = giga_ruined_warships_perc_titan value = \\[global_event_country.giga_ruined_warships_perc_titan] }"
+		}
+		if = {
+			limit = {
+				event_target:global_event_country = {
+					is_variable_set = giga_ruined_warships_perc_battle
+				}
+			}
+			log = "set_variable = { which = giga_ruined_warships_perc_battle value = \\[global_event_country.giga_ruined_warships_perc_battle] }"
+		}
 	}
 
 	# log = "Wrecked Warship Amount = \\[global_event_country.giga_ruined_warships_perc]"
