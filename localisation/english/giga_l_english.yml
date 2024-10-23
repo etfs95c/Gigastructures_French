@@ -7141,51 +7141,6 @@
   particle_accelerator_restored_DESC:0 "An extremely big particle accelerator constructed around a star. It is capable of accelerating various kinds of particles to speeds almost equal to the speed of light, allowing us to greatly expand our understanding of what they're made of and how they interact."
 
   #########################################
-  ### Orbital Artificial Ecosystem ########
-  #########################################
-  giga_tech_orbital_artificial_eco:0 "Orbital Ecosystems"
-  giga_tech_orbital_artificial_eco_desc:0 "Creating a fully working complex ecosystem in orbit of a planet is quite a challenge, but such a technology permits the construction of large ecosystems orbiting a planet for research purposes."
-
-  orbital_artificial_eco_0:0 "$gc_kilo$$name_orbital_artificial_eco$: Life Support"
-  orbital_artificial_eco_0_DESC:0 "This site will serve as a base to construct an $name_orbital_artificial_eco$, which is a large structure housing a fully artificial ecosystem on which we can experiment freely."
-  orbital_artificial_eco_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_science_production$\nGenerates £society_research£ §YSociety Research§! deposits on system planets.\n§LA station built to house and study a vast number of exotic species of flora and fauna.§!" #megalistentry ORBITAL ARTIFICIAL ECOSYSTEM
-
-  orbital_artificial_eco_1:0 "$name_orbital_artificial_eco$: Gene Bank"
-  orbital_artificial_eco_1_DESC:0 "A set of external arms to functionally store the genetic information of all the housed species within in the planned $name_orbital_artificial_eco$, so that if any become extinct they can be recovered."
-
-  orbital_artificial_eco_2:0 "$name_orbital_artificial_eco$: Exotic Enclosures"
-  orbital_artificial_eco_2_DESC:0 "The exotic enclosures house a variety of simulated environments as well as facilities to ensure all the flora and fauna have sustainable numbers."
-
-  orbital_artificial_eco_3:0 "$name_orbital_artificial_eco$: Planetary Testing"
-  orbital_artificial_eco_3_DESC:0 "A complete $name_orbital_artificial_eco$, filled with imported species as well as fabricated ones thanks to genetic engineering. This unique ecosystem can be modeled and deformed by our scientists at will to study how nature functions."
-
-  orbital_artificial_eco_ruined:0 "Ruined $name_orbital_artificial_eco$"
-  orbital_artificial_eco_ruined_DESC:0 "A ruined $name_orbital_artificial_eco$. It used to house a large amount of bioengineered species within controlled environments, but no longer. It might be possible to restore it given the right technologies."
-  orbital_artificial_eco_ruined_MEGASTRUCTURE_DETAILS:0 "$orbital_artificial_eco_ruined_DESC$"
-
-  orbital_artificial_eco_restored:0 "$name_orbital_artificial_eco$"
-  orbital_artificial_eco_restored_DESC:0 "$orbital_artificial_eco_3_DESC$"
-  ### DEPRECATED ###
-  # orbital_artificial_eco_1_dismantle:0 "Dismantle Megastructure"
-  # orbital_artificial_eco_1_dismantle_DESC:0 "This megastructure will be deconstructed and scrapped for materials."
-
-  # giga_dialog.1001.name:0 "$name_orbital_artificial_eco$ Construction"
-  # giga_dialog.1001.desc:0 "Our engineers and biologists are now ready to begin assembling an $name_orbital_artificial_eco$ in orbit around one of [giga_system.GetName]'s planets, which will house both species imported from our planets and fully artificial species thanks to gene tailoring."
-  # giga_dialog.1001.a:0 "Great."
-
-  # giga_dialog.1002.name:0 "$name_orbital_artificial_eco$ Built"
-  # giga_dialog.1002.desc:0 "Our $name_orbital_artificial_eco$ is now finished. It has been filled with many weird and fascinating flora and fauna in order to create the most exotic ecosystems we can think of. It will surely prove to be very useful in our future research on the nature of life and ecosystems."
-  # giga_dialog.1002.a:0 "Excellent."
-
-  # giga_dialog.1003.name:0 "Ruined $name_orbital_artificial_eco$"
-  # giga_dialog.1003.desc:0 "A ruined $name_orbital_artificial_eco$ has been spotted orbiting a Gas Giant in the [from.GetName] system. It appears to have sustained large amounts of damage, yet the outer frame is still somewhat intact. Our scientists believe it might be feasible to repair it if we possess the proper technologies."
-  # giga_dialog.1003.a:0 "Interesting."
-
-  # giga_dialog.1004.name:0 "$name_orbital_artificial_eco$ Repaired!"
-  # giga_dialog.1004.desc:0 "A ruined $name_orbital_artificial_eco$ has been brought back to working order by our engineers and biologists.\n\nFilled with many odd lifeforms, some of which have been cloned from traces of biological matter found in the debris, this newly-restored space station will certainly help our society research quite a bit."
-  # giga_dialog.1004.a:0 "Excellent."
-
-  #########################################
   ### Neutronium Gigaforge ################
   #########################################
   giga_tech_neutronium_gigaforge:0 "Mass Neutronium Extraction"
@@ -13213,13 +13168,13 @@
   pronight_protests:0 "Pro-Night Protests"
   pronight_protests_desc:0 "This planet's population is demanding the removal of the No-Night Protocols."
 
-  giga_disco_nonight_guide:0 "§HEffects on megastructure:§!\n§R+100% Upkeep\n+15% Failure Chance§!\n\n§HEffects on planetary system:§!\n§G+40% Resource Production\n-30% Crime§!\n§R-20 Stability\n-15% Biological Happiness\n-20% Habitability\nMight cause unrest!§!\n\n\nIn this day and age, nighttime is simply a productivity dampener, on which we have have to base planetary schedules.\nA cleverly-arranged set of mirrors in planetary orbit, coupled with more intense Speculorefractor lighting, will ensure that all celestial bodies in the local planetary system enjoy unlimited daytime."
+  giga_disco_nonight_guide:0 "§HEffects on megastructure:§!\n§R+100% Upkeep\n+15% Failure Chance§!\n\n§HEffects on planetary system:§!\n§G+40% Resource Production\n-30% Crime§!\n§R-20 Stability\n-15% Biological Happiness\n-20% Habitability\nMight cause unrest!§!\n\n\n§LIn this day and age, nighttime is simply a productivity dampener, on which we have have to base planetary schedules.\nA cleverly-arranged set of mirrors in planetary orbit, coupled with more intense Speculorefractor lighting, will ensure that all celestial bodies in the local planetary system enjoy unlimited daytime.§!"
 
-  giga_disco_repro_guide:0 "§HEffects on megastructure:§!\n§R+50% Upkeep\n+5% Failure Chance§!\n\n§HEffects on planetary system:§!\n§G+30% Pop Growth Speed\n+20% Biological Happiness§!\n§R-5 Stability\n+10% Consumer Goods Upkeep\n-10% Resource Production§!\n\n\nLighting can play a surprisingly important role when it comes to reproduction. By attuning the Speculorefractor to local reproductive seasons and habits, we can ensure that population growth is maximized across the local planetary system."
+  giga_disco_repro_guide:0 "§HEffects on megastructure:§!\n§R+50% Upkeep\n+5% Failure Chance§!\n\n§HEffects on planetary system:§!\n§G+30% Pop Growth Speed\n+20% Biological Happiness§!\n§R-5 Stability\n+10% Consumer Goods Upkeep\n-10% Resource Production§!\n\n\n§LLighting can play a surprisingly important role when it comes to reproduction. By attuning the Speculorefractor to local reproductive seasons and habits, we can ensure that population growth is maximized across the local planetary system.§!"
 
-  giga_disco_indoc_guide:0 "§HEffects on megastructure:§!\n§R+50% Upkeep\n+10% Failure Chance§!\n\n§HEffects on planetary system:§!\n§G+200% Gov. Ethics Attraction\n+15 Stability\n-50% Crime§!\n§R-10% Pop Growth Speed§!\n\n\nThe neural networks of many species are wired to react differently to varying types of light. As such, by having our Speculorefractor emit rapid yet discreet strobes of light at specific intervals and with a particular wavelengths, the docility of the local populations can be drastically increased."
+  giga_disco_indoc_guide:0 "§HEffects on megastructure:§!\n§R+50% Upkeep\n+10% Failure Chance§!\n\n§HEffects on planetary system:§!\n§G+200% Gov. Ethics Attraction\n+15 Stability\n-50% Crime§!\n§R-10% Pop Growth Speed§!\n\n\n§LThe neural networks of many species are wired to react differently to varying types of light. As such, by having our Speculorefractor emit rapid yet discreet strobes of light at specific intervals and with a particular wavelengths, the docility of the local populations can be drastically increased.§!"
 
-  giga_disco_lightshow_guide:0 "§HEffects on planetary system:§!\n§G+35% Amenities\n+25% Unity Output\n+10% Happiness\n+25% Trade Value\n+25% Gov. Ethics Attraction§!\n\n\n\n\n\nBy emitting radiant lightshows and auroras in the night sky, attuned to represent our empire's national flag and colors, we can both increase the satisfaction of local populations and boost patriotic fervor, at the slight cost of destabilizing the planet's natural light levels."
+  giga_disco_lightshow_guide:0 "§HEffects on planetary system:§!\n§G+35% Amenities\n+25% Unity Output\n+10% Happiness\n+25% Trade Value\n+25% Gov. Ethics Attraction§!\n\n\n§LBy emitting radiant lightshows and auroras in the night sky, attuned to represent our empire's national flag and colors, we can both increase the satisfaction of local populations and boost patriotic fervor, at the slight cost of destabilizing the planet's natural light levels.§!"
 
   disco_moon_repro_modifier:0 "Reproductive Stimulation"
   disco_moon_repro_modifier_desc:0 "This planetary system's Lunar Speculorefractor is encouraging local biological populations to reproduce."
@@ -13230,13 +13185,13 @@
   disco_moon_nonight_modifier:0 "No-Night Protocols"
   disco_moon_nonight_modifier_desc:0 "This planetary system's Lunar Speculorefractor is employing an array of mirrors in planetary orbit to ensure every part of the planetary system is lit up at any time."
 
-  giga_disco_repro:0 "Click to set this §YLunar Speculorefractor§! to §YReproductive Stimulation§!.\n\n§TLighting can play a surprisingly important role when it comes to reproduction. By attuning the Speculorefractor to local reproductive seasons and habits, we can ensure that population growth is maximized across the local planetary system.§!"
+  giga_disco_repro:0 "Click to set this §YLunar Speculorefractor§! to §YReproductive Stimulation§!.\n\n§LLighting can play a surprisingly important role when it comes to reproduction. By attuning the Speculorefractor to local reproductive seasons and habits, we can ensure that population growth is maximized across the local planetary system.§!"
 
-  giga_disco_indoc:0 "Click to set this §YLunar Speculorefractor§! to §YSubliminal Indoctrination§!.\n\n§TThe neural networks of many species are wired to react differently to varying types of light. As such, by having our Speculorefractor emit rapid yet discreet strobes of light at specific intervals and with a particular wavelengths, the docility of the local populations can be drastically increased.§!"
+  giga_disco_indoc:0 "Click to set this §YLunar Speculorefractor§! to §YSubliminal Indoctrination§!.\n\n§LThe neural networks of many species are wired to react differently to varying types of light. As such, by having our Speculorefractor emit rapid yet discreet strobes of light at specific intervals and with a particular wavelengths, the docility of the local populations can be drastically increased.§!"
 
-  giga_disco_nonight:0 "Click to set this §YLunar Speculorefractor§! to §YNo-Night Protocols§!.\n\n§TIn this day and age, nighttime is simply a productivity dampener, on which we have have to base planetary schedules.\nA cleverly-arranged set of mirrors in planetary orbit, coupled with more intense Speculorefractor lighting, will ensure that all celestial bodies in the local planetary system enjoy unlimited daytime.§!"
+  giga_disco_nonight:0 "Click to set this §YLunar Speculorefractor§! to §YNo-Night Protocols§!.\n\n§LIn this day and age, nighttime is simply a productivity dampener, on which we have have to base planetary schedules.\nA cleverly-arranged set of mirrors in planetary orbit, coupled with more intense Speculorefractor lighting, will ensure that all celestial bodies in the local planetary system enjoy unlimited daytime.§!"
 
-  giga_disco_lightshow:0 "Click to set this §YLunar Speculorefractor§! to §YLunar Lightshow§!.\n\n§TBy emitting radiant lightshows and auroras in the night sky, attuned to represent our empire's national flag and colors, we can both increase the satisfaction of local populations and boost patriotic fervor, at the slight cost of destabilizing the planet's natural light levels.§!"
+  giga_disco_lightshow:0 "Click to set this §YLunar Speculorefractor§! to §YLunar Lightshow§!.\n\n§LBy emitting radiant lightshows and auroras in the night sky, attuned to represent our empire's national flag and colors, we can both increase the satisfaction of local populations and boost patriotic fervor, at the slight cost of destabilizing the planet's natural light levels.§!"
 
   giga_disco_turnoff:0 "Click to §Rturn off§! this §YLunar Speculorefractor§!. It will not apply any modifiers, and will have severely reduced upkeep.\nTurn it back on by selecting a function."
 
@@ -15649,23 +15604,63 @@
 
   #Menu
   giga_ruined_ships_disabled:0 "£menu_disabled£Wrecked Warships\nShould various ships such as Battleships, Titans, Juggernauts and Colossi (with the appropriate DLCs) be able to spawn as ruined megastructures that can be repaired when the appropriate tech is researched?\n\nThe frequency of the ruined ships can be adjusted using the buttons to the left."
+  giga_ruined_ships_disabled_juggs:0 "£menu_disabled£Wrecked Juggernauts\nWrecked Juggernauts §RCANNOT§! spawn"
+  giga_ruined_ships_disabled_colossi:0 "£menu_disabled£Wrecked colossi\nWrecked colossi §RCANNOT§! spawn"
+  giga_ruined_ships_disabled_titan:0 "£menu_disabled£Wrecked Titans\nWrecked Titans §RCANNOT§! spawn"
+  giga_ruined_ships_disabled_battle:0 "£menu_disabled£Wrecked Battleships\nWrecked Battleships §RCANNOT§! spawn"
+  
   giga_ruined_ships_enabled:0 "£menu_enabled£Wrecked Warships\nShould various ships such as Battleships, Titans, Juggernauts and Colossi (with the appropriate DLCs) be able to spawn as ruined megastructures that can be repaired when the appropriate tech is researched?\n\nThe frequency of the ruined ships can be adjusted using the buttons to the left."
+  giga_ruined_ships_enabled_juggs:0 "£menu_enabled£Wrecked Juggernauts\nWrecked Juggernauts §GCAN§! spawn"
+  giga_ruined_ships_enabled_colossi:0 "£menu_enabled£Wrecked colossi\nWrecked colossi §GCAN§! spawn"
+  giga_ruined_ships_enabled_titan:0 "£menu_enabled£Wrecked Titans\nWrecked Titans §GCAN§! spawn"
+  giga_ruined_ships_enabled_battle:0 "£menu_enabled£Wrecked Battleships\nWrecked Battleships §GCAN§! spawn"
 
   giga_ruined_ships_divide_2:0 "§RDivide Wrecked Warship Frequency by 2§!\n\n§BCurrent Wrecked Warship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
+  giga_ruined_ships_divide_2_juggs:0 "§RDivide Wrecked Juggernaut Frequency by 2§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_divide_2_colossi:0 "§RDivide Wrecked colossi Frequency by 2§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_divide_2_titan:0 "§RDivide Wrecked Titan Frequency by 2§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_divide_2_battle:0 "§RDivide Wrecked Battleship Frequency by 2§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
 
   giga_ruined_ships_subtract_1:0 "§RReduce Wrecked Warship Frequency by 10%§!\n\n§BCurrent Wrecked Warship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
+  giga_ruined_ships_subtract_1_juggs:0 "§RReduce Wrecked Juggernaut Frequency by 10%§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_subtract_1_colossi:0 "§RReduce Wrecked colossi Frequency by 10%§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_subtract_1_titan:0 "§RReduce Wrecked Titan Frequency by 10%§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_subtract_1_battle:0 "§RReduce Wrecked Battleship Frequency by 10%§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
 
   giga_ruined_ship_perc_low_enough:0 "Wrecked Warship Frequency is already at 10 or less."
+  giga_ruined_ship_perc_low_enough_juggs:0 "Wrecked Juggernaut Frequency is already at 10 or less."
+  giga_ruined_ship_perc_low_enough_colossi:0 "Wrecked colossi Frequency is already at 10 or less."
+  giga_ruined_ship_perc_low_enough_titan:0 "Wrecked Titan Frequency is already at 10 or less."
+  giga_ruined_ship_perc_low_enough_battle:0 "Wrecked Battleship Frequency is already at 10 or less."
 
   giga_ruined_ships_reset:0 "§YReset Wrecked Warship Frequency§!\n\n§BCurrent Wrecked Warship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
+  giga_ruined_ships_reset_juggs:0 "§YReset Wrecked Juggernaut Frequency§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_reset_colossi:0 "§YReset Wrecked colossi Frequency§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_reset_titan:0 "§YReset Wrecked Titan Frequency§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_reset_battle:0 "§YReset Wrecked Battleship Frequency§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
 
   giga_ruined_ships_add_1:0 "§GIncrease Wrecked Warship Frequency by 10%§!\n\n§BCurrent Wrecked Warship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
+  giga_ruined_ships_add_1_juggs:0 "§GIncrease Wrecked Juggernaut Frequency by 10%§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_add_1_colossi:0 "§GIncrease Wrecked colossi Frequency by 10%§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_add_1_titan:0 "§GIncrease Wrecked Titan Frequency by 10%§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_add_1_battle:0 "§GIncrease Wrecked Battleship Frequency by 10%§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
 
   giga_ruined_ships_multiply_2:0 "§GMultiply Wrecked Warship Frequency by 2§!\n\n§BCurrent Wrecked Warship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc]%§!\n\n$wrecked_warship_perc_desc$"
+  giga_ruined_ships_multiply_2_juggs:0 "§GMultiply Wrecked Juggernaut Frequency by 2§!\n\n§BCurrent Wrecked Juggernaut Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_juggs]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_multiply_2_colossi:0 "§GMultiply Wrecked colossi Frequency by 2§!\n\n§BCurrent Wrecked colossi Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_colossi]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_multiply_2_titan:0 "§GMultiply Wrecked Titan Frequency by 2§!\n\n§BCurrent Wrecked Titan Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_titan]%§!\n\n$wrecked_warship_perc_desc_2$"
+  giga_ruined_ships_multiply_2_battle:0 "§GMultiply Wrecked Battleship Frequency by 2§!\n\n§BCurrent Wrecked Battleship Frequency§!: §Y[global_event_country.giga_ruined_warships_perc_battle]%§!\n\n$wrecked_warship_perc_desc_2$"
+
+  giga_ruined_ships_display:0 "§V[global_event_country.giga_ruined_warships_perc]§!"
+  giga_ruined_ships_display_juggs:0 "§V[global_event_country.giga_ruined_warships_perc_juggs]§!"
+  giga_ruined_ships_display_colossi:0 "§V[global_event_country.giga_ruined_warships_perc_colossi]§!"
+  giga_ruined_ships_display_titan:0 "§V[global_event_country.giga_ruined_warships_perc_titan]§!"
+  giga_ruined_ships_display_battle:0 "§V[global_event_country.giga_ruined_warships_perc_battle]§!"
+  # giga_ruined_ships_display_back:0 "§W88888§!"
 
   wrecked_warship_perc_desc:0 "This configures how many Wrecked Warships spawn. They can be repaired like Megastructures, granting a few ships for cheap. This does nothing if Wrecked Warships are disabled.\n\n§RHigh values might cause a lag spike at game start!§!"
-
-  giga_ruined_ship_perc_high_enough:0 "Any higher and your computer will crash. Yes, I tested it. It absolutely crashes if you go any further."
+  wrecked_warship_perc_desc_2:0 "This configures how many Wrecked Warships of a given type spawn. They can be repaired like Megastructures, granting a few ships for cheap. This does nothing if Wrecked Warships are disabled, overall, or as a given type.\n\n§RHigh values might cause a lag spike at game start!§!"
+  giga_ruined_ship_perc_high_enough:0 "$TRIGGER_FAIL$ §RAny higher will not be able to reliably spawn more ships.§!"
 
   #Brain
 
