@@ -336,7 +336,7 @@ giga_presets_14 = {
 
 giga_presets_15 = {
 	potential = { exists = from from = { has_country_flag = giga_menu_page_presets } }
-	allow = { custom_tooltip = { fail_text = "must_not_have_started_game" NOT = { has_global_flag = giga_game_started } } }
+	allow = { custom_tooltip = { fail_text = "must_not_have_started_game" NOT = { has_global_flag = giga_game_started } } hidden_Trigger = { always = no } }
 	effect = { hidden_effect = { from = { giga_preset_14 = yes } } }
 }
 
@@ -561,6 +561,17 @@ giga_presets_patreon_36 = {
 	allow = { custom_tooltip = { fail_text = "must_not_have_started_game" NOT = { has_global_flag = giga_game_started } } }
 	effect = { hidden_effect = { from = { giga_preset_patreon_36 = yes } } }
 }
+giga_presets_patreon_37 = {
+	potential = { exists = from from = { has_country_flag = giga_menu_page_presets } }
+	allow = { custom_tooltip = { fail_text = "must_not_have_started_game" NOT = { has_global_flag = giga_game_started } } }
+	effect = { hidden_effect = { from = { giga_preset_patreon_37 = yes } } }
+}
+giga_presets_patreon_38 = {
+	potential = { exists = from from = { has_country_flag = giga_menu_page_presets } }
+	allow = { custom_tooltip = { fail_text = "must_not_have_started_game" NOT = { has_global_flag = giga_game_started } } }
+	effect = { hidden_effect = { from = { giga_preset_patreon_38 = yes } } }
+}
+
 # FE Stuff
 giga_fe_megas_disabled = {
 	potential = {
