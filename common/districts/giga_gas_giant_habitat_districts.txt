@@ -121,42 +121,6 @@ district_giga_gas_giant_habitat_industrial = {
 }
 
 ##################################
-### Wind Turbines ################
-##################################
-district_giga_gas_giant_habitat_wind = {
-	base_buildtime = @giga_gas_giant_habitat_district_buildtime
-	is_capped_by_modifier = no
-
-	show_on_uncolonized = {
-		uses_district_set = giga_gas_giant_habitat
-	}
-
-	potential = {
-		uses_district_set = giga_gas_giant_habitat
-	}
-
-	resources = {
-		category = planet_districts_hab_energy
-		cost = { minerals = @giga_gas_giant_habitat_cost }
-		upkeep = {
-			energy = @giga_gas_giant_habitat_upkeep_energy_medium
-			alloys = @giga_gas_giant_habitat_upkeep_alloy
-		}
-	}
-
-	# base stats
-	triggered_planet_modifier = {
-		planet_housing_add = 2
-	}
-
-	inline_script = {
-		script = planet/energy/giga_technician_job_swap
-		jobs = 3
-		district = @yes
-	}
-}
-
-##################################
 ### Science ######################
 ##################################
 district_giga_gas_giant_habitat_science = {
@@ -184,7 +148,7 @@ district_giga_gas_giant_habitat_science = {
 
 	# base stats
 	triggered_planet_modifier = {
-		modifier = { planet_housing_add = 2 }
+		modifier = { planet_housing_add = 3 }
 	}
 
 	inline_script = {
@@ -195,9 +159,43 @@ district_giga_gas_giant_habitat_science = {
 }
 
 ##################################
-### Exotic Gases #################
+### Wind Turbines ################
 ##################################
-district_giga_gas_giant_habitat_exotic = {
+district_giga_gas_giant_habitat_wind = {
+	base_buildtime = @giga_gas_giant_habitat_district_buildtime
+	is_capped_by_modifier = no
+
+	show_on_uncolonized = {
+		uses_district_set = giga_gas_giant_habitat
+	}
+
+	potential = {
+		uses_district_set = giga_gas_giant_habitat
+	}
+
+	resources = {
+		category = planet_districts_hab_energy
+		cost = { minerals = @giga_gas_giant_habitat_cost }
+		upkeep = {
+			energy = @giga_gas_giant_habitat_upkeep_energy_medium
+			alloys = @giga_gas_giant_habitat_upkeep_alloy
+		}
+	}
+
+	# base stats
+	triggered_planet_modifier = {
+		planet_housing_add = 3
+	}
+
+	inline_script = {
+		script = planet/energy/giga_technician_job_swap
+		jobs = 2
+		district = @yes
+	}
+}
+
+district_giga_gas_giant_habitat_mining = {
+	icon = district_hab_mining
 	base_buildtime = @giga_gas_giant_habitat_district_buildtime
 	is_capped_by_modifier = yes
 
@@ -210,29 +208,66 @@ district_giga_gas_giant_habitat_exotic = {
 	}
 
 	resources = {
-		category = planet_districts
-		cost = {
-			minerals = @giga_gas_giant_habitat_cost
-		}
+		category = planet_districts_hab_mining
+		cost = { minerals = @giga_gas_giant_habitat_cost }
 		upkeep = {
-			energy = @giga_gas_giant_habitat_upkeep_energy_heavy
+			energy = @giga_gas_giant_habitat_upkeep_energy_medium
+			alloys = @giga_gas_giant_habitat_upkeep_alloy
 		}
 	}
 
 	# base stats
 	triggered_planet_modifier = {
-		modifier = { planet_housing_add = 2 }
-	}
-
-	triggered_planet_modifier = {
-		modifier = {
-			planet_miners_exotic_gases_produces_add = 0.01
-		}
+		planet_housing_add = 3
 	}
 
 	inline_script = {
-		script = planet/minerals/giga_matter_synth_job_swap
+		script = planet/minerals/giga_miner_job_swap
 		jobs = 2
 		district = @yes
 	}
 }
+
+
+##################################
+### Exotic Gases #################
+##################################
+#district_giga_gas_giant_habitat_exotic = {
+#	base_buildtime = @giga_gas_giant_habitat_district_buildtime
+#	is_capped_by_modifier = yes
+#
+#	show_on_uncolonized = {
+#		uses_district_set = giga_gas_giant_habitat
+#	}
+#
+#	potential = {
+#		uses_district_set = giga_gas_giant_habitat
+#	}
+#
+#	resources = {
+#		category = planet_districts
+#		cost = {
+#			minerals = @giga_gas_giant_habitat_cost
+#		}
+#		upkeep = {
+#			energy = @giga_gas_giant_habitat_upkeep_energy_heavy
+#		}
+#	}
+#
+#	# base stats
+#	triggered_planet_modifier = {
+#		modifier = { planet_housing_add = 2 }
+#	}
+#
+#	triggered_planet_modifier = {
+#		modifier = {
+#			planet_miners_exotic_gases_produces_add = 0.01
+#		}
+#	}
+#
+#	inline_script = {
+#		script = planet/minerals/giga_matter_synth_job_swap
+#		jobs = 2
+#		district = @yes
+#	}
+#}

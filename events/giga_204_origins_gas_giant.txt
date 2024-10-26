@@ -8,6 +8,7 @@ country_event = {
 
 	trigger = {
 		has_origin = origin_gas_giant
+		has_origin = origin_gas_giant_robot
 	}
 
 	immediate = {
@@ -16,11 +17,7 @@ country_event = {
 		# only empires that use food
 		if  = {
 			limit = {
-				OR = {
-					is_machine_empire = no
-					has_valid_civic = civic_machine_servitor
-					has_valid_civic = civic_machine_assimilator
-				}
+				country_uses_food = yes
 			}
 			give_technology = { tech = tech_hydroponics message = no }
 		}
@@ -54,64 +51,35 @@ country_event = {
 				}
 				create_pop = { species = owner }
 			}
-			# setup deposits
-			random_list = {
-				50 = {
-					add_deposit = d_fluffy_plains
-					add_deposit = d_fluffy_plains
-				}
-				50 = {
-					add_deposit = d_fluffy_plains
-				}
-			}
-			random_list = {
-				50 = { add_deposit = d_mote_cloud }
-				50 = { }
-			}
+			add_deposit = d_fluffy_plains
+			add_deposit = d_giga_gas_giant_hab_core
+
+			add_modifier = { modifier = giga_gas_giant_hab }
 
 			# districts :: housing/industrial
-			if = {
-				limit = {
-					exists = owner
-					owner = { is_regular_empire = yes }
-				}
-				add_district = district_giga_gas_giant_habitat_city
-				add_district = district_giga_gas_giant_habitat_city
-				add_district = district_giga_gas_giant_habitat_city
-				add_district = district_giga_gas_giant_habitat_city
-				add_district = district_giga_gas_giant_habitat_industrial
-				add_district = district_giga_gas_giant_habitat_industrial
-			}
-			else_if = {
-				limit = {
-					exists = owner
-					owner = { is_hive_empire = yes }
-				}
-				add_district = district_giga_gas_giant_habitat_hive
-				add_district = district_giga_gas_giant_habitat_hive
-				add_district = district_giga_gas_giant_habitat_hive
-				add_district = district_giga_gas_giant_habitat_hive
-				add_district = district_giga_gas_giant_habitat_industrial
-			}
-			else_if = {
-				limit = {
-					exists = owner
-					owner = { is_machine_empire = yes }
-				}
-				add_district = district_giga_gas_giant_habitat_nexus
-				add_district = district_giga_gas_giant_habitat_nexus
-				add_district = district_giga_gas_giant_habitat_nexus
-				add_district = district_giga_gas_giant_habitat_nexus
-				add_district = district_giga_gas_giant_habitat_industrial
-			}
+			add_district = district_giga_gas_giant_habitat_city
+			add_district = district_giga_gas_giant_habitat_city
+			add_district = district_giga_gas_giant_habitat_city
+			add_district = district_giga_gas_giant_habitat_industrial
+			add_district = district_giga_gas_giant_habitat_industrial
+
 			# districts :: energy
 			add_district = district_giga_gas_giant_habitat_wind
 			add_district = district_giga_gas_giant_habitat_wind
 
-			# habitation module
-			add_building = building_giga_gas_giant_habitation_module
+			add_district = district_giga_gas_giant_habitat_mining
+			add_district = district_giga_gas_giant_habitat_mining
 
-			# hydroponics farm (if hive mind)
+
+			# hydroponics farm (food)
+			if = {
+				limit = {
+					exists = owner
+					owner = { country_uses_food = yes }
+				}
+				add_building = building_hydroponics_farm
+			}
+
 			if = {
 				limit = {
 					exists = owner
@@ -120,15 +88,7 @@ country_event = {
 				add_building = building_hydroponics_farm
 			}
 
-			# setup mining stations in the system
-			solar_system = {
-				every_system_planet = {
-					if = {
-						limit = { has_planet_flag = gas_giant_home_mining_target }
-						create_mining_station = { owner = root }
-					}
-				}
-			}
+			repair_all_buildings = yes
 		}
 	}
 }
