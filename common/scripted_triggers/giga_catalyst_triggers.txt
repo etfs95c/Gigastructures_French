@@ -19,7 +19,7 @@ giga_catalyst_can_build_anywhere = {
 
 # the catalyst leader
 is_giga_catalyst_leader = {
-    always = yes
+    always = no #yes
 }
 
 # do we have the leader
@@ -31,15 +31,17 @@ has_giga_catalyst_leader = {
 
 # is this planet the catalyst planet, or are we able to build anywhere
 giga_catalyst_building_potential = {
-    or = {
-        is_giga_catalyst_planet = yes
-        and = {
-            exists = owner
-            owner = {
-                giga_catalyst_can_build_anywhere = yes
-            }
-        }
-    }
+    always = no
+
+    # or = {
+    #     is_giga_catalyst_planet = yes
+    #     and = {
+    #         exists = owner
+    #         owner = {
+    #             giga_catalyst_can_build_anywhere = yes
+    #         }
+    #     }
+    # }
 }
 
 # does this planet have the crafter, or are we able to build anywhere and have a crafter *somewhere*
