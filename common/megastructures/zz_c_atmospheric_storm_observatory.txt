@@ -87,10 +87,10 @@ atmosphere_shredder_0 = {
 	placement_rules = {
 		planet_possible = {
 			custom_tooltip = { fail_text = "requires_no_anomaly"				has_anomaly = no }
-			custom_tooltip = { fail_text = "requires_no_existing_megastructure"	planet_has_no_megastructure = yes }
-			custom_tooltip = { fail_text = "requires_survey_not_habitable"		is_surveyed = { who = prev.from status = yes } is_planet_habitable = no }
+			custom_tooltip = { fail_text = "requires_no_existing_megastructure"	OR = { planet_has_no_megastructure = yes is_planet_class = pc_habitable_gas_giant } }
+			custom_tooltip = { fail_text = "requires_survey_not_habitable"		is_surveyed = { who = prev.from status = yes } OR = { is_planet_habitable = no is_planet_class = pc_habitable_gas_giant} }
 			custom_tooltip = { fail_text = "requires_not_star"					is_star = no }
-			custom_tooltip = { fail_text = "must_build_around_gas" 				giga_is_gas_giant = yes }
+			custom_tooltip = { fail_text = "must_build_around_gas" 				OR = { is_planet_class = pc_habitable_gas_giant giga_is_gas_giant = yes } }
 			custom_tooltip = {
 				fail_text = "requires_not_astral_scar"
 				is_astral_scar = no
@@ -140,6 +140,14 @@ atmosphere_shredder_0 = {
 			giga_set_has_mega_flag = yes
 			set_planet_entity = {
 				entity = storm_gas_giant_01_entity
+			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_1
+				}
 			}
 		}
 		from = {
@@ -231,6 +239,7 @@ atmosphere_shredder_0 = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_1
 		}
 		from = {
 			add_resource = {
@@ -322,6 +331,20 @@ atmosphere_shredder_1 = {
 			set_planet_entity = {
 				entity = storm_gas_giant_01_entity
 			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_2
+				}
+				if = {
+					limit = {
+						has_modifier = giga_gas_giant_shredder_1
+					}
+					remove_modifier = giga_gas_giant_shredder_1
+				}
+			}
 		}
 		from = {
 			create_message = {
@@ -406,6 +429,7 @@ atmosphere_shredder_1 = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_2
 		}
 		from = {
 			add_resource = {
@@ -496,6 +520,20 @@ atmosphere_shredder_2 = {
 			set_planet_entity = {
 				entity = storm_gas_giant_01_entity
 			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_3
+				}
+				if = {
+					limit = {
+						has_modifier = giga_gas_giant_shredder_2
+					}
+					remove_modifier = giga_gas_giant_shredder_2
+				}
+			}
 		}
 		from = {
 			create_message = {
@@ -584,6 +622,7 @@ atmosphere_shredder_2 = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_3
 		}
 		from = {
 			add_resource = {
@@ -673,6 +712,20 @@ atmosphere_shredder_3 = {
 		fromfrom.planet = {
 			set_planet_entity = {
 				entity = storm_gas_giant_02_entity
+			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_4
+				}
+				if = {
+					limit = {
+						has_modifier = giga_gas_giant_shredder_3
+					}
+					remove_modifier = giga_gas_giant_shredder_3
+				}
 			}
 		}
 		from = {
@@ -782,6 +835,7 @@ atmosphere_shredder_3 = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_4
 		}
 		from = {
 			add_resource = {
@@ -888,6 +942,20 @@ atmosphere_shredder_restored = {
 			set_planet_entity = {
 				entity = storm_gas_giant_02_entity
 			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_4
+				}
+				if = {
+					limit = {
+						has_modifier = giga_gas_giant_shredder_3
+					}
+					remove_modifier = giga_gas_giant_shredder_3
+				}
+			}
 		}
 		from = {
 			# country_event = { id = giga_dialog.13804 }	# Notification
@@ -971,6 +1039,7 @@ atmosphere_shredder_restored = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_4
 		}
 		from = {
 			add_resource = {

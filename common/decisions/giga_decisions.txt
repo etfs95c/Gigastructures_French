@@ -1583,3 +1583,38 @@ decision_hypersiphon_mass_summon = {
 		weight = 0
 	}
 }
+
+decision_giga_flood_atmosphere = {
+	owned_planets_only = yes
+	enactment_time = @expand_planetary_sea_length
+
+	potential = {
+		is_planet_habitable = yes
+
+		exists = owner
+
+		owner = {
+			OR = {
+				has_origin = origin_gas_giant
+				has_origin = origin_gas_giant_robot
+			}
+		}
+
+		NOT = {
+			has_modifier = giga_gas_giant_hab_colony
+		}
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			exotic_gases = 2000
+			energy = 500
+		}
+	}
+
+	effect = {
+		add_modifier = { modifier = giga_gas_giant_hab_colony }
+	}
+}
