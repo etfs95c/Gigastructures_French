@@ -7,13 +7,16 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_origin = origin_gas_giant
-		has_origin = origin_gas_giant_robot
+		OR = {
+			has_origin = origin_gas_giant
+			has_origin = origin_gas_giant_robot
+		}
 	}
 
 	immediate = {
 		# starting technologies : ubiquitous
 		give_technology = { tech = tech_space_mining_1 message = no }
+		give_technology = { tech = tech_mine_exotic_gases message = no }
 		# only empires that use food
 		if  = {
 			limit = {

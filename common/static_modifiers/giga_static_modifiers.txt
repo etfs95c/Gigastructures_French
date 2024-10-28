@@ -677,7 +677,6 @@ giga_gas_giant_shredder_1 = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_electric_storm.dds"
 	icon_frame = 2
 
-	planet_jobs_produces_mult = -0.125
 	planet_researchers_physics_research_produces_mult = 0.5
 	planet_researchers_upkeep_mult = 0.125
 	habitability_ceil_add = -0.10
@@ -687,7 +686,6 @@ giga_gas_giant_shredder_2 = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_electric_storm.dds"
 	icon_frame = 2
 
-	planet_jobs_produces_mult = -0.25
 	planet_researchers_physics_research_produces_mult = 1
 	planet_researchers_upkeep_mult = 0.25
 	habitability_ceil_add = -0.15
@@ -697,7 +695,6 @@ giga_gas_giant_shredder_3 = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_electric_storm.dds"
 	icon_frame = 2
 
-	planet_jobs_produces_mult = -0.50
 	planet_researchers_physics_research_produces_mult = 1.5
 	planet_researchers_upkeep_mult = 0.375
 	habitability_ceil_add = -0.20
@@ -707,10 +704,9 @@ giga_gas_giant_shredder_4 = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_electric_storm.dds"
 	icon_frame = 2
 
-	planet_jobs_produces_mult = -0.75
 	planet_researchers_physics_research_produces_mult = 2
 	planet_researchers_upkeep_mult = 0.5
-	habitability_ceil_add = -0.25
+	habitability_ceil_add = -0.35
 }
 
 giga_planetary_computer = {

@@ -195,7 +195,7 @@ district_giga_gas_giant_habitat_wind = {
 }
 
 district_giga_gas_giant_habitat_mining = {
-	icon = district_hab_mining
+	icon = district_mining
 	base_buildtime = @giga_gas_giant_habitat_district_buildtime
 	is_capped_by_modifier = yes
 

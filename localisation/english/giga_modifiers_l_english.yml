@@ -158,6 +158,10 @@
     mod_planet_technician_food_upkeep_add:0 "£food£ $food$ Upkeep of £job_technician£ [GetTechnicianPlural]"
     mod_planet_technician_sr_iodizium_upkeep_add:0 "£sr_iodizium£ $sr_iodizium$ Upkeep of £job_technician£ [GetTechnicianPlural]"
     mod_planet_technician_physics_research_upkeep_add:0 "£physics_research£ $physics_research$ Upkeep of £job_technician£ [GetTechnicianPlural]"
+    mod_planet_technician_exotic_gases_produces_add:0 "£exotic_gases£ $exotic_gases$ from £job_technician£ [GetTechnicianPlural]"
+    mod_planet_technician_society_research_produces_add:0 "£society_research£ $society_research$ from £job_technician£ [GetTechnicianPlural]"
+    mod_planet_technician_volatile_motes_produces_add:0 "£volatile_motes£ $volatile_motes$ from £job_technician£ [GetTechnicianPlural]"
+
 
     mod_planet_farmers_food_upkeep_add:0 "£food£ $food$ Upkeep of £job_farmer£ [GetFarmerPlural]"
     mod_planet_farmers_society_research_upkeep_add:0 "£society_research£ $society_research$ Upkeep of £job_farmer£ [GetFarmerPlural]"

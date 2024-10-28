@@ -1995,15 +1995,36 @@
   building_giga_gas_giant_habitation_module_desc: "Collection of facilities necessary to maintain a colony on a gas giant assembled by the original population of this planet. These facilities include reactors to provide power for the colony, docking bays to unload minerals collected from local moons and large climate-controlled hangars that can be used for hydroponic farms. In addition to that, these facilities serve as headquarters for resource distribution network and provide various services to the local populations."
 
   trait_giga_gas_giant_hab:0 "Exotic Gas Reliant"
-  trait_giga_gas_giant_hab_desc:0 "§LTODO§!"
+  trait_giga_gas_giant_hab_desc:0 "§LOver centuries of exposure to exotic gases while living on a gas giant, this species has become somewhat dependent on them in their daily functions.§!"
   trait_giga_gas_giant_hab_tooltip:0 "Housing Usage on ['concept_giga_gas_worlds', §YGas§!] worlds: §G-10%§!\n£job_researcher£ $job_researcher_plural$ upkeep on ['concept_giga_gas_worlds', §YGas§!] worlds: §G-10%§!\nJob Exotic Gas upkeep on ['concept_giga_gas_worlds', §YGas§!] worlds: §G-50%§!\nHousing Usage on non-['concept_giga_gas_worlds', §YGas§!] worlds: §R+30%§!\nHabitability on non-['concept_giga_gas_worlds', §YGas§!] worlds: §R-20%§!\nJob Exotic Gas upkeep on non-['concept_giga_gas_worlds', §YGas§!] worlds: §R+25%§!"
-  trait_giga_gas_giant_hab_robot:0 "Gas-Fueled"
-  trait_giga_gas_giant_hab_robot_desc:0 "§LTODO."
+  trait_giga_gas_giant_hab_robot:0 "Exotic Gas-Fueled"
+  trait_giga_gas_giant_hab_robot_desc:0 "§LSmall self-modifications over time has compounded into the near dependency of exotic gases to fuel these machines."
   trait_giga_gas_giant_hab_robot_tooltip:0 "$trait_giga_gas_giant_hab_tooltip$"
 
   giga_gas_giant_hab_colony_tt:0 "Considered a ['concept_giga_gas_worlds', §YGas§!] world for Gas Giant Liftoff Species."
 
-  giga_gas_giant_shredder_1:0 ""
+  giga_gas_giant_shredder_1:0 "Integrated $atmosphere_shredder_complete_name$"
+  giga_gas_giant_shredder_2:0 "$giga_gas_giant_shredder_1$"
+  giga_gas_giant_shredder_3:0 "$giga_gas_giant_shredder_1$"
+  giga_gas_giant_shredder_4:0 "$giga_gas_giant_shredder_1$"
+
+  giga_gas_giant_hab_colony: "Flooded Atmosphere"
+  giga_gas_giant_hab_colony_desc: ""
+
+  decision_giga_flood_atmosphere:0 "Flood Planetary Atmosphere"
+  decision_giga_flood_atmosphere_desc:0 ""
+
+  d_giga_gas_giant_hab_core:0 "Rich Planetary Core"
+  d_giga_gas_giant_hab_core_desc:0 ""
+
+  district_giga_gas_giant_habitat_mining:0 "Core Mining Site"
+  district_giga_gas_giant_habitat_mining_plural:0 "Core Mining Sites"
+  district_giga_gas_giant_habitat_mining_desc:0 ""
+
+  giga_gas_giant_hab:0 "Habitable Gas Giant"
+
+  giga_gas_giant_hab_desc:0 "Plentiful exotic gases means easy collection, but harsher working conditions for planetary core mining operations."
+  mod_district_giga_gas_giant_habitat_mining_max:0 "Max $district_giga_gas_giant_habitat_mining_plural$"
 
   #########################################
   ### Great Ring ##########################

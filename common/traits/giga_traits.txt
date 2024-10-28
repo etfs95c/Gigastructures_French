@@ -7,7 +7,7 @@ trait_giga_gas_giant_hab = {
 
     allowed_archetypes = { BIOLOGICAL LITHOID }
     sorting_priority = 30
-    initial = yes
+    initial = no
 
     custom_tooltip_with_modifiers = trait_giga_gas_giant_hab_tooltip
 
@@ -92,7 +92,7 @@ trait_giga_gas_giant_hab_robot = {
 
     allowed_archetypes = { MACHINE ROBOT }
     sorting_priority = 30
-    initial = yes
+    initial = no
 
     custom_tooltip_with_modifiers = trait_giga_gas_giant_hab_tooltip
 
