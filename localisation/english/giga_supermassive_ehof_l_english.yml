@@ -1,0 +1,66 @@
+﻿l_english:
+
+  name_supermassive_ehof:0 "Supermassive E.H.O.F."
+
+  supermassive_ehof_0:0 "$gc_tera$$name_supermassive_ehof$ Construction Site"
+  supermassive_ehof_0_DESC:0 "The construction site for a future $name_supermassive_ehof$. This relatively small platform shall be used as a base to construct a machine granting us near-perfect mobility and cohesion across the galaxy."
+  supermassive_ehof_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_terastructure$ - $giga_list_category_transportation$\nDrastically buffs §YFTL Speed§!, £unity£ §YUnity§!, £trade_value£ §YTrade Value§!, reduces §YEmpire Size§!.\n§LAn upscaled E.H.O.F. Facility designed to generate microwormholes anywhere in the galaxy on the fly.§!" #megalistentry SUPERMASSIVE EHOF
+
+  supermassive_ehof_0_CONSTRUCTION_INFO_DELAYED:0 "$giga_list_additional_data$ - The §YSupermassive E.H.O.F.§! can manipulate spacetime and generate microwormholes on the fly anywhere in the galaxy to bolster conventional methods of FTL travel, effectively reducing §YHyperdrive Cooldown§! to almost nothing and granting infinite range to §YJump Drives§!.\n\nThese wormholes also bring all parts of our empire closer together, increasing §YUnity§! and §YTrade Value§! while reducing §YEmpire Size§! and §YResettlement Cost§!.\n\nIt can also act as a §YQuantum Catapult§! with infinite range and near-perfect accuracy (With the §YOverlord§! DLC), and should the opportunity present itself, it may also allow us to probe §YIntergalactic Space§!.\n\nGenerating the wormholes is however not free and will incur an §YEnergy§! and §YQuasi-Negative Mass§! upkeep based on our current number of §YPops§! (4 £energy£ per), §YPlanets§! (100 £energy£ per) and §YShips§! (2 £energy£ per). "
+
+  supermassive_ehof_1:0 "Supermassive E.H.O.F. Electroweak Hyperframe"
+  supermassive_ehof_1_DESC:0 "The Electroweak Hyperframe plays the crucial role of generating an electroweak field around the event horizon, out of which probabilistic microwormholes may then be plucked."
+  
+  supermassive_ehof_2:0 "Supermassive E.H.O.F. Quasi-Field Manipulators"
+  supermassive_ehof_2_DESC:0 "The Quasi-Field Manipulators bend and twist the Hyperframe's electroweak field, allowing for near-total control of quasi-space across the galaxy."
+
+  supermassive_ehof_3:0 "Supermassive E.H.O.F."
+  supermassive_ehof_3_DESC:0 "The Supermassive E.H.O.F. can generate a near-endless amount of micro-wormholes anywhere within the galaxy, enabling unprecedented mobility and cohesion."
+
+  supermassive_ehof_3_no_catapult:0 "Supermassive E.H.O.F."
+  supermassive_ehof_3_no_catapult_DESC:0 "The Supermassive E.H.O.F. can generate a near-endless amount of micro-wormholes anywhere within the galaxy, enabling unprecedented mobility and cohesion."
+
+  requires_ehof_phase_04:0 "$TRIGGER_FAIL$Requires the £engineering_research£ §Y$tech_ehof_phase_04$§! technology."
+
+  ap_supermassive_ehof:0 "Unshackled Transportation"
+  ap_supermassive_ehof_desc:0 "For too long, the sheer size of the galaxy has stood as an ever-present impediment to our galactic ambitions. No longer! An upscaled Event Horizon Offset Facility built around the galactic core shall enable us to link even the furthest reaches of our empire together and will allow our mighty warships to cross the void with utmost ease."
+
+  giga_tech_supermassive_ehof:0 "Event Horizon Offset Facility Hyperscaling"
+  giga_tech_supermassive_ehof_desc:0 "The culmination of E.H.O.F. development coupled with the latest advancements in gigastructural engineering. This monstrous construct, built around the largest of black holes, is theoretically capable of generating a near-infinite amount of microwormholes anywhere within the galaxy, enabling both never-seen-before mobility for our fleets as well as the drastic curbing of most distance-related logistical issues inherent to our empire's size."
+  allow_supermassive_ehof:0 "§HUnlocks Megastructure:§! $name_supermassive_ehof$"
+  desc_supermassive_ehof:0 "The Supermassive E.H.O.F. allows unmatched FTL movement and empire cohesion."
+
+  requires_no_existing_supermassive_ehof:0 "$TRIGGER_FAIL$Can only construct one $name_supermassive_ehof$."
+
+  #Site
+  giga_dialog.4201.name:0 "Supermassive E.H.O.F. Construction Site Complete"
+  giga_dialog.4201.desc:0 "From crude animal-drawn carriages, to steam and nuclear-powered vehicles, to FTL travel and then Hyper-Relays and Gateways, the development and growth of all civilisations hinges on constant improvements in transportation technologies, enabling us to project our ambitions further and further.\n\nAnd so, with the construction site for a future §YSupermassive E.H.O.F.§! completed around the galactic core, we stand on the cusp of yet another and perhaps the greatest transportation revolution.\n\nThis platform shall serve as the logistical hub for the construction of a supersized Event Horizon Offset Facility around the galaxy's supermassive black hole which shall, in time, bolster our FTL capabilities to unseen heights and connect all corners of our empire together thanks to a network of countless micro-wormholes."
+  giga_dialog.4201.a:0 "Marvelous."
+
+  #Frame
+  giga_dialog.4202.name:0 "Supermassive E.H.O.F. Electroweak Hyperframe Complete"
+  giga_dialog.4202.desc:0 "The Supermassive E.H.O.F.'s §YElectroweak Hyperframe§! is now in place. This gargantuan frame shall generate a gargantuan electroweak field around the supermassive black hole event's horizon, from which probalistic wormholes will be 'plucked' and inflated across the galaxy by the structure's two not-yet built Quasi-Field Manipulators."
+  giga_dialog.4202.a:0 "That makes sense... I think."
+
+  #Gateways
+  giga_dialog.4203.name:0 "Supermassive E.H.O.F. Quasi-Field Manipulators Complete"
+  giga_dialog.4203.desc:0 "With the completion of the §YQuasi-Field Manipulators§!, the structure of our Supermassive E.H.O.F. is essentially complete. These manipulators shall manipulate the electroweak field generated by the Hyperframe as to twist surrounding spacetime into two gargantuan vortexes emanating from the Manipulators.\n\nThis should theoretically extend the range at which micro-wormholes can be generated to the entire galaxy and beyond, all while enabling them to remain stable over an indefinite period of time.\n\nAll that remains to be done now is to activate the device."
+  giga_dialog.4203.a:0 "What do you mean by 'theoretically'?"
+
+  #Activation
+  giga_dialog.4204.name:0 "Supermassive E.H.O.F. Operational"
+  giga_dialog.4204.desc:0 "Thanks to a massive infusion of energy and Quasi-Negative Mass, our marvelous §YSupermassive E.H.O.F.§! has roared to life. Twisting and bending spacetime like mere clay, the device's gargantuan power essentially grants us near-total control over our galaxy's underlying quasi-space.\n\nAlready, micro-wormholes are being generated across our entire empire, connecting our once-disparate worlds together as if they were one and reducing travel times to almost nothing, while our warships enjoy unprecedented mobility as wormholes enable them to traverse the void faster than ever.\n\nWith the full activation of this grand device, logistical and bureaucratic problems owing to our empire's size are soon to be little more than a distant memory as we enter an era of unprecedented cohesion and galactic coordination."
+  giga_dialog.4204.a:0 "The galaxy is now truly our domain!"
+
+  giga_blokkat.10021.name:0 "Intergalactic Probing Proposal"
+  giga_blokkat.10021.desc:0 "With the gravitational anomaly barreling towards our galaxy at alarming speeds, some are proposing that rather than sit idly waiting for the object to arrive, we take proactive action and utilize our §YSupermassive E.H.O.F.§! to directly fling a probe towards the approaching anomaly within intergalactic space.\n\nIf successful, this would undoubtedly yield some valuable data pertaining to the object's nature, but we should, of course, be ready for anything. Now, if we are to go through with this, several different options have been brought forward.\n\nFirst, we could play it safe and simply send an uncrewed science ship to probe the anomaly and retrieve as much data as possible. if the anomaly turns out to be hostile or dangerous, we wouldn't lose much and it would provide us with valuable insight on how to best prepare for its arrival.\n\nAlternatively, a more brazen option would be to send a fleet to intercept the anomaly and perhaps destroy it before it reaches us, but we really have no idea how powerful it actually is and so there is no guarantee of success.\n\nAnd last, but not least, some argue that bothering with sending an expensive fleet would be little more than a waste of resources, and instead advocate for us to send a powerful explosive device through, which would be a risk-free way of attempting to destroy or at least repel the anomaly by diverting its course."
+  giga_blokkat.10021.a:0 "Let's just send an uncrewed science probe."
+  giga_blokkat.10021.b:0 "Our fleets will make quick work of whatever that thing is!"
+  giga_blokkat.10021.c:0 "A powerful explosive device should hopefully knock it off-course."
+  giga_blokkat.10021.d:0 "Rejected. Not worth the risk and expenses."
+
+  EHOF_PROBE_BLOKKATS:0 "Probe Intergalactic Anomaly"
+  EHOF_PROBE_BLOKKATS_DESC:0 "Sending an uncrewed science ship to the intergalactic anomaly may shed some light on its true nature. As we are unlikely to actually get the ship back, we should not put a leader on it."
+
+  EHOF_FIGHT_BLOKKATS:0 "Engage Intergalactic Anomaly"
+  EHOF_FIGHT_BLOKKATS_DESC:0 "We shall send a warfleet to intercept and hopefully destroy the anomaly before it reaches us. However, as there's no guarantee of success, we should probably not commit too large of a fleet in the event of a failure."
