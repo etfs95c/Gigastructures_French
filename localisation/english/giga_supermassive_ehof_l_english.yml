@@ -64,3 +64,32 @@
 
   EHOF_FIGHT_BLOKKATS:0 "Engage Intergalactic Anomaly"
   EHOF_FIGHT_BLOKKATS_DESC:0 "We shall send a warfleet to intercept and hopefully destroy the anomaly before it reaches us. However, as there's no guarantee of success, we should probably not commit too large of a fleet in the event of a failure."
+
+  giga_blokkat.10022.name:0 "Intergalactic Anomaly Probing Report"
+  giga_blokkat.10022.desc:0 "Our §YSupermassive E.H.O.F.§!'s staff brings... ominous news.\n\nWhile our uncrewed science ship has successfully made it to the anomaly, it could only spend a few precious seconds probing it before being destroyed by cataclysmic energies. And the data it sent back has confirmed our empire's worst fear: the object is not natural.\n\nIt is a ship! More precisely a gargantuan vessel of utterly alien design, comprised of large concentric rings arranged around some sort of high-energy core.\n\nUnfortunately there was not enough time to understand what the purpose of its components were and most of the data beamed back is currently unusable due to a critical lack of context. Fortunately our scientists believe that we might be able to complete our analysis once the anomaly actually arrives, but for now, we should prepare for the worst."
+
+  giga_blokkat.10023.name:0 "Intergalactic Anomaly Battle Report"
+  giga_blokkat.10023.desc:0 "Going where no §Y[Root.GetSpeciesName§!] has gone before, our warfleet streaks through intergalactic space, riding the pocket of infinitely-twisted space woven by our §YSupermassive E.H.O.F.§! at speeds unseen.\n\nWithin mere days the anomaly comes into sight, and, to everyone's utter dismay and surprise, it is... small? No more than a few hundred kilometers across, it could be encompassed within the breadth of our warfleet several times over. Whatever the case, it matters not as the fleet opens fire, cannons big and small showering the anomaly in ordnance powerful enough to level most of §Y[ROOT.Capital.GetName]§!.\n\nBut nothing happens. The anomaly, utterly unfazed by our intervention, continues onwards, our fleet struggling to catch up. And so we open fire once more, but this time, there is a response as the anomaly suddenly stops. In an instant, energy readings spike, and... all is quiet.\n\nOur high command scrambles to regain contact, receiving nothing but silence. The conclusion is clear: whatever, or whoever that thing is, we must be ready to deploy everything's we've got against it when it finally arrives."
+  giga_blokkat.10023.a:0 "We will overcome. Prepare to fight."
+  giga_blokkat.10023.b:0 "Ensure that our grand projects are ready in time."
+  giga_blokkat.10023.c:0 "Invest more in technological progress."
+  giga_blokkat.10023.d:0 "We shall wait and see."
+
+  giga_blokkat.10024.name:0 "Intergalactic Anomaly Bombing Report"
+  giga_blokkat.10024.desc:0 "Our §YSupermassive E.H.O.F.§!'s staff reports that they have successfully flung an explosive device towards the anomaly in intergalactic space, yielding... mitigated results.\n\nThe anomaly's course remains completely unchanged despite being impacted in a way that should have knocked it away from our galaxy, however its speed has been somewhat reduced which should hopefully buy us some more time to prepare for its arrival.\n\nInterestingly however, this slowdown occurred some time after the actual impact rather than directly afterwards, leading some to wonder if it might be the result of something, or someone, inside the anomaly reacting to the impact as opposed to being forcefully decelerated by it.\n\nRegardless, we estimate that this has bought us an additional §Yfive years§! to prepare for the arrival..."
+  giga_blokkat.10024.a:0 "Splendid."
+
+  preparing_to_fight_blokkats:0 "Intergalactic Anomaly - Military Preparation"
+  preparing_to_tech_blokkats:0 "Intergalactic Anomaly - Technological Preparation"
+  preparing_to_mega_blokkats:0 "Intergalactic Anomaly - Engineering Preparation"
+
+  probed_blokkats_early:0 "Blokkat Probing Data"
+  fought_blokkats_early:0 "Blokkat Combat Data"
+
+  giga_blokkat.10025.name:0 "Intergalactic Anomaly Combat Data Analysed"
+  giga_blokkat.10025.desc:0 "Following the Blokkats' arrival within our galaxy, our Research Bureau has been hard at work studying what little data we managed to acquire from our brief combat stunt with the Blokkat-Vester in intergalactic space.\n\nBy crossing it with the flood of data coming in from current Blokkat studies, we should be able to gain a slight military edge against Blokkat vessels."
+  giga_blokkat.10025.a:0 "Excellent. So it wasn't all for nothing."
+
+  giga_blokkat.10026.name:0 "Intergalactic Anomaly Probing Data Analysed"
+  giga_blokkat.10026.desc:0 "Following the Blokkats' arrival within our galaxy, our Research Bureau has been hard at work studying the data our probe managed to acquire when it came into contact with the intergalactic anomaly.\n\nBy crossing it with the flood of data coming in from current Blokkat studies, we should be able to understand the Blokkats at least a little better."
+  giga_blokkat.10026.a:0 "Delightful!"

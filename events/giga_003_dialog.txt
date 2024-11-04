@@ -3305,6 +3305,59 @@ country_event = {
 	option = { name = "giga_dialog.4105.a" }
 }
 
+
+####################################################
+### Supermassive EHOF ##############################
+####################################################
+
+# Construction Site
+country_event = {
+	id = giga_dialog.4201
+	title = "giga_dialog.4201.name"
+	desc = "giga_dialog.4201.desc"
+	picture = GFX_evt_ehof
+	show_sound = event_mega_structure_other_empire_build_start
+	location = event_target:giga_planet
+	is_triggered_only = yes
+	option = { name = "giga_dialog.4201.a" }
+}
+
+# P1 Complete
+country_event = {
+	id = giga_dialog.4202
+	title = "giga_dialog.4202.name"
+	desc = "giga_dialog.4202.desc"
+	picture = GFX_evt_ehof
+	show_sound = event_spy_orb_build_upgrade
+	location = event_target:giga_planet
+	is_triggered_only = yes
+	option = { name = "giga_dialog.4202.a" }
+}
+
+# P2 Complete
+country_event = {
+	id = giga_dialog.4203
+	title = "giga_dialog.4203.name"
+	desc = "giga_dialog.4203.desc"
+	picture = GFX_evt_ehof
+	show_sound = event_spy_orb_build_upgrade
+	location = event_target:giga_planet
+	is_triggered_only = yes
+	option = { name = "giga_dialog.4203.a" }
+}
+
+# P3 Complete
+country_event = {
+	id = giga_dialog.4204
+	title = "giga_dialog.4204.name"
+	desc = "giga_dialog.4204.desc"
+	picture = GFX_evt_ehof
+	show_sound = event_psionic
+	location = event_target:giga_planet
+	is_triggered_only = yes
+	option = { name = "giga_dialog.4204.a" }
+}
+
 # 5000 used for Maginot
 
 ############################################################################################################################################################
