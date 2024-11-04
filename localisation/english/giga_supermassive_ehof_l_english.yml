@@ -69,7 +69,7 @@
   giga_blokkat.10022.desc:0 "Our §YSupermassive E.H.O.F.§!'s staff brings... ominous news.\n\nWhile our uncrewed science ship has successfully made it to the anomaly, it could only spend a few precious seconds probing it before being destroyed by cataclysmic energies. And the data it sent back has confirmed our empire's worst fear: the object is not natural.\n\nIt is a ship! More precisely a gargantuan vessel of utterly alien design, comprised of large concentric rings arranged around some sort of high-energy core.\n\nUnfortunately there was not enough time to understand what the purpose of its components were and most of the data beamed back is currently unusable due to a critical lack of context. Fortunately our scientists believe that we might be able to complete our analysis once the anomaly actually arrives, but for now, we should prepare for the worst."
 
   giga_blokkat.10023.name:0 "Intergalactic Anomaly Battle Report"
-  giga_blokkat.10023.desc:0 "Going where no §Y[Root.GetSpeciesName§!] has gone before, our warfleet streaks through intergalactic space, riding the pocket of infinitely-twisted space woven by our §YSupermassive E.H.O.F.§! at speeds unseen.\n\nWithin mere days the anomaly comes into sight, and, to everyone's utter dismay and surprise, it is... small? No more than a few hundred kilometers across, it could be encompassed within the breadth of our warfleet several times over. Whatever the case, it matters not as the fleet opens fire, cannons big and small showering the anomaly in ordnance powerful enough to level most of §Y[ROOT.Capital.GetName]§!.\n\nBut nothing happens. The anomaly, utterly unfazed by our intervention, continues onwards, our fleet struggling to catch up. And so we open fire once more, but this time, there is a response as the anomaly suddenly stops. In an instant, energy readings spike, and... all is quiet.\n\nOur high command scrambles to regain contact, receiving nothing but silence. The conclusion is clear: whatever, or whoever that thing is, we must be ready to deploy everything's we've got against it when it finally arrives."
+  giga_blokkat.10023.desc:0 "Going where no [Root.GetSpeciesName] has gone before, our warfleet streaks through intergalactic space, riding the pocket of infinitely-twisted space woven by our §YSupermassive E.H.O.F.§! at speeds unseen.\n\nWithin mere days the anomaly comes into sight, and, to everyone's utter dismay and surprise, it is... small? No more than a few hundred kilometers across, it could be encompassed within the breadth of our warfleet several times over. Whatever the case, it matters not as the fleet opens fire, cannons big and small showering the anomaly in ordnance powerful enough to level most of [ROOT.Capital.GetName].\n\nBut nothing happens. The anomaly, utterly unfazed by our intervention, continues onwards, our fleet struggling to catch up. And so we open fire once more, but this time, there is a response as the anomaly suddenly stops. In an instant, energy readings spike, and... all is quiet.\n\nOur high command scrambles to regain contact, receiving nothing but silence. The conclusion is clear: whatever, or whoever that thing is, we must be ready to deploy everything's we've got against it when it finally arrives."
   giga_blokkat.10023.a:0 "We will overcome. Prepare to fight."
   giga_blokkat.10023.b:0 "Ensure that our grand projects are ready in time."
   giga_blokkat.10023.c:0 "Invest more in technological progress."
@@ -93,3 +93,64 @@
   giga_blokkat.10026.name:0 "Intergalactic Anomaly Probing Data Analysed"
   giga_blokkat.10026.desc:0 "Following the Blokkats' arrival within our galaxy, our Research Bureau has been hard at work studying the data our probe managed to acquire when it came into contact with the intergalactic anomaly.\n\nBy crossing it with the flood of data coming in from current Blokkat studies, we should be able to understand the Blokkats at least a little better."
   giga_blokkat.10026.a:0 "Delightful!"
+
+  #Specimens
+  garyx_collection: "Reptilian Reproduction Databank"
+  garyx_collection_desc_short: "A databank dedicated to the reproductive rituals of numerous reptilian species across the galaxy"
+  garyx_collection_desc_details: "With over two million hours of dedicated reptilian content, this databank enthralled Garyx to the point of leading the Squareworld to ruin. Why he became so enraptured by it however is a mystery we may never solve."
+
+  meopa_detonator: "Meopa's Detonator"
+  meopa_detonator_desc_short: "A small metallic device bearing a big red button intended to launch the entirety of Katzenland's military arsenal"
+  meopa_detonator_desc_details: "Crafted with the greatest Katzenlandian craftmanship, this little device was intended to allow Meopa to rapidly react to a potential threat by enabling the immediate launching of Katzenlandian nuclear weaponry. Most however did not know that Meopa had it modified it so that a double-press would turn the nukes around towards Katzenland, presumably as to deny Katzenland from a potential invader. The mere fact the Katzenlandians entrusted full control of their arsenal to a singular leader speaks of the excessive devotion they held towards him, which would, of course, be their downfall."
+
+  aeternite_golem:0 "Aeternite Golem Head"
+  aeternite_golem_desc_short:0 "The gargantuan head of a fallen Aeternite Golem intended to guard Aiondia"
+  aeternite_golem_desc_details:0 "This vast crystalline construct dates back to the Golden Age of Aeternum and was likely a prototype for an Aeternite frontline unit. Of course, with Aeternum declining and stagnating, it was left to roam Aiondia's surface for the better part of a million years. It boasts incredible regenerative properties, with entire teams having to be dedicated towards keeping it from regrowing, which does incidentally represent a good source of crystals."
+
+  planckeryons:0 "Planckeryon Sample"
+  planckeryons_desc_short:0 "Esoteric sub-planck particles with a variety of intriguing properties, most notably the ability to 'recode' themselves"
+  planckeryons_desc_details:0 "Aeternum experimented with the production of these potent particles during their Golden Age, but essentially shelved the project following their decline. From what we can gather, these particles possess the ability to recode their own properties, rendering them extraordinarily powerful if properly utilised. It seems that Aeternum however failed to move to the large-scale production of Planckeryons, something which we should most likely be grateful for."
+
+  riesiger_blueprints:0 "Riesigerkatzenpanzer Blueprints"
+  riesiger_blueprints_desc_short:0 "The blueprints for the fearsome Riesigerkatzenpanzers employed by the Katzen armed forces"
+  riesiger_blueprints_desc_details:0 "Retrieved from the depths of their production center in Lionsburg, these blueprints explain in deep detail how to construct the mighty Riesigerkatzenpanzers. These monstrous vehicles serve both as mobile artillery platforms and as frontline units based on military needs, and are very similar to the 'Weltraumpanzers' employed the Katzen space fleets. Recent models have indeed merged both vehicles into one capable of operating both in space as warships and on the surface of planets as frontline troops."
+
+  slukatian_drive:0 "Slukatian FTL Drive"
+  slukatian_drive_desc_short:0 "An experimental FTL drive relying on previously unseen principles to leap across intergalactic space"
+  slukatian_drive_desc_details:0 "This device hails from another galaxy altogether, having been put together by the 'Slukatians' in an attempt to create the 'ultimate' FTL drive by combining existing technologies into something entirely new. It appears their attempt were a bit too successful, given the distance the probe travelled and their inability to retrieve it altogether. Interestingly enough, in addition to the Slukatians' own empire, the device bears faint mentions of an organisation referred to as the 'Grand (illegible) Federation'. Whatever relation they held towards the Slukatians is unknown."
+
+  loris_katana:0 "Kattensbach Katana"
+  loris_katana_desc_short:0 "An ancient Katzen Katana previously belonging to Loris von Kattensbach, retrieved from the rubble of the Bundeshalle"
+  loris_katana_desc_details:0 "Forged by the finest Katzen warsmiths back in pre-gunpowder times, this katana has been passed down for generations within the von Kattensbach family. On it is inscribed the name of every Katzen to have inherited it, going back over two thousand years and ending with Loris himself. While it is unlikely to have seen actual combat, it nonetheless stands as a timeless symbol of Katzen military traditions."
+
+  meopian_expedition_chunk:0 "Meopian Expedition Chunk"
+  meopian_expedition_chunk_desc_short:0 "A chunk of the 'Meopian Expedition I' colony ship which carried Katzens across interstellar space, retrieved from Flusion's surface"
+  meopian_expedition_chunk_desc_details:0 "The Meopian Expeditions were a set of vessels sent by the former Katzenlandian king, Meopa, intended to colonize numerous planets with Katzens and Zuspris over ten thousand years ago. While the first of these ships ended up on Flusion, archeological data indicates that twelve of these ships were launched. Their ultimate fates are unknown."
+  
+  soulbot_fragment:0 "Roqualian Soulgem"
+  soulbot_fragment_desc_short:0 "A 'Soulgem' of Roqualian design, apparently capable of binding a genuine organic soul to a machine body. Its inner workings are unknown"
+  soulbot_fragment_desc_details:0 "These incredible technological marvels enable the Roqualians to fabricate 'soulbots' - machine chassis connected to a soul, granting them true sapience without the need for complicated AI systems, and allowing for a 'second chance' to be given to the most unlucky. Their design is far beyond what the Roqualians could have been able to manufacture, hinting that they were likely reverse-engineered by a precursor civilization which previously visited Flusion."
+
+  dead_chablokk:0 "Ancient Chablokk Suit"
+  dead_chablokk_desc_short:0 "A robotic exoskeleton meant to surround the body of a Chablokk to enhance their capabilities"
+  dead_chablokk_desc_details:0 "The Chablokks' brutal fight with the gargantuan psionic Paluushes forced them into a cycle of rapid technological innovation and military iteration. These advanced robotic suits were developed as a way to enhance their lackluster physical performances, as well as enable them to more easily interface with technology. This process of technological integration would continue until their eventual transformation into the Blokkats of today."
+  
+  meopium:0 "Nuke-Forged Soil"
+  meopium_desc_short:0 "A chunk of Katzenlandian soil bearing exotic alloys forged in nuclear hellfire"
+  meopium_desc_details:0 "The furious rain of nuclear ordnance which marred Katzenland's surface resulted in the creation of new and highly-radioactive alloys embedded within parts of the planet's upper crust. They alone represent a significant source of heat and radiation keeping the planet uninhabitable for millennia to come."
+
+  kaiser_plans:0 "Incomplete Katzen Schematics"
+  kaiser_plans_desc_short:0 "Unfinished schematics belonging to Kaiser Kattail, describing advanced structures which are sometimes more advanced than what the Katzens were known to be able to construct"
+  kaiser_plans_desc_details:0 "Retrieved from a heavily-fortified storage room beneath the Kaiser's office, these plans contain partial information and early schematics for vast planetary projects and megastructures. They were apparently drawn up in secret by a number of renowned Katzen scientists and engineers, who presumably sent them to the Kaiser for approval. Curiously enough, some of these aforementioned bright Katzen minds appear to have completely forged identities inserted into official civil records, indicating that they might partially ficticious. This thus raises the question as to who actually created these plans."
+
+  pouchkinn_device:0 "Pouchkinnian Temporal Device"
+  pouchkinn_device_desc_short:0 "A device which utilizes a strange purple gas to grant partial precognition to its user, at the cost of some mental sanity"
+  pouchkinn_device_desc_details:0 "Amongst the many experiments found in Pouchkinn's laboratories, this one is certainly amongst the most intriguing. It seems to 'charge' some sort of psionic gas, allowing it to induce otherwordly visions of one's fate, and thus possibly take pre-emptive action. It was quite possibly utilized by Pouchkinn to optimize his research, but the visions tend to be so cryptic that they are essentially unusable by untrained personal."
+
+  kaiser_moon_core:0 "Kaiser Moon Megareactor Chunk"
+  kaiser_moon_core_desc_short:0 "This gargantuan reactor chunk once provided untold power to the Kaiser Moon"
+  kaiser_moon_core_desc_details:0 "The power necessary to move an entire celestial body through the heavens is nothing short of phenomenal. As such, countless such megareactors were employed by the Kaiser Moon to provide energy to its vast array of gravitic thrusters and relativistic railguns. They mostly used antimatter-catalyzed fusion, which, while not the most advanced of methods, is relatively easy to scale up to the sizes necessary to run an entire moon, and far less prone to catastrophic failures than antimatter power plants."
+
+  blokkat_core:0 "Blokkwork Receiver"
+  blokkat_core_desc_short:0 "The nearly intact and miraculously stable Blokkwork receiver of a Blokkframe"
+  blokkat_core_desc_details:0 "Blokkframes are multipurpose chassis designed to easily enable a Blokkat to interact with reality. This component plays the crucial role of connecting the Blokkat to the Blokkwork, allowing it to remain synchronized with the rest of Blokkat civilization."

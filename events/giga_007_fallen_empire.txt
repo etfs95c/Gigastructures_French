@@ -5511,6 +5511,8 @@ country_event = {
 	location = event_target:pouchkinn_big_brain
 
 	is_triggered_only = yes
+
+	specimen = pouchkinn_device
 	
 	option = {
 		name = "giga_fallen_empire_misc.1041.a"
@@ -5529,6 +5531,8 @@ country_event = {
 
 	is_triggered_only = yes
 	
+	specimen = pouchkinn_device
+
 	option = {
 		name = "giga_fallen_empire_misc.1042.a"
 		custom_tooltip = "giga_fallen_empire_misc.1042.a.tooltip"

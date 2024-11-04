@@ -9277,6 +9277,10 @@ country_event = { #Kaiser Moon destroyed :(
 			min = @tier5unitymin
 			max = @tier5unitymax
 		}
+		if = {
+			limit = { NOT = { has_specimen = kaiser_moon_core } }
+			give_specimen = { key = kaiser_moon_core origin = "Kaiser Moon" }
+		}
 	}
 }
 

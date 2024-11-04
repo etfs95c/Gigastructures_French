@@ -2187,6 +2187,7 @@ country_event = {
 	location = event_target:giga_planet
 	diplomatic = yes
 	is_triggered_only = yes
+	specimen = garyx_collection
 	picture_event_data = {
 		portrait = event_target:garyx_species
 		room = garyx_room

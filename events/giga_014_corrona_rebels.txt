@@ -348,6 +348,8 @@ country_event = {
 	picture = GFX_evt_katzen_panzers
 	show_sound = event_celebration
 
+	specimen = riesiger_blueprints
+
 	immediate = {
 		update_total_flusion_res_value = yes
 		event_target:gigaflusion = { set_planet_flag = katzen_panzers_stolen }
@@ -579,6 +581,8 @@ country_event = {
 	is_triggered_only = yes
 	picture = GFX_evt_robot_encounter
 	show_sound = event_celebration
+
+	specimen = soulbot_fragment
 
 	immediate = {
 		country_event = { id = giga_katzen.2004 days = 180 } #katzens find out
@@ -1720,6 +1724,8 @@ country_event = {
 		update_total_flusion_res_value = yes
 	}
 
+	specimen = loris_katana
+
 	option = {
 		name = "giga_flusionoperations.5006.a"
 		custom_tooltip = "giga_flusionoperations.5006.a.tooltip"
@@ -2807,6 +2813,8 @@ country_event = {
 	show_sound = event_celebration
 
 	is_triggered_only = yes
+
+	specimen = kaiser_plans
 
 	immediate = {
 		event_target:sonya_rebel_leader = {

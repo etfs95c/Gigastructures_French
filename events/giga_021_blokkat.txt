@@ -334,7 +334,7 @@ country_event = {
 			energy = -100000
 			volatile_motes = -10000
 		}
-		hidden_effect = { country_event = { id = giga_blokkat.10024 days = 30 } }
+		hidden_effect = { country_event = { id = giga_blokkat.10024 days = 60 } }
 	}
 
 	option = { #nah
@@ -788,6 +788,14 @@ country_event = {
 		end_event_chain = blokkat_pre_arrival_chain
 		hidden_effect = {
 			country_event = { id = giga_blokkat.1007 }
+		}
+		if = {
+			limit = { has_special_project = EHOF_FIGHT_BLOKKATS }
+			abort_special_project = { type = EHOF_FIGHT_BLOKKATS }
+		}
+		if = {
+			limit = { has_special_project = EHOF_PROBE_BLOKKATS }
+			abort_special_project = { type = EHOF_PROBE_BLOKKATS }
 		}
 	}
 }
@@ -6860,6 +6868,8 @@ fleet_event = {
 
 	immediate = { fromfrom = { set_site_progress_locked = yes } }
 
+	specimen = dead_chablokk
+
 	option = { #what!
 		name = "giga_blokkat.3316.a"
 		small_artifact_reward = yes
@@ -10228,6 +10238,10 @@ country_event = {
 			event_target:newest_blokkat_prison = {
 				upgrade_megastructure_to = blokkat_prison_1_manage
 			}
+		}
+		if = {
+			limit = { NOT = { has_specimen = blokkat_core } }
+			give_specimen = { key = blokkat_core }
 		}
 	}
 }
