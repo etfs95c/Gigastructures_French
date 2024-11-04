@@ -205,7 +205,7 @@ pouchkinn_device = {
 
 	inline_script = {
 		script = "grand_archive/set_specimen_rarity"
-		RARITY = rare
+		RARITY = epic
 	}
 
 	triggered_country_modifier = {
