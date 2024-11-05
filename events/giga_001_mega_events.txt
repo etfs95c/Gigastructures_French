@@ -1211,6 +1211,7 @@ planet_event = {
 			every_system_megastructure = {
 				limit = {
 					NOR = {
+						is_megastructure_type = aeternum_planetcraft_ruined
 						is_megastructure_type = lgate_base
 						is_megastructure_type = gateway_final
 						is_megastructure_type = gateway_restored
