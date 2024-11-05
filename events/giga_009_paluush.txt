@@ -2104,6 +2104,7 @@ country_event = {
 			days = 3600
 		}
 		allow = {
+			has_policy_flag = interference_aggressive
 			resource_stockpile_compare = {
 				resource = influence
 				value >= 100
@@ -2239,6 +2240,7 @@ country_event = {
 			days = 3600
 		}
 		allow = {
+			has_policy_flag = interference_aggressive
 			resource_stockpile_compare = {
 				resource = influence
 				value >= 100
@@ -2283,6 +2285,7 @@ country_event = {
 			days = 3600
 		}
 		allow = {
+			has_policy_flag = interference_aggressive
 			resource_stockpile_compare = {
 				resource = influence
 				value >= 100
@@ -2579,6 +2582,7 @@ country_event = { #Demolition failed
 			days = 3600
 		}
 		allow = {
+			has_policy_flag = interference_aggressive
 			resource_stockpile_compare = {
 				resource = influence
 				value >= 100
