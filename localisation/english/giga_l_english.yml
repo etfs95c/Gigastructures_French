@@ -18100,15 +18100,15 @@
   sm_orbital_ring_giga_farming_district_desc:0 "Automated factories produce vast quantities of fertilizer and distribute them to previously inhospitable parts of the planet's surface to permit agriculture.\n\n§YEfficiency is lower on Tomb Worlds and higher on Gaia Worlds. Does not function on Irradiated Desert Worlds.§!\n"
 
   sm_ring_giga_crystals_hub:0 "Laser Crystal Bore"
-  sm_ring_giga_crystals_hub_desc:0 "Immense laser drills cutting into the planet's crust to help planetside rare crystal mining. Other extracted materials supplement the crystal refining process.\n\n§TProvides §G+1§! £job_crystal_miner£ §YCrystal Mining§! Job per active £building£ §Y$building_crystal_mines$§! Building§!\n"
+  sm_ring_giga_crystals_hub_desc:0 "Immense laser drills cutting into the planet's crust to help planetside rare crystal mining. Other extracted materials supplement the crystal refining process.\n\n§TProvides §G+1§! £job_crystal_miner£ §YCrystal Mining§! Job per §G4§! £district£ §Y$district_mining_plural$§!.\n"
   ring_giga_crystals_hub_condition:0 "§RPlanet must be able to support at least one £building£ §Y$building_crystal_mines$§! Building.§!"
 
   sm_ring_giga_motes_hub:0 "Hypersonic Mote Sifter"
-  sm_ring_giga_motes_hub_desc:0 "Powerful sonic emitters blast ultrasound waves into the atmosphere and towards mote harvesting sites, stirring up dust deserts with just the right frequency to bring plenty of Volatile Motes to the surface. Electromagnetic nets can also capture materials valuable to the mote refining process.\n\n§TProvides §G+1§! £job_mote_harvester£ §YMote Harvesting§! Job per active £building£ §Y$building_mote_harvesters$§! Building§!\n"
+  sm_ring_giga_motes_hub_desc:0 "Powerful sonic emitters blast ultrasound waves into the atmosphere and towards mote harvesting sites, stirring up dust deserts with just the right frequency to bring plenty of Volatile Motes to the surface. Electromagnetic nets can also capture materials valuable to the mote refining process.\n\n§TProvides §G+1§! £job_mote_harvester£ §YMote Harvesting§! Job per §G4§! £district£ §Y$district_mining_plural$§!.\n"
   ring_giga_motes_hub_condition:0 "§RPlanet must be able to support at least one £building£ §Y$building_mote_harvesters$§! Building.§!"
 
   sm_ring_giga_gas_hub:0 "Atmospheric Gas Stabilizer"
-  sm_ring_giga_gas_hub_desc:0 "Chemical plants which inject stabilizing agents into the atmosphere near naturally-occurring gas deposits, making extraction safer and easier. As a side effect, local microbes can be more effectively utilised to refine gases from biomass.\n\n§TProvides §G+1§! £job_gas_extractor£ §YGas Extraction§! Job per active £building£ §Y$building_gas_extractors$§! Building§!\n"
+  sm_ring_giga_gas_hub_desc:0 "Chemical plants which inject stabilizing agents into the atmosphere near naturally-occurring gas deposits, making extraction safer and easier. As a side effect, local microbes can be more effectively utilised to refine gases from biomass.\n\n§TProvides §G+1§! £job_gas_extractor£ §YGas Extraction§! Job per §G4§! £district£ §Y$district_mining_plural$§!.\n"
   ring_giga_gas_hub_condition:0 "§RPlanet must be able to support at least one £building£ §Y$building_gas_extractors$§! Building.§!"
 
   sm_ring_giga_iodizium_hub:0 "Field Isolation Grid"
