@@ -35,7 +35,7 @@ sr_psionic_sublimate = {
 # Negative Mass
 ehof_sr_negative_mass = {
 	tradable = no
-	max = 1000000
+	max = 50000
 
 	prerequisites = { "tech_negative_e_s" }
 	visibility_prerequisite = { always = yes }
@@ -56,7 +56,7 @@ ehof_sr_sentient_metal = {
 	ai_weight = { weight = 25 }
 	ai_wants = { base = 500 }
 
-	prerequisites = { "tech_ehof_sentient_tier_1" }
+	#prerequisites = { "tech_ehof_sentient_tier_1" }
 	visibility_prerequisite = { always = yes }
 	deficit_modifier = ehof_sm_deficit
 }

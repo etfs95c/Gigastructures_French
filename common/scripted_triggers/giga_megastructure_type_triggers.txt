@@ -800,6 +800,15 @@ giga_has_quasi_stellar_obliterator = {
     }
 }
 
+giga_has_supermassive_ehof = {
+	OR = {
+		has_megastructure = supermassive_ehof_0
+		has_megastructure = supermassive_ehof_1
+		has_megastructure = supermassive_ehof_2
+		has_megastructure = supermassive_ehof_3
+	}
+}
+
 # # has_science kilo
 # giga_has_particle_accelerator = {
 # 	OR = {

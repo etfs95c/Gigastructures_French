@@ -8,6 +8,24 @@ spriteTypes = {
 		name = "GFX_message_celestial_warship_destroyed"
 		texturefile = "gfx/interface/icons/message/message_celestial_warship_destroyed.dds"
 	}
+	##########################
+	### Specimens ############
+	##########################
+	spriteType = { name = "GFX_specimen_garyx_collection"					texturefile = "gfx/interface/icons/specimens/garyx_collection.dds" }
+	spriteType = { name = "GFX_specimen_meopa_detonator" 					texturefile = "gfx/interface/icons/specimens/meopa_detonator.dds" }
+	spriteType = { name = "GFX_specimen_aeternite_golem" 					texturefile = "gfx/interface/icons/specimens/aeternite_golem.dds" }
+	spriteType = { name = "GFX_specimen_planckeryons" 						texturefile = "gfx/interface/icons/specimens/planckeryons.dds" }
+	spriteType = { name = "GFX_specimen_riesiger_blueprints" 				texturefile = "gfx/interface/icons/specimens/riesiger_blueprints.dds" }
+	spriteType = { name = "GFX_specimen_slukatian_drive" 					texturefile = "gfx/interface/icons/specimens/slukatian_drive.dds" }
+	spriteType = { name = "GFX_specimen_loris_katana" 						texturefile = "gfx/interface/icons/specimens/loris_katana.dds" }
+	spriteType = { name = "GFX_specimen_meopian_expedition_chunk" 			texturefile = "gfx/interface/icons/specimens/meopian_expedition_chunk.dds" }
+	spriteType = { name = "GFX_specimen_soulbot_fragment" 					texturefile = "gfx/interface/icons/specimens/soulbot_fragment.dds" }
+	spriteType = { name = "GFX_specimen_dead_chablokk" 						texturefile = "gfx/interface/icons/specimens/dead_chablokk.dds" }
+	spriteType = { name = "GFX_specimen_meopium" 							texturefile = "gfx/interface/icons/specimens/meopium.dds" }
+	spriteType = { name = "GFX_specimen_kaiser_plans" 						texturefile = "gfx/interface/icons/specimens/kaiser_plans.dds" }
+	spriteType = { name = "GFX_specimen_pouchkinn_device"					texturefile = "gfx/interface/icons/specimens/pouchkinn_device.dds" }
+	spriteType = { name = "GFX_specimen_kaiser_moon_core" 					texturefile = "gfx/interface/icons/specimens/kaiser_moon_core.dds" }
+	spriteType = { name = "GFX_specimen_blokkat_core" 						texturefile = "gfx/interface/icons/specimens/blokkat_core.dds" }
 
 	##########################
 	### Megastructure View ###
@@ -44,6 +62,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_megastructure_planetdismantler"				textureFile = "gfx/interface/planetview/mega_planetdismantler.dds" }
 	spriteType = { name = "GFX_megastructure_asteroid_artillery"			textureFile = "gfx/interface/planetview/mega_asteroid_artillery.dds" }
 	spriteType = { name = "GFX_megastructure_planetary_dockyard"			textureFile = "gfx/interface/planetview/mega_planetary_dockyard.dds" }
+	spriteType = { name = "GFX_megastructure_supermassive_ehof"				textureFile = "gfx/interface/planetview/mega_supermassive_ehof.dds" }
 
 	spriteType = { name = "GFX_defense_nexus_button_bombard"				textureFile = "gfx/interface/megastructures_giga_ui/defense_nexus/defense_nexus_button_bombard.dds" }
 	spriteType = { name = "GFX_defense_nexus_button_system"					textureFile = "gfx/interface/megastructures_giga_ui/defense_nexus/defense_nexus_button_system.dds" }
@@ -129,6 +148,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_ap_qso"										texturefile = "gfx/interface/icons/ascension_perks/ap_qso.dds"																alwaystransparent = yes }
 	spriteType = { name = "GFX_ap_vast_expanses"							texturefile = "gfx/interface/icons/ascension_perks/ap_vast_expanses.dds"													alwaystransparent = yes }
 	spriteType = { name = "GFX_ap_celestial_printing"						texturefile = "gfx/interface/icons/ascension_perks/ap_celestial_printing.dds"													alwaystransparent = yes }
+	spriteType = { name = "GFX_ap_supermassive_ehof"						texturefile = "gfx/interface/icons/ascension_perks/ap_supermassive_ehof.dds"												alwaystransparent = yes }
 	spriteType = { name = "GFX_ap_planetcraft_primacy"						texturefile = "gfx/interface/icons/ascension_perks/ap_planetcraft_primacy.dds"													alwaystransparent = yes }
 
 	##################
@@ -532,6 +552,7 @@ spriteTypes = {
 	### Menu UI ###
 	###############
 	spriteType = { name = "GFX_giga_menu_button_bg"							texturefile = "gfx/interface/menu_ui/button_background.dds" }
+	spriteType = { name = "GFX_giga_menu_counter_bg"							texturefile = "gfx/interface/menu_ui/ssn_0_background.dds" }
 	spriteType = { name = "GFX_giga_menu_bg"								texturefile = "gfx/interface/menu_ui/background.dds" }
 	spriteType = { name = "GFX_giga_menu_bg_left"							texturefile = "gfx/interface/menu_ui/menu_background_side_panel.dds" }
 	spriteType = { name = "GFX_giga_menu_bg_right"							texturefile = "gfx/interface/menu_ui/menu_background_side_panel_2.dds" }

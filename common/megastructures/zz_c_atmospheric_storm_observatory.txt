@@ -1,7 +1,7 @@
 atmosphere_shredder_0 = {
 	entity = "giga_storm_observatory_1"
 	construction_entity = "giga_storm_observatory_1_con"
-	portrait = "GFX_megastructure_cybernetics"
+	portrait = "GFX_megastructure_gas_giant"
 	place_entity_on_planet_plane = yes
 	use_planet_resource = yes
 	entity_offset = { x = 0 y = 0 } 
@@ -80,13 +80,17 @@ atmosphere_shredder_0 = {
 		}
 	}
 
+	country_modifier = {
+		custom_tooltip = orbital_atmosphere_shredder_1_mod_tooltip
+	}
+
 	placement_rules = {
 		planet_possible = {
 			custom_tooltip = { fail_text = "requires_no_anomaly"				has_anomaly = no }
-			custom_tooltip = { fail_text = "requires_no_existing_megastructure"	planet_has_no_megastructure = yes }
-			custom_tooltip = { fail_text = "requires_survey_not_habitable"		is_surveyed = { who = prev.from status = yes } is_planet_habitable = no }
+			custom_tooltip = { fail_text = "requires_no_existing_megastructure"	OR = { planet_has_no_megastructure = yes is_planet_class = pc_habitable_gas_giant } }
+			custom_tooltip = { fail_text = "requires_survey_not_habitable"		is_surveyed = { who = prev.from status = yes } OR = { is_planet_habitable = no is_planet_class = pc_habitable_gas_giant} }
 			custom_tooltip = { fail_text = "requires_not_star"					is_star = no }
-			custom_tooltip = { fail_text = "must_build_around_gas" 				giga_is_gas_giant = yes }
+			custom_tooltip = { fail_text = "must_build_around_gas" 				OR = { is_planet_class = pc_habitable_gas_giant giga_is_gas_giant = yes } }
 			custom_tooltip = {
 				fail_text = "requires_not_astral_scar"
 				is_astral_scar = no
@@ -136,6 +140,14 @@ atmosphere_shredder_0 = {
 			giga_set_has_mega_flag = yes
 			set_planet_entity = {
 				entity = storm_gas_giant_01_entity
+			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_1
+				}
 			}
 		}
 		from = {
@@ -227,6 +239,7 @@ atmosphere_shredder_0 = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_1
 		}
 		from = {
 			add_resource = {
@@ -252,7 +265,7 @@ atmosphere_shredder_0 = {
 atmosphere_shredder_1 = {
 	entity = "giga_storm_observatory_2"
 	construction_entity = "giga_storm_observatory_2_con"
-	portrait = "GFX_megastructure_cybernetics"
+	portrait = "GFX_megastructure_gas_giant"
 	place_entity_on_planet_plane = yes
 	use_planet_resource = yes
 	entity_offset = { x = 0 y = 0 } 
@@ -308,13 +321,29 @@ atmosphere_shredder_1 = {
 
 	potential = { NOT = { has_global_flag = storm_observatory_disabled } }
 	possible = { from = { has_technology = giga_tech_macro_scale_weather_manipulation } }
-
+	country_modifier = {
+		custom_tooltip = orbital_atmosphere_shredder_2_mod_tooltip
+	}
 	ai_weight = { factor = value:giga_ai_base_continue } # If we can build it, we will build it
 	on_build_complete = {
 		save_event_target_as = giga_system
 		fromfrom.planet = {
 			set_planet_entity = {
 				entity = storm_gas_giant_01_entity
+			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_2
+				}
+				if = {
+					limit = {
+						has_modifier = giga_gas_giant_shredder_1
+					}
+					remove_modifier = giga_gas_giant_shredder_1
+				}
 			}
 		}
 		from = {
@@ -400,6 +429,7 @@ atmosphere_shredder_1 = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_2
 		}
 		from = {
 			add_resource = {
@@ -425,7 +455,7 @@ atmosphere_shredder_1 = {
 atmosphere_shredder_2 = {
 	entity = "giga_storm_observatory_3"
 	construction_entity = "giga_storm_observatory_3_con"
-	portrait = "GFX_megastructure_cybernetics"
+	portrait = "GFX_megastructure_gas_giant"
 	place_entity_on_planet_plane = yes
 	use_planet_resource = yes
 	entity_offset = { x = 0 y = 0 } 
@@ -436,7 +466,9 @@ atmosphere_shredder_2 = {
 		exists = owner
 		NOT = { has_megastructure_flag = giga_outliner_hidden_by_@owner }
 	}
-
+	country_modifier = {
+		custom_tooltip = orbital_atmosphere_shredder_3_mod_tooltip
+	}
 	build_time = 1080
 	resources = {
 		category = giga_kilostructures
@@ -488,6 +520,20 @@ atmosphere_shredder_2 = {
 			set_planet_entity = {
 				entity = storm_gas_giant_01_entity
 			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_3
+				}
+				if = {
+					limit = {
+						has_modifier = giga_gas_giant_shredder_2
+					}
+					remove_modifier = giga_gas_giant_shredder_2
+				}
+			}
 		}
 		from = {
 			create_message = {
@@ -514,7 +560,7 @@ atmosphere_shredder_2 = {
 			remove_planet_flag = giga_atmosphere_shredder_stage_2
 			set_planet_flag = giga_atmosphere_shredder_stage_3
 			save_event_target_as = target_planet
-			add_deposit = d_physics_2
+			add_deposit = d_physics_1
 			science_kilo_update_orbital_effect = yes
 			add_modifier = {
 				modifier = orbital_atmosphere_shredder_3_mod
@@ -576,6 +622,7 @@ atmosphere_shredder_2 = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_3
 		}
 		from = {
 			add_resource = {
@@ -601,7 +648,7 @@ atmosphere_shredder_2 = {
 atmosphere_shredder_3 = {
 	entity = "giga_storm_observatory_4"
 	construction_entity = "giga_storm_observatory_4_con"
-	portrait = "GFX_megastructure_cybernetics"
+	portrait = "GFX_megastructure_gas_giant"
 	place_entity_on_planet_plane = yes
 	use_planet_resource = yes
 	entity_offset = { x = 0 y = 0 } 
@@ -612,7 +659,9 @@ atmosphere_shredder_3 = {
 		exists = owner
 		NOT = { has_megastructure_flag = giga_outliner_hidden_by_@owner }
 	}
-
+	country_modifier = {
+		custom_tooltip = orbital_atmosphere_shredder_4_mod_tooltip
+	}
 	build_time = 1080 # 3 years
 	resources = {
 		category = giga_kilostructures
@@ -664,6 +713,20 @@ atmosphere_shredder_3 = {
 			set_planet_entity = {
 				entity = storm_gas_giant_02_entity
 			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_4
+				}
+				if = {
+					limit = {
+						has_modifier = giga_gas_giant_shredder_3
+					}
+					remove_modifier = giga_gas_giant_shredder_3
+				}
+			}
 		}
 		from = {
 			create_message = {
@@ -704,7 +767,7 @@ atmosphere_shredder_3 = {
 			remove_planet_flag = giga_atmosphere_shredder_stage_3
 			set_planet_flag = giga_atmosphere_shredder_stage_4
 			save_event_target_as = target_planet
-			add_deposit = d_physics_2
+			add_deposit = d_physics_1
 			science_kilo_update_orbital_effect = yes
 			add_modifier = {
 				modifier = orbital_atmosphere_shredder_4_mod
@@ -772,6 +835,7 @@ atmosphere_shredder_3 = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_4
 		}
 		from = {
 			add_resource = {
@@ -813,7 +877,7 @@ atmosphere_shredder_ruined = {
 atmosphere_shredder_restored = {
 	entity = "giga_storm_observatory_4"
 	construction_entity = "giga_storm_observatory_4_con"
-	portrait = "GFX_megastructure_cybernetics"
+	portrait = "GFX_megastructure_gas_giant"
 	place_entity_on_planet_plane = yes
 	use_planet_resource = yes
 	entity_offset = { x = 0 y = 0 } 
@@ -868,13 +932,29 @@ atmosphere_shredder_restored = {
 		exists = from
 		from = { has_technology = giga_tech_macro_scale_weather_manipulation }
 	}
-
+	country_modifier = {
+		custom_tooltip = orbital_atmosphere_shredder_restored_mod_tooltip
+	}
 	ai_weight = { factor = value:giga_ai_base_repairs } # If we can build it, we will build it
 	on_build_complete = {
 		save_event_target_as = giga_system
 		fromfrom.planet = {
 			set_planet_entity = {
 				entity = storm_gas_giant_02_entity
+			}
+			if = {
+				limit = {
+					is_planet_class = pc_habitable_gas_giant
+				}
+				add_modifier = {
+					modifier = giga_gas_giant_shredder_4
+				}
+				if = {
+					limit = {
+						has_modifier = giga_gas_giant_shredder_3
+					}
+					remove_modifier = giga_gas_giant_shredder_3
+				}
 			}
 		}
 		from = {
@@ -888,8 +968,8 @@ atmosphere_shredder_restored = {
 			remove_trade_deposits = yes
 			set_planet_flag = giga_atmosphere_shredder_stage_4
 			save_event_target_as = target_planet
-			add_deposit = d_physics_2
-			add_deposit = d_physics_2
+			add_deposit = d_physics_1
+			add_deposit = d_physics_1
 			add_deposit = d_physics_2
 			add_deposit = d_physics_2
 			science_kilo_update_orbital_effect = yes
@@ -959,6 +1039,7 @@ atmosphere_shredder_restored = {
 			set_planet_entity = {
 				entity = pc_gas_giant
 			}
+			remove_modifier = giga_gas_giant_shredder_4
 		}
 		from = {
 			add_resource = {

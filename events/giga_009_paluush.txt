@@ -515,6 +515,8 @@ ship_event = {
 		from = { has_planet_flag = katzenland } 
 	}
 
+	specimen = meopium
+
 	option = {
 		name = "giga_katzenland.001.a"
 		hidden_effect = { from = { create_archaeological_site = site_katzenland } }
@@ -819,6 +821,8 @@ fleet_event = {
 	immediate = {	fromfrom = { set_site_progress_locked = yes } }
 	after = {		fromfrom = { set_site_progress_locked = no } }
 
+	specimen = meopa_detonator
+
 	option = {
 		name = "giga_katzenland.009.a"
 		trigger = {
@@ -1119,6 +1123,8 @@ country_event = {
 			set_country_flag = found_all_katzens
 		}
 	}
+
+	specimen = meopian_expedition_chunk
 
 	option = {
 		name = "giga_flusion.002.a"
