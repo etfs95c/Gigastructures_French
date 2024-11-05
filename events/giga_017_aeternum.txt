@@ -2479,7 +2479,13 @@ country_event = {
 	option = {
 		name = "giga_aeternum.4130.a"
 		custom_tooltip = "giga_aeternum_2_intel_tooltip"
-		trigger = { NOR = { has_special_project = INVESTIGATE_AETERNUM_PLANETCRAFT has_country_flag = analysed_aeternite_planetcraft } }
+		trigger = {
+			NOR = {
+				any_owned_megastructure = { is_megastructure_type = aeternum_planetcraft_ruined }
+				any_owned_starbase = { solar_system = { any_system_megastructure = { is_megastructure_type = aeternum_planetcraft_ruined } } }		
+				has_country_flag = analysed_aeternite_planetcraft
+			}
+		}
 		event_target:giga_temp_aet_planet = {
 			enable_special_project = {
 				name = "INVESTIGATE_AETERNUM_PLANETCRAFT"
