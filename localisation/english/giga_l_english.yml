@@ -6938,7 +6938,7 @@
   # terraform_toxic_1:0 "$name_terraform_toxic$ Processing Rings"
   # terraform_toxic_1_DESC:0 "The massive rings stretching around the toxic world house large facilities capable of chemically reprocessing a planet's atmosphere, converting once-toxic gases into breathable air."
 
-  terraform_toxic_1:0 "$name_terraform_toxic$ Macromanipulators"
+  terraform_toxic_1:0 "$name_terraform_toxic$"
   terraform_toxic_1_DESC:0 "This $name_terraform_toxic$ has been equipped with two massive pumps, capable of manipulating a planet's atmosphere, making it more or less dense, and redistributing its constituent gasses."
 
   # terraform_toxic_3:0 "Begin Terraforming"
