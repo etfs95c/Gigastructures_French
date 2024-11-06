@@ -206,7 +206,7 @@
   desc_systemcraft_p6:0 "Unlocks another step of the Systemcraft."
 
   name_terraform_molten:0 "Geothermal Stabilizer"
-  allow_terraform_molten:0 "§HUnlocks Megastructure:§! $name_terraform_molten$"
+  allow_terraform_molten:0 "§HUnlocks Terraforming Platform Path:§! $name_terraform_molten$"
   desc_terraform_molten:0 "A megastructure capable of transforming a molten planet into a habitable world."
 
   name_terraform_shattered:0 "G.L.U.E."
@@ -215,7 +215,7 @@
   desc_terraform_shattered:0 "The $name_terraform_shattered_full$ or the $name_terraform_shattered$ for short, is capable of taking the remnants of a previously destroyed planet and reforming them into something closer resembling their original form."
 
   name_terraform_barren:0 "Dynamic Core Ignitor"
-  allow_terraform_barren:0 "§HUnlocks Megastructure:§! $name_terraform_barren$"
+  allow_terraform_barren:0 "§HUnlocks Terraforming Platform Path:§! $name_terraform_barren$"
   desc_terraform_barren:0 "A large construct built around a desolate world to make it more habitable."
 
   name_terraform_gasgiant:0 "Macroatmospheric Stabilizer"
@@ -223,7 +223,7 @@
   desc_terraform_gasgiant:0 "The $name_terraform_gasgiant$ is capable of partially controlling a Gas Giant's upper atmosphere, rendering it somewhat habitable.\n\nGas Giant Colonies possess unique §YGenerator§! and §YResearch§! Districts, alongside unique §YPlanetary Features§!. The larger the Gas Giant, the larger the resulting colony."
 
   name_terraform_toxic:0 "Atmospheric Purifier"
-  allow_terraform_toxic:0 "§HUnlocks Megastructure:§! $name_terraform_toxic$"
+  allow_terraform_toxic:0 "§HUnlocks Terraforming Platform Path:§! $name_terraform_toxic$"
   desc_terraform_toxic:0 "A megastructure capable of transforming a toxic planet into a habitable world."
 
   name_orbital_arcology:0 "Orbital Arcology"
@@ -6779,16 +6779,16 @@
   giga_dialog.4001.desc:0 "The construction site for a $name_terraform_molten$ in the [giga_system.GetName] system is now complete. This orbital platform will serve as a staging ground to construct a large structure around this molten world, which will employ cooling beams and laser drills to remotely alter the molten world's surface properties, rendering it habitable to most forms of life, albeit lifeless."
   giga_dialog.4001.a:0 "Good."
 
-  giga_dialog.4002.name:0 "$name_terraform_molten$ Orbital Facilities Complete!"
-  giga_dialog.4002.desc:0 "Our $name_terraform_molten$'s Orbital Facilities are now complete. This large ring stretches around the planet's equator, and house the necessary machinery and reactors to power the large apparatuses that will be used to sculpt the planet's surface into something more suitable for life."
-  giga_dialog.4002.a:0 "Nice."
+  giga_dialog.4002.name:0 "$name_terraform_molten$ Complete!"
+  giga_dialog.4002.desc:0 "Our $name_terraform_molten$ is now ready for operation. This large construct stretches around the planet's equator, and housing the necessary machinery and reactors to power the large apparatuses that will be used to sculpt the planet's surface into something more suitable for life. With the addition of three large hyperscale cooling beams and laser drills, we will be able to both cool off and stabilize this world's geological activity. Now, we must begin the actual terraforming process. \n\nWith the $name_terraform_molten$'s now complete, we must now begin the terraforming process itself."
+  giga_dialog.4002.a:0 "We shall do so at once."
 
-  giga_dialog.4003.name:0 "$name_terraform_molten$ Complete!"
-  giga_dialog.4003.desc:0 "Our $name_terraform_molten$ is now complete. With the addition of three large hyperscale cooling beams and laser drills, we will be able to both cool off and stabilize this world's geological activity. Now, we must begin the actual terraforming process."
-  giga_dialog.4003.a:0 "We shall do so at once."
+  # giga_dialog.4003.name:0 "$name_terraform_molten$ Complete!"
+  # giga_dialog.4003.desc:0 "Our $name_terraform_molten$ is now complete. With the addition of three large hyperscale cooling beams and laser drills, we will be able to both cool off and stabilize this world's geological activity. Now, we must begin the actual terraforming process."
+  # giga_dialog.4003.a:0 "We shall do so at once."
 
   giga_dialog.4004.name:0 "$name_terraform_molten$ Terraforming Successful!"
-  giga_dialog.4004.desc:0 "Excellent news! Our $name_terraform_molten$ in the [giga_system.GetName] system has successfully transformed a once-molten planet into a hot, yet habitable world. Its surface has been cooled down, and most geological activity has been suppressed, thanks to an extensive reshaping of the planet's chaotic tectonic plates. The planet is now ready for colonization, and may be terraformed further to add actual life onto it."
+  giga_dialog.4004.desc:0 "Excellent news! Our §Y$name_terraform_molten$§! in the §Y[giga_system.GetName]§! system has successfully transformed the once-molten planet of §Y[giga_planet.GetName]§! into a hot, yet habitable world. Its surface has been cooled down, and most geological activity has been suppressed, thanks to an extensive reshaping of the planet's chaotic tectonic plates. The planet is now ready for colonization, and may be terraformed further to add actual life onto it."
   giga_dialog.4004.a:0 "Marvelous!"
   giga_dialog.4004.a.tooltip:0 "Be careful not to get pneumonoultramicroscopicsilicovolcanoconiosis from the residual ashes floating in the atmosphere."
 
@@ -6796,14 +6796,14 @@
   terraform_molten_0_DESC:0 "The construction site for a future $name_terraform_molten$ to be built around this planet, which will cool down and stabilize this world's harsh surface to make it habitable."
   terraform_molten_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_terraforming$\nConverts a §YMolten World§! into a §YLifeless Torrid World§!\n§LThe Geothermal Stabilizer can suture and repair a Molten World's unstable tectonics as well as introduce a breathable atmosphere, rendering it somewhat habitable but lifeless.§!" #gigalistentry GEOTHERMAL STABILIZER
 
-  terraform_molten_1:0 "$name_terraform_molten$ Orbital Facilities"
-  terraform_molten_1_DESC:0 "This large equatorial ring houses the necessary machinery to fuel and power the massive orbital coolers that will be used to remotely alter the Molten World's surface conditions."
+  # terraform_molten_1:0 "$name_terraform_molten$ Orbital Facilities"
+  # terraform_molten_1_DESC:0 "This large equatorial ring houses the necessary machinery to fuel and power the massive orbital coolers that will be used to remotely alter the Molten World's surface conditions."
 
-  terraform_molten_2:0 "$name_terraform_molten$"
-  terraform_molten_2_DESC:0 "A complete $name_terraform_molten$, equipped with a set of large orbital coolers and laser drills to cool and stabilize the planet's surface. All there is left to do now is begin the actual terraforming process."
+  terraform_molten_1:0 "$name_terraform_molten$"
+  terraform_molten_1_DESC:0 "A complete $name_terraform_molten$, equipped with a set of large orbital coolers and laser drills to cool and stabilize the planet's surface. All there is left to do now is begin the actual terraforming process."
 
-  terraform_molten_3:0 "Begin Terraforming"
-  terraform_molten_3_DESC:0 "Order the $name_terraform_molten$'s crew to begin transforming this planet's molten surface and tectonic makeup into something that can be inhabited by most forms of life."
+  # terraform_molten_3:0 "Begin Terraforming"
+  # terraform_molten_3_DESC:0 "Order the $name_terraform_molten$'s crew to begin transforming this planet's molten surface and tectonic makeup into something that can be inhabited by most forms of life."
 
   #########################################
   ### Terraform Shattered #################
@@ -6848,6 +6848,26 @@
   terraform_shattered_4_DESC:0 "Order the $name_terraform_shattered$'s crew to begin creating this planet's molten surface and tectonic systems, making something that can later be made suitable for life."
 
   #########################################
+  ### Terraform Site ######################
+  #########################################
+  
+  name_terraform_site:0 "Terraforming Platform"
+
+  terraform_site_0:0 "$gc_kilo$$name_terraform_site$ Construction Site"
+  terraform_site_0_DESC:0 "The construction site for a future $name_terraform_barren$. It contains the large amount of personnel and machinery necessary to construct a device capable of bringing life to a desolate world."
+  terraform_site_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_terraforming$\nEnables the §YTerraforming§! of §YBarren§!, §YFrozen§!, §YToxic§! and §YMolten§! planets, depending on which technologies we have unlocked. Will automatically specialize into the appropriate megastructure once completed." #gigalistentry TERRAFORM SITE
+  terraform_site_0_CONSTRUCTION_INFO_DELAYED:0 "$giga_list_additional_data$ - Once completed, this site will turn into the site for either a §YDynamic Core Ignitor§!, §YAtmospheric Purifier§! or §YGeothermal Stabilizer§! based on the planet class it is built around. We must have the corresponding technology in order to build it around a given planet class. Once constructed, it will allow conventional §YTerraforming§! of their planet, with the megastructure dismantling itself upon completion."
+
+  giga_terraform_site_barren_loc:0 "§Y$pc_barren$s§! via the §Y$name_terraform_barren$§!"
+  giga_terraform_site_toxic_loc:0 "§Y$pc_toxic$s§! via the §Y$name_terraform_toxic$§!"
+
+  must_build_around_world_we_can_terraform:0 "$TRIGGER_FAIL$Must build around a planet class we have the technology to terraform."
+
+  planet_is_already_terraformable:0 "$TRIGGER_FAIL$This world is already terraformable by conventional means."
+
+  giga_terraform_site_mechanics:0 "We can now §YTerraform§! the target world using the terraforming menu. Doing so will quadruple the £energy£ §Y$energy$§! upkeep of the megastructure for the duration of the process. Once terraforming is complete, the megastructure will dismantle itself."
+
+  #########################################
   ### Terraform Barren ####################
   #########################################
   giga_tech_terraform_barren:0 "Dynamic Core Activation"
@@ -6857,30 +6877,30 @@
   giga_dialog.3801.desc:0 "The construction site for a $name_terraform_barren$ is now finished. This site will serve as a staging ground to construct a $name_terraform_barren$ in the [giga_system.GetName] system. This technological marvel will be able to implement an atmosphere and an hydrosphere onto this desolate world, making it more habitable."
   giga_dialog.3801.a:0 "Great."
 
-  giga_dialog.3802.name:0 "$name_terraform_barren$ Hypercoils Built"
-  giga_dialog.3802.desc:0 "The $name_terraform_barren$'s Hypercoils have been finished. These two gigantic geomagnetic coils will generate a tremendous electromagnetic field, which will be strong enough to melt this planet's core and hopefully create a magnetic field, indispensable for live to survive."
+  giga_dialog.3802.name:0 "$name_terraform_barren$ Complete!"
+  giga_dialog.3802.desc:0 "The $name_terraform_barren$ in the [giga_system.GetName] has been finished. It features two gigantic geomagnetic coils will generate a tremendous electromagnetic field, which will be strong enough to melt this planet's core and hopefully create a magnetic field, indispensable for live to survive. Alongside them is a large grid surrounding a the barren world, able to generate large amounts of atmosphere via various chemical processes to tweak this planet's climate at will.\n\nAll there is left to do now is actually begin the terraforming process."
   giga_dialog.3802.a:0 "Excellent."
 
-  giga_dialog.3803.name:0 "$name_terraform_barren$ Atmospheric Generator Built"
-  giga_dialog.3803.desc:0 "The $name_terraform_barren$'s Atmospheric Generator has just been constructed. This large grid surrounding a barren world is able to generate large amounts of atmosphere and can tweak this planet's climate at will.\nAll there is left to do now is actually begin the terraforming process."
-  giga_dialog.3803.a:0 "Great."
+  # giga_dialog.3803.name:0 "$name_terraform_barren$ Atmospheric Generator Built"
+  # giga_dialog.3803.desc:0 "The $name_terraform_barren$'s Atmospheric Generator has just been constructed. This large grid surrounding a barren world is able to generate large amounts of atmosphere and can tweak this planet's climate at will.\nAll there is left to do now is actually begin the terraforming process."
+  # giga_dialog.3803.a:0 "Great."
 
   giga_dialog.3804.name:0 "$name_terraform_barren$ Terraforming Successful"
-  giga_dialog.3804.desc:0 "The $name_terraform_barren$ built in the [giga_system.GetName] system has successfully terraformed this planet into a habitable world! While it has tolerable climate for most lifeforms, it is completely devoid of life, and will require additional terraforming if its habitability is still too low to allow adequate colonization. Otherwise, this is a wonderful technological feat we just accomplished, proving our mastery over terraformation."
+  giga_dialog.3804.desc:0 "The §Y$name_terraform_barren$§! built in the §Y[giga_system.GetName]§! system has successfully terraformed §Y[giga_planet.GetName]§! into a habitable world! While it has tolerable climate for most lifeforms, it is completely devoid of life, and will require additional terraforming if its habitability is still too low to allow adequate colonization. Otherwise, this is a wonderful technological feat we just accomplished, proving our mastery over terraformation."
   giga_dialog.3804.a:0 "Amazing!"
 
   terraform_barren_0:0 "$gc_kilo$$name_terraform_barren$ Construction Site"
   terraform_barren_0_DESC:0 "The construction site for a future $name_terraform_barren$. It contains the large amount of personnel and machinery necessary to construct a device capable of bringing life to a desolate world."
   terraform_barren_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_terraforming$\nConverts a §YBarren World§! or §YFrozen World§! into a §YLifeless Temperate World§!\n§LThis planet-circling construct re-ignites a dead planet's magnetic field and implements a hydrosphere, rendering desolate worlds more habitable.§!" #gigalistentry DYNAMIC CORE IGNITOR
 
-  terraform_barren_1:0 "$name_terraform_barren$ Hypercoils"
-  terraform_barren_1_DESC:0 "These two massive geomagnetic coils serve the purpose of remotely melting the planet's core and effectively re-activate this world's magnetic field, in order to make this planet able to hold a thick atmosphere."
+  # terraform_barren_1:0 "$name_terraform_barren$ Hypercoils"
+  # terraform_barren_1_DESC:0 "These two massive geomagnetic coils serve the purpose of remotely melting the planet's core and effectively re-activate this world's magnetic field, in order to make this planet able to hold a thick atmosphere."
 
-  terraform_barren_2:0 "$name_terraform_barren$"
-  terraform_barren_2_DESC:0 "The $name_terraform_barren$ is now equipped with a large array of atmospheric manipulation devices, which can seed an breathable atmosphere and water across the surface of this world. All there is left to do now is begin the process."
+  terraform_barren_1:0 "$name_terraform_barren$"
+  terraform_barren_1_DESC:0 "The $name_terraform_barren$ is now equipped with a large array of atmospheric manipulation devices, which can seed an breathable atmosphere and water across the surface of this world. All there is left to do now is begin the process."
 
-  terraform_barren_3:0 "Begin Terraforming"
-  terraform_barren_3_DESC:0 "Order the $name_terraform_barren$'s crew to begin the large-scale process of re-activating this planet's magnetic field and subsequently implement a breathable atmosphere and a stable hydrosphere."
+  # terraform_barren_3:0 "Begin Terraforming"
+  # terraform_barren_3_DESC:0 "Order the $name_terraform_barren$'s crew to begin the large-scale process of re-activating this planet's magnetic field and subsequently implement a breathable atmosphere and a stable hydrosphere."
 
   terraform_barren_2_disabled:0 "Ancient $name_terraform_barren$"
   terraform_barren_2_disabled_DESC:0 "This ancient $name_terraform_barren$ was constructed eons ago by an unknown civilization. It runs off some antique power source, and seems to be operational."
@@ -6899,30 +6919,30 @@
   giga_dialog.3901.desc:0 "The construction site for a future $name_terraform_toxic$ has now been completed in the [giga_system.GetName] system! This rather large orbital platform houses the necessary equipment to begun constructing an $name_terraform_toxic$ around a toxic world, eventually rendering it habitable."
   giga_dialog.3901.a:0 "Nice."
 
-  giga_dialog.3902.name:0 "$name_terraform_toxic$ Processing Rings Built"
-  giga_dialog.3902.desc:0 "The Processing Rings of a future $name_terraform_toxic$ have been assembled around a toxic world. Housing incredibly large chemical reprocessing facilities, those ring-shaped constructs have the ability to rapidly and efficiently convert the toxic elements within a planet atmosphere into breathable ones."
-  giga_dialog.3902.a:0 "Great job."
+  giga_dialog.3902.name:0 "$name_terraform_toxic$ Complete!"
+  giga_dialog.3902.desc:0 "A $name_terraform_toxic$ has been assembled around a toxic world. Housing incredibly large chemical reprocessing facilities, those ring-shaped constructs have the ability to rapidly and efficiently convert the toxic elements within a planet atmosphere into breathable ones. They are supplemented by two massive pumps, capable of extracting and injecting huge quantities of gases in and out of a planet's atmosphere.\n\nWith the $name_terraform_toxic$'s now complete, we must now begin the terraforming process itself."
+  giga_dialog.3902.a:0 "Let us do so at once."
 
-  giga_dialog.3903.name:0 "$name_terraform_toxic$ Macromanipulators Built"
-  giga_dialog.3903.desc:0 "An $name_terraform_toxic$'s Macromanipulators are now complete! They consist of two massive pumps, capable of extracting and injecting huge quantities of gases in and out of a planet's atmosphere.\n\nWith the $name_terraform_toxic$'s now complete, we must now begin the terraforming process itself..."
-  giga_dialog.3903.a:0 "Fantastic."
+  # giga_dialog.3903.name:0 "$name_terraform_toxic$ Macromanipulators Built"
+  # giga_dialog.3903.desc:0 "An $name_terraform_toxic$'s Macromanipulators are now complete! They consist of two massive pumps, capable of extracting and injecting huge quantities of gases in and out of a planet's atmosphere.\n\nWith the $name_terraform_toxic$'s now complete, we must now begin the terraforming process itself..."
+  # giga_dialog.3903.a:0 "Fantastic."
 
   giga_dialog.3904.name:0 "$name_terraform_toxic$ Terraforming Successful!"
-  giga_dialog.3904.desc:0 "Fantastic news! Our $name_terraform_toxic$ in the [giga_system.GetName] system has successfully terraformed an once toxic world into a habitable, albeit lifeless world. Although the terraformed planet possesses a rather thick atmosphere, it should now be ready for colonization. We can also choose to terraform it further if we so desire."
+  giga_dialog.3904.desc:0 "Fantastic news! Our §Y$name_terraform_toxic$§! in the §Y[giga_system.GetName]§! system has successfully terraformed the once toxic world of §Y[giga_planet.GetName]§! into a habitable, albeit lifeless world. Although the terraformed planet possesses a rather thick atmosphere, it should now be ready for colonization. We can also choose to terraform it further if we so desire."
   giga_dialog.3904.a:0 "An incredible feat."
 
   terraform_toxic_0:0 "$gc_kilo$$name_terraform_toxic$ Construction Site"
   terraform_toxic_0_DESC:0 "The construction site for a future $name_terraform_toxic$, housing the necessary equipment to begin constructing the megastructure. It'll eventually be able to transform a toxic planet into a habitable, albeit lifeless world."
   terraform_toxic_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_terraforming$\nConverts a §YToxic World§! into a §YLifeless Fogged World§!\n§LThe Atmospheric Purifier is tasked with the painstaking process of transforming a toxic atmosphere into a breathable one by purging or transforming toxic compounds.§!" #gigalistentry ATMOSPHERIC PURIFIER
 
-  terraform_toxic_1:0 "$name_terraform_toxic$ Processing Rings"
-  terraform_toxic_1_DESC:0 "The massive rings stretching around the toxic world house large facilities capable of chemically reprocessing a planet's atmosphere, converting once-toxic gases into breathable air."
+  # terraform_toxic_1:0 "$name_terraform_toxic$ Processing Rings"
+  # terraform_toxic_1_DESC:0 "The massive rings stretching around the toxic world house large facilities capable of chemically reprocessing a planet's atmosphere, converting once-toxic gases into breathable air."
 
-  terraform_toxic_2:0 "$name_terraform_toxic$ Macromanipulators"
-  terraform_toxic_2_DESC:0 "This $name_terraform_toxic$ has been equipped with two massive pumps, capable of manipulating a planet's atmosphere, making it more or less dense, and redistributing its constituent gasses."
+  terraform_toxic_1:0 "$name_terraform_toxic$ Macromanipulators"
+  terraform_toxic_1_DESC:0 "This $name_terraform_toxic$ has been equipped with two massive pumps, capable of manipulating a planet's atmosphere, making it more or less dense, and redistributing its constituent gasses."
 
-  terraform_toxic_3:0 "Begin Terraforming"
-  terraform_toxic_3_DESC:0 "Order the Atmospheric Manipulator's crew to begin transforming this planet's atmosphere and hydrosphere into something that can be inhabited by most forms of life."
+  # terraform_toxic_3:0 "Begin Terraforming"
+  # terraform_toxic_3_DESC:0 "Order the Atmospheric Manipulator's crew to begin transforming this planet's atmosphere and hydrosphere into something that can be inhabited by most forms of life."
 
   #########################################
   ### War Moon ############################

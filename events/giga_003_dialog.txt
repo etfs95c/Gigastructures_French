@@ -3098,7 +3098,7 @@ country_event = {
 	show_sound = event_dyson_sphere_build_upgrade_panel
 	location = event_target:giga_planet
 	is_triggered_only = yes
-	option = { name = "giga_dialog.3802.a" }
+	option = { name = "giga_dialog.3802.a" custom_tooltip = "giga_terraform_site_mechanics" }
 }
 
 country_event = {
@@ -3145,7 +3145,7 @@ country_event = {
 	show_sound = event_dyson_sphere_build_upgrade_panel
 	location = event_target:giga_planet
 	is_triggered_only = yes
-	option = { name = "giga_dialog.3902.a" }
+	option = { name = "giga_dialog.3902.a" custom_tooltip = "giga_terraform_site_mechanics" }
 }
 
 country_event = {
@@ -3192,7 +3192,7 @@ country_event = {
 	show_sound = event_dyson_sphere_build_upgrade_panel
 	location = event_target:giga_planet
 	is_triggered_only = yes
-	option = { name = "giga_dialog.4002.a" }
+	option = { name = "giga_dialog.4002.a" custom_tooltip = "giga_terraform_site_mechanics" }
 }
 
 country_event = {

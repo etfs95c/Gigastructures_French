@@ -1,6 +1,13 @@
 ###################################
 ### Miscellaneous Modifiers #######
 ###################################
+megastructure_terraforming_candidate = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_planet_from_space.dds"
+	icon_frame = 1
+	important = yes			# if present on a planet, show the planet's nameplate
+	custom_tooltip = megastructure_terraforming_candidate_tooltip
+}
+
 giga_o_star_modifier = {
 	icon_frame = 1
 	icon = "gfx/interface/icons/planet_modifiers/pm_giga_o_star_modifier.dds"

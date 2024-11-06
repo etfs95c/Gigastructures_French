@@ -1,4 +1,30 @@
 defined_text = {
+	name = giga_terraform_site_barren
+
+	text = {
+		trigger = {
+			exists = owner
+			owner = { has_technology = giga_tech_terraform_barren }
+		}
+
+		localization_key = "giga_terraform_site_barren_loc"
+	}
+}
+
+defined_text = {
+	name = giga_terraform_site_toxic
+
+	text = {
+		trigger = {
+			exists = owner
+			owner = { has_technology = giga_tech_terraform_toxic }
+		}
+
+		localization_key = "giga_terraform_site_toxic_loc"
+	}
+}
+
+defined_text = {
 	name = giga_virtual_training_coordinator_extra
 
 	text = {
