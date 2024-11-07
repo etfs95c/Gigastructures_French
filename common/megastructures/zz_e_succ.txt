@@ -159,7 +159,6 @@ succ_0 = {
 		save_event_target_as = giga_system
 		fromfrom.planet = {
 			save_event_target_as = giga_planet
-			if = { limit = { exists = orbital_station } orbital_station = { dismantle = yes } }
 			giga_set_has_mega_flag = yes
 		}
 		from = {
@@ -216,6 +215,8 @@ succ_1 = {
 		NOT = { has_megastructure_flag = giga_outliner_hidden_by_@owner }
 	}
 	
+	use_planet_resource = yes
+
 	build_time = 3600
 	resources = {
 		category = giga_megastructures
@@ -223,10 +224,6 @@ succ_1 = {
 		cost = { alloys = -1 multiplier = value:giga_ai_savings_cost|CATEGORY|important|RESOURCE|alloys|AMOUNT|7500| }
 		cost = { unity = -1 multiplier = value:giga_ai_savings_cost|CATEGORY|important|RESOURCE|unity|AMOUNT|@giga_mega_unity_cost| }
 		upkeep = { alloys = 35 multiplier = value:giga_succ_speed_manage }
-
-		produces = { energy = 100 multiplier = value:giga_succ_basic_ratio }
-		produces = { exotic_gases = 1 multiplier = value:giga_succ_sr_exotic_gases_output }
-		produces = { volatile_motes = 1 multiplier = value:giga_succ_sr_volatile_motes_output }
 	}
 
 	on_build_start = {
@@ -240,7 +237,14 @@ succ_1 = {
 	ai_weight = { factor = value:giga_ai_base_continue } # If we can build it, we will build it
 	on_build_complete = {
 		save_event_target_as = giga_system
-		fromfrom.planet = { 
+		fromfrom.planet = {
+			change_pc = pc_metallic_hydrogen
+			add_deposit = d_energy_2
+			add_deposit = d_exotic_gases_2
+			add_modifier = {
+				modifier = succ_mod
+				days = -1
+			}
 			save_event_target_as = giga_planet
 			# planet_event = { id = giga_mega.201 days = 720 } 
 			set_variable = {
@@ -266,17 +270,17 @@ succ_1 = {
 				giga_achievement_sound = yes
 			}
 		}
-		event_target:giga_global_situation_country = {
-			start_situation = {
-				type = giga_situation_succ
-				target = fromfrom
-				effect = {
-					save_global_event_target_as = progress_situation_of_@target
-					target = {
-						set_megastructure_flag = succ_mega_of_@prev
-					}					
-				}
-			}
-		}
+		# event_target:giga_global_situation_country = {
+		# 	start_situation = {
+		# 		type = giga_situation_succ
+		# 		target = fromfrom
+		# 		effect = {
+		# 			save_global_event_target_as = progress_situation_of_@target
+		# 			target = {
+		# 				set_megastructure_flag = succ_mega_of_@prev
+		# 			}					
+		# 		}
+		# 	}
+		# }
 	}
 }

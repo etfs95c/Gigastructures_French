@@ -8187,24 +8187,24 @@
   giga_dialog.3504.desc:0 "Our $name_crystal_megabore$ has been fully completed in the [giga_system.GetName] system! Equipped with a gigantic orbital laser beam, it has pierced this world's crust and mantle, and reached into its very core. Massive amounts of crystals and minerals are now being pulled out from the planet's hellish center, which will surely be very useful to our industries."
   giga_dialog.3504.a:0 "Marvelous!"
 
-  crystal_megabore_0:0 "$gc_mega$$name_crystal_megabore$ Construction Site"
+  crystal_megabore_0:0 "$gc_kilo$$name_crystal_megabore$ Construction Site"
   crystal_megabore_0_DESC:0 "This orbital platform serves as the construction site for a future $name_crystal_megabore$ around this molten world. It houses the necessary personnel and infrastructure in order to begin constructing this massive space station."
-  crystal_megabore_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_strategic_resource_production$\nHarvests £rare_crystals£ §YRare Crystals§! from a §YMolten World§!\n§LThe Crystal Megabore drills all the way into a planet's core, retrieving extremely valuable and usually unaccessible resources from it."
+  crystal_megabore_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_strategic_resource_production$\nReveals and amplifies deposits of £rare_crystals£ §YRare Crystals§! and £food£ §YFood§! on §YFrozen Worlds§!.\n§LDrilling straight through the icy crust, the Crystal Megabore breaches into a frozen world's subsurface ocean, simultaneously reaping extreme-pressure rare crystal outcrops and processing marine wildlife into edible matter.§!"
 
-  crystal_megabore_1:0 "$name_crystal_megabore$ Refinery Hub"
-  crystal_megabore_1_DESC:0 "The Crystal Bore's refinery hub will serve the purpose of purifying and refining the massive amounts of molten rock that will be pulled from the planet's core, and separating the precious crystals from it."
+  # crystal_megabore_1:0 "$name_crystal_megabore$ Refinery Hub"
+  # crystal_megabore_1_DESC:0 "The Crystal Bore's refinery hub will serve the purpose of purifying and refining the massive amounts of molten rock that will be pulled from the planet's core, and separating the precious crystals from it."
 
-  crystal_megabore_2:0 "$name_crystal_megabore$ Gravitogenerator"
-  crystal_megabore_2_DESC:0 "The Gravitogenerator plays a crucial role in mining the planet below, as it provides energy and acts as a catalyst for the Bore's main drill."
+  # crystal_megabore_2:0 "$name_crystal_megabore$ Gravitogenerator"
+  # crystal_megabore_2_DESC:0 "The Gravitogenerator plays a crucial role in mining the planet below, as it provides energy and acts as a catalyst for the Bore's main drill."
 
-  crystal_megabore_3:0 "$name_crystal_megabore$"
-  crystal_megabore_3_DESC:0 "A fully operational $name_crystal_megabore$, pulling massive amounts of crystals and minerals directly from a planet's molten core."
+  crystal_megabore_1:0 "$name_crystal_megabore$"
+  crystal_megabore_1_DESC:0 "A fully operational $name_crystal_megabore$, pulling massive amounts of crystals and minerals directly from a planet's molten core."
 
   #########################################
   ### S.U.C.C. ############################
   #########################################
   giga_tech_succ:0 "Global Atmospheric Stripmining"
-  giga_tech_succ_desc:0 "The atmospheres of Gas Giants are full of resources, such as Exotic Gases and Volatile Motes. Massive tractor beams, paired with fusion and refining facilities, could allow us to steadily stripmine a Gas Giant's atmosphere, harvesting all of its resources."
+  giga_tech_succ_desc:0 "The atmospheres of Gas Giants are full of resources such as Exotic Gases. Massive tractor beams, paired with fusion and refining facilities, could allow us to steadily stripmine a Gas Giant's atmosphere, harvesting all of its resources."
 
   #########################################
   ### Orbital Arcologies ##################
