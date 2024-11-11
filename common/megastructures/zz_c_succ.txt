@@ -239,7 +239,6 @@ succ_1 = {
 		save_event_target_as = giga_system
 		fromfrom.planet = {
 			change_pc = pc_metallic_hydrogen
-			add_deposit = d_energy_2
 			add_deposit = d_exotic_gases_2
 			add_modifier = {
 				modifier = succ_mod

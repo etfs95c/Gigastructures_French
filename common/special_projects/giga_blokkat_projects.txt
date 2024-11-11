@@ -237,8 +237,7 @@ special_project = {
 	}
 
 	on_success = {
-		owner = {
-			country_event = { id = giga_blokkat.10023 }
-		}
+		owner = { country_event = { id = giga_blokkat.10023 } }
+		delete_fleet = THIS
 	}
 }

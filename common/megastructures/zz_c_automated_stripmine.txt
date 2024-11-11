@@ -138,7 +138,6 @@ automated_stripmine_1 = { # Update
 		fromfrom.planet = {
 			save_event_target_as = giga_planet
 			change_pc = pc_strip_mined
-			add_deposit = d_minerals_2
 			add_deposit = d_volatile_motes_2
 			add_modifier = {
 				modifier = stripmine_mod

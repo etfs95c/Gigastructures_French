@@ -49,7 +49,7 @@
 
   name_crystal_megabore:0 "Crystal Megabore"
   allow_crystal_megabore:0 "§HUnlocks Megastructure:§! $name_crystal_megabore$"
-  desc_crystal_megabore:0 "A massive orbital facility which bores directly into a Molten Planet's core, extracting large amounts of rare crystals."
+  desc_crystal_megabore:0 "A massive orbital facility which bores directly into a Frozen Planet's pressured ocean, extracting large amounts of rare crystals."
 
   name_interstellar_hab:0 "Interstellar Habitat"
   allow_interstellar_hab:0 "§HUnlocks Megastructure:§! $name_interstellar_hab$"
@@ -6867,6 +6867,9 @@
 
   giga_terraform_site_mechanics:0 "We can now §YTerraform§! the target world using the terraforming menu. Doing so will quadruple the £energy£ §Y$energy$§! upkeep of the megastructure for the duration of the process. Once terraforming is complete, the megastructure will dismantle itself."
 
+  megastructure_terraforming_candidate:0 "Megastructural Terraforming Candidate"
+  megastructure_terraforming_candidate_desc:0 "Despite being utterly unhospitable for a life, a megastructure around this world enables terraformation into a more habitable form."
+
   #########################################
   ### Terraform Barren ####################
   #########################################
@@ -8169,27 +8172,27 @@
   ### Crystal Megabore ####################
   #########################################
   giga_tech_crystal_megabore:0 "Core Crystal Harvesting"
-  giga_tech_crystal_megabore_desc:0 "Rare crystals are formed when extreme pressures meet extreme temperatures within the interior of celestial bodies. It's then up to random chance to bring them up to the surface, where they can be harvested by us. However, this luck factor can be eliminated by boring straight into a world's core, and directly harvesting the precious crystals from there!"
+  giga_tech_crystal_megabore_desc:0 "Rare crystals are often formed when extreme pressures meet extreme temperatures within the interior of celestial bodies. It's then up to random chance to bring them up to the surface, where they can be harvested by us. However, this luck factor can be eliminated by boring straight through a world's crust, and directly harvesting the precious crystals from there!"
 
   giga_dialog.3501.name:0 "$name_crystal_megabore$ Construction Site Complete"
-  giga_dialog.3501.desc:0 "The construction site for a future $name_crystal_megabore$ has been completed in the [giga_system.GetName] system. Upon this scaffold, we shall construct a massive space station, which will project a gigantic laser beam boring directly into the molten world's core, harvesting pure crystals from it."
+  giga_dialog.3501.desc:0 "The construction site for a future $name_crystal_megabore$ has been completed in the [giga_system.GetName] system. Upon this scaffold, we shall construct a massive space station, which will project a gigantic laser beam boring directly through a frozen world's icy crust, melting it and enabling for the harvest of pure crystals from the ocean floor."
   giga_dialog.3501.a:0 "Great."
 
-  giga_dialog.3502.name:0 "$name_crystal_megabore$ Main Hub Complete"
-  giga_dialog.3502.desc:0 "Our engineers have now completed the construction of our $name_crystal_megabore$'s main hub in the [giga_system.GetName] system. Orbiting around a molten world, this massive space station houses forges and refineries specialized in purifying molten rock into rare crystals, which is indispensable if we wish to efficiently harvest the world below."
-  giga_dialog.3502.a:0 "Good."
+  # giga_dialog.3502.name:0 "$name_crystal_megabore$ Main Hub Complete"
+  # giga_dialog.3502.desc:0 "Our engineers have now completed the construction of our $name_crystal_megabore$'s main hub in the [giga_system.GetName] system. Orbiting around a molten world, this massive space station houses forges and refineries specialized in purifying molten rock into rare crystals, which is indispensable if we wish to efficiently harvest the world below."
+  # giga_dialog.3502.a:0 "Good."
 
-  giga_dialog.3503.name:0 "$name_crystal_megabore$ Gravitogenerator Complete"
-  giga_dialog.3503.desc:0 "Our $name_crystal_megabore$'s Gravitogenerator is now complete! This large structure fully encircles the Megabore's hub, and will provide it with energy. It will also serve as a catalyst for the Megabore's main drill, and drastically amplify the strength of its gravitational tractor beam."
-  giga_dialog.3503.a:0 "Wonderful."
+  # giga_dialog.3503.name:0 "$name_crystal_megabore$ Gravitogenerator Complete"
+  # giga_dialog.3503.desc:0 "Our $name_crystal_megabore$'s Gravitogenerator is now complete! This large structure fully encircles the Megabore's hub, and will provide it with energy. It will also serve as a catalyst for the Megabore's main drill, and drastically amplify the strength of its gravitational tractor beam."
+  # giga_dialog.3503.a:0 "Wonderful."
 
   giga_dialog.3504.name:0 "$name_crystal_megabore$ Complete!"
-  giga_dialog.3504.desc:0 "Our $name_crystal_megabore$ has been fully completed in the [giga_system.GetName] system! Equipped with a gigantic orbital laser beam, it has pierced this world's crust and mantle, and reached into its very core. Massive amounts of crystals and minerals are now being pulled out from the planet's hellish center, which will surely be very useful to our industries."
+  giga_dialog.3504.desc:0 "Our $name_crystal_megabore$ has been fully completed in the [giga_system.GetName] system! Equipped with a gigantic orbital laser beam, it has pierced and thawed this world's icy crust. Massive amounts of crystals are now being pulled out from the planet's hyperpressured seafloor, which will surely be very useful to our industries."
   giga_dialog.3504.a:0 "Marvelous!"
 
   crystal_megabore_0:0 "$gc_kilo$$name_crystal_megabore$ Construction Site"
-  crystal_megabore_0_DESC:0 "This orbital platform serves as the construction site for a future $name_crystal_megabore$ around this molten world. It houses the necessary personnel and infrastructure in order to begin constructing this massive space station."
-  crystal_megabore_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_strategic_resource_production$\nReveals and amplifies deposits of £rare_crystals£ §YRare Crystals§! and £food£ §YFood§! on §YFrozen Worlds§!.\n§LDrilling straight through the icy crust, the Crystal Megabore breaches into a frozen world's subsurface ocean, simultaneously reaping extreme-pressure rare crystal outcrops and processing marine wildlife into edible matter.§!"
+  crystal_megabore_0_DESC:0 "This orbital platform serves as the construction site for a future $name_crystal_megabore$ around this frozen world. It houses the necessary personnel and infrastructure in order to begin constructing this massive space station."
+  crystal_megabore_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_strategic_resource_production$\nReveals and amplifies deposits of £rare_crystals£ §YRare Crystals§! and £food£ §YFood§! on §YFrozen Worlds§!.\n§LOrbitally thawing the icy crust, the Crystal Megabore reveals a frozen world's subsurface ocean and reaps high-pressure crystalline deposits while processing marine wildlife into edible matter.§!"
 
   # crystal_megabore_1:0 "$name_crystal_megabore$ Refinery Hub"
   # crystal_megabore_1_DESC:0 "The Crystal Bore's refinery hub will serve the purpose of purifying and refining the massive amounts of molten rock that will be pulled from the planet's core, and separating the precious crystals from it."
@@ -8198,7 +8201,7 @@
   # crystal_megabore_2_DESC:0 "The Gravitogenerator plays a crucial role in mining the planet below, as it provides energy and acts as a catalyst for the Bore's main drill."
 
   crystal_megabore_1:0 "$name_crystal_megabore$"
-  crystal_megabore_1_DESC:0 "A fully operational $name_crystal_megabore$, pulling massive amounts of crystals and minerals directly from a planet's molten core."
+  crystal_megabore_1_DESC:0 "A fully operational $name_crystal_megabore$, pulling massive amounts of crystals and minerals directly from a planet's formerly subsurface ocean."
 
   #########################################
   ### S.U.C.C. ############################

@@ -3302,7 +3302,7 @@ country_event = {
 			}
 			solar_system = {
 				every_system_megastructure = {
-					limit = { is_megastructure_type = terraform_barren_2_disabled }
+					limit = { is_megastructure_type = terraform_barren_1 }
 					remove_megastructure = THIS
 				}
 				create_fe_home_citadel = yes
@@ -3349,6 +3349,7 @@ country_event = {
 		event_target:potradus = {
 			set_name = "Potradus Preserve"
 			change_pc = pc_gaia
+			remove_modifier = megastructure_terraforming_candidate
 			giga_clear_has_mega_flag = yes
 			set_owner = event_target:giga_meopa_fe
 			set_controller = event_target:giga_meopa_fe
@@ -3832,7 +3833,7 @@ country_event = {
 			}
 			solar_system = {
 				every_system_megastructure = {
-					limit = { is_megastructure_type = terraform_barren_2_disabled }
+					limit = { is_megastructure_type = terraform_barren_1 }
 					remove_megastructure = THIS
 				}
 				create_fe_home_citadel = yes
@@ -3845,6 +3846,7 @@ country_event = {
 		event_target:potradus = {
 			set_name = "Neu-Katzenland"
 			change_pc = pc_gaia
+			remove_modifier = megastructure_terraforming_candidate
 			giga_clear_has_mega_flag = yes
 			set_owner = event_target:giga_meopa_fe
 			set_controller = event_target:giga_meopa_fe
@@ -4426,7 +4428,7 @@ country_event = {
 			}
 			solar_system = {
 				every_system_megastructure = {
-					limit = { is_megastructure_type = terraform_barren_2_disabled }
+					limit = { is_megastructure_type = terraform_barren_1 }
 					remove_megastructure = THIS
 				}
 				create_fe_home_citadel = yes
@@ -4502,6 +4504,7 @@ country_event = {
 		}
 		event_target:potradus = {
 			set_name = "Potradus Archives"
+			remove_modifier = megastructure_terraforming_candidate
 			change_pc = pc_giga_planetary_computer
 			set_planet_flag = giga_planetary_computer
 			set_owner = event_target:giga_meopa_fe

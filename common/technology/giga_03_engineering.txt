@@ -48,31 +48,31 @@ giga_tech_engineering_test_site = {
 ########################
 ### Industry ###########
 ########################
-giga_tech_automated_stripmine_1 = {
-	cost = @tier3cost3
-	area = engineering
-	tier = 3
-	category = { industry }
-	prerequisites = { "tech_construction_templates" "tech_modular_engineering" }
-	weight = @tier3weight3
-	modifier = {
-		planet_building_build_speed_mult = 0.15
-		planet_pop_assembly_mult = 0.1
-	}
+# giga_tech_automated_stripmine_1 = {
+# 	cost = @tier3cost3
+# 	area = engineering
+# 	tier = 3
+# 	category = { industry }
+# 	prerequisites = { "tech_construction_templates" "tech_modular_engineering" }
+# 	weight = @tier3weight3
+# 	modifier = {
+# 		planet_building_build_speed_mult = 0.15
+# 		planet_pop_assembly_mult = 0.1
+# 	}
 
-	potential = {
-		has_any_megastructure_dlc = yes
-	}
+# 	potential = {
+# 		has_any_megastructure_dlc = yes
+# 	}
 
-	weight_modifier = {
-		inline_script = technology/tech_weight_boni/expansionist_tech_weight_bonus
-		inline_script = technology/tech_weight_boni/exploitative_tech_weight_bonus
-	}
+# 	weight_modifier = {
+# 		inline_script = technology/tech_weight_boni/expansionist_tech_weight_bonus
+# 		inline_script = technology/tech_weight_boni/exploitative_tech_weight_bonus
+# 	}
 
-	ai_weight = {
-		factor = @giga_aiweight_multiplier_strong	#Resources good.
-	}
-}
+# 	ai_weight = {
+# 		factor = @giga_aiweight_multiplier_strong	#Resources good.
+# 	}
+# }
 
 giga_tech_automated_stripmine_2 = {
 	cost = @tier4cost2
@@ -80,14 +80,13 @@ giga_tech_automated_stripmine_2 = {
 	tier = 4
 	category = { industry }
 	is_rare = yes
-	prerequisites = { "tech_mining_3" "tech_mineral_purification_2" "giga_tech_automated_stripmine_1" }
+	prerequisites = { "tech_mining_3" "tech_mine_volatile_motes" "tech_mega_engineering" }
 	weight = @tier4weight2
 	prereqfor_desc = {
 		custom = { title = "allow_auto_stripmine"	desc = "desc_auto_stripmine" }
 	}
 	modifier = {
-		country_resource_max_add = 5000
-		planet_jobs_minerals_produces_mult = 0.05
+		station_gatherers_volatile_motes_produces_mult = 0.10
 	}
 
 	potential = {
@@ -151,12 +150,15 @@ giga_tech_crystal_megabore = {
 	tier = 4
 	category = { industry }
 	is_rare = yes
-	prerequisites = { "tech_mining_3" "tech_mineral_purification_2" "tech_mega_engineering" "tech_mine_rare_crystals" }
+	prerequisites = { "tech_mineral_purification_2" "tech_mega_engineering" "tech_mine_rare_crystals" }
 	weight = @tier4weight2
 	prereqfor_desc = {
 		custom = { title = "allow_crystal_megabore"	desc = "desc_crystal_megabore" }
 	}
-	modifier = { planet_jobs_minerals_produces_mult = 0.025 }
+
+	modifier = {
+		station_gatherers_rare_crystals_produces_mult = 0.10
+	}
 
 	potential = {
 		NOT = { has_global_flag = crystal_disabled }
@@ -1008,7 +1010,10 @@ giga_tech_succ = {
 	prereqfor_desc = {
 		custom = { title = "allow_succ"	desc = "desc_succ" }
 	}
-	modifier = { country_exotic_gases_produces_mult = 0.10 }			# Incase this tech's megastructure is disabled
+
+	modifier = {
+		station_gatherers_exotic_gases_produces_mult = 0.10
+	}
 
 	potential = {
 		has_any_megastructure_dlc = yes
