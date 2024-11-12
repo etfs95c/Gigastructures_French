@@ -629,7 +629,7 @@ gigas_technical_megas_list = {
 
 		# megas
 		$CONDITION$ = war_moon_scrap # scrap moon
-		$CONDITION$ = lunar_disco_ball_2_manage # manage speculoreflector
+		# $CONDITION$ = lunar_disco_ball_2_manage # manage speculoreflector
 		$CONDITION$ = psychic_beacon_4 # activate psionic beacon
 		$CONDITION$ = r_square_world_hub_garyx # talk to square world hub
 		$CONDITION$ = substellar_compressor_7 # dismantle substellar compressor

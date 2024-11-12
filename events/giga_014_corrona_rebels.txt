@@ -5416,7 +5416,6 @@ country_event = {
 	}
 
 	immediate = {
-		set_country_flag = flusion_map_active
 		event_target:flusion_primitives_country = {
 			set_variable = {
 				which = "flusion_total_res_value"
