@@ -324,6 +324,22 @@ country_event = {
 				}
 				add_deposit = d_genesis_preserve
 			}
+			if = {
+				limit = {
+					ROOT = { is_dark_consortium_empire = yes }
+				}
+				system_star = {
+					add_deposit = d_dark_matter_deposit_1
+				}
+				event_target:ehofo_old_world = {
+					random_system_planet = {
+						limit = {
+							has_deposit = d_dark_matter_deposit_1
+						}
+						remove_deposit = d_dark_matter_deposit_1
+					}
+				}
+			}
 		}
 		event_target:ehofo_old_world = {
 			destroy_colony = yes
