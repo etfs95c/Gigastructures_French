@@ -45,6 +45,7 @@ spriteTypes = {
         textureFile = gfx/interface/icons/technologies/giga_tech_asteroid_manufactory.dds
     }
 
+    # terraforming site
     spriteType = {
         name = GFX_terraform_site_0_build_icon
         textureFile = gfx/interface/icons/technologies/giga_tech_terraform_site.dds
@@ -376,7 +377,7 @@ spriteTypes = {
 
     # large ehof
     spriteType = {
-        name = GFX_supermassive_ehof_0
+        name = GFX_supermassive_ehof_0_build_icon
         textureFile = gfx/interface/icons/technologies/giga_tech_supermassive_ehof.dds
     }
 }

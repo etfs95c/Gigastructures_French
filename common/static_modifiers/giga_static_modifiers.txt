@@ -1,6 +1,10 @@
 ###################################
 ### Miscellaneous Modifiers #######
 ###################################
+giga_subsurface_ocean = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_giga_subsurface_ocean.dds"
+}
+
 megastructure_terraforming_candidate = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_planet_from_space.dds"
 	icon_frame = 1

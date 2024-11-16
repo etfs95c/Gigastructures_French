@@ -928,8 +928,8 @@
 ### Strat. Res. Kilos #######
 #############################
 
-@sr_kilo_sr_mod_value	= 10
-@sr_kilo_res_mod_value	= 5
+@sr_kilo_sr_mod_value	= 3
+@sr_kilo_res_mod_value	= 6
 
 #############################
 ### Job Inline Modes ########

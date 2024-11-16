@@ -141,7 +141,7 @@ supermassive_ehof_3 = {
 			unity = @giga_tera_unity_cost
 		}
 		upkeep = { energy = 1 multiplier = value:giga_supermassive_ehof_upkeep }
-		upkeep = { ehof_sr_negative_mass = 0.001 multiplier = value:giga_supermassive_ehof_upkeep }
+		upkeep = { ehof_sr_negative_mass = 0.01 multiplier = value:giga_supermassive_ehof_upkeep }
 	}
 
 	country_modifier = {

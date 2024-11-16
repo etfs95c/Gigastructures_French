@@ -1216,7 +1216,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				OR = { has_global_flag = giga_blokkats_deathmode has_global_flag = giga_blokkats_endtech }
+				has_global_flag = giga_blokkats_deathmode
 				OR = {
 					any_country = { has_country_flag = oe_player }
 					any_country = { has_authority = auth_warshipgirls }

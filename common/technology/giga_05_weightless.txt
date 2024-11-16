@@ -266,11 +266,11 @@ giga_tech_planetary_matter_harvesting = {
 }
 
 giga_tech_supermassive_ehof = {
-	cost = 250000
-	area = engineering
+	cost = @giga_tier7cost1
+	area = physics
 	tier = 5
 	is_dangerous = yes
-	category = { voidcraft }
+	category = { field_manipulation }
 	weight = 0
 	is_rare = yes
 	potential = {
