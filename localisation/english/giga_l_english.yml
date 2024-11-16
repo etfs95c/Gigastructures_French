@@ -8207,7 +8207,8 @@
 
   crystal_megabore_0:0 "$gc_kilo$$name_crystal_megabore$ Construction Site"
   crystal_megabore_0_DESC:0 "This orbital platform serves as the construction site for a future $name_crystal_megabore$ around this frozen world. It houses the necessary personnel and infrastructure in order to begin constructing this massive space station."
-  crystal_megabore_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_strategic_resource_production$\nRespectively reveals and amplifies deposits of £rare_crystals£ §YRare Crystals§! and £food£ §YFood§! on §YFrozen Worlds§!.\n§LOrbitally thawing the icy crust, the Crystal Megabore reveals a frozen world's subsurface ocean and reaps high-pressure crystalline deposits while processing marine wildlife into edible matter.§!"
+  crystal_megabore_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_strategic_resource_production$\nReveals and amplifies deposits of £rare_crystals£ §YRare Crystals§! and £food£ §YFood§! on §YFrozen Worlds§!.\n§LOrbitally thawing the icy crust, the Crystal Megabore reveals a frozen world's subsurface ocean and reaps high-pressure crystalline deposits while processing marine wildlife into edible matter.§!"
+  crystal_megabore_0_CONSTRUCTION_INFO_DELAYED:0 "$sr_mega_extra_data$"
 
   # crystal_megabore_1:0 "$name_crystal_megabore$ Refinery Hub"
   # crystal_megabore_1_DESC:0 "The Crystal Bore's refinery hub will serve the purpose of purifying and refining the massive amounts of molten rock that will be pulled from the planet's core, and separating the precious crystals from it."

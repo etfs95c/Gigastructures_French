@@ -323,6 +323,8 @@ giga_tech_terraform_barren = {
 	}
 
 	weight_modifier = {
+		modifier = { factor = 0.50 has_ascension_perk = ap_world_shaper }
+	
 		inline_script = technology/tech_weight_boni/expansionist_tech_weight_bonus
 		inline_script = technology/tech_weight_boni/ecofriendly_tech_weight_bonus
 
@@ -397,6 +399,8 @@ giga_tech_terraform_toxic = {
 	}
 
 	weight_modifier = {
+		modifier = { factor = 0.50 has_ascension_perk = ap_world_shaper }
+
 		inline_script = technology/tech_weight_boni/ecofriendly_tech_weight_bonus
 
 		inline_script = {
@@ -424,6 +428,8 @@ giga_tech_terraform_molten = {
 	modifier = { terraform_speed_mult = 0.05 }			# Incase this tech's megastructure is disabled
 
 	potential = {
+		modifier = { factor = 0.50 has_ascension_perk = ap_world_shaper }
+
 		has_any_megastructure_dlc = yes
 		NOT = {
 			AND = {

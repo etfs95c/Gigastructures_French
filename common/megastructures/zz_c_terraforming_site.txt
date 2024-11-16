@@ -177,6 +177,8 @@ terraform_site_0 = {
 
 		mult = value:giga_ai_planet_size
 		mult = value:giga_ai_prevent_spam|MEGA|terraform_molten|
+		mult = value:giga_ai_prevent_spam|MEGA|terraform_barren|
+		mult = value:giga_ai_prevent_spam|MEGA|terraform_toxic|
 		mult = value:giga_ai_build_low_priority
 		mult = value:giga_ai_unlock_low_priority
 		mult = value:giga_ai_overpopulation_boost
