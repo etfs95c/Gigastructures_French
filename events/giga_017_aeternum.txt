@@ -2479,7 +2479,13 @@ country_event = {
 	option = {
 		name = "giga_aeternum.4130.a"
 		custom_tooltip = "giga_aeternum_2_intel_tooltip"
-		trigger = { NOT = { has_country_flag = blew_up_first_aeternite_planetcraft } }
+		trigger = {
+			NOR = {
+				any_owned_megastructure = { is_megastructure_type = aeternum_planetcraft_ruined }
+				any_owned_starbase = { solar_system = { any_system_megastructure = { is_megastructure_type = aeternum_planetcraft_ruined } } }		
+				has_country_flag = analysed_aeternite_planetcraft
+			}
+		}
 		event_target:giga_temp_aet_planet = {
 			enable_special_project = {
 				name = "INVESTIGATE_AETERNUM_PLANETCRAFT"
@@ -5035,6 +5041,7 @@ country_event = {
 					value <= 0
 				}
 			}
+			remove_country_flag = doing_aiondia_expedition
 			country_event = { id = giga_aeternum.4400 }
 		}
 		else_if = {
@@ -5044,6 +5051,7 @@ country_event = {
 					value <= 0
 				}
 			}
+			remove_country_flag = doing_aiondia_expedition
 			country_event = { id = giga_aeternum.4401 }
 		}
 		else = {
@@ -5067,14 +5075,14 @@ country_event = {
 							flag = recent_aet_exp_anomaly
 							days = 160
 						}
-						country_event = { id = giga_aeternum.4329 days = 20 random = 20 }
+						country_event = { id = giga_aeternum.4329 days = 1 random = 20 }
 					}
 					10 = { #swchimm
 						set_timed_country_flag = {
 							flag = recent_aet_exp_anomaly
 							days = 160
 						}
-						country_event = { id = giga_aeternum.4328 days = 20 random = 20 }
+						country_event = { id = giga_aeternum.4328 days = 1 random = 20 }
 					}
 					10 = { #civilisation
 						set_timed_country_flag = {
@@ -5082,28 +5090,28 @@ country_event = {
 							days = 300
 						}
 						set_random_aet_resilience_value_civilization = yes
-						country_event = { id = giga_aeternum.4327 days = 20 random = 20 }
+						country_event = { id = giga_aeternum.4327 days = 1 random = 20 }
 					}
 					10 = { #ancient data cache
 						set_timed_country_flag = {
 							flag = recent_aet_exp_anomaly
 							days = 160
 						}
-						country_event = { id = giga_aeternum.4324 days = 20 random = 20 }
+						country_event = { id = giga_aeternum.4324 days = 1 random = 20 }
 					}
 					10 = { #bigass ship
 						set_timed_country_flag = {
 							flag = recent_aet_exp_anomaly
 							days = 160
 						}
-						country_event = { id = giga_aeternum.4326 days = 20 random = 20 }
+						country_event = { id = giga_aeternum.4326 days = 1 random = 20 }
 					}
 					10 = { #douclaw (what is he doing here?!)
 						set_timed_country_flag = {
 							flag = recent_aet_exp_anomaly
 							days = 160
 						}
-						country_event = { id = giga_aeternum.4325 days = 20 random = 20 }
+						country_event = { id = giga_aeternum.4325 days = 1 random = 20 }
 						modifier = {
 							factor = 0
 							NOT = { has_global_flag = katzenartig_imperium_defeated }
@@ -5282,6 +5290,7 @@ country_event = {
 				minor_artifacts = 500
 			}
 		}
+		give_specimen = { key = aeternite_golem origin = "Aiondia" }
 		hidden_effect = {
 			increase_aeternite_intel = yes
 			change_variable = {
@@ -6440,6 +6449,7 @@ country_event = {
 			resource = physics_research
 			value = 36
 		}
+		give_specimen = { key = slukatian_drive origin = Aiondia }
 		if = {
 			limit = { NOT = { has_modifier = aet_crashed_freighter_cool_ftl } }
 			add_modifier = {
@@ -6828,6 +6838,7 @@ country_event = {
 			resource = physics_research
 			value = 12
 		}
+		give_specimen = { key = planckeryons origin = "Aiondia" }
 		hidden_effect = {
 			increase_aeternite_intel = yes
 			change_variable = {
