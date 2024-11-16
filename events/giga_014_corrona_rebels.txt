@@ -5423,6 +5423,10 @@ country_event = {
 		room = "flusion_solak_room"
 	}
 
+	after = {
+		remove_country_flag = flusion_map_active
+	}
+
 	immediate = {
 		set_country_flag = flusion_map_active
 		event_target:flusion_primitives_country = {
@@ -5475,6 +5479,9 @@ country_event = {
 
 	option = {
 		name = EXIT
+		hidden_effect = {
+			remove_country_flag = flusion_map_active
+		}
 	}
 }
 

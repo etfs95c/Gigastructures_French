@@ -1981,7 +1981,6 @@ guiTypes = {
 						alwaysTransparent = yes
 						no_clicksound = yes
 						font = "malgun_goth_24"
-						text = "giga_news_title"
 						effect = "giga_not_page_00"
 					}
 				}	
