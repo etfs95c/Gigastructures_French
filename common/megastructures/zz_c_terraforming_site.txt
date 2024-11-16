@@ -101,8 +101,16 @@ terraform_site_0 = {
 						from = { has_technology = giga_tech_terraform_molten }
 					}
 					AND = {
+						is_planet_class = pc_barren_cold
+						from = { has_technology = giga_tech_terraform_barren }
+					}
+					AND = {
 						is_planet_class = pc_barren
-						from = { has_technology = giga_tech_terraform_molten }
+						from = { has_technology = giga_tech_terraform_barren }
+					}
+					AND = {
+						is_planet_class = pc_frozen
+						from = { has_technology = giga_tech_terraform_barren }
 					}
 					AND = {
 						is_planet_class = pc_toxic
@@ -181,6 +189,10 @@ terraform_site_0 = {
 			fromfrom = { upgrade_megastructure_to = terraform_barren_0 finish_upgrade = yes }
 		}
 		if = {
+			limit = { fromfrom.planet = { is_planet_class = pc_barren_cold } }
+			fromfrom = { upgrade_megastructure_to = terraform_barren_0 finish_upgrade = yes }
+		}
+		if = {
 			limit = { fromfrom.planet = { is_planet_class = pc_frozen } }
 			fromfrom = { upgrade_megastructure_to = terraform_barren_0 finish_upgrade = yes }
 		}
@@ -249,7 +261,7 @@ terraform_molten_1 = {
 			energy = @terraform_molten_ec_upkeep_idle
 		}
 		upkeep = {
-			trigger = { fromfrom.planet = { is_terraforming = yes } }
+			trigger = { planet = { is_terraforming = yes } }
 			energy = @terraform_molten_ec_upkeep
 		}
 	}
@@ -322,7 +334,7 @@ terraform_toxic_1 = {
 			energy = @terraform_toxic_ec_upkeep_idle
 		}
 		upkeep = {
-			trigger = { fromfrom.planet = { is_terraforming = yes } }
+			trigger = { planet = { is_terraforming = yes } }
 			energy = @terraform_toxic_ec_upkeep
 		}
 	}
@@ -460,12 +472,12 @@ terraform_barren_1 = {
 		category = giga_kilostructures
 		cost = { alloys = @terraform_barren_cost unity = @giga_kilo_unity_cost }
 		upkeep = {
-			trigger = { fromfrom.planet = { NOT = { has_planet_flag = potradus } } }
+			trigger = { planet = { NOT = { has_planet_flag = potradus } } }
 			alloys = 20
 			energy = @terraform_barren_ec_upkeep_idle
 		}
 		upkeep = {
-			trigger = { fromfrom.planet = { is_terraforming = yes } }
+			trigger = { planet = { is_terraforming = yes } }
 			energy = @terraform_barren_ec_upkeep
 		}
 	}

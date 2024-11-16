@@ -7815,7 +7815,7 @@
   giga_tech_penrose_sphere_3_desc:0 "Theoretically, it might be possible to assemble a ringworld powered by a $name_penrose$. Such a ringworld would be fuelled by electromagnetic radiation fed into the Black Hole's ergosphere, and could provide a safe haven for billions upon billions of years, even after the stars themselves die off."
 
   giga_dialog.1201.name:0 "$name_penrose$ Construction Site Built"
-  giga_dialog.1201.desc:0 "The construction site for a future $name_penrose$ has been finished near [giga_system.GetName]. Upon this scaffold, we shall completely envelop a Black Hole with an hyper-reflective mirror, in order to exploit the gargantuan energies of the Black Hole's rotation."
+  giga_dialog.1201.desc:0 "The construction site for a future $name_penrose$ has been finished near [giga_system.GetName]. Upon this scaffold, we shall completely envelop a Black Hole with a hyper-reflective mirror, in order to exploit the gargantuan energies of the Black Hole's rotation."
   giga_dialog.1201.a:0 "Great."
 
   giga_dialog.1202.name:0 "$name_penrose$ Frame Built"
