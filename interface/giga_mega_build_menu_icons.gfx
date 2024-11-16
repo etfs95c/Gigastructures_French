@@ -45,6 +45,11 @@ spriteTypes = {
         textureFile = gfx/interface/icons/technologies/giga_tech_asteroid_manufactory.dds
     }
 
+    spriteType = {
+        name = GFX_terraform_site_0_build_icon
+        textureFile = gfx/interface/icons/technologies/giga_tech_terraform_site.dds
+    }
+
     # atmospheric purifier
     spriteType = {
         name = GFX_terraform_toxic_0_build_icon

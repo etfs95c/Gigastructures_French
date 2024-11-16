@@ -446,8 +446,8 @@ giga_has_terraform_toxic = {
     OR = {
         has_megastructure = terraform_toxic_0
 		has_megastructure = terraform_toxic_1
-		has_megastructure = terraform_toxic_2
-		has_megastructure = terraform_toxic_3
+		# has_megastructure = terraform_toxic_2
+		# has_megastructure = terraform_toxic_3
     }
 }
 
@@ -502,10 +502,10 @@ giga_has_terraform_barren = {
     OR = {
         has_megastructure = terraform_barren_0
 		has_megastructure = terraform_barren_1
-		has_megastructure = terraform_barren_2
-		has_megastructure = terraform_barren_3
-		has_megastructure = terraform_barren_2_disabled
-		has_megastructure = terraform_barren_3_restored
+		# has_megastructure = terraform_barren_2
+		# has_megastructure = terraform_barren_3
+		# has_megastructure = terraform_barren_2_disabled
+		# has_megastructure = terraform_barren_3_restored
     }
 }
 
@@ -566,8 +566,8 @@ giga_has_terraform_molten = {
     OR = {
         has_megastructure = terraform_molten_0
 		has_megastructure = terraform_molten_1
-		has_megastructure = terraform_molten_2
-		has_megastructure = terraform_molten_3
+		# has_megastructure = terraform_molten_2
+		# has_megastructure = terraform_molten_3
     }
 }
 

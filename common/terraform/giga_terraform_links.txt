@@ -951,6 +951,9 @@ terraform_link = {
 		category = terraforming
 		cost = { energy = 12500 }
 	}
+	potential = {
+		from = { NOT = { has_planet_flag = has_crystal_megabore } }
+	}
 	duration = 5000
 	ai_weight = { weight = 5 }
 	condition = { has_technology = "tech_climate_restoration" }

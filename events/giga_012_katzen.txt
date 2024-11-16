@@ -443,6 +443,11 @@ planet_event = {
 					"null"
 				}
 			}
+			set_policy = { #Meow
+				policy = orbital_bombardment
+				option = orbital_bombardment_indiscriminate
+				cooldown = no
+			}
 			set_name = "Katzenartig Imperium"
 		}
 		while = { count = 6		create_army = { name = NAME_katzenarmee	owner = event_target:flusion_primitives_country species = event_target:flusion_katzens type = "flusion_army" } }

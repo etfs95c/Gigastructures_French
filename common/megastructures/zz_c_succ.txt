@@ -223,7 +223,7 @@ succ_1 = {
 		cost = { alloys = 7500 unity = @giga_mega_unity_cost }
 		cost = { alloys = -1 multiplier = value:giga_ai_savings_cost|CATEGORY|important|RESOURCE|alloys|AMOUNT|7500| }
 		cost = { unity = -1 multiplier = value:giga_ai_savings_cost|CATEGORY|important|RESOURCE|unity|AMOUNT|@giga_mega_unity_cost| }
-		upkeep = { alloys = 35 multiplier = value:giga_succ_speed_manage }
+		upkeep = { energy = 75 alloys = 25 }
 	}
 
 	on_build_start = {

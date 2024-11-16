@@ -50,6 +50,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_megastructure_moon"							textureFile = "gfx/interface/planetview/mega_moon.dds" }
 	spriteType = { name = "GFX_megastructure_nidavellir"					textureFile = "gfx/interface/planetview/mega_nidavellir.dds" }
 	spriteType = { name = "GFX_megastructure_molten_world"					textureFile = "gfx/interface/planetview/mega_molten.dds" }
+	spriteType = { name = "GFX_megastructure_frozen_world"					textureFile = "gfx/interface/planetview/mega_frozen.dds" }
 	spriteType = { name = "GFX_megastructure_shattered_world"				textureFile = "gfx/interface/planetview/mega_shattered.dds" }
 	spriteType = { name = "GFX_megastructure_disco_moon"					textureFile = "gfx/interface/planetview/mega_disco_moon.dds" }
 	spriteType = { name = "GFX_megastructure_hyperstructural_ass"			textureFile = "gfx/interface/planetview/mega_ultra_shipyard.dds" }

@@ -3081,12 +3081,33 @@ planet_event = {
     is_triggered_only = yes
     hide_window = yes
 	trigger = {
-
+		has_planet_flag = has_megastructure
 	}
 	immediate = {
-
+		if = {
+			limit = { has_planet_flag = giga_terraforming_megastructure }
+			solar_system = {
+				random_system_megastructure = {
+					limit = {
+						OR = {
+							is_megastructure_type = terraform_molten_0
+							is_megastructure_type = terraform_molten_1
+							is_megastructure_type = terraform_toxic_0
+							is_megastructure_type = terraform_toxic_1
+							is_megastructure_type = terraform_barren_0
+							is_megastructure_type = terraform_barren_1
+						}
+						planet = { is_same_value = ROOT }
+					}
+					remove_megastructure = THIS
+				}
+			}
+			remove_planet_flag = has_megastructure
+			remove_planet_flag = giga_terraforming_megastructure
+		}
 	}
 }
+
 ######################################################################################################################################################
 ######################################################################################################################################################
 

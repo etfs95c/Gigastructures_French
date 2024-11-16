@@ -101,7 +101,7 @@ automated_stripmine_0 = {
 automated_stripmine_1 = { # Update
 	entity = "automated_stripmine_01_rotation_i_entity"
 	construction_entity = "automated_stripmine_01_rotation_ni_entity" #add animation on main drill for active entity
-	portrait = "GFX_megastructure_barren"
+	portrait = "GFX_megastructure_molten_world"
 	upgrade_from = { automated_stripmine_0 }
 	scales_with_planet = yes
 	
@@ -115,9 +115,7 @@ automated_stripmine_1 = { # Update
 		category = giga_megastructures
 		cost = { alloys = 7500 unity = @giga_mega_unity_cost }
 		#Defaults
-		upkeep = { trigger = { NOT = { is_scope_type = megastructure } } energy = 75 }
-		upkeep = { energy = 75 multiplier = value:giga_stripmine_speed_manage }
-		produces = { trigger = { is_scope_type = megastructure } food = 1 multiplier = value:giga_stripmine_food_output } # 1/6 of whatever the mineral output is 
+		upkeep = { energy = 75 alloys = 25 }
 	}
 
 	potential = { NOT = { has_global_flag = drill_disabled } }
@@ -127,7 +125,7 @@ automated_stripmine_1 = { # Update
 	on_build_start = {
 		fromfrom = {
 			save_event_target_as = giga_stripmine
-			giga_set_stripmine_info = yes
+			# giga_set_stripmine_info = yes
 		}
 	}
 
@@ -149,8 +147,8 @@ automated_stripmine_1 = { # Update
 		}
 		fromfrom = {
 			save_event_target_as = giga_stripmine
-			giga_set_stripmine_info = yes
-			giga_stripmine_colony_destruction = yes
+			# giga_set_stripmine_info = yes
+			# giga_stripmine_colony_destruction = yes
 		}
 		from = {
 			country_event = { id = giga_dialog.3303 }	# Notification

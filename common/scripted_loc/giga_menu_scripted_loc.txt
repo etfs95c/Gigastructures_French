@@ -588,6 +588,12 @@ defined_text = {
 }
 
 defined_text = {
+	name = giga_chk_supermassive_ehof
+	text = { trigger = {													has_global_flag = supermassive_ehof_disabled }	localization_key = giga_supermassive_ehof_disabled } # Disabled
+	text = { trigger = { has_global_flag = supermassive_ehof_capped_1	NOT = {	has_global_flag = supermassive_ehof_disabled } }	localization_key = giga_supermassive_ehof_1 } # Cap 1
+}
+
+defined_text = {
 	name = giga_chk_lifters
 	text = { trigger = {											has_global_flag = lifters_disabled }	localization_key = giga_lifters_disabled } # Disabled
 	text = { trigger = { has_global_flag = lifters_capped_1	NOT = {	has_global_flag = lifters_disabled } }	localization_key = giga_lifters_1 } # Cap 1
