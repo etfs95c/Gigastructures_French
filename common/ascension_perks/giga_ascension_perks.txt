@@ -149,7 +149,13 @@ ap_celestial_printing = {
 		hidden_effect = {
 			if = { limit = { NOT = { has_technology = giga_tech_planetary_matter_harvesting } }		add_research_option = giga_tech_planetary_matter_harvesting }
 			if = { limit = { NOT = { has_technology = giga_tech_lunar_assembly } }					add_research_option = giga_tech_lunar_assembly }
-			if = { limit = { host_has_dlc = apocalypse NOT = { has_technology = giga_tech_war_system_1 } } add_research_option = giga_tech_war_system_1 }
+			if = {
+				limit = {
+					host_has_dlc = "Apocalypse"
+					NOT = { has_technology = giga_tech_war_system_1 }
+				}
+				add_research_option = giga_tech_war_system_1
+			}
 			country_event = { id = giga_printer.1015 }
 		}
 	}
