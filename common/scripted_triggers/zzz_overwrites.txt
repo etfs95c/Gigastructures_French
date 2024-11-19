@@ -1047,11 +1047,18 @@ has_any_megastructure_in_empire = {
 				has_megastructure = war_planet_1
 				has_megastructure = war_planet_2
 				has_megastructure = war_planet_3
+				has_megastructure = aeternum_planetcraft_ruined
 
 				has_megastructure = birch_world_0
 				has_megastructure = birch_world_1
 				has_megastructure = birch_world_2
 				has_megastructure = birch_world_3
+
+				has_megastructure = supermassive_ehof_0
+				has_megastructure = supermassive_ehof_1
+				has_megastructure = supermassive_ehof_2
+				has_megastructure = supermassive_ehof_3
+				has_megastructure = supermassive_ehof_3_no_catapult
 
 				has_megastructure = crystal_megabore_0
 				has_megastructure = crystal_megabore_1

@@ -611,6 +611,7 @@ giga_tech_substellar_compressor = {
 
 	potential = {
 		NOT = { has_global_flag = compressor_disabled }
+		NOT = { has_global_flag = suppressor_disabled }
 		has_any_megastructure_dlc = yes
 	}
 

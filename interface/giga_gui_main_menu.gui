@@ -67,7 +67,7 @@ guiTypes = {
 			position = { x = 1292 y = 105 }
 			spriteType = "GFX_giga_menu_bg_right"
 		}
-
+	
 		iconType = {
 			name = "empire_header_line"
 			quadTextureSprite = "GFX_line_long"
@@ -1929,7 +1929,61 @@ guiTypes = {
 					#Late Earlygame = 50 years past game start (2250)
 					#Game Start = Game start (2000)
 				}
-				
+
+				####################################
+				### News ###########################
+				####################################
+				containerWindowType = {
+					name = "giga_news_tab"
+					position = { x = 990 y = -410 }
+					size = { width = 410 height = 34 }
+					orientation = upper_left
+
+					instantTextBoxType = {
+						name = "giga_news_title"
+						#spriteType = "GFX_giga_menu_button_bg"
+						position = { x = -110 y = 88 }
+						format = center
+						maxWidth = 400
+						maxHeight = 590
+						borderSize = { x = 10 y = 0 }
+						font = "malgun_goth_24"
+						text = "giga_news_title"
+					}
+
+					effectButtonType = {
+						name = "giga_news_log_bg"
+						spriteType = "GFX_tiles_dark_area_cut_8"
+						position = { x = -110 y = 115 }
+						format = center
+						size = { x = 417 y = 600 }
+						font = "malgun_goth_24"
+						effect = "giga_page_00"
+					}
+
+					instantTextBoxType = {
+						name = "giga_news_log"
+						#spriteType = "GFX_giga_menu_button_bg"
+						position = { x = -110 y = 115 }
+						maxWidth = 420
+						maxHeight = 590
+						format = LEFT
+						font = "cg_16b"
+						scrollbarType = "standardlistbox_slider"
+						text = "giga_news_log"
+					}
+
+					effectButtonType = {
+						name = "right_side_panel_dummy"
+						spriteType = "GFX_giga_menu_bg_right"
+						position = { x = -120 y = 85 }
+						format = center
+						alwaysTransparent = yes
+						no_clicksound = yes
+						font = "malgun_goth_24"
+						effect = "giga_not_page_00"
+					}
+				}	
 
 				###################################################################################################################################################################################
 				###################################################################################################################################################################################
@@ -3811,6 +3865,68 @@ guiTypes = {
 						text = "Enable Preset"
 						clicksound = interface
 						effect = "giga_presets_patreon_38"
+					}
+				}
+				####################################
+				### presets_39 #####################
+				####################################
+				containerWindowType = {
+					name = "presets_patreon_39_options"
+					position = { x = 880 y = 185 }
+					size = { width = 410 height = 34 }
+					orientation = upper_left
+
+					effectButtonType = {
+						name = "background_presets_patreon_39"
+						spriteType = "GFX_giga_menu_button_bg"
+						position = { x = 0 y = 0 }
+						format = left
+						no_clicksound = yes
+						borderSize = { x = 10 y = 0 }
+						font = "cg_16b"
+						text = "giga_menu_presets_patreon_39"
+						effect = "giga_page_presets"
+					}
+
+					effectButtonType = {
+						name = "presets_patreon_39_button"
+						spriteType = "GFX_button_116_24"
+						position = { x = 277 y = -7 }
+						font = "cg_16b"
+						text = "Enable Preset"
+						clicksound = interface
+						effect = "giga_presets_patreon_39"
+					}
+				}
+				####################################
+				### presets_40 #####################
+				####################################
+				containerWindowType = {
+					name = "presets_patreon_40_options"
+					position = { x = 880 y = 225 }
+					size = { width = 410 height = 34 }
+					orientation = upper_left
+
+					effectButtonType = {
+						name = "background_presets_patreon_40"
+						spriteType = "GFX_giga_menu_button_bg"
+						position = { x = 0 y = 0 }
+						format = left
+						no_clicksound = yes
+						borderSize = { x = 10 y = 0 }
+						font = "cg_16b"
+						text = "giga_menu_presets_patreon_40"
+						effect = "giga_page_presets"
+					}
+
+					effectButtonType = {
+						name = "presets_patreon_40_button"
+						spriteType = "GFX_button_116_24"
+						position = { x = 277 y = -7 }
+						font = "cg_16b"
+						text = "Enable Preset"
+						clicksound = interface
+						effect = "giga_presets_patreon_40"
 					}
 				}
 				###################################################################################################################################################################################
@@ -5737,6 +5853,31 @@ guiTypes = {
 					effectButtonType = { name = "penrose_sphere_3_disabled" spriteType = "GFX_giga_menu_3_disabled" position = { x = 290 y = 5 } clicksound = interface effect = "giga_penrose_sphere_3_disabled" }
 					effectButtonType = { name = "penrose_sphere_2_disabled" spriteType = "GFX_giga_menu_2_disabled" position = { x = 260 y = 5 } clicksound = interface effect = "giga_penrose_sphere_2_disabled" }
 					effectButtonType = { name = "penrose_sphere_1_disabled" spriteType = "GFX_giga_menu_1_disabled" position = { x = 230 y = 5 } clicksound = interface effect = "giga_penrose_sphere_1_disabled" }
+				}
+
+				####################################
+				### supermassive_ehof ###################
+				####################################
+				containerWindowType = {
+					name = "supermassive_ehof_options"
+					position = { x = 20 y = 25 }
+					size = { width = 410 height = 34 }
+					orientation = upper_left
+
+					effectButtonType = {
+						name = "background_supermassive_ehof"
+						spriteType = "GFX_giga_menu_button_bg"
+						position = { x = 0 y = 0 }
+						format = left
+						no_clicksound = yes
+						borderSize = { x = 10 y = 0 }
+						font = "cg_16b"
+						text = "name_supermassive_ehof"
+						effect = "giga_page_03"
+					}
+
+					effectButtonType = { name = "supermassive_ehof_disabled" spriteType = "GFX_giga_menu_disabled" position = { x = 380 y = 5 } no_clicksound = yes effect = "giga_supermassive_ehof_disabled" }
+					effectButtonType = { name = "supermassive_ehof_enabled" spriteType = "GFX_giga_menu_enabled" position = { x = 380 y = 5 } clicksound = interface effect = "giga_supermassive_ehof_enabled" }
 				}
 
 				###################################################################################################################################################################################

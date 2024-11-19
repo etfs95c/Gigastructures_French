@@ -827,7 +827,7 @@ d_giga_arcane_generator = {
 				planet = {
 					OR = {
 						has_district = district_rw_farming # vanilla farming district
-						has_district = district_penrose_farming
+						# has_district = district_penrose_farming
 					}
 				}
 			}
