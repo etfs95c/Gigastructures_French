@@ -219,7 +219,7 @@ succ_1 = {
 
 	build_time = 3600
 	resources = {
-		category = giga_megastructures
+		category = giga_kilostructures
 		cost = { alloys = 7500 unity = @giga_mega_unity_cost }
 		cost = { alloys = -1 multiplier = value:giga_ai_savings_cost|CATEGORY|important|RESOURCE|alloys|AMOUNT|7500| }
 		cost = { unity = -1 multiplier = value:giga_ai_savings_cost|CATEGORY|important|RESOURCE|unity|AMOUNT|@giga_mega_unity_cost| }
