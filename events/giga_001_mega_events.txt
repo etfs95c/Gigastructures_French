@@ -25,6 +25,16 @@ event = {
 			}
 		}
 
+		#For crystal megabore, really
+		every_galaxy_planet = {
+			limit = { is_planet_class = pc_frozen }
+			random = {
+				chance = 10
+				add_modifier = { modifier = giga_subsurface_ocean days = -1 }
+				add_deposit = d_subsurface_ocean_deposit_1
+			}
+		}
+
 		random_list = {
 			40 = {
 				modifier = {
@@ -1211,6 +1221,7 @@ planet_event = {
 			every_system_megastructure = {
 				limit = {
 					NOR = {
+						is_megastructure_type = aeternum_planetcraft_ruined
 						is_megastructure_type = lgate_base
 						is_megastructure_type = gateway_final
 						is_megastructure_type = gateway_restored
@@ -3075,7 +3086,46 @@ country_event = {
 		}
 	}
 }
+planet_event = {
+    id = giga_mega.8600
+    is_triggered_only = yes
+    hide_window = yes
+	trigger = {
+		has_planet_flag = has_megastructure
+	}
+	immediate = {
+		if = {
+			limit = { has_planet_flag = giga_terraforming_megastructure }
+			solar_system = {
+				random_system_megastructure = {
+					limit = {
+						OR = {
+							is_megastructure_type = terraform_molten_0
+							is_megastructure_type = terraform_molten_1
+							is_megastructure_type = terraform_toxic_0
+							is_megastructure_type = terraform_toxic_1
+							is_megastructure_type = terraform_barren_0
+							is_megastructure_type = terraform_barren_1
+						}
+						planet = { is_same_value = ROOT }
+					}
+					remove_megastructure = THIS
+				}
+			}
+			remove_planet_flag = has_megastructure
+			remove_planet_flag = giga_terraforming_megastructure
+		}
+	}
+}
 
+planet_event = {
+    id = giga_mega.8601
+    is_triggered_only = yes
+    hide_window = yes
+	immediate = {
+		giga_reroll_lifeless_resources = yes
+	}
+}
 
 ######################################################################################################################################################
 ######################################################################################################################################################

@@ -431,6 +431,26 @@ guiTypes = {
 					text = "(clock) X days remaining."
 				}
 			}
+
+			containerWindowType = {
+				name = "grand_archive_details"
+				position = { x = 0 y = 347 }
+				size = { width = 100% height = 40% }
+
+				buttonType = {
+					name = "goto_collection"
+					size = { x = 316 y = 69 }
+					position = { x = -132 y = 30 } # x=100
+					orientation = center
+					spriteType = "GFX_standard_button_240_34_button"
+					buttonFont = "cg_16b"
+					text = "GOTO_COLLECTION"
+					font = "cg_16b"
+					clicksound = planet_view_menu_click_01
+					oversound = mouse_over
+				}
+			}
+
 			containerWindowType = {
 				name = "dismantle_window"
 				origo = center_up
@@ -513,7 +533,7 @@ guiTypes = {
 
 				effect = giga_megaview_highlight_toggle_off
 			}
-			
+
 			effectButtonType = {
 				name = "giga_mega_outliner_on"
 				spriteType = GFX_megaview_button_outliner
@@ -691,7 +711,7 @@ guiTypes = {
 				}
 
 			}
-		
+
 			##########################################################
 
 			effectButtonType  = {
@@ -827,7 +847,7 @@ guiTypes = {
 				effectButtonType  = { name = "the_vat_01_button_07" spriteType = "GFX_btn_vat_11" position = { x = 65 y = 0 } effect = "giga_vat_01_grow_07" }		# Small Tiyanki
 				effectButtonType  = { name = "the_vat_01_button_08" spriteType = "GFX_btn_vat_12" position = { x = 130 y = 0 } effect = "giga_vat_01_grow_08" }		# Amoebas
 				effectButtonType  = { name = "the_vat_01_button_09" spriteType = "GFX_btn_vat_09" position = { x = 195 y = 0 } effect = "giga_vat_01_grow_09" }		# Swarmling
-				
+
 
 				effectButtonType  = { name = "the_vat_01_button_03" spriteType = "GFX_btn_vat_03" position = { x = 0   y = 45 } effect = "giga_vat_01_grow_03" }	# Tiyanki
 				effectButtonType  = { name = "the_vat_01_button_02" spriteType = "GFX_btn_vat_02" position = { x = 65  y = 45 } effect = "giga_vat_01_grow_02" }	# Wraith
@@ -1043,9 +1063,9 @@ guiTypes = {
 					effectButtonType  = { name = "the_vat_01_grow_plus"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 29 } effect = "giga_vat_01_grow_plus" }
 					effectButtonType  = { name = "the_vat_01_grow_plus_10"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 8 } effect = "giga_vat_01_grow_plus_10" }
 					effectButtonType  = { name = "the_vat_01_grow_plus_100"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = -11 } effect = "giga_vat_01_grow_plus_100" }
-					effectButtonType  = { name = "the_vat_01_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 29 } effect = "giga_vat_01_grow_minus" } 
-					effectButtonType  = { name = "the_vat_01_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 9 } effect = "giga_vat_01_grow_minus_10" } 
-					effectButtonType  = { name = "the_vat_01_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -11 } effect = "giga_vat_01_grow_minus_100" } 
+					effectButtonType  = { name = "the_vat_01_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 29 } effect = "giga_vat_01_grow_minus" }
+					effectButtonType  = { name = "the_vat_01_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 9 } effect = "giga_vat_01_grow_minus_10" }
+					effectButtonType  = { name = "the_vat_01_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -11 } effect = "giga_vat_01_grow_minus_100" }
 					effectButtonType  = { name = "the_vat_01_grow_timer"			spritetype = "GFX_invisible" 			position = { x = 323 y = 2} size = { x = 185 y = 32 } format = left buttonfont = "cg_16b" buttontext = "VAT_TIME_01" effect = "giga_vat_01_timer" alwaysTransparent = yes no_clicksound = yes }
 				}
 			}
@@ -1292,9 +1312,9 @@ guiTypes = {
 					effectButtonType  = { name = "the_vat_02_grow_plus"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 32 } effect = "giga_vat_02_grow_plus" }
 					effectButtonType  = { name = "the_vat_02_grow_10"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 12 } effect = "giga_vat_02_grow_10" }
 					effectButtonType  = { name = "the_vat_02_grow_100"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = -8 } effect = "giga_vat_02_grow_100" }
-					effectButtonType  = { name = "the_vat_02_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_02_grow_minus" } 
-					effectButtonType  = { name = "the_vat_02_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_02_grow_minus_10" } 
-					effectButtonType  = { name = "the_vat_02_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_02_grow_minus_100" } 
+					effectButtonType  = { name = "the_vat_02_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_02_grow_minus" }
+					effectButtonType  = { name = "the_vat_02_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_02_grow_minus_10" }
+					effectButtonType  = { name = "the_vat_02_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_02_grow_minus_100" }
 					effectButtonType  = { name = "the_vat_02_grow_timer"			spritetype = "GFX_invisible" 			position = { x = 323 y = 2} size = { x = 185 y = 32 } format = left buttonfont = "cg_16b" buttontext = "VAT_TIME_02" effect = "giga_vat_02_timer" alwaysTransparent = yes no_clicksound = yes }
 
 				}
@@ -1533,7 +1553,7 @@ guiTypes = {
 					effectButtonType  = { name = "the_vat_03_progress_pixel_190" spriteType = "GFX_giga_pb_pixel_190" alwaysTransparent = yes no_clicksound = yes position = { x = 190 y = 0 } effect = "giga_the_vat_03_pb_190_192" }
 					effectButtonType  = { name = "the_vat_03_progress_pixel_191" spriteType = "GFX_giga_pb_pixel_191" alwaysTransparent = yes no_clicksound = yes position = { x = 191 y = 0 } effect = "giga_the_vat_03_pb_191_192" }
 					effectButtonType  = { name = "the_vat_03_progress_pixel_192" spriteType = "GFX_giga_pb_pixel_192" alwaysTransparent = yes no_clicksound = yes position = { x = 192 y = 0 } effect = "giga_the_vat_03_pb_192_192" }
-					
+
 					effectButtonType  = { name = "the_vat_03_grow_current_amount" 	spriteType = "GFX_invisible"			position = { x = 218 y = 2 } effect = "giga_vat_03_grow_amount" buttonFont = "cg_16b" buttonText = "[this.giga_vat_03_grow_amount]" alwaysTransparent = yes no_clicksound = yes }
 
 					effectButtonType  = { name = "the_vat_03_grow_cancel" 		spriteType = "GFX_restricted_system_icon" scale = 1.275 position = { x = 273 y = -5 } effect = "giga_vat_03_grow_cancel" }
@@ -1542,9 +1562,9 @@ guiTypes = {
 					effectButtonType  = { name = "the_vat_03_grow_plus"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 32 } effect = "giga_vat_03_grow_plus" }
 					effectButtonType  = { name = "the_vat_03_grow_10"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 12 } effect = "giga_vat_03_grow_10" }
 					effectButtonType  = { name = "the_vat_03_grow_100"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = -8 } effect = "giga_vat_03_grow_100" }
-					effectButtonType  = { name = "the_vat_03_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_03_grow_minus" } 
-					effectButtonType  = { name = "the_vat_03_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_03_grow_minus_10" } 
-					effectButtonType  = { name = "the_vat_03_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_03_grow_minus_100" } 
+					effectButtonType  = { name = "the_vat_03_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_03_grow_minus" }
+					effectButtonType  = { name = "the_vat_03_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_03_grow_minus_10" }
+					effectButtonType  = { name = "the_vat_03_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_03_grow_minus_100" }
 					effectButtonType  = { name = "the_vat_03_grow_timer"			spritetype = "GFX_invisible" 			position = { x = 323 y = 2} size = { x = 185 y = 32 } format = left buttonfont = "cg_16b" buttontext = "VAT_TIME_03" effect = "giga_vat_03_timer" alwaysTransparent = yes no_clicksound = yes }
 				}
 			}
@@ -1791,9 +1811,9 @@ guiTypes = {
 					effectButtonType  = { name = "the_vat_04_grow_plus"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 32 } effect = "giga_vat_04_grow_plus" }
 					effectButtonType  = { name = "the_vat_04_grow_10"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 12 } effect = "giga_vat_04_grow_10" }
 					effectButtonType  = { name = "the_vat_04_grow_100"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = -8 } effect = "giga_vat_04_grow_100" }
-					effectButtonType  = { name = "the_vat_04_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_04_grow_minus" } 
-					effectButtonType  = { name = "the_vat_04_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_04_grow_minus_10" } 
-					effectButtonType  = { name = "the_vat_04_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_04_grow_minus_100" } 
+					effectButtonType  = { name = "the_vat_04_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_04_grow_minus" }
+					effectButtonType  = { name = "the_vat_04_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_04_grow_minus_10" }
+					effectButtonType  = { name = "the_vat_04_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_04_grow_minus_100" }
 					effectButtonType  = { name = "the_vat_04_grow_timer"			spritetype = "GFX_invisible" 			position = { x = 323 y = 2} size = { x = 185 y = 32 } format = left buttonfont = "cg_16b" buttontext = "VAT_TIME_04" effect = "giga_vat_04_timer" alwaysTransparent = yes no_clicksound = yes }
 				}
 			}
@@ -2040,11 +2060,11 @@ guiTypes = {
 					effectButtonType  = { name = "the_vat_05_grow_plus"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 32 } effect = "giga_vat_05_grow_plus" }
 					effectButtonType  = { name = "the_vat_05_grow_10"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 12 } effect = "giga_vat_05_grow_10" }
 					effectButtonType  = { name = "the_vat_05_grow_100"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = -8 } effect = "giga_vat_05_grow_100" }
-					effectButtonType  = { name = "the_vat_05_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_05_grow_minus" } 
-					effectButtonType  = { name = "the_vat_05_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_05_grow_minus_10" } 
+					effectButtonType  = { name = "the_vat_05_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_05_grow_minus" }
+					effectButtonType  = { name = "the_vat_05_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_05_grow_minus_10" }
 					effectButtonType  = { name = "the_vat_05_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_05_grow_minus_100" }
-					effectButtonType  = { name = "the_vat_05_grow_timer"			spritetype = "GFX_invisible" 			position = { x = 323 y = 2} size = { x = 185 y = 32 } format = left buttonfont = "cg_16b" buttontext = "VAT_TIME_05" effect = "giga_vat_05_timer" alwaysTransparent = yes no_clicksound = yes } 
-					}
+					effectButtonType  = { name = "the_vat_05_grow_timer"			spritetype = "GFX_invisible" 			position = { x = 323 y = 2} size = { x = 185 y = 32 } format = left buttonfont = "cg_16b" buttontext = "VAT_TIME_05" effect = "giga_vat_05_timer" alwaysTransparent = yes no_clicksound = yes }
+				}
 			}
 
 			##########################################################
@@ -2289,9 +2309,9 @@ guiTypes = {
 					effectButtonType  = { name = "the_vat_06_grow_plus"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 32 } effect = "giga_vat_06_grow_plus" }
 					effectButtonType  = { name = "the_vat_06_grow_10"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 12 } effect = "giga_vat_06_grow_10" }
 					effectButtonType  = { name = "the_vat_06_grow_100"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = -8 } effect = "giga_vat_06_grow_100" }
-					effectButtonType  = { name = "the_vat_06_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_06_grow_minus" } 
-					effectButtonType  = { name = "the_vat_06_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_06_grow_minus_10" } 
-					effectButtonType  = { name = "the_vat_06_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_06_grow_minus_100" } 
+					effectButtonType  = { name = "the_vat_06_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_06_grow_minus" }
+					effectButtonType  = { name = "the_vat_06_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_06_grow_minus_10" }
+					effectButtonType  = { name = "the_vat_06_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_06_grow_minus_100" }
 					effectButtonType  = { name = "the_vat_06_grow_timer"			spritetype = "GFX_invisible" 			position = { x = 323 y = 2} size = { x = 185 y = 32 } format = left buttonfont = "cg_16b" buttontext = "VAT_TIME_06" effect = "giga_vat_06_timer" alwaysTransparent = yes no_clicksound = yes }
 				}
 			}
@@ -2538,9 +2558,9 @@ guiTypes = {
 					effectButtonType  = { name = "the_vat_07_grow_plus"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 32 } effect = "giga_vat_07_grow_plus" }
 					effectButtonType  = { name = "the_vat_07_grow_10"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = 12 } effect = "giga_vat_07_grow_10" }
 					effectButtonType  = { name = "the_vat_07_grow_100"		 		spriteType = "GFX_topbar_date_plus"	position = { x = 242 y = -8 } effect = "giga_vat_07_grow_100" }
-					effectButtonType  = { name = "the_vat_07_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_07_grow_minus" } 
-					effectButtonType  = { name = "the_vat_07_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_07_grow_minus_10" } 
-					effectButtonType  = { name = "the_vat_07_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_07_grow_minus_100" } 
+					effectButtonType  = { name = "the_vat_07_grow_minus"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 32 } effect = "giga_vat_07_grow_minus" }
+					effectButtonType  = { name = "the_vat_07_grow_minus_10"		 	spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = 12 } effect = "giga_vat_07_grow_minus_10" }
+					effectButtonType  = { name = "the_vat_07_grow_minus_100"		spriteType = "GFX_topbar_date_minus"	position = { x = 203 y = -8 } effect = "giga_vat_07_grow_minus_100" }
 					effectButtonType  = { name = "the_vat_07_grow_timer"			spritetype = "GFX_invisible" 			position = { x = 323 y = 2} size = { x = 185 y = 32 } format = left buttonfont = "cg_16b" buttontext = "VAT_TIME_07" effect = "giga_vat_07_timer" alwaysTransparent = yes no_clicksound = yes }
 				}
 			}

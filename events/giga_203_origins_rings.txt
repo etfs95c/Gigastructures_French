@@ -198,7 +198,7 @@ country_event = {
 
 					# Create mining stations
 					every_system_planet = {
-						limit = { is_star = no }
+						#limit = { is_star = no }
 						if = {
 							limit = {
 								has_deposit_for = shipclass_mining_station

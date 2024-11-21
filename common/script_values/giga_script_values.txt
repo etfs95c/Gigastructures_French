@@ -669,6 +669,11 @@ giga_one_plus = {
 	add = $val$
 }
 
+giga_simple_mult = {
+	weight = $base$
+	mult = $mult$
+}
+
 #############################################################
 #Vat Values
 #Introduced to make life easier and allow for future cost reduction modifier scaling
@@ -944,5 +949,22 @@ giga_jobs_per_district = {
 		uses_district_set = giga_alderson_ecu
 
 		weight = 18
+	}
+}
+
+mining_districts_value = {
+	complex_trigger_modifier = {
+		trigger = num_districts
+		parameters = {
+			type = district_mining
+		}
+		mode = add
+	}
+	complex_trigger_modifier = {
+		trigger = num_districts
+		parameters = {
+			type = district_mining_uncapped
+		}
+		mode = add
 	}
 }

@@ -2608,6 +2608,28 @@ spriteTypes = {
 		textureFile = gfx/interface/icons/megastructures/qso.dds
 	}
 	
+	# supermassive EHOF
+	spriteType = {
+		name = GFX_supermassive_ehof_0_outliner_icon
+		textureFile = gfx/interface/icons/megastructures/supermassive_ehof.dds
+	}
+	spriteType = {
+		name = GFX_supermassive_ehof_1_outliner_icon
+		textureFile = gfx/interface/icons/megastructures/supermassive_ehof.dds
+	}
+	spriteType = {
+		name = GFX_supermassive_ehof_2_outliner_icon
+		textureFile = gfx/interface/icons/megastructures/supermassive_ehof.dds
+	}
+	spriteType = {
+		name = GFX_supermassive_ehof_3_outliner_icon
+		textureFile = gfx/interface/icons/megastructures/supermassive_ehof.dds
+	}
+	spriteType = {
+		name = GFX_supermassive_ehof_3_no_catapult_outliner_icon
+		textureFile = gfx/interface/icons/megastructures/supermassive_ehof.dds
+	}
+
 	# blokkat gigarelay
 	spriteType = {
 		name = GFX_blokkat_gigarelay_0_outliner_icon

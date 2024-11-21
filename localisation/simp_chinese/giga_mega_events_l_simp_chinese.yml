@@ -141,7 +141,7 @@
   
   giga_dialog.3303.title:0 "行星露天矿运转"
   giga_dialog.3303.desc:0 "我们的$name_auto_stripmine$已经成功激活！巨大的轨道牵引光束正传送着数以吨计的矿物，它们通过数以百万自动化机器人钻井提取，在数千庞大采矿综合体中收集。\n\n请记住，一旦到达星球内核，所有矿物都被提取后，采矿作业就会停止，预估在几十年后出现。"
-  giga_dialog.3303.monster.desc:99 "Our $name_auto_stripmine$ has been successfully activated! Gigantic orbital tractor beams are beaming tons upon tons of minerals, extracted by millions of automated robotic drilling collecting the planet's minerals in thousands of sprawling mining complexes.\n\nThe previous inhabitants of [giga_planet.GetName] failed to escape the activation of the structure in time. They will likely be gathered as if they were nothing but rocks and added to the $name_auto_stripmine$'s output.\n\nKeep in mind that mining operations will cease once the inner core of the planet is reached and all minerals are extracted, which is estimated to happen in a few decades."
+  giga_dialog.3303.monster.desc:99 "Our $name_auto_stripmine$ has been successfully activated! Gigantic orbital tractor beams are beaming tons upon tons of minerals, extracted by millions of automated robotic drilling collecting the planet's minerals in thousands of sprawling mining complexes.\n\nThe previous inhabitants of [giga_planet.GetName] failed to escape the activation of the structure in time. They will likely be gathered as if they were nothing but rocks and added to the $name_auto_stripmine$'s output."
   giga_dialog.3303.a:0 "额定矿物输出"
   giga_dialog.3303.b:99 "How horrifying... for them."
   

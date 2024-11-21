@@ -358,7 +358,7 @@ giga_is_megastructure_that_needs_planet = {
 		is_megastructure_type = lunar_disco_ball_0
 		is_megastructure_type = lunar_disco_ball_1
 		is_megastructure_type = lunar_disco_ball_2
-		is_megastructure_type = lunar_disco_ball_2_manage
+		# is_megastructure_type = lunar_disco_ball_2_manage
 	}
 }
 

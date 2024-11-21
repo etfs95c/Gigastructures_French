@@ -1,6 +1,17 @@
 ###################################
 ### Miscellaneous Modifiers #######
 ###################################
+giga_subsurface_ocean = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_giga_subsurface_ocean.dds"
+}
+
+megastructure_terraforming_candidate = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_planet_from_space.dds"
+	icon_frame = 1
+	important = yes			# if present on a planet, show the planet's nameplate
+	custom_tooltip = megastructure_terraforming_candidate_tooltip
+}
+
 giga_o_star_modifier = {
 	icon_frame = 1
 	icon = "gfx/interface/icons/planet_modifiers/pm_giga_o_star_modifier.dds"
@@ -654,6 +665,22 @@ lifeless_torrid_tectonics = {
 
 	pop_environment_tolerance = -0.15
 	planet_jobs_engineering_research_produces_mult = 0.10
+}
+
+giga_gas_giant_hab = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_giga_habitable_gas_giant.dds"
+	icon_frame = 1
+
+	planet_technician_exotic_gases_produces_add = 0.03
+}
+
+giga_gas_giant_hab_colony = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_giga_habitable_gas_giant.dds"
+	icon_frame = 1
+
+	custom_tooltip = giga_gas_giant_hab_colony_tt
+	show_only_custom_tooltip = no
+	pop_environment_tolerance = -0.2
 }
 
 giga_planetary_computer = {
