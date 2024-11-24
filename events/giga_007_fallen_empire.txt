@@ -3579,7 +3579,7 @@ country_event = {
 				limit = { NOT = { has_global_flag = crystal_disabled } }
 				solar_system = {
 					spawn_megastructure = {
-						type = crystal_megabore_3
+						type = crystal_megabore_1
 						planet = PREV
 						owner = ROOT
 					}
@@ -4719,7 +4719,7 @@ country_event = {
 				limit = { NOT = { has_global_flag = crystal_disabled } }
 				solar_system = {
 					spawn_megastructure = {
-						type = crystal_megabore_3
+						type = crystal_megabore_1
 						planet = PREV
 						owner = ROOT
 					}
