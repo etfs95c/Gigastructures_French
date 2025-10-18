@@ -55,6 +55,8 @@ blokkat_unique = {
 		"blokkat3d_blokkadia"
 		"blokkat3d_netronom"
 		"blokkat3d_edblokk"
+		"blokkat3d_pieblokk"
+		"blokkat3d_tempestkat"
 	}
 }
 
@@ -99,6 +101,8 @@ blokkat_unique_angry = {
 		"blokkat3d_blokkadia_angry"
 		"blokkat3d_netronom_angry"
 		"blokkat3d_edblokk_angry"
+		"blokkat3d_pieblokk_angry"
+		"blokkat3d_tempestkat_angry"
 	}
 }
 

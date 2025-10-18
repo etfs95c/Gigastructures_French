@@ -2,8 +2,8 @@
 # Baseline
 
 planet_modifier = {
-    planet_housing_add = @[ 5 * $level$ ]
-    planet_amenities_add = @[ 5 * $level$ ]
+    planet_housing_add = @[ 500 * $level$ ]
+    planet_amenities_add = @[ 500 * $level$ ]
     job_enforcer_add = @[ 2 * $level$ ]
     job_clerk_add = $level$
 
@@ -44,7 +44,10 @@ triggered_planet_modifier = {
     potential = {
         exists = owner
         owner = {
-            has_tradition = tr_psionics_psi_corps
+            OR = {
+				has_tradition = tr_psionics_psi_corps
+				has_tradition = tr_psionics_shroud_psi_corps
+			}
         }
     }
     modifier = {
@@ -86,7 +89,10 @@ triggered_desc = {
     trigger = {
         exists = owner
         owner = {
-            has_tradition = tr_psionics_psi_corps
+            OR = {
+				has_tradition = tr_psionics_psi_corps
+				has_tradition = tr_psionics_shroud_psi_corps
+			}
         }
     }
     text = job_telepath_effect_desc

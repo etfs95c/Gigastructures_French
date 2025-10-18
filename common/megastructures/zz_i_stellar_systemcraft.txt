@@ -16,9 +16,12 @@ war_system_0 = {
 	resources = {
 		category = giga_gigastructures
 		cost = {
-			alloys = 10000
 			influence = 300
 			unity = @giga_tera_start_unity_cost
+		}
+		inline_script = {
+			script = megastructures/generic_parts/giga_mega_alloy_cost
+			alloys = 10000
 		}
 		upkeep = { energy = 5 }
 	}
@@ -28,8 +31,11 @@ war_system_0 = {
 		has_ascension_perk = ap_celestial_printing
 		NOT = { has_global_flag = systemcraft_disabled }
 		OR = {
-			check_variable = { which = giga_systemcraft_cap value = 0 }						# No Cap
-			check_variable = { which = giga_current_systemcraft value < giga_systemcraft_cap }
+			has_global_flag = systemcraft_capped_u
+			check_variable = {
+				which = giga_current_systemcraft
+				value < value:giga_systemcraft_limit
+			}
 		}
 	}
 
@@ -41,8 +47,11 @@ war_system_0 = {
 			fail_text = "requires_not_capped"
 			from = {
 				OR = {
-					check_variable = { which = giga_systemcraft_cap value = 0 }						# No Cap
-					check_variable = { which = giga_current_systemcraft value < giga_systemcraft_cap }
+					has_global_flag = systemcraft_capped_u
+					check_variable = {
+						which = giga_current_systemcraft
+						value < value:giga_systemcraft_limit
+					}
 				}
 			}
 		}
@@ -73,6 +82,7 @@ war_system_0 = {
 		fromfrom.planet = {
 			if = { limit = { exists = orbital_station } orbital_station = { dismantle = yes } }
 			set_planet_flag = megastructure
+			if = { limit = { NOT = { has_planet_flag = shroud_storm_changed } } } set_planet_flag = shroud_storm_changed
 			giga_set_has_mega_flag = yes
 		}
 	}
@@ -92,7 +102,13 @@ war_system_1 = {
 	build_time = 3600
 	resources = {
 		category = giga_gigastructures
-		cost = { alloys = 100000 unity = @giga_tera_unity_cost }
+		cost = {
+			unity = @giga_tera_unity_cost
+		}
+		inline_script = {
+			script = megastructures/generic_parts/giga_mega_alloy_cost
+			alloys = 100000
+		}
 		upkeep = {
 			energy = 100
 			alloys = 50
@@ -135,7 +151,13 @@ war_system_2 = {
 	build_time = 3600
 	resources = {
 		category = giga_gigastructures
-		cost = { alloys = 100000 unity = @giga_tera_unity_cost }
+		cost = {
+			unity = @giga_tera_unity_cost
+		}
+		inline_script = {
+			script = megastructures/generic_parts/giga_mega_alloy_cost
+			alloys = 100000
+		}
 		upkeep = {
 			energy = 250
 			alloys = 100
@@ -229,7 +251,13 @@ war_system_3 = {
 	build_time = 3600
 	resources = {
 		category = giga_gigastructures
-		cost = { alloys = 100000 unity = @giga_tera_unity_cost }
+		cost = {
+			unity = @giga_tera_unity_cost
+		}
+		inline_script = {
+			script = megastructures/generic_parts/giga_mega_alloy_cost
+			alloys = 100000
+		}
 		upkeep = {
 			energy = 500
 			alloys = 150
@@ -303,7 +331,13 @@ war_system_4 = {
 	build_time = 3600
 	resources = {
 		category = giga_gigastructures
-		cost = { alloys = 100000 unity = @giga_tera_unity_cost }
+		cost = {
+			unity = @giga_tera_unity_cost
+		}
+		inline_script = {
+			script = megastructures/generic_parts/giga_mega_alloy_cost
+			alloys = 100000
+		}
 		upkeep = {
 			energy = 750
 			alloys = 500
@@ -376,7 +410,13 @@ war_system_5 = {
 	build_time = 3600
 	resources = {
 		category = giga_gigastructures
-		cost = { alloys = 100000 unity = @giga_tera_unity_cost }
+		cost = {
+			unity = @giga_tera_unity_cost
+		}
+		inline_script = {
+			script = megastructures/generic_parts/giga_mega_alloy_cost
+			alloys = 100000
+		}
 		upkeep = {
 			energy = 750
 			alloys = 500
@@ -510,6 +550,7 @@ war_system_5 = {
 									has_civic = civic_machine_terminator
 									has_civic = civic_hive_devouring_swarm
 									has_civic = civic_fanatic_purifiers
+									has_country_flag = giga_galactic_pact_leader
 								}
 								ehof_default_country = yes
 							}
@@ -526,6 +567,7 @@ war_system_5 = {
 									has_civic = civic_machine_terminator
 									has_civic = civic_hive_devouring_swarm
 									has_civic = civic_fanatic_purifiers
+									has_country_flag = giga_galactic_pact_leader
 								}
 								ehof_default_country = yes
 							}

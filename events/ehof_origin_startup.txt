@@ -215,6 +215,7 @@ country_event = {
 						owner = root
 					}
 					save_global_event_target_as = ehofo_new_world
+					clear_planet_modifiers = yes
 					set_name = {
 						key = "ehofo_new_capital_name"
 						variable_string = "[ehofo_old_world.GetName]"
@@ -235,6 +236,7 @@ country_event = {
 						owner = root
 					}
 					save_global_event_target_as = ehofo_new_world
+					clear_planet_modifiers = yes
 					set_name = {
 						key = "ehofo_new_capital_name"
 						variable_string = "[ehofo_old_world.GetName]"
@@ -297,7 +299,7 @@ country_event = {
 					}
 				}
 			}
-			random_owned_pop = {
+			random_owned_pop_group = {
 				limit = {
 					root.owner_main_species = {
 						NOT = {
@@ -327,13 +329,16 @@ country_event = {
 		event_target:ehofo_new_world = {
 			change_pc = event_target:ehofo_old_world
 			generate_start_deposits_and_blockers = yes
+			root.owner_main_species = {
+				set_species_homeworld = prev
+			}
 			#generate_start_buildings_and_districts = yes Moving this to be later to enable inbuilt compatability with PD
 			generate_start_pops = yes
 			if = {
 				limit = {
 					exists = event_target:ehofo_secondary_species
 				}
-				every_owned_pop = {
+				every_owned_pop_group = {
 					limit = {
 						species = {
 							NOT = {
@@ -343,12 +348,7 @@ country_event = {
 							}
 						}
 					}
-					prev = {
-						create_pop = {
-							species = event_target:ehofo_secondary_species
-						}
-					}
-					kill_pop = yes
+					change_species = event_target:ehofo_secondary_species
 				}
 			}
 			set_planet_size = 20
@@ -363,7 +363,9 @@ country_event = {
 				limit = {
 					ROOT = { is_guided_sapience_empire = yes }
 				}
+				spawn_presapient_species_randomizer_homeworld_effect = yes
 				add_deposit = d_genesis_preserve
+				set_planet_flag = pre_sapient_planet
 			}
 			if = {
 				limit = {

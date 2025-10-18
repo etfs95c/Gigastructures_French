@@ -1,4 +1,17 @@
 message_type = {
+	key = "GIGA_PLANET_DISMANTLE"
+	icon = "GFX_toast_giga_planet_dismantle"
+	icon_frame = 1
+
+	sound = "alert_research_notification"
+	ping = "ping_notification_green"
+
+	default_toast = yes
+
+	category = economy
+}
+
+message_type = {
 	key = "WAR_MOON_DESTROYED"
 	icon = "GFX_message_celestial_warship_destroyed"
 	icon_frame = 1
@@ -56,4 +69,30 @@ message_type = {
 	name = MESSAGE_GIGA_ELYSIUM_LIVESTOCK_PENS_TITLE
 	sound = notification
 	ping = ping_notification_yellow
+}
+
+message_type = {
+	key = "GIGA_KATZEN_RESISTANCE"
+	icon = "GFX_toast_giga_kaiser_emblem"
+	icon_frame = 1
+
+	sound = "alert_research_notification"
+	ping = "ping_notification_yellow"
+
+	default_toast = yes
+
+	category = diplomacy
+}
+
+message_type = {
+	key = "GIGA_KATZEN_SHIPS"
+	icon = "GFX_toast_giga_kaiser_emblem"
+	icon_frame = 1
+
+	sound = "alert_research_notification"
+	ping = "ping_notification_yellow"
+
+	default_toast = yes
+
+	category = diplomacy
 }

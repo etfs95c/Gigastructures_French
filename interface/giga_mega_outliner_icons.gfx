@@ -338,7 +338,24 @@ spriteTypes = {
 		textureFile = gfx/interface/icons/megastructures/storm_observatory.dds
 	}
 
-		
+	# planetary seeder nexus X
+	spriteType = {
+		name = GFX_planetary_seeder_nexus_0_outliner_icon
+		textureFile = gfx/interface/icons/megastructures/orbital_artificial_ecosystem.dds
+	}
+	spriteType = {
+		name = GFX_planetary_seeder_nexus_1_outliner_icon
+		textureFile = gfx/interface/icons/megastructures/orbital_artificial_ecosystem.dds
+	}
+	spriteType = {
+		name = GFX_planetary_seeder_nexus_2_outliner_icon
+		textureFile = gfx/interface/icons/megastructures/orbital_artificial_ecosystem.dds
+	}
+	spriteType = {
+		name = GFX_planetary_seeder_nexus_3_outliner_icon
+		textureFile = gfx/interface/icons/megastructures/orbital_artificial_ecosystem.dds
+	}
+
 	# orbital artificial ecosystem X
 	spriteType = {
 		name = GFX_orbital_artificial_eco_0_outliner_icon
@@ -2173,6 +2190,36 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_war_system_5_outliner_icon
 		textureFile = gfx/interface/icons/megastructures/systemcraft.dds
+	}
+
+	# Scaled Dyson Swarms
+	spriteType = {
+		name = GFX_dyson_swarm_3_a_star_outliner_icon
+		textureFile = "gfx/interface/icons/megastructures/dyson_swarm_3.dds"
+	}
+	spriteType = {
+		name = GFX_dyson_swarm_3_b_star_outliner_icon
+		textureFile = "gfx/interface/icons/megastructures/dyson_swarm_3.dds"
+	}
+	spriteType = {
+		name = GFX_dyson_swarm_3_f_star_outliner_icon
+		textureFile = "gfx/interface/icons/megastructures/dyson_swarm_3.dds"
+	}
+	spriteType = {
+		name = GFX_dyson_swarm_3_g_star_outliner_icon
+		textureFile = "gfx/interface/icons/megastructures/dyson_swarm_3.dds"
+	}
+	spriteType = {
+		name = GFX_dyson_swarm_3_k_star_outliner_icon
+		textureFile = "gfx/interface/icons/megastructures/dyson_swarm_3.dds"
+	}
+	spriteType = {
+		name = GFX_dyson_swarm_3_m_giant_star_outliner_icon
+		textureFile = "gfx/interface/icons/megastructures/dyson_swarm_3.dds"
+	}
+	spriteType = {
+		name = GFX_dyson_swarm_3_m_star_outliner_icon
+		textureFile = "gfx/interface/icons/megastructures/dyson_swarm_3.dds"
 	}
 
 	#Dyson sphere

@@ -4,12 +4,45 @@
 ### Materials ##########	A lot of megas should belong here. Will discuss.
 ########################
 
+#PRINTING
+giga_tech_planetary_matter_dumping = {
+	cost = @giga_tier6cost3
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	is_rare = yes
+	weight = @giga_tier6weight1
+	prerequisites = { "tech_ring_world" }
+
+	potential = {
+		has_ascension_perk = ap_celestial_printing
+	}
+	modifier = { country_minerals_produces_mult = 0.05 }			# Incase this tech's megastructure is disabled
+
+	weight_modifier = {
+		inline_script = {
+			script = technologies/rare_technologies_weight_modifiers
+			TECHNOLOGY = giga_tech_planetary_matter_dumping
+		}
+	}
+
+	ai_weight = {
+		factor = @giga_aiweight_multiplier_insane	#Has the AP
+	}
+}
+
 giga_tech_engineering_test_site = {
 	cost = @tier3cost2
 	area = engineering
 	tier = 3
 	category = { materials }
-	prerequisites = { "tech_starbase_4" "tech_cruisers" }
+	prerequisites = {
+		tech_starbase_4
+		OR = {
+			tech_cruisers
+			tech_harbingers
+		}
+	}
 	weight = @tier3weight2
 	is_rare = no
 	prereqfor_desc = {
@@ -18,6 +51,7 @@ giga_tech_engineering_test_site = {
 	modifier = {
 		country_resource_max_add = 2500
 		ship_armor_mult = 0.05
+		giga_megabase_limit_add = 3
 	}
 
 	potential = {
@@ -80,13 +114,14 @@ giga_tech_automated_stripmine_2 = {
 	tier = 4
 	category = { industry }
 	is_rare = yes
-	prerequisites = { "tech_mining_3" "tech_mine_volatile_motes" "tech_mega_engineering" }
+	prerequisites = { "tech_mining_3" "tech_mine_volatile_motes" }
 	weight = @tier4weight2
 	prereqfor_desc = {
 		custom = { title = "allow_auto_stripmine"	desc = "desc_auto_stripmine" }
 	}
 	modifier = {
 		station_gatherers_volatile_motes_produces_mult = 0.10
+		giga_drill_limit_add = 3
 	}
 
 	potential = {
@@ -150,7 +185,7 @@ giga_tech_crystal_megabore = {
 	tier = 4
 	category = { industry }
 	is_rare = yes
-	prerequisites = { "tech_mineral_purification_2" "tech_mega_engineering" "tech_mine_rare_crystals" }
+	prerequisites = { "tech_mineral_purification_2" "tech_mine_rare_crystals" }
 	weight = @tier4weight2
 	prereqfor_desc = {
 		custom = { title = "allow_crystal_megabore"	desc = "desc_crystal_megabore" }
@@ -158,6 +193,7 @@ giga_tech_crystal_megabore = {
 
 	modifier = {
 		station_gatherers_rare_crystals_produces_mult = 0.10
+		giga_crystal_limit_add = 3
 	}
 
 	potential = {
@@ -361,7 +397,14 @@ giga_tech_neutronium_gigaforge = {
 	tier = 5
 	category = { voidcraft }
 	is_rare = yes
-	prerequisites = { "tech_starbase_5" "tech_battleships" "tech_ship_armor_5" }
+	prerequisites = { 
+		tech_starbase_5
+		OR = {
+			tech_battleships
+			tech_stingers
+		}
+		tech_ship_armor_5
+	}
 	weight = @giga_tier6weight2
 	prereqfor_desc = {
 		custom = { title = "allow_neut_gigaforge"	desc = "desc_neut_gigaforge" }
@@ -438,16 +481,17 @@ giga_tech_ringworld_upgrade = {
 	is_rare = yes
 	prerequisites = { "giga_tech_ringworld_titanic_1" }
 	weight = @giga_tier6weight1
-	prereqfor_desc = {
-		custom = { title = "allow_upgrade_ringworld"	desc = "desc_upgrade_ringworld" }
-	}
+	# prereqfor_desc = {
+	# 	custom = { title = "allow_upgrade_ringworld"	desc = "desc_upgrade_ringworld" }
+	# }
 	modifier = { megastructure_build_speed_mult = 0.1 }
 
 	potential = {
 		has_any_galactic_wonders_dlc = yes
 		has_galactic_wonders = yes
-		is_giga_one_planet_origin = no
+		giga_can_use_habitables = yes
 		# any ring titanic or bigger enabled
+		NOT = { has_global_flag = upgrade_disabled }
 		OR = {
 			has_global_flag = giga_rings_tit
 			has_global_flag = giga_rings_beh
@@ -590,6 +634,7 @@ giga_tech_alderson_disk = {
 		has_any_galactic_wonders_dlc = yes
 		has_gigastructural_constructs = yes
 		NOT = { has_global_flag = alderson_disabled }
+		giga_can_use_habitables = yes
 	}
 	weight = @giga_tier7weight3
 	prereqfor_desc = {
@@ -645,7 +690,7 @@ giga_tech_interstellar_habitat = {
 		}
 		has_any_megastructure_dlc = yes
 		is_void_dweller_empire = yes
-		is_giga_one_planet_origin = no
+		giga_can_use_habitables = yes
 	}
 
 	weight_modifier = {
@@ -1005,7 +1050,7 @@ giga_tech_succ = {
 	tier = 4
 	category = { voidcraft }
 	is_rare = yes
-	prerequisites = { "tech_mega_engineering" "tech_power_plant_4" "tech_mine_exotic_gases" }
+	prerequisites = { "tech_power_plant_4" "tech_mine_exotic_gases" }
 	weight = @tier4weight3
 	prereqfor_desc = {
 		custom = { title = "allow_succ"	desc = "desc_succ" }
@@ -1013,6 +1058,7 @@ giga_tech_succ = {
 
 	modifier = {
 		station_gatherers_exotic_gases_produces_mult = 0.10
+		giga_succ_limit_add = 3
 	}
 
 	potential = {
