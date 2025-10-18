@@ -49,7 +49,7 @@
   
   name_crystal_megabore:0 "Mégaforage à Crystal"
   allow_crystal_megabore:0 "§HDébloque la Mégastructure :§! $name_crystal_megabore$"
-  desc_crystal_megabore:99 "A massive orbital facility which bores directly into a Molten Planet's core, extracting large amounts of rare crystals."
+  desc_crystal_megabore:0 "Une immense installation orbitale qui fore directement dans le cœur d'une Planète en Fusion pour en extraire une grande quantité de cristaux rare."
   
   name_interstellar_hab:0 "Habitat Interstellaire"
   allow_interstellar_hab:0 "§HDébloque la Mégastructure :§! $name_interstellar_hab$"
@@ -112,7 +112,7 @@
   desc_matrioshka_brain:0 "Un incroyable superordinateur d'une taille inconcevable."
   name_virtual_reality:0 "Réalité Virtuelle"
   allow_virtual_reality:99 "§HUnlocks Feature:§! $name_virtual_reality$"
-  desc_virtual_reality:99 "Lets us upgrade a $name_matrioshka_brain$ into a Matrioshka Reality Simulator, capable of holding billions of minds."
+  desc_virtual_reality:0 "Nous permet de transformer le $name_matrioshka_brain$ en un Simulateur de Réalité Matriochka capable  de contenir des milliards d'esprits."
   
   name_kugelblitz:0 "Silo de Stockage par Kugelblitz"
   allow_kugelblitz:0 "§HDébloque la Mégastructure :§! $name_kugelblitz$"
@@ -218,7 +218,7 @@
   allow_terraform_barren:99 "§HUnlocks Megastructure:§! $name_terraform_barren$"
   desc_terraform_barren:0 "Une vaste structure construite autour d'un monde désolé afin de le rendre plus habitable."
   
-  name_terraform_gasgiant:99 "Macroatmospheric Stabilizer"
+  name_terraform_gasgiant:0 "Stabilisateur Macroatmosphérique"
   allow_terraform_gasgiant:0 "§HDébloque la Mégastructure :§! $name_terraform_gasgiant$"
   desc_terraform_gasgiant:99 "The $name_terraform_gasgiant$ is capable of partially controlling a Gas Giant's upper atmosphere, rendering it somewhat habitable.\n\nGas Giant Colonies possess unique §YGenerator§! and §YResearch§! Districts, alongside unique §YPlanetary Features§!. The larger the Gas Giant, the larger the resulting colony."
   
@@ -226,7 +226,7 @@
   allow_terraform_toxic:99 "§HUnlocks Megastructure:§! $name_terraform_toxic$"
   desc_terraform_toxic:0 "Une mégastructure capable de transformer une planète toxique en un monde habitable."
   
-  name_orbital_arcology:99 "Orbital Arcology"
+  name_orbital_arcology:0 "Arcologie Orbitale"
   allow_orbital_arcology:99 "§HUnlocks Feature:§! $name_orbital_arcology$"
   #"§HUnlocks Megastructure:§! $name_orbital_arcology$"
   allow_orbital_arcology_desc:99 "With the Overlord DLC, unlocks the §Y$name_orbital_arcology$§! Orbital Ring Building.\nWithout, unlocks the §Y$decision_giga_build_orbital_arcology$§! Planetary Decision."
