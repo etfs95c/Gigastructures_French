@@ -1075,9 +1075,9 @@ country_event = {
 						add_hyperlane_safe = { from = event_target:giga_outer_1		to = event_target:giga_outer_2 }
 						add_hyperlane_safe = { from = event_target:giga_outer_2		to = event_target:giga_outer_3 }
 						add_hyperlane_safe = { from = event_target:giga_outer_3		to = event_target:giga_outer_1 }
-						event_target:birch_aeternum = { #Initialize stuff
-							country_event = { id = giga_aeternum.1000 days = 2 }
-						}
+						# event_target:birch_aeternum = { #Initialize stuff
+						# 	country_event = { id = giga_aeternum.1000 days = 2 }
+						# }
 
 					}
 				}
@@ -2286,84 +2286,172 @@ planet_event = {
 		save_event_target_as = planet_deploying_ships
 		planet_owner = { save_event_target_as = strike_fleet_owner }
 		planet_event = { id = giga_mega.7003 days = 10 }
-		create_fleet = {
-			name = "corvette_defense_squadron"
-			settings = {
-				spawn_debris = no
-				can_change_composition = no
-				is_boss = no
-				can_disband = no
-				can_upgrade = no
-				uses_naval_capacity = no
-				can_change_leader = no
-			}
-			effect = {
-				set_name = {
-					key = "corvette_defense_squadron"
-					variable_string = "[event_target:planet_deploying_ships.GetName]"
-				}
-				set_owner = event_target:strike_fleet_owner
-				while = {
-					count = event_target:planet_deploying_ships.giga_nexus_ship_count
-					create_ship = {
-						name = "Strike Corvette"
-						graphical_culture = event_target:strike_fleet_owner
-						random_existing_design = corvette
-						effect = {
-							add_modifier = {
-								modifier = giga_strike_corvette_modifier
-								days = -1
-							}
-							if = {
-								limit = { event_target:strike_fleet_owner = { has_ascension_perk = ap_eternal_vigilance } }
-								add_modifier = {
-									modifier = giga_strike_corvette_vigilance_ap
-									days = -1
-								}
-							}
-							if = {
-								limit = { event_target:strike_fleet_owner = { has_technology = giga_tech_defense_nexus_damage_1 } }
-								add_modifier = {
-									modifier = giga_strike_corvette_buff_tech_1
-									days = -1
-								}
-							}
-							if = {
-								limit = { event_target:strike_fleet_owner = { has_technology = giga_tech_defense_nexus_damage_2 } }
-								add_modifier = {
-									modifier = giga_strike_corvette_buff_tech_2
-									days = -1
-								}
-							}
-							if = {
-								limit = { event_target:planet_deploying_ships = { is_giga_maginot_world = yes } }
-								add_modifier = {
-									modifier = giga_strike_corvette_buff_maginot
-									days = -1
-								}
-							}
-						}
-					}
-				}
-				set_fleet_stance = aggressive
-				set_fleet_flag = giga_yard_entity_@ROOT
-				fleet_event = { id = giga_mega.7002 days = 30 }
-				set_formation_scale = 1
-				set_location = {
-					target = ROOT
-					distance = 0
-					angle = 0
-				}
-				ROOT = {
-					set_planet_flag = giga_yard_entity_fleet_@PREV
-					set_planet_flag = defence_squadron_deployed
-					set_timed_planet_flag = {
-						flag = giga_defence_squadron_cooldown
-						days = 90
-					}
-				}
-			}
-		}
+        if = { # for the mechanical ships
+            limit = {
+                owner = { country_uses_bio_ships = no }
+            }
+            create_fleet = {
+                name = "corvette_defense_squadron"
+                settings = {
+                    spawn_debris = no
+                    can_change_composition = no
+                    is_boss = no
+                    can_disband = no
+                    can_upgrade = no
+                    uses_naval_capacity = no
+                    can_change_leader = no
+                }
+                effect = {
+                    set_name = {
+                        key = "corvette_defense_squadron"
+                        variable_string = "[event_target:planet_deploying_ships.GetName]"
+                    }
+                    set_owner = event_target:strike_fleet_owner
+                    while = {
+                        count = event_target:planet_deploying_ships.giga_nexus_ship_count
+                        create_ship = {
+                            name = "Strike Corvette"
+                            graphical_culture = event_target:strike_fleet_owner
+                            random_existing_design = corvette
+                            effect = {
+                                add_modifier = {
+                                    modifier = giga_strike_corvette_modifier
+                                    days = -1
+                                }
+                                if = {
+                                    limit = { event_target:strike_fleet_owner = { has_ascension_perk = ap_eternal_vigilance } }
+                                    add_modifier = {
+                                        modifier = giga_strike_corvette_vigilance_ap
+                                        days = -1
+                                    }
+                                }
+                                if = {
+                                    limit = { event_target:strike_fleet_owner = { has_technology = giga_tech_defense_nexus_damage_1 } }
+                                    add_modifier = {
+                                        modifier = giga_strike_corvette_buff_tech_1
+                                        days = -1
+                                    }
+                                }
+                                if = {
+                                    limit = { event_target:strike_fleet_owner = { has_technology = giga_tech_defense_nexus_damage_2 } }
+                                    add_modifier = {
+                                        modifier = giga_strike_corvette_buff_tech_2
+                                        days = -1
+                                    }
+                                }
+                                if = {
+                                    limit = { event_target:planet_deploying_ships = { is_giga_maginot_world = yes } }
+                                    add_modifier = {
+                                        modifier = giga_strike_corvette_buff_maginot
+                                        days = -1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    set_fleet_stance = aggressive
+                    set_fleet_flag = giga_yard_entity_@ROOT
+                    fleet_event = { id = giga_mega.7002 days = 30 }
+                    set_formation_scale = 1
+                    set_location = {
+                        target = ROOT
+                        distance = 0
+                        angle = 0
+                    }
+                    ROOT = {
+                        set_planet_flag = giga_yard_entity_fleet_@PREV
+                        set_planet_flag = defence_squadron_deployed
+                        set_timed_planet_flag = {
+                            flag = giga_defence_squadron_cooldown
+                            days = 90
+                        }
+                    }
+                }
+            }
+        }
+        if = { # for bioships
+            limit = {
+                owner = { country_uses_bio_ships = yes }
+            }
+            create_fleet = {
+                name = "mauler_defense_squadron"
+                settings = {
+                    spawn_debris = no
+                    can_change_composition = no
+                    is_boss = no
+                    can_disband = no
+                    can_upgrade = no
+                    uses_naval_capacity = no
+                    can_change_leader = no
+                }
+                effect = {
+                    set_name = {
+                        key = "mauler_defense_squadron"
+                        variable_string = "[event_target:planet_deploying_ships.GetName]"
+                    }
+                    set_owner = event_target:strike_fleet_owner
+                    while = {
+                        count = event_target:planet_deploying_ships.giga_nexus_ship_count
+                        create_ship = {
+                            name = "Strike Mauler"
+                            graphical_culture = event_target:strike_fleet_owner
+                            random_existing_design = mauler_stage_2
+                            effect = {
+                                add_modifier = {
+                                    modifier = giga_strike_corvette_modifier
+                                    days = -1
+                                }
+                                if = {
+                                    limit = { event_target:strike_fleet_owner = { has_ascension_perk = ap_eternal_vigilance } }
+                                    add_modifier = {
+                                        modifier = giga_strike_corvette_vigilance_ap
+                                        days = -1
+                                    }
+                                }
+                                if = {
+                                    limit = { event_target:strike_fleet_owner = { has_technology = giga_tech_defense_nexus_damage_1 } }
+                                    add_modifier = {
+                                        modifier = giga_strike_corvette_buff_tech_1
+                                        days = -1
+                                    }
+                                }
+                                if = {
+                                    limit = { event_target:strike_fleet_owner = { has_technology = giga_tech_defense_nexus_damage_2 } }
+                                    add_modifier = {
+                                        modifier = giga_strike_corvette_buff_tech_2
+                                        days = -1
+                                    }
+                                }
+                                if = {
+                                    limit = { event_target:planet_deploying_ships = { is_giga_maginot_world = yes } }
+                                    add_modifier = {
+                                        modifier = giga_strike_corvette_buff_maginot
+                                        days = -1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    set_fleet_stance = aggressive
+                    set_fleet_flag = giga_yard_entity_@ROOT
+                    fleet_event = { id = giga_mega.7002 days = 30 }
+                    set_formation_scale = 1
+                    set_location = {
+                        target = ROOT
+                        distance = 0
+                        angle = 0
+                    }
+                    ROOT = {
+                        set_planet_flag = giga_yard_entity_fleet_@PREV
+                        set_planet_flag = defence_squadron_deployed
+                        set_timed_planet_flag = {
+                            flag = giga_defence_squadron_cooldown
+                            days = 90
+                        }
+                    }
+                }
+            }
+        }
 	}
 }
 
@@ -3357,6 +3445,496 @@ planet_event = {
 			set_planet_entity = {
 				picture = pc_birch
 				entity = giga_alderson_pc_01_entity
+			}
+		}
+	}
+}
+
+planet_event = {
+	id = giga_mega.9101
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		exists = owner
+		is_planet_class = pc_ringworld_habitable
+	}
+
+	immediate = {
+		set_variable = {
+			which = num_ringworld_industry
+			value = 0
+		}
+		set_variable = {
+			which = num_ringworld_tech_unity
+			value = 0
+		}
+		set_variable = {
+			which = num_ringworld_rural
+			value = 0
+		}
+		# Ecumenopolis Zones - Alloy/CGs
+		# Machine Zones - Only if Machine
+		change_variable = {
+			which = num_ringworld_industry
+			value = value:count_zones|TYPE|industrial|
+		}
+		change_variable = {
+			which = num_ringworld_industry
+			value = value:count_zones|TYPE|foundry|
+		}
+		change_variable = {
+			which = num_ringworld_industry
+			value = value:count_zones|TYPE|factory|
+		}
+		change_variable = {
+			which = num_ringworld_industry
+			value = value:count_zones|TYPE|trade|
+		}
+		change_variable = {
+			which = num_ringworld_industry
+			value = value:count_zones|TYPE|industrial_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_industry
+			value = value:count_zones|TYPE|foundry_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_industry
+			value = value:count_zones|TYPE|factory_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_industry
+			value = value:count_zones|TYPE|trade_ring_world|
+		}
+		# Hive Zones if Gestalt - Rural
+		change_variable = {
+			which = num_ringworld_rural
+			value = value:count_zones|TYPE|urban_food|
+		}
+		change_variable = {
+			which = num_ringworld_rural
+			value = value:count_zones|TYPE|urban_energy|
+		}
+		change_variable = {
+			which = num_ringworld_rural
+			value = value:count_zones|TYPE|food_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_rural
+			value = value:count_zones|TYPE|energy_ring_world|
+		}
+		# Tech/Unity - Not Ecu/Machine if theres more of these
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|research|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|research_physics|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|research_society|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|research_engineering|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|research_unity|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|unity|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|unity_spiritualist|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|unity_bio_trophy|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|research_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|research_physics_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|research_society_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|research_engineering_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|unity_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|unity_spiritualist_ring_world|
+		}
+		change_variable = {
+			which = num_ringworld_tech_unity
+			value = value:count_zones|TYPE|unity_bio_trophy_ring_world|
+		}
+		# Volcanic if Infernal (No Agriculture Zones)
+		# Gaia Otherwise
+
+		if = {
+			limit = { has_planet_flag = giga_ringworld_gar }
+			if = {
+				limit = {
+					owner = { has_ascension_perk = ap_machine_worlds }
+					NOR = {
+						has_zone = { zone = unity_bio_trophy }
+						has_zone = { zone = unity_bio_trophy_ring_world }
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_rural
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = gargantuan
+					TYPE = machine_habitable
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { has_ascension_perk = ap_arcology_project }
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_rural
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = gargantuan
+					TYPE = ecu_habitable
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { has_ascension_perk = ap_hive_worlds }
+					check_variable_arithmetic = {
+						which = num_ringworld_rural
+						value > num_ringworld_industry
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_rural
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = gargantuan
+					TYPE = hive_habitable
+				}
+			}
+			else_if = {
+				limit = {
+					has_infernals = yes
+					is_infernal_empire = yes
+					has_any_agriculture_zone = no
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = gargantuan
+					TYPE = volcanic_habitable
+				}
+			}
+			else = {
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = gargantuan
+					TYPE = gaia_habitable
+				}
+			}
+
+		}
+		else_if = {
+			limit = {
+				has_planet_flag = giga_ringworld_beh
+			}
+			if = {
+				limit = {
+					owner = { has_ascension_perk = ap_machine_worlds }
+					NOR = {
+						has_zone = { zone = unity_bio_trophy }
+						has_zone = { zone = unity_bio_trophy_ring_world }
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_rural
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = behemoth
+					TYPE = machine_habitable
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { has_ascension_perk = ap_arcology_project }
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_rural
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = behemoth
+					TYPE = ecu_habitable
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { has_ascension_perk = ap_hive_worlds }
+					check_variable_arithmetic = {
+						which = num_ringworld_rural
+						value > num_ringworld_industry
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_rural
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = behemoth
+					TYPE = hive_habitable
+				}
+			}
+			else_if = {
+				limit = {
+					has_infernals = yes
+					is_infernal_empire = yes
+					has_any_agriculture_zone = no
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = behemoth
+					TYPE = volcanic_habitable
+				}
+			}
+			else = {
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = behemoth
+					TYPE = gaia_habitable
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_planet_flag = giga_ringworld_tit
+			}
+			if = {
+				limit = {
+					owner = { has_ascension_perk = ap_machine_worlds }
+					NOR = {
+						has_zone = { zone = unity_bio_trophy }
+						has_zone = { zone = unity_bio_trophy_ring_world }
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_rural
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = titanic
+					TYPE = machine_habitable
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { has_ascension_perk = ap_arcology_project }
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_rural
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = titanic
+					TYPE = ecu_habitable
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { has_ascension_perk = ap_hive_worlds }
+					check_variable_arithmetic = {
+						which = num_ringworld_rural
+						value > num_ringworld_industry
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_rural
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = titanic
+					TYPE = hive_habitable
+				}
+			}
+			else_if = {
+				limit = {
+					has_infernals = yes
+					is_infernal_empire = yes
+					has_any_agriculture_zone = no
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = titanic
+					TYPE = volcanic_habitable
+				}
+			}
+			else = {
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = titanic
+					TYPE = gaia_habitable
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					owner = { has_ascension_perk = ap_machine_worlds }
+					NOR = {
+						has_zone = { zone = unity_bio_trophy }
+						has_zone = { zone = unity_bio_trophy_ring_world }
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_rural
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = vanilla
+					TYPE = machine_habitable
+					VANILLA_TYPE = habitable
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { has_ascension_perk = ap_arcology_project }
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_rural
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_industry
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = vanilla
+					TYPE = ecu_habitable
+					VANILLA_TYPE = habitable
+				}
+			}
+			else_if = {
+				limit = {
+					owner = { has_ascension_perk = ap_hive_worlds }
+					check_variable_arithmetic = {
+						which = num_ringworld_rural
+						value > num_ringworld_industry
+					}
+					check_variable_arithmetic = {
+						which = num_ringworld_rural
+						value > num_ringworld_tech_unity
+					}
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = vanilla
+					TYPE = hive_habitable
+					VANILLA_TYPE = habitable
+				}
+			}
+			else_if = {
+				limit = {
+					has_infernals = yes
+					is_infernal_empire = yes
+					has_any_agriculture_zone = no
+				}
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = vanilla
+					TYPE = volcanic_habitable
+					VANILLA_TYPE = habitable
+				}
+			}
+			else = {
+				giga_set_ringworld_graphical_culture = {
+					TARGET = this
+					SOURCE = solar_system.starbase.owner
+					SIZE = vanilla
+					TYPE = gaia_habitable
+					VANILLA_TYPE = habitable
+				}
 			}
 		}
 	}

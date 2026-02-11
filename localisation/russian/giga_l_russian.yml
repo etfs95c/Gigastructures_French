@@ -424,7 +424,7 @@
   #########################################
   
   giga_news_title:99 "Mod News & Latest Changes"
-  giga_news_log:99 "§B------------------------ September 25th, 2025 ----------------------------§!\n§HMOD VERSION, 3.35.0 - 'SPARBLERONI PIZZA' by Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YREWORKED ALDERSON DISK.§!\nThe Alderson Disk is back, with giant 4-zone districts!\n\n§YBULK MATTER REWORK§!\nLarge megastructures now require Bulk Matter harvested from planets. Get dismantling!\n\n§YPLANETARY SEEDER NEXUS§!\nBuilt around a Gas Giant and creates food deposits across a whole system! Suggested by Reddit user markjsno1 on r/Stellaris.\n\n§B------------------------ September 22nd, 2025 ----------------------------§!\n§HMOD VERSION, 3.34.3 by Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\nVersion 3.34.3 brings compatibility with 4.1 for planetviews and tankbound. Report any missed issues on the Discord!\n\n§B--------------------------- June 16th, 2025 ---------------------------------§!\n§HMOD VERSION, 3.34 by TTFTCUTS, PIECAT & Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\nVersion 3.34.1 at last re-enable the §YKatzenartig Imperium§!, alongside a plethora of other bugfixes!\n\n§B---------------------------- May 6th, 2025 ----------------------------------§!\n§HMOD VERSION, 3.34 by Elowiny & TTFTCUTS§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nVersion 3.34 brings §Ypartial compatibility§! with §Y4.0§!! However, some parts of the mod remain disabled for now while we fix them, these include the §YFrameworld§!, §YOrbital Elysium§!, §YAlderson Disk§!, §YAsteroid Industry§!, §YMatrioskha Brain VR§! (M.B. output doubled to compensate), the §YRingworld Variants§!, the §YInterstellar Habitat§!. the §YKatzenartig Imperium§!, §YSirenalia§! and the full scope of the §YBirch World§! (still available, but simplified). Expect §Yhotfixes§! bringing them back progressively over the next couple days and weeks!\n\n§B---------------------------- April 3rd, 2025 ----------------------------------§!\n§HMOD VERSION, 3.33 by PIECAT, Tempest, Elowiny & TTFTCUTS§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nVersion 3.33 brings a rework to the §YB.I.G. Vat§!, the new easier §YAlpha Aeternum§! difficulty, a §Yrework§! to the menu, numerous QoL fixes, and the new §YConfiguration§! selection screen before the menu!\n\n§YIF YOU HAVE FEEDBACK ABOUT THE NEW CONFIGURATION SELECTION MENU, MAKE SURE TO LEAVE IT ON THE DISCORD!§!\n\n§B--------------------------- January 2nd, 2025 -------------------------------§!\n§HMOD VERSION, 3.32.3 by PIECAT & Tempest§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR§!\nVersion 3.32.3 brings numerous much-needed fixes as well a second page for presets since we ran out of space.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\nFinally updated the §YBlokkat Portraits§!, §YPaluush Portraits§! and §YKatzen Portraits§! sub/standalone mods to 3.14! You can check them all out of the Workshop via the §YElowiny's Mods§! collection.\n\n§B-------------------------- November 20th, 2024 -----------------------------§!\n§HMOD VERSION, 3.32 by PIECAT§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YMACROATMOSPHERIC STABILIZER§!\nReworked Gas Districts to provide powerful ruler jobs which provide Exotic Gas output to technicians on the planet.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\n§HMOD VERSION 3.32 - 'CUE THE TRIUMPHANT RETURN'§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YTHE SUPERMASSIVE E.H.O.F.§!\nBuilt around an Inactive Core, provides immense buffs to fleet mobility.\n\n§YREWORKED TERRAFORMING MEGASTRUCTURES§!\nThey are now built from a singular site, and rather than terraforming by themselves, enable the terraformation of their planet via conventional terraforming.\n\n§YREWORKED STRIPMINE/S.U.C.C./MEGABORE§!\nThey no longer run out, and instead generate and buff Mote/Gas/Crystal deposits on their planet.\n\n§Y14 NEW SPECIMENS§!\nMostly related to events and crises. Can you find them all?\n\n§YASCENSION PERKS MERGED§!\nAlderson Disk no longer requires a perk, Systemcraft perk merged with Celestial Assembly perk.\n\n§YKATZENARTIG IMPERIUM DISABLED BY DEFAULT§!\nDue to how disruptive Kaiser can be to the unprepared player, the decision has been made to disable him by default."
+  giga_news_log:99 "§B--------------------------- January 18th, 2026 -------------------------------§!\n§HMOD VERSION, 3.36.1 by TTFTCUTS, xahkarias & Dodosman§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nThe §YMatrioskha Brain Uplinks§! and the §YSquareworld§! have been updated to 4.0! Alongside a myriad of other fixes, notably to Tankbound.\n\n§B--------------------------- January 1st, 2026 -------------------------------§!\n§HMOD VERSION, 3.36.0 - 'PONDERING THE ORB', by TTFTCUTS, dodomans & xahkarias§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR§!\n§YREVAMPED BIRCH WORLD§!\nThe Birch World has been updated to 4.0+ standards! Insulae and Sectors are back with improved UI and access to district specializations. Aiondia too has been updated to take advantage of this design, integrating Aeternum closer with more recent Birch systems. Alongside, of course, many miscellaneous fixes.\n§B-------------------------- November 9th, 2025 ------------------------------§!\n\n§HMOD VERSION, 3.35.2, by Tempest, xahkarias and dodosman§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YRE-ENABLED MAGINOT WORLDS§!\nThe Maginot World is back, alongside numerous bugfixes.\n\n§B------------------------ September 25th, 2025 ----------------------------§!\n§HMOD VERSION, 3.35.0 - 'SPARBLERONI PIZZA' by Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YREWORKED ALDERSON DISK.§!\nThe Alderson Disk is back, with giant 4-zone districts!\n\n§YBULK MATTER REWORK§!\nLarge megastructures now require Bulk Matter harvested from planets. Get dismantling!\n\n§YPLANETARY SEEDER NEXUS§!\nBuilt around a Gas Giant and creates food deposits across a whole system! Suggested by Reddit user markjsno1 on r/Stellaris.\n\n§B------------------------ September 22nd, 2025 ----------------------------§!\n§HMOD VERSION, 3.34.3 by Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\nVersion 3.34.3 brings compatibility with 4.1 for planetviews and tankbound. Report any missed issues on the Discord!\n\n§B--------------------------- June 16th, 2025 ---------------------------------§!\n§HMOD VERSION, 3.34 by TTFTCUTS, PIECAT & Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\nVersion 3.34.1 at last re-enable the §YKatzenartig Imperium§!, alongside a plethora of other bugfixes!\n\n§B---------------------------- May 6th, 2025 ----------------------------------§!\n§HMOD VERSION, 3.34 by Elowiny & TTFTCUTS§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nVersion 3.34 brings §Ypartial compatibility§! with §Y4.0§!! However, some parts of the mod remain disabled for now while we fix them, these include the §YFrameworld§!, §YOrbital Elysium§!, §YAlderson Disk§!, §YAsteroid Industry§!, §YMatrioskha Brain VR§! (M.B. output doubled to compensate), the §YRingworld Variants§!, the §YInterstellar Habitat§!. the §YKatzenartig Imperium§!, §YSirenalia§! and the full scope of the §YBirch World§! (still available, but simplified). Expect §Yhotfixes§! bringing them back progressively over the next couple days and weeks!\n\n§B---------------------------- April 3rd, 2025 ----------------------------------§!\n§HMOD VERSION, 3.33 by PIECAT, Tempest, Elowiny & TTFTCUTS§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nVersion 3.33 brings a rework to the §YB.I.G. Vat§!, the new easier §YAlpha Aeternum§! difficulty, a §Yrework§! to the menu, numerous QoL fixes, and the new §YConfiguration§! selection screen before the menu!\n\n§YIF YOU HAVE FEEDBACK ABOUT THE NEW CONFIGURATION SELECTION MENU, MAKE SURE TO LEAVE IT ON THE DISCORD!§!\n\n§B--------------------------- January 2nd, 2025 -------------------------------§!\n§HMOD VERSION, 3.32.3 by PIECAT & Tempest§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR§!\nVersion 3.32.3 brings numerous much-needed fixes as well a second page for presets since we ran out of space.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\nFinally updated the §YBlokkat Portraits§!, §YPaluush Portraits§! and §YKatzen Portraits§! sub/standalone mods to 3.14! You can check them all out of the Workshop via the §YElowiny's Mods§! collection.\n\n§B-------------------------- November 20th, 2024 -----------------------------§!\n§HMOD VERSION, 3.32 by PIECAT§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YMACROATMOSPHERIC STABILIZER§!\nReworked Gas Districts to provide powerful ruler jobs which provide Exotic Gas output to technicians on the planet.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\n§HMOD VERSION 3.32 - 'CUE THE TRIUMPHANT RETURN'§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YTHE SUPERMASSIVE E.H.O.F.§!\nBuilt around an Inactive Core, provides immense buffs to fleet mobility.\n\n§YREWORKED TERRAFORMING MEGASTRUCTURES§!\nThey are now built from a singular site, and rather than terraforming by themselves, enable the terraformation of their planet via conventional terraforming.\n\n§YREWORKED STRIPMINE/S.U.C.C./MEGABORE§!\nThey no longer run out, and instead generate and buff Mote/Gas/Crystal deposits on their planet.\n\n§Y14 NEW SPECIMENS§!\nMostly related to events and crises. Can you find them all?\n\n§YASCENSION PERKS MERGED§!\nAlderson Disk no longer requires a perk, Systemcraft perk merged with Celestial Assembly perk.\n\n§YKATZENARTIG IMPERIUM DISABLED BY DEFAULT§!\nDue to how disruptive Kaiser can be to the unprepared player, the decision has been made to disable him by default."
   
   BLOKKAT:0 "Блоккоты"
   giga_menu.101.name:0 "Гигаструктуры"
@@ -1089,6 +1089,13 @@
   giga_the_vat_u:99 "£menu_u£§M$name_the_vat$§!"
   giga_the_vat_disabled:99 "£menu_disabled£§R$name_the_vat$§!"
   
+  giga_planetary_seeder_nexus_1:99 "£menu_1£§H$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_2:99 "£menu_2£§Y$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_3:99 "£menu_3£§G$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_r:99 "£menu_r£§B$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_u:99 "£menu_u£§M$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_disabled:99 "£menu_disabled£§R$name_planetary_seeder_nexus$§!"
+  
   giga_maginot_1:99 "£menu_1£§H$name_maginot$§!"
   giga_maginot_2:99 "£menu_2£§Y$name_maginot$§!"
   giga_maginot_3:99 "£menu_3£§G$name_maginot$§!"
@@ -1247,6 +1254,7 @@
   giga_menu_presets_14:99 "Contributor: §LMegumin§!"
   giga_menu_presets_patreon_33:99 "Contributor: §LLucy§!"
   giga_menu_presets_18:99 "Contributor: §LTempest§!"
+  giga_menu_presets_19:99 "Contributor: §LXahkarias§!"
   
   giga_menu_presets_patreon_01:0 "Предустановка патреона: §MASpec§!"
   giga_menu_presets_patreon_02:0 "Предустановка патреона: §MArnieKuma§!"
@@ -2507,6 +2515,7 @@
   giga_sr_bulk_matter_desc:0 "Планетарная масса представляет собой большие количества твердого неочищенного вещества, собранного с теллурической планеты или луны и хранящегося в виде больших астероидов."
   
   mod_station_gatherers_food_produces_mult:99 "£food£ from $mod_station_researchers_produces_mult$"
+  mod_station_gatherers_alloys_produces_mult:99 "$mining_station$ $alloys$ Output"
   
   #######################
   # Negative Mass #
@@ -2537,6 +2546,7 @@
   job_ehof_energy_converter_plural:99 "$job_ehof_energy_converter$s"
   job_ehof_energy_converter_desc:1 "$job_ehof_energy_converter_plural$ преобразует положительную £energy£ §Y$energy$§! в §Y$giga_sr_negative_mass$§!, которая имеет множество применений во всех областях нашей империи."
   job_ehof_energy_converter_effect_desc:0 "£job_ehof_energy_converter£ $job_ehof_energy_converter_plural$ использует положительную £energy£ §Y$energy$§! в £giga_sr_negative_mass£ §Y$giga_sr_negative_mass$§!"
+  job_ehof_energy_converter_swap_plural_with_icon:99 "[ehof_energy_converter.GetIcon] [ehof_energy_converter.GetNamePlural]"
   mod_job_ehof_energy_converter_add:0 "Вакансия $job_ehof_energy_converter$"
   mod_job_ehof_energy_converter_per_pop:0 "§G+1§! $job_ehof_energy_converter$ Вакансия на $VALUE$ населения"
   mod_job_ehof_energy_converter_per_pop_short:0 "(£mod_job_ehof_energy_converter_add£§G+1§! на £pop£$VALUE$)"
@@ -2546,6 +2556,7 @@
   job_ehof_energy_converter_drone_plural:99 "$job_ehof_energy_converter_drone$s"
   job_ehof_energy_converter_drone_desc:1 "$job_ehof_energy_converter_drone_plural$ преобразует положительную £energy£ §Y$energy$§! в §Y$giga_sr_negative_mass$§!, которая имеет множество применений во всех областях нашего улья."
   job_ehof_energy_converter_drone_effect_desc:0 "£job_ehof_energy_converter_drone£ $job_ehof_energy_converter_drone_plural$ преобразует положительную £energy£ §Y$energy$§! в £giga_sr_negative_mass£ §Y$giga_sr_negative_mass$§!"
+  job_ehof_energy_converter_drone_swap_plural_with_icon:99 "[ehof_energy_converter_drone.GetIcon] [ehof_energy_converter_drone.GetNamePlural]"
   mod_job_ehof_energy_converter_drone_add:0 "Вакансия $job_ehof_energy_converter_drone$"
   mod_job_ehof_energy_converter_drone_per_pop:0 "§G+1§! $job_ehof_energy_converter_drone$ Вакансия на $VALUE$ населения"
   mod_job_ehof_energy_converter_drone_per_pop_short:0 "(£mod_job_ehof_energy_converter_drone_add£§G+1§! на £pop£$VALUE$)"
@@ -2577,6 +2588,7 @@
   job_ehof_cultivator_plural:99 "$job_ehof_cultivator$s"
   job_ehof_cultivator_desc:1 "$job_ehof_cultivator_plural$ использует £alloys£ §Y$alloys$§! и £energy£ §Y$energy$§! как сырье для £giga_sr_sentient_metal£ §Y$giga_sr_sentient_metal$§! Репликация, которая имеет множество применений во всех сферах нашей империи."
   job_ehof_cultivator_effect_desc:0 "£job_ehof_cultivator£ $job_ehof_cultivator_plural$ превращает £alloys£ §Y$alloys$§! и £energy£ §Y$energy$§! в £giga_sr_sentient_metal£ §Y$giga_sr_sentient_metal$§!"
+  job_ehof_cultivator_swap_plural_with_icon:99 "[ehof_cultivator.GetIcon] [ehof_cultivator.GetNamePlural]"
   mod_job_ehof_cultivator_add:0 "Вакансии $job_ehof_cultivator$"
   mod_job_ehof_cultivator_per_pop:0 "§G+1§! $job_ehof_cultivator$ вакансия на $VALUE$ населения"
   mod_job_ehof_cultivator_per_pop_short:0 "(£mod_job_ehof_cultivator_add£§G+1§! на £pop£$VALUE$)"
@@ -2586,6 +2598,7 @@
   job_ehof_cultivation_drone_plural:99 "$job_ehof_cultivation_drone$s"
   job_ehof_cultivation_drone_desc:1 "$job_ehof_cultivation_drone_plural$ использует £alloys£ §Y$alloys$§! и £energy£ §Y$energy$§! как сырье для £giga_sr_sentient_metal£ §Y$giga_sr_sentient_metal$§! Репликация, которая имеет множество применений во всех сферах нашей коллективной деятельности."
   job_ehof_cultivation_drone_effect_desc:0 "£job_ehof_cultivation_drone£ $job_ehof_cultivation_drone_plural$ превращает £alloys£ §Y$alloys$§! и £energy£ §Y$energy$§! в £giga_sr_sentient_metal£ §Y$giga_sr_sentient_metal$§!"
+  job_ehof_cultivation_drone_swap_plural_with_icon:99 "[ehof_cultivation_drone.GetIcon] [ehof_cultivation_drone.GetNamePlural]"
   mod_job_ehof_cultivation_drone_add:0 "Вакансии $job_ehof_cultivation_drone$"
   mod_job_ehof_cultivation_drone_per_pop:0 "§G+1§! $job_ehof_cultivation_drone$ вакансия на $VALUE$ населения"
   mod_job_ehof_cultivation_drone_per_pop_short:0 "(£mod_job_ehof_cultivation_drone_add£§G+1§! на £pop£$VALUE$)"
@@ -3669,11 +3682,11 @@
   mod_pc_alderson_slice_gaia_habitability:0 "Жители Gaia"
   trait_pc_alderson_slice_gaia_preference:0 "Предпочтение Gaia"
   trait_pc_alderson_slice_gaia_preference_desc:0 "§LКлиматические предпочтения определяются на генетическом уровне эпохами эволюции или умелыми манипуляциями.§!"
-
-  trait_auto_pc_alderson_slice_preference: "$pc_alderson_slice_gaia$ Mutations"
-  trait_auto_pc_alderson_slice_preference_tt: "$pc_alderson_slice_gaia$ Habitability: §G100%§!\n$t$- $IDEAL_PREFERENCE_TT$"
-  trait_auto_pc_alderson_slice_preference_desc: "$trait_auto_hab_preference_desc$"
-
+  
+  trait_auto_pc_alderson_slice_preference:99 "$pc_alderson_slice_gaia$ Mutations"
+  trait_auto_pc_alderson_slice_preference_tt:99 "$pc_alderson_slice_gaia$ Habitability: §G100%§!\n$t$- $IDEAL_PREFERENCE_TT$"
+  trait_auto_pc_alderson_slice_preference_desc:99 "$trait_auto_hab_preference_desc$"
+  
   mod_pc_alderson_slice_pc_habitability:0 "Жители планетарного компьютера"
   trait_pc_alderson_slice_pc_preference:0 "Предпочтение планетарный компьютер"
   trait_pc_alderson_slice_pc_preference_desc:0 "§LКлиматические предпочтения определяются на генетическом уровне эпохами эволюции или умелыми манипуляциями.§!"
@@ -3697,6 +3710,10 @@
   mod_pc_squareworld_habitable_habitability:0 "Жители квадратного мира"
   trait_pc_squareworld_habitable_preference:0 "Предпочтение Квадратный мир"
   trait_pc_squareworld_habitable_preference_desc:0 "§LКлиматические предпочтения определяются на генетическом уровне эпохами эволюции или умелыми манипуляциями.§!"
+  
+  trait_auto_pc_squareworld_preference:99 "$pc_squareworld_habitable$ Mutations"
+  trait_auto_pc_squareworld_preference_tt:99 "$pc_squareworld_habitable$ Habitability: §G100%§!\n$t$- $IDEAL_PREFERENCE_TT$"
+  trait_auto_pc_squareworld_preference_desc:99 "$trait_auto_hab_preference_desc$"
   
   mod_pc_ll_temperate_habitability:0 "Жители безжизненных миров"
   trait_pc_ll_temperate_preference:0 "Предпочтение безжизненные миры"
@@ -3991,9 +4008,15 @@
   district_rw_strat_res_plural:0 "Сегменты мануфактуры"
   district_rw_strat_res_desc:0 "Район для производства важных стратегических ресурсов, используемых по всей империи."
   
-  district_rw_quberine:99 "Quberine Extractor"
-  district_rw_quberine_plural:99 "Quberine Extractors"
-  district_rw_quberine_desc:99 "Automated harvesters which retrieve self-regenerating Quberine from the Squareworld's frame and break it down into usable Alloys and Minerals."
+  #########################################
+  ### Squareworld Ringworld districts #########
+  #########################################
+  district_giga_squareworld_livingmetal:99 "Extractor Segment"
+  district_giga_squareworld_livingmetal_plural:99 "Extractor Segments"
+  district_giga_squareworld_livingmetal_desc:99 "$zone_squareworld_livingmetal_desc$"
+  zone_squareworld_livingmetal:99 "Quberine Extractor"
+  zone_squareworld_livingmetal_desc:99 "Automated harvesters which retrieve self-regenerating Quberine from the Squareworld's frame and break it down into usable Alloys and Minerals."
+  zone_squareworld_livingmetal_automated_subtitle:99 "Automated Extractor"
   
   #########################################
   ### Virtual Ringworld districts #########
@@ -4222,7 +4245,7 @@
   zone_alderson_cg:99 "Superheavy Fabricators"
   zone_alderson_cg_desc:99 "Billions of square kilometers dedicated entirely to the production of popular goods. Almost fast enough to keep up with modern trends."
   zone_alderson_factory:99 "Megasprawl Manufactories"
-  zone_alderson_factory_desc:99 "Anything solid that has ever been engineering by the sapient mind can be found here, somewhere, amongst the millions and billions of towering exhaust stacks. Don't ask me where."
+  zone_alderson_factory_desc:99 "Anything solid that has ever been engineered by the sapient mind can be found here, somewhere, amongst the millions and billions of towering exhaust stacks. Don't ask where."
   zone_alderson_fortress:99 "Solar Bulwark"
   zone_alderson_fortress_desc:99 "An impenetrable network of fortresses and barracks sustaining armies more populous than entire worlds."
   
@@ -4332,95 +4355,105 @@
   job_giga_interstellar_scavenger:0 "Межзвездный мусорщик"
   job_giga_interstellar_scavenger_plural:0 "Межзвездные мусорщики"
   job_giga_interstellar_scavenger_desc:0 "Эти специалисты углубляются в межзвездное пространство в поисках небесных тел, которые можно добывать, и обломков космических кораблей, которые нужно переработать."
-  job_giga_interstellar_scavenger_effect_desc:0 "£job_giga_interstellar_scavenger£ $job_giga_interstellar_scavenger_plural$ исследуют межзвездное пространство, собирают £minerals£ §Y$minerals$§!, £alloys£ §YСплавы§! и £engineering_research£ §Y$engineering_research$§!"
-  mod_job_giga_interstellar_scavenger_add:0 "Вакансии $job_giga_interstellar_scavenger$"
-  mod_job_giga_interstellar_scavenger_per_pop:0 "§G+1§! $job_giga_interstellar_scavenger$ вакансия на $VALUE$ населения"
-  mod_job_giga_interstellar_scavenger_per_pop_short:0 "(£mod_job_giga_interstellar_scavenger_add£§G+1§! на £pop£$VALUE$)"
+  job_giga_interstellar_scavenger_effect_desc:0 "$job_giga_interstellar_scavenger_swap_plural_with_icon$ исследуют межзвездное пространство, собирают £minerals£ §Y$minerals$§!, £alloys£ §YСплавы§! и £engineering_research£ §Y$engineering_research$§!"
+  job_giga_interstellar_scavenger_swap_plural_with_icon:0 "[giga_interstellar_scavenger.GetIcon] [giga_interstellar_scavenger.GetNamePlural]"
+  mod_job_giga_interstellar_scavenger_add:0 "[giga_interstellar_scavenger.GetName] Jobs"
+  mod_job_giga_interstellar_scavenger_per_pop:0 "§G+1§! [giga_interstellar_scavenger.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_interstellar_scavenger_per_pop_short:0 "\n§G+1§! £mod_job_giga_interstellar_scavenger_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_interstellar_scavenger_drone:0 "Межзвездный дрон-мусорщик"
   job_giga_interstellar_scavenger_drone_plural:0 "Межзвездные дроны-мусорщики"
   job_giga_interstellar_scavenger_drone_desc:0 "Эти специалисты углубляются в межзвездное пространство в поисках небесных тел, которые можно заминировать, и обломков космических кораблей, которые нужно переработать."
-  job_giga_interstellar_scavenger_drone_effect_desc:0 "£job_giga_interstellar_scavenger_drone£ $job_giga_interstellar_scavenger_drone_plural$ исследует межзвездное пространство, собирая £minerals£ §Y$minerals$§!, £alloys£ §YСплавы§! и £engineering_research£ §Y$engineering_research$§!"
-  mod_job_giga_interstellar_scavenger_drone_add:0 "Вакансии $job_giga_interstellar_scavenger_drone$"
-  mod_job_giga_interstellar_scavenger_drone_per_pop:0 "§G+1§! $job_giga_interstellar_scavenger_drone$ вакансия на $VALUE$ населения"
-  mod_job_giga_interstellar_scavenger_drone_per_pop_short:0 "(£mod_job_giga_interstellar_scavenger_drone_add£§G+1§! на £pop£$VALUE$)"
+  job_giga_interstellar_scavenger_drone_effect_desc:0 "$job_giga_interstellar_scavenger_drone_swap_plural_with_icon$ исследует межзвездное пространство, собирая £minerals£ §Y$minerals$§!, £alloys£ §YСплавы§! и £engineering_research£ §Y$engineering_research$§!"
+  job_giga_interstellar_scavenger_drone_swap_plural_with_icon:0 "[giga_interstellar_scavenger_drone.GetIcon] [giga_interstellar_scavenger_drone.GetNamePlural]"
+  mod_job_giga_interstellar_scavenger_drone_add:0 "[giga_interstellar_scavenger_drone.GetName] Jobs"
+  mod_job_giga_interstellar_scavenger_drone_per_pop:0 "§G+1§! [giga_interstellar_scavenger_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_interstellar_scavenger_drone_per_pop_short:0 "\n§G+1§! £mod_job_giga_interstellar_scavenger_drone_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
   # Non-Gestalt
   job_giga_interstellar_researcher:0 "Межзвездный исследователь"
   job_giga_interstellar_researcher_plural:0 "Межзвездные исследователи"
   job_giga_interstellar_researcher_desc:0 "Межзвездные исследователи изучают огромную пустоту между звездами, где можно проводить эксперименты практически без внешнего вмешательства."
-  job_giga_interstellar_researcher_effect_desc:0 "£job_giga_interstellar_researcher£ $job_giga_interstellar_researcher_plural$ изучают межзвездное пространство, производят £physics_research£ §Y$physics_research$§! "
-  mod_job_giga_interstellar_researcher_add:0 "Вакансии $job_giga_interstellar_researcher$"
-  mod_job_giga_interstellar_researcher_per_pop:0 "§G+1§! $job_giga_interstellar_researcher$ вакансия на $VALUE$ населения"
-  mod_job_giga_interstellar_researcher_per_pop_short:0 "(£mod_job_giga_interstellar_researcher_add£§G+1§! на £pop£$VALUE$)"
+  job_giga_interstellar_researcher_effect_desc:0 "$job_giga_interstellar_researcher_swap_plural_with_icon$ изучают межзвездное пространство, производят £physics_research£ §Y$physics_research$§! "
+  job_giga_interstellar_researcher_swap_plural_with_icon:0 "[giga_interstellar_researcher.GetIcon] [giga_interstellar_researcher.GetNamePlural]"
+  mod_job_giga_interstellar_researcher_add:0 "[giga_interstellar_researcher.GetName] Jobs"
+  mod_job_giga_interstellar_researcher_per_pop:0 "§G+1§! [giga_interstellar_researcher.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_interstellar_researcher_per_pop_short:0 "\n§G+1§! £mod_job_giga_interstellar_researcher_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_interstellar_researcher_drone:0 "Межзвездный дрон-исследователь"
   job_giga_interstellar_researcher_drone_plural:0 "Межзвездные дроны-исследователи"
   job_giga_interstellar_researcher_drone_desc:0 "Межзвездные дроны-исследователи изучают обширную пустоту между звездами, где можно проводить эксперименты практически без внешнего вмешательства."
-  job_giga_interstellar_researcher_drone_effect_desc:0 "£job_giga_interstellar_researcher_drone£ $job_giga_interstellar_researcher_drone_plural$ изучают межзвездное пространство, производят £physics_research£ §Y$physics_research$§! "
-  mod_job_giga_interstellar_researcher_drone_add:0 "Вакансии $job_giga_interstellar_researcher_drone$"
-  mod_job_giga_interstellar_researcher_drone_per_pop:0 "§G+1§! $job_giga_interstellar_researcher_drone$ вакансия на $VALUE$ населения"
-  mod_job_giga_interstellar_researcher_drone_per_pop_short:0 "(£mod_job_giga_interstellar_researcher_drone_add£§G+1§! на £pop£$VALUE$)"
+  job_giga_interstellar_researcher_drone_effect_desc:0 "$job_giga_interstellar_researcher_drone_swap_plural_with_icon$ изучают межзвездное пространство, производят £physics_research£ §Y$physics_research$§! "
+  job_giga_interstellar_researcher_drone_swap_plural_with_icon:0 "[giga_interstellar_researcher_drone.GetIcon] [giga_interstellar_researcher_drone.GetNamePlural]"
+  mod_job_giga_interstellar_researcher_drone_add:0 "[giga_interstellar_researcher_drone.GetName] Jobs"
+  mod_job_giga_interstellar_researcher_drone_per_pop:0 "§G+1§! [giga_interstellar_researcher_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_interstellar_researcher_drone_per_pop_short:0 "\n§G+1§! £mod_job_giga_interstellar_researcher_drone_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
   # Non-Gestalt
   job_giga_zro_extractor:0 "Сборщик Зро"
   job_giga_zro_extractor_plural:0 "Сборщики Зро"
   job_giga_zro_extractor_desc:0 "Сборщики Зро собирают Зро из местных залежей."
-  job_giga_zro_extractor_effect_desc:0 "£job_giga_zro_extractor£ $job_giga_zro_extractor_plural$ собирают £sr_zro£ §Y$sr_zro$§! "
-  mod_job_giga_zro_extractor_add:0 "Вакансии $job_giga_zro_extractor$"
-  mod_job_giga_zro_extractor_per_pop:0 "§G+1§! $job_giga_zro_extractor$ вакансия на $VALUE$ населения"
-  mod_job_giga_zro_extractor_per_pop_short:0 "(£mod_job_giga_zro_extractor_add£§G+1§! на £pop£$VALUE$)"
+  job_giga_zro_extractor_effect_desc:0 "$job_giga_zro_extractor_swap_plural_with_icon$ собирают £sr_zro£ §Y$sr_zro$§! "
+  job_giga_zro_extractor_swap_plural_with_icon:0 "[giga_zro_extractor.GetIcon] [giga_zro_extractor.GetNamePlural]"
+  mod_job_giga_zro_extractor_add:0 "[giga_zro_extractor.GetName] Jobs"
+  mod_job_giga_zro_extractor_per_pop:0 "§G+1§! [giga_zro_extractor.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_zro_extractor_per_pop_short:0 "\n§G+1§! £mod_job_giga_zro_extractor_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_zro_extractor_drone:0 "Дрон-сборщик Зро"
   job_giga_zro_extractor_drone_plural:0 "Дроны-сборщики Зро"
   job_giga_zro_extractor_drone_desc:0 "Сборщики Зро собирают Зро из местных залежей."
-  job_giga_zro_extractor_drone_effect_desc:0 "£job_giga_zro_extractor_drone£ $job_giga_zro_extractor_drone_plural$ собирают £sr_zro£ §Y$sr_zro$§! "
-  mod_job_giga_zro_extractor_drone_add:0 "Вакансии $job_giga_zro_extractor_drone$"
-  mod_job_giga_zro_extractor_drone_per_pop:0 "§G+1§! $job_giga_zro_extractor_drone$ вакансия на $VALUE$ населения"
-  mod_job_giga_zro_extractor_drone_per_pop_short:0 "(£mod_job_giga_zro_extractor_drone_add£§G+1§! на £pop£$VALUE$)"
+  job_giga_zro_extractor_drone_effect_desc:0 "$job_giga_zro_extractor_drone_swap_plural_with_icon$ собирают £sr_zro£ §Y$sr_zro$§! "
+  job_giga_zro_extractor_drone_swap_plural_with_icon:0 "[giga_zro_extractor_drone.GetIcon] [giga_zro_extractor_drone.GetNamePlural]"
+  mod_job_giga_zro_extractor_drone_add:0 "[giga_zro_extractor_drone.GetName] Jobs"
+  mod_job_giga_zro_extractor_drone_per_pop:0 "§G+1§! [giga_zro_extractor_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_zro_extractor_drone_per_pop_short:0 "\n§G+1§! £mod_job_giga_zro_extractor_drone_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
   # Non-Gestalt
   job_giga_preserver:0 "Хранитель заповедника"
   job_giga_preserver_plural:0 "Хранители заповедника"
   job_giga_preserver_desc:0 "Эти специалисты поддерживают массивные природные заповедники на внутренней поверхности $name_orb_elysium$."
-  job_giga_preserver_effect_desc:0 "£job_giga_preserver£ $job_giga_preserver_plural$ поддерживают природные участки, производят £unity£ §Y$unity$§! и £society_research£ §Y$society_research$§! "
-  mod_job_giga_preserver_add:0 "Вакансии $job_giga_preserver$"
-  mod_job_giga_preserver_per_pop:0 "§G+1§! $job_giga_preserver$ вакансия на $VALUE$ населения"
-  mod_job_giga_preserver_per_pop_short:0 "(£mod_job_giga_preserver_add£§G+1§! на £pop£$VALUE$)"
+  job_giga_preserver_effect_desc:0 "$job_giga_preserver_swap_plural_with_icon$ поддерживают природные участки, производят £unity£ §Y$unity$§! и £society_research£ §Y$society_research$§! "
+  job_giga_preserver_swap_plural_with_icon:0 "[giga_preserver.GetIcon] [giga_preserver.GetNamePlural]"
+  mod_job_giga_preserver_add:0 "[giga_preserver.GetName] Jobs"
+  mod_job_giga_preserver_per_pop:0 "§G+1§! [giga_preserver.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_preserver_per_pop_short:0 "\n§G+1§! £mod_job_giga_preserver_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_preserver_drone:0 "Дрон-хранитель заповедника"
   job_giga_preserver_drone_plural:0 "Дроны-хранители заповедника"
   job_giga_preserver_drone_desc:0 "Эти специалисты поддерживают массивные природные заповедники на внутренней поверхности $name_orb_elysium$."
-  job_giga_preserver_drone_effect_desc:0 "£job_giga_preserver_drone£ $job_giga_preserver_drone_plural$ поддерживают природные участки, производят £unity£ §Y$unity$§! и £society_research£ §Y$society_research$§! "
-  mod_job_giga_preserver_drone_add:0 "Вакансии $job_giga_preserver_drone$"
-  mod_job_giga_preserver_drone_per_pop:0 "§G+1§! $job_giga_preserver_drone$ вакансия на $VALUE$ гаселения"
-  mod_job_giga_preserver_drone_per_pop_short:0 "(£mod_job_giga_preserver_drone_add£§G+1§! на £pop£$VALUE$)"
+  job_giga_preserver_drone_effect_desc:0 "$job_giga_preserver_drone_swap_plural_with_icon$ поддерживают природные участки, производят £unity£ §Y$unity$§! и £society_research£ §Y$society_research$§! "
+  job_giga_preserver_drone_swap_plural_with_icon:0 "[giga_preserver_drone.GetIcon] [giga_preserver_drone.GetNamePlural]"
+  mod_job_giga_preserver_drone_add:0 "[giga_preserver_drone.GetName] Jobs"
+  mod_job_giga_preserver_drone_per_pop:0 "§G+1§! [giga_preserver_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_preserver_drone_per_pop_short:0 "\n§G+1§! £mod_job_giga_preserver_drone_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
   # Non-Gestalt
   job_giga_gas_harvester:0 "Сборщик экзотических газов"
   job_giga_gas_harvester_plural:0 "Сборщики экзотических газов"
   job_giga_gas_harvester_desc:0 "Сборщики экзотических газов управляют космическими кораблями и механизмами, которые проникают в глубины атмосферы газовых гигантов, где проникают в карманы экзотического газа."
-  job_giga_gas_harvester_effect_desc:0 "£job_giga_gas_harvester£ $job_giga_gas_harvester_plural$ собирают £exotic_gases£ §Y$exotic_gases$§!"
-  mod_job_giga_gas_harvester_add:0 "Вакансии $job_giga_gas_harvester$"
-  mod_job_giga_gas_harvester_per_pop:0 "§G+1§! $job_giga_gas_harvester$ вакансия на $VALUE$ населения"
-  mod_job_giga_gas_harvester_per_pop_short:0 "(£mod_job_giga_gas_harvester_add£§G+1§! на £pop£$VALUE$)"
+  job_giga_gas_harvester_effect_desc:0 "$job_giga_gas_harvester_swap_plural_with_icon$ собирают £exotic_gases£ §Y$exotic_gases$§!"
+  job_giga_gas_harvester_swap_plural_with_icon:0 "[giga_gas_harvester.GetIcon] [giga_gas_harvester.GetNamePlural]"
+  mod_job_giga_gas_harvester_add:0 "[giga_gas_harvester.GetName] Jobs"
+  mod_job_giga_gas_harvester_per_pop:0 "§G+1§! [giga_gas_harvester.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_gas_harvester_per_pop_short:0 "\n§G+1§! £mod_job_giga_gas_harvester_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_gas_harvesting_drone:99 "Exotic Gas Harvester Drone"
   job_giga_gas_harvesting_drone_plural:99 "Exotic Gas Harvester Drones"
   job_giga_gas_harvesting_drone_desc:99 "Gas Harvesters operate spacecraft and machinery that reach into the depths of the Gas Giant's atmosphere and tap into pockets of exotic gas."
-  job_giga_gas_harvesting_drone_effect_desc:99 "£job_giga_gas_harvesting_drone£ $job_giga_gas_harvesting_drone_plural$ gather £exotic_gases£ §Y$exotic_gases$§!"
-  mod_job_giga_gas_harvesting_drone_add:99 "$job_giga_gas_harvesting_drone$ Jobs"
-  mod_job_giga_gas_harvesting_drone_per_pop:99 "§G+1§! $job_giga_gas_harvesting_drone$ Job per $VALUE$ Pops"
-  mod_job_giga_gas_harvesting_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_gas_harvesting_drone_add£ per $VALUE$ £pop£"
+  job_giga_gas_harvesting_drone_effect_desc:99 "$job_giga_gas_harvesting_drone_swap_plural_with_icon$ gather £exotic_gases£ §Y$exotic_gases$§!"
+  job_giga_gas_harvesting_drone_swap_plural_with_icon:99 "[giga_gas_harvesting_drone.GetIcon] [giga_gas_harvesting_drone.GetNamePlural]"
+  mod_job_giga_gas_harvesting_drone_add:99 "[giga_gas_harvesting_drone.GetName] Jobs"
+  mod_job_giga_gas_harvesting_drone_per_pop:99 "§G+1§! [giga_gas_harvesting_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_gas_harvesting_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_gas_harvester_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
   # Regular
@@ -7351,18 +7384,20 @@
   job_giga_iodizium_miner:99 "Iodizium Miner"
   job_giga_iodizium_miner_plural:99 "Iodizium Miners"
   job_giga_iodizium_miner_desc:99 "These specialist miners are equipped for the extraction of physics-defying iodizium crystals."
-  job_giga_iodizium_miner_effect_desc:99 "£job_giga_iodizium_miner£ $job_giga_iodizium_miner_plural$ use £consumer_goods£ §Y$consumer_goods$§! to safely extract £giga_sr_iodizium£ §Y$giga_sr_iodizium$§!"
-  mod_job_giga_iodizium_miner_add:99 "$job_giga_iodizium_miner$ Jobs"
-  mod_job_giga_iodizium_miner_per_pop:99 "§G+1§! $job_giga_iodizium_miner$ Job per $VALUE$ Pops"
+  job_giga_iodizium_miner_effect_desc:99 "$job_giga_iodizium_miner_swap_plural_with_icon$ use £consumer_goods£ §Y$consumer_goods$§! to safely extract £giga_sr_iodizium£ §Y$giga_sr_iodizium$§!"
+  job_giga_iodizium_miner_swap_plural_with_icon:99 "[giga_iodizium_miner.GetIcon] [giga_iodizium_miner.GetNamePlural]"
+  mod_job_giga_iodizium_miner_add:99 "[giga_iodizium_miner.GetName] Jobs"
+  mod_job_giga_iodizium_miner_per_pop:99 "§G+1§! [giga_iodizium_miner.GetName] Job per $VALUE$ Pops"
   mod_job_giga_iodizium_miner_per_pop_short:99 "\n§G+1§! £mod_job_giga_iodizium_miner_add£ per $VALUE$ £pop£"
   
   job_giga_iodizium_mining_drone:99 "Iodizium Mining Drone"
   job_giga_iodizium_mining_drone_plural:99 "Iodizium Mining Drones"
   job_giga_iodizium_mining_drone_desc:99 "These specialist miners are equipped for the extraction of physics-defying iodizium crystals."
-  job_giga_iodizium_mining_drone_effect_desc:99 "£job_giga_iodizium_mining_drone£ $job_giga_iodizium_mining_drone_plural$ use £energy£ §Y$energy$§! to safely extract £giga_sr_iodizium£ §Y$giga_sr_iodizium$§!"
-  mod_job_giga_iodizium_mining_drone_add:99 "$job_giga_iodizium_mining_drone$ Jobs"
-  mod_job_giga_iodizium_mining_drone_per_pop:99 "§G+1§! $job_giga_iodizium_mining_drone$ Job per $VALUE$ Pops"
-  mod_job_giga_iodizium_mining_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_iodizium_mining_drone_add£ per $VALUE$ £pop£"
+  job_giga_iodizium_mining_drone_effect_desc:99 "$job_giga_iodizium_mining_drone_swap_plural_with_icon$ use £energy£ §Y$energy$§! to safely extract £giga_sr_iodizium£ §Y$giga_sr_iodizium$§!"
+  job_giga_iodizium_mining_drone_swap_plural_with_icon:99 "[giga_iodizium_mining_drone.GetIcon] [giga_iodizium_mining_drone.GetNamePlural]"
+  mod_job_giga_iodizium_mining_drone_add:99 "[giga_iodizium_mining_drone.GetName] Jobs"
+  mod_job_giga_iodizium_mining_drone_per_pop:99 "§G+1§! [giga_iodizium_mining_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_iodizium_mining_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_iodizium_miner_add£ per $VALUE$ £pop£"
   
   #########################################
   ### Nicoll Dyson Beam ###################
@@ -10915,9 +10950,9 @@
   
   kaiser_moon_moon_tooltip:0 "§YMondkruste§!\n\n§GФункционал | Нет штрафов за броню§!\n\nТребования к саботажу:\n§HЗначительная активность партизан в Katzen Herzlands\n§HЗначительная активность партизан в Lyuinstaat\n\n§LНесколько километров скал, переплетенных со структурными опорами, защищают хрупкую внутреннюю часть Луны. Эта толстая корка эффективно обеспечивает судну огромную живучесть при столкновении с флотом противника."
   
-  kaiser_moon_thrusters_tooltip:0 "§YСистемы движения§!\n\n§GФункционал | Отсутствие штрафов за время прыжка§!\n\nТребования к саботажу:\n§RЭкстремальная партизанская активность в Linteria§!\n§YУмеренная партизанская активность в Wacegien§!\n\n§LГигантский двигатель в сочетании с колоссальным гипердвигателем позволяет Луне Кайзера летать как в космосе, так и в гиперпространстве. Приведенные в действие усовершенствованным реактором на антивеществе конструкции Katzen, они затмевают все остальное, что используется в вооруженных силах Katzen.\n\n§BЛуна Кайзера потеряет способность призываться, когда Flusion находится под угрозой, если это будет саботировано!§!"
+  kaiser_moon_thrusters_tooltip:0 "§YСистемы движения§!\n\n§GФункционал | Отсутствие штрафов за время прыжка§!\n\nТребования к саботажу:\n§RЭкстремальная партизанская активность в Linteria§!\n§YУмеренная партизанская активность в Arivoejien§!\n\n§LГигантский двигатель в сочетании с колоссальным гипердвигателем позволяет Луне Кайзера летать как в космосе, так и в гиперпространстве. Приведенные в действие усовершенствованным реактором на антивеществе конструкции Katzen, они затмевают все остальное, что используется в вооруженных силах Katzen.\n\n§BЛуна Кайзера потеряет способность призываться, когда Flusion находится под угрозой, если это будет саботировано!§!"
   
-  kaiser_moon_wings_tooltip:0 "§YVakuumwings§!\n\n§GФункционал | Нет штрафов за скорость§!\n\nТребования к саботажу:\n§YУмеренная партизанская активность в Linteria§!\n§RЭкстремальная партизанская активность в Wacegien§!\n\n§LПоначалу эти крылья могут показаться бесполезными, но на самом деле они содержат ряд двигателей, выстроенных вдоль их заднего конца. Эти двигатели помогают Луне с большей легкостью маневрировать в космосе."
+  kaiser_moon_wings_tooltip:0 "§YVakuumwings§!\n\n§GФункционал | Нет штрафов за скорость§!\n\nТребования к саботажу:\n§YУмеренная партизанская активность в Linteria§!\n§RЭкстремальная партизанская активность в Arivoejien§!\n\n§LПоначалу эти крылья могут показаться бесполезными, но на самом деле они содержат ряд двигателей, выстроенных вдоль их заднего конца. Эти двигатели помогают Луне с большей легкостью маневрировать в космосе."
   
   #sabo
   kaiser_moon_barrel_sabo_tooltip:0 "§YRiesigekatzenwaffe§!\n\n§RСаботаж | -30% урон оружия§!\n\n§LГлавное оружие Луны Кайзера - титанический рельсотрон. Основанный на старых конструкциях Katzen для планетарного оружия, он ускоряет чрезвычайно плотный снаряд, близкий к скорости света. Снаряд заключает в себе энергию нескольких миллиардов ядерных боеголовок, сосредоточенных в одной точке, что делает его невероятно смертоносным."
@@ -10951,10 +10986,10 @@
   giga_katrebels.2021.desc:0 "Мы можем поддержать §YСолакийских борцов за свободу§! в миссии по повреждению планетарной коры Луны Кайзера.\n\nИх контроль над §YKatzen Herzlands§! и §YLyuinstaat§!, и с приличным количеством взяток, они смогут прокрасться в качестве двойных агентов, выдавая себя за рабочих, которые будут устанавливать взрывчатку в структурных точках внутри коры.\n\n§YВ случае успеха§!:\nЛуна Кайзера будет страдать от §Y-40% здоровья брони§! на §Y3 года§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y85%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2022.name:0 "Саботирование Луны Кайзера §YСистемы движения§!"
-  giga_katrebels.2022.desc:0 "Мы можем поддержать §YСолакийских борцов за свободу§! в миссии по повреждению систем движения Луны Кайзера.\n\nС их контролем над §YLinteria§! и §YWacegien§!, и с приличным количеством взяток они смогут уничтожить жизненно важные объекты, которые производят продвинутые компоненты, необходимые для поддержания прыжкового двигателя Луны.\n\n§YВ случае успеха§!:\nЛуна Кайзера будет страдать от §Y +500% к времени зарядки прыжкового двигателя§! на §Y3 года§!, и потеряет возможность §Yпризываться§! на Flusion, если его бомбили или вторглись.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y85%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
+  giga_katrebels.2022.desc:0 "Мы можем поддержать §YСолакийских борцов за свободу§! в миссии по повреждению систем движения Луны Кайзера.\n\nС их контролем над §YLinteria§! и §YArivoejien§!, и с приличным количеством взяток они смогут уничтожить жизненно важные объекты, которые производят продвинутые компоненты, необходимые для поддержания прыжкового двигателя Луны.\n\n§YВ случае успеха§!:\nЛуна Кайзера будет страдать от §Y +500% к времени зарядки прыжкового двигателя§! на §Y3 года§!, и потеряет возможность §Yпризываться§! на Flusion, если его бомбили или вторглись.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y85%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2023.name:0 "Саботирование Луны Кайзера §YVakuumwings§!"
-  giga_katrebels.2023.desc:0 "Мы можем поддержать §YСолакийских борцов за свободу§! в миссии по повреждению... крыльев? Луны Кайзера.\n\nС их контролем над §YLinteria§! и §YWacegien§!, и, получив приличное количество взяток, они смогут саботировать оборудование, производящее топливо и энергию, необходимые для приведения в действие двигателей маневрового крыла.\n\n§YВ случае успеха§!:\nЛуна Кайзера будет страдать от §Y-40% субсветовой скорости§! на §Y3 года§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y85%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
+  giga_katrebels.2023.desc:0 "Мы можем поддержать §YСолакийских борцов за свободу§! в миссии по повреждению... крыльев? Луны Кайзера.\n\nС их контролем над §YLinteria§! и §YArivoejien§!, и, получив приличное количество взяток, они смогут саботировать оборудование, производящее топливо и энергию, необходимые для приведения в действие двигателей маневрового крыла.\n\n§YВ случае успеха§!:\nЛуна Кайзера будет страдать от §Y-40% субсветовой скорости§! на §Y3 года§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y85%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   #map stuff
   res_total_count:99 "0/10"
@@ -10979,7 +11014,7 @@
   giga_katrebels.2013.desc:0 "Мы можем поддержать §YСолакианских борцов за свободу§! вместе с различными группами люинитов провести операцию в стране §YLyuinita§!. Они будут нацелены на исследовательские центры Katzenarmee, где Katzen экспериментируют с конструкциями щитов для своих судов.\n\n§YВ случае успеха§!:\nПартизанская активность в §YLyuinstaat§! будет §Gувеличена§!.\nKatzen пострадают от §Yуменьшенного здоровья щита§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y75%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HСильная власть Katzen в Lyuinstaat§!: §R-30%§!\n§BПартизаны в Ravkanien§!: §G+[flusion_primitives_country.ravka_res_perc]%§!\n§BПартизаны в Katzen Herzlands§!: §G+[flusion_primitives_country.katzen_res_perc]%§!\n§BПартизаны в Rokalien§!: §G+[flusion_primitives_country.solak_res_perc]%§!\n§BПартизаны в Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2014.name:0 "Операции Сопротивления в §YGeschwollen§!"
-  giga_katrebels.2014.desc:0 "Мы можем поддержать §YСолакианских борцов за свободу§! вместе с мириадами групп, состоящих из разных видов, чтобы провести операцию на земле §YGeschwollen§!. Они будут нацелены на заводы по производству боеприпасов Katzenarmee, где Katzen производят и хранят боеприпасы для своего кинетического оружия, а также на урановые рудники, которые Katzen используют для добычи ценного урана для своего кинетического оружия.\n\n§YВ случае успеха§!:\nПартизанская активность в §YGeschwollen§! будет §Gувеличена§!.\nKatzen пострадают от §Yснижения кинетического урона§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y75%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HСильная власть Katzen в Geschwollen§!: §R-30%§!\n§BPartisans in Linteria§!: §G+[flusion_primitives_country.zousa_res_perc]%§!\n§BПартизаны в Katzen Herzlands§!: §G+[flusion_primitives_country.katzen_res_perc]%§!\n§BПартизаны в Lyuinstaat§!: §G+[flusion_primitives_country.lyuin_res_perc]%§!\n§BПартизаны в Wacegien§!: §G+[flusion_primitives_country.symby_res_perc]%§!\n§BПартизаны в Laurendaar§!: §G+[flusion_primitives_country.laurn_res_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
+  giga_katrebels.2014.desc:0 "Мы можем поддержать §YСолакианских борцов за свободу§! вместе с мириадами групп, состоящих из разных видов, чтобы провести операцию на земле §YGeschwollen§!. Они будут нацелены на заводы по производству боеприпасов Katzenarmee, где Katzen производят и хранят боеприпасы для своего кинетического оружия, а также на урановые рудники, которые Katzen используют для добычи ценного урана для своего кинетического оружия.\n\n§YВ случае успеха§!:\nПартизанская активность в §YGeschwollen§! будет §Gувеличена§!.\nKatzen пострадают от §Yснижения кинетического урона§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y75%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HСильная власть Katzen в Geschwollen§!: §R-30%§!\n§BPartisans in Linteria§!: §G+[flusion_primitives_country.zousa_res_perc]%§!\n§BПартизаны в Katzen Herzlands§!: §G+[flusion_primitives_country.katzen_res_perc]%§!\n§BПартизаны в Lyuinstaat§!: §G+[flusion_primitives_country.lyuin_res_perc]%§!\n§BПартизаны в Arivoejien§!: §G+[flusion_primitives_country.symby_res_perc]%§!\n§BПартизаны в Laurendaar§!: §G+[flusion_primitives_country.laurn_res_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2015.name:0 "Операции Сопротивления в §YLaurendaar§!"
   giga_katrebels.2015.desc:0 "Мы можем поддержать §YСолакианских борцов за свободу§! вместе с мятежной уроженкой Laurnaise провести операцию на земле §YLaurendaar§!. Они будут нацелены на пропагандистские студии Katzen, где Katzen снимают лестные фильмы и кино об их империи.\n\n§YВ случае успеха§!:\nПартизанская активность в §YLaurendaar§! будет §Gувеличена§!.\nKatzen пострадают от §Yснижения боевого духа армии§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y75%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HУмеренная власть Katzen в Laurendaar§!: §R-20%§!\n§BПартизаны в Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
@@ -10987,8 +11022,8 @@
   giga_katrebels.2016.name:0 "Операции Сопротивления в §YMercurreich§!"
   giga_katrebels.2016.desc:0 "Мы можем поддержать §YСолакианских борцов за свободу§! вместе с коренными меркурийцами на земле §YMercuria§!. Они будут нацелены на лаборатории и испытательный полигон, где Katzen разрабатывают новое взрывное оружие.\n\n§YВ случае успеха§!:\nПартизанская активность в §YMercurreich§! будет §Gувеличена§!.\nKatzen пострадают от §Yуменьшения урона от ракет§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y75%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HСлабая власть Katzen в Mercurreich§!: §R-10%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
-  giga_katrebels.2017.name:0 "Операции Сопротивления в §YWacegien§!"
-  giga_katrebels.2017.desc:0 "Мы можем поддержать §YСолакианских борцов за свободу§! вместе с теми немногими симби, которые все еще живут в §YWacegien§! в попытке вывести из строя заводы по производству топлива Katzen и полигоны для испытаний двигателей.\n\n§YВ случае успеха§!:\nПартизанская активность в §YWacegien§! будет §Gувеличена§!.\nKatzen пострадают от §Yуменьшенной скорости кораблей§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y75%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HУмеренная власть Katzen в Wacegien§!: §R-20%§!\n§BПартизаны в Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
+  giga_katrebels.2017.name:0 "Операции Сопротивления в §YArivoejien§!"
+  giga_katrebels.2017.desc:0 "Мы можем поддержать §YСолакианских борцов за свободу§! вместе с теми немногими симби, которые все еще живут в §YArivoejien§! в попытке вывести из строя заводы по производству топлива Katzen и полигоны для испытаний двигателей.\n\n§YВ случае успеха§!:\nПартизанская активность в §YArivoejien§! будет §Gувеличена§!.\nKatzen пострадают от §Yуменьшенной скорости кораблей§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y75%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HУмеренная власть Katzen в Arivoejien§!: §R-20%§!\n§BПартизаны в Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2018.name:0 "Операции Сопротивления в §YKatzen Herzlands§!"
   giga_katrebels.2018.desc:0 "Мы можем поддержать §YСолакианских борцов за свободу§! и очень немногих особей, выступающих против правления Katzen в §YKatzen Herzlands§!. Они попытаются вывести из строя военные заводы и промышленность Katzen по всему региону, что, несомненно, окажет серьезное влияние на характеристики их оружия.\n\n§YВ случае успеха§!:\nПартизанская активность в §YKatzen Herzlands§! будет §Gувеличена§!.\nKatzen пострадают от §Yуменьшенного урона оружия§!.\nНастороженность Katzen §Rувеличится§! на §R2§!.\n\n§YВ случае провала§!:\nНастороженность Katzen §Rувеличится§! на §R1§!.\n\n§YШанс на успех§!:\nБаза: §Y75%§!\n§HНастороженность Katzen§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HЭкстремальная власть Katzen в Katzen Herzlands§!: §R-40%§!\n§BПартизаны в Rokalien§!: §G+[flusion_primitives_country.solak_res_perc]%§!\n§BПартизаны в Lyuinstaat§!: §G+[flusion_primitives_country.lyuin_res_perc]%§!\n§BПартизаны в Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nИтог: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
@@ -11088,8 +11123,8 @@
   puffy_res_ext_tooltip:0 "$puffy_name$\n\n§HОсновная функция§! - §BБоеприпасы§!\n\nВласть Katzen §Rсильная§!\nПартизанская активность §Rэкстремальная§!\nМодификаторы Katzen: §R-30% Урон кинетического оружия§!\n\n$puffy_desc$"
   
   
-  symby_name:99 "§YWacegien§!"
-  symby_desc:0 "§LWacegien является домом для Wacegi, вида, с которым Katzen когда-то вели колоссальную войну, еще до объединительных войн кайзера. В настоящее время Katzen используют пересеченную и малонаселенную землю как место для экспериментов с новыми конструкциями двигателей.§!"
+  symby_name:99 "§YArivoejien§!"
+  symby_desc:0 "§LArivoejien является домом для Wacegi, вида, с которым Katzen когда-то вели колоссальную войну, еще до объединительных войн кайзера. В настоящее время Katzen используют пересеченную и малонаселенную землю как место для экспериментов с новыми конструкциями двигателей.§!"
   
   symby_res_low_tooltip:0 "$symby_name$\n\n§HОсновная функция§! - §BИзготовители двигателей§!\n\nВласть Katzen §Yумеренная§!\nПартизанская активность §Gнезначительная§!\nМодификаторы Katzen: §G+40% Скорость кораблей§!\n\n$symby_desc$"
   
@@ -13055,6 +13090,29 @@
   building_giga_aeternum_synthetizer:0 "Эзотерический синтезатор Aeternite"
   building_giga_aeternum_synthetizer_desc:0 "Сложная сеть зданий, в которых используются технологии на основе петлевых квантов для автономного изготовления и сборки различных передовых ресурсов для поддержания индустрии Aeternite."
   
+  building_giga_aeternum_megacity_energy:99 "Energiankaupunki"
+  building_giga_aeternum_megacity_energy_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_energy$§! is entirely dedicated to coordinating the flow of energy across Aiondia. Beside the adjacent loop-quantum reactor facilities, the energy from collectors around Aiondiaukko and Aiondia's twin Psionic Hypersiphons are also managed here."
+  
+  building_giga_aeternum_megacity_psionic:99 "Psioniikankaupunki"
+  building_giga_aeternum_megacity_psionic_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_psionic$§! manages the streams of psionic energy flowing through Aiondia and oversees everything related to applied psionics. It also contains the main part of the §HKirkasmajakka§!, the device responsible for psionic detection of cloaked vessels throughout Aeternum space."
+  
+  building_giga_aeternum_megacity_research:99 "Tutkimuskaupunki"
+  building_giga_aeternum_megacity_research_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_research$§! was once responsible for coordinating all Aeternum technological advancement, but has long since been vacated by all but the few curious residents who still wish to perform their own experiments. The surrounding countryside is dotted with incomplete and abandoned projects from the Aeternite golden age."
+  
+  building_giga_aeternum_megacity_unity:99 "Arkistonkaupunki"
+  building_giga_aeternum_megacity_unity_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_unity$§! is a grand archive of technical and cultural knowledge. While initially intended to record a glorious history of intergalactic expansion, it has since been filled with millions of years worth of entertainment media produced by the hedonistic Aeternite population. Enterprising explorers could spend lifetimes here delving into the vastness of Aeternum's cultural heritage."
+  
+  building_giga_aeternum_megacity_military:99 "Sodankaupunki"
+  building_giga_aeternum_megacity_military_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_military$§! is responsible for the coordination of Aiondia's vast shipyard facilities and its legions of Psikosynthetic wardens keeping watch over the surface. Nowadays it performs little more than automated maintenance tasks, and on rare occasions sends a fleet or two to ward off interlopers."
+  
+  building_giga_aeternum_megacity_megaconstruction:99 "Seostenkaupunki"
+  building_giga_aeternum_megacity_megaconstruction_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_megaconstruction$§! is a manufacturing hub for substrates used in megaconstruction and other advanced architectural projects. Once involved in the refinement of entire planetary bodies into usable materials, nowadays it sees little use beyond occasional structural maintenance."
+  
+  building_giga_aeternum_megacity_factory:99 "Tuotantokaupunki"
+  building_giga_aeternum_megacity_factory_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_factory$§! is where the vast majority of advanced goods and technology used by modern Aeternite society is manufactured. While it was once the site of great technological marvels during Aeternum's golden age, these days it has been relegated to producing a never-ending stream of mundane consumer goods."
+  
+  
+  
   aeternum_birch_world:0 "Мир Бёрча предтеч"
   aeternum_birch_world_desc:0 "Этот Мир Бёрча чрезвычайно древний и был построен по крайней мере миллион лет назад цивилизацией предтеч. Он построен с использованием фантастически передовых технологий и предлагает своим обитателям сюрреалистические условия жизни."
   
@@ -13436,7 +13494,7 @@
   decision_dump_matter_on_planet_5:99 "Dump §Y5§! £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! Onto Planet"
   decision_dump_matter_on_planet_5_desc:99 "We can rather easily enlarge this world by dumping excess mass onto it. This may result in geological instability."
   decision_dump_matter_on_gas_giant:99 "Inject §Y25§! £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! For Helioforming"
-  decision_dump_matter_on_gas_giant_desc:99 "By injecting tremendous quantities of bulk matter into this gas giant, we can render sufficiently massive to allow for ignition it into a proper star."
+  decision_dump_matter_on_gas_giant_desc:99 "By injecting tremendous quantities of bulk matter into this gas giant, we can render it sufficiently massive enough to allow for ignition into a proper star."
   decision_dump_matter_on_gas_giant_tooltip:99 "We will be able to use a §YSubstellar Compressor§! to ignite this §YGas Giant§! into a §YStar§!, generating energy and potentially rending its moons habitable."
   decision_dump_matter_on_planet_tooltip:99 "We can go up to size §Y50§! with this method, beyond which it would become too unstable and massive to be exploited further."
   
@@ -15848,6 +15906,7 @@
   planetary_drive_yard_fortress_modifier_desc:0 "Нексус Планетарной Защиты над этим миром предоставляет его обитателям множество военных занятий и обширную защиту от орбитальной бомбардировки."
   
   corvette_defense_squadron:99 "[event_target:planet_deploying_ships.GetName] Defense Squadron"
+  mauler_defense_squadron:99 "[event_target:planet_deploying_ships.GetName] Defense Squadron"
   
   sm_planetary_drive_yard_uplink:0 "Канал связи планетарной верфи"
   sm_planetary_drive_yard_uplink_desc:0 "Соединяет эту звездную базу с каждой §Yпланетарной верфью§! в своей звездной системе. Эффекты суммируются максимум от §Y20§! планетарных верфей.\nСнижение стоимости строительства ограничено §Y-30%§!."
@@ -17369,7 +17428,7 @@
   giga_flusionoperations.5007.name:99 "Flusionian Population Mourns Loris"
   giga_flusionoperations.5007.desc:99 "The assassination of §YLoris Von Kattensbach§! has not gone unnoticed by the common folk of Flusion. Despite the fact he was the head Katzen governor, and thus represented the Kaiser's dominance over Flusion, he was surprisingly popular amongst the various species subjugated by the Kaiser during his conquest of the planet.\n\nLoris had undertaken a series of reforms that, while they did not grant much freedom from the Kaiser's rule, nonetheless established numerous instances of local democracy across Flusion. He also had ensured the Kaiser's views of equality between every species were properly applied to every part of the planet and worked tirelessly to make Katzen rule compatible with the lives of Flusion's inhabitants.\n\nEverybody is well aware that the Roqualians were behind this act, and with Loris gone, many Flusionians who were previously supportive of the §YRoqualian Freedom Fighters§! have turned away from the movement, evidently fearing that Dofus and his entourage have become too radical and restless in their quest to overthrow the Kaiser."
   giga_flusionoperations.5007.a:99 "Why do they care?"
-  giga_flusionoperations.5007.a.tooltip:99 "Resistance in §YGeschwollen§!, §YWacegien§!, §YRavkanien§! and the §YKatzen Herzlands§! decreases by §Y1§!."
+  giga_flusionoperations.5007.a.tooltip:99 "Resistance in §YGeschwollen§!, §YArivoejien§!, §YRavkanien§! and the §YKatzen Herzlands§! decreases by §Y1§!."
   
   giga_flusionoperations.5002.name:99 "Loris Assassination Successful... except not."
   giga_flusionoperations.5002.desc:99 "Our Roqualian allies report that the operation to poison Loris took place without issues. They managed to infiltrate Loris' surroundings and slip an extremely violent poison with delayed activation into his food, which slipped past notice and killed him within seconds of him ingesting it.\n\nUnfortunately for us, we failed to account for the fact that the Katzens had established a §YSoulbot Factory§! on §YKleinkalien Isle§!, which immediately produced a purpose-made backup synthetic chassis into which Loris' consciousness could be uploaded, effectively bringing him back to life and negating the entire operation...\n\nThe success chance was §Y[flusion_primitives_country.flusion_operation_odds]%§!"
@@ -17847,19 +17906,19 @@
   sm_orbital_ring_giga_farming_district_desc:99 "Automated factories produce vast quantities of fertilizer and distribute them to previously inhospitable parts of the planet's surface to permit agriculture.\n\n§YEfficiency is lower on Tomb Worlds and higher on Gaia Worlds. Does not function on Irradiated Desert Worlds.§!\n"
   
   sm_ring_giga_crystals_hub:99 "Laser Crystal Bore"
-  sm_ring_giga_crystals_hub_desc:99 "Immense laser drills cutting into the planet's crust to help planetside rare crystal mining. Other extracted materials supplement the crystal refining process.\n\n§TProvides §G+1§! £job_crystal_miner£ §YCrystal Mining§! Job per §G4§! £district£ §Y$district_mining_plural$§!.\n"
+  sm_ring_giga_crystals_hub_desc:99 "Immense laser drills cutting into the planet's crust to help planetside rare crystal mining. Other extracted materials supplement the crystal refining process.\n\n§TProvides §G+25§! £job_crystal_miner£ §YCrystal Mining§! Jobs per £district£ §Y$district_mining$§!.\n"
   ring_giga_crystals_hub_condition:99 "§RPlanet must have deposits of £rare_crystals£ §Y$rare_crystals$.§!"
   
   sm_ring_giga_motes_hub:99 "Hypersonic Mote Sifter"
-  sm_ring_giga_motes_hub_desc:99 "Powerful sonic emitters blast ultrasound waves into the atmosphere and towards mote harvesting sites, stirring up dust deserts with just the right frequency to bring plenty of Volatile Motes to the surface. Electromagnetic nets can also capture materials valuable to the mote refining process.\n\n§TProvides §G+1§! £job_mote_harvester£ §YMote Harvesting§! Job per §G4§! £district£ §Y$district_mining_plural$§!.\n"
+  sm_ring_giga_motes_hub_desc:99 "Powerful sonic emitters blast ultrasound waves into the atmosphere and towards mote harvesting sites, stirring up dust deserts with just the right frequency to bring plenty of Volatile Motes to the surface. Electromagnetic nets can also capture materials valuable to the mote refining process.\n\n§TProvides §G+25§! £job_mote_harvester£ §YMote Harvesting§! Job per £district£ §Y$district_generator$§!.\n"
   ring_giga_motes_hub_condition:99 "§RPlanet must have deposits of £volatile_motes£ §Y$volatile_motes$.§!"
   
   sm_ring_giga_gas_hub:99 "Atmospheric Gas Stabilizer"
-  sm_ring_giga_gas_hub_desc:99 "Chemical plants which inject stabilizing agents into the atmosphere near naturally-occurring gas deposits, making extraction safer and easier. As a side effect, local microbes can be more effectively utilised to refine gases from biomass.\n\n§TProvides §G+1§! £job_gas_extractor£ §YGas Extraction§! Job per §G4§! £district£ §Y$district_mining_plural$§!.\n"
+  sm_ring_giga_gas_hub_desc:99 "Chemical plants which inject stabilizing agents into the atmosphere near naturally-occurring gas deposits, making extraction safer and easier. As a side effect, local microbes can be more effectively utilised to refine gases from biomass.\n\n§TProvides §G+25§! £job_gas_extractor£ §YGas Extraction§! Jobs per £district£ §Y$district_farming$§!.\n"
   ring_giga_gas_hub_condition:99 "§RPlanet must have deposits of £exotic_gases£ §Y$exotic_gases$.§!"
   
   sm_ring_giga_iodizium_hub:99 "Field Isolation Grid"
-  sm_ring_giga_iodizium_hub_desc:99 "Shield projectors focused on Iodizium mining facilities ensure that explosive chain reactions are kept to a minimum, greatly improving the efficiency of planetside crystal handling.\n\n§TProvides §G+1§! £job_giga_iodizium_miner£ §YIodizium Mining§! Job per active £building£ §Y$building_giga_iodizium_mines$§! Building§!\n"
+  sm_ring_giga_iodizium_hub_desc:99 "Shield projectors focused on Iodizium mining facilities ensure that explosive chain reactions are kept to a minimum, greatly improving the efficiency of planetside crystal handling.\n\n§TProvides §G+100§! £job_giga_iodizium_miner£ §YIodizium Mining§! Jobs per active £building£ §Y$building_giga_iodizium_mines$§! Building§!\n"
   ring_giga_iodizium_hub_condition:99 "§RPlanet must be able to support at least one £building£ §Y$building_giga_iodizium_mines$§! Building.§!"
   
   sm_ring_giga_orbital_arcology:99 "Orbital Arcology"

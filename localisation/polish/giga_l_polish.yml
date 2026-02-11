@@ -424,7 +424,7 @@
   #########################################
   
   giga_news_title:99 "Mod News & Latest Changes"
-  giga_news_log:99 "§B------------------------ September 25th, 2025 ----------------------------§!\n§HMOD VERSION, 3.35.0 - 'SPARBLERONI PIZZA' by Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YREWORKED ALDERSON DISK.§!\nThe Alderson Disk is back, with giant 4-zone districts!\n\n§YBULK MATTER REWORK§!\nLarge megastructures now require Bulk Matter harvested from planets. Get dismantling!\n\n§YPLANETARY SEEDER NEXUS§!\nBuilt around a Gas Giant and creates food deposits across a whole system! Suggested by Reddit user markjsno1 on r/Stellaris.\n\n§B------------------------ September 22nd, 2025 ----------------------------§!\n§HMOD VERSION, 3.34.3 by Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\nVersion 3.34.3 brings compatibility with 4.1 for planetviews and tankbound. Report any missed issues on the Discord!\n\n§B--------------------------- June 16th, 2025 ---------------------------------§!\n§HMOD VERSION, 3.34 by TTFTCUTS, PIECAT & Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\nVersion 3.34.1 at last re-enable the §YKatzenartig Imperium§!, alongside a plethora of other bugfixes!\n\n§B---------------------------- May 6th, 2025 ----------------------------------§!\n§HMOD VERSION, 3.34 by Elowiny & TTFTCUTS§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nVersion 3.34 brings §Ypartial compatibility§! with §Y4.0§!! However, some parts of the mod remain disabled for now while we fix them, these include the §YFrameworld§!, §YOrbital Elysium§!, §YAlderson Disk§!, §YAsteroid Industry§!, §YMatrioskha Brain VR§! (M.B. output doubled to compensate), the §YRingworld Variants§!, the §YInterstellar Habitat§!. the §YKatzenartig Imperium§!, §YSirenalia§! and the full scope of the §YBirch World§! (still available, but simplified). Expect §Yhotfixes§! bringing them back progressively over the next couple days and weeks!\n\n§B---------------------------- April 3rd, 2025 ----------------------------------§!\n§HMOD VERSION, 3.33 by PIECAT, Tempest, Elowiny & TTFTCUTS§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nVersion 3.33 brings a rework to the §YB.I.G. Vat§!, the new easier §YAlpha Aeternum§! difficulty, a §Yrework§! to the menu, numerous QoL fixes, and the new §YConfiguration§! selection screen before the menu!\n\n§YIF YOU HAVE FEEDBACK ABOUT THE NEW CONFIGURATION SELECTION MENU, MAKE SURE TO LEAVE IT ON THE DISCORD!§!\n\n§B--------------------------- January 2nd, 2025 -------------------------------§!\n§HMOD VERSION, 3.32.3 by PIECAT & Tempest§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR§!\nVersion 3.32.3 brings numerous much-needed fixes as well a second page for presets since we ran out of space.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\nFinally updated the §YBlokkat Portraits§!, §YPaluush Portraits§! and §YKatzen Portraits§! sub/standalone mods to 3.14! You can check them all out of the Workshop via the §YElowiny's Mods§! collection.\n\n§B-------------------------- November 20th, 2024 -----------------------------§!\n§HMOD VERSION, 3.32 by PIECAT§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YMACROATMOSPHERIC STABILIZER§!\nReworked Gas Districts to provide powerful ruler jobs which provide Exotic Gas output to technicians on the planet.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\n§HMOD VERSION 3.32 - 'CUE THE TRIUMPHANT RETURN'§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YTHE SUPERMASSIVE E.H.O.F.§!\nBuilt around an Inactive Core, provides immense buffs to fleet mobility.\n\n§YREWORKED TERRAFORMING MEGASTRUCTURES§!\nThey are now built from a singular site, and rather than terraforming by themselves, enable the terraformation of their planet via conventional terraforming.\n\n§YREWORKED STRIPMINE/S.U.C.C./MEGABORE§!\nThey no longer run out, and instead generate and buff Mote/Gas/Crystal deposits on their planet.\n\n§Y14 NEW SPECIMENS§!\nMostly related to events and crises. Can you find them all?\n\n§YASCENSION PERKS MERGED§!\nAlderson Disk no longer requires a perk, Systemcraft perk merged with Celestial Assembly perk.\n\n§YKATZENARTIG IMPERIUM DISABLED BY DEFAULT§!\nDue to how disruptive Kaiser can be to the unprepared player, the decision has been made to disable him by default."
+  giga_news_log:99 "§B--------------------------- January 18th, 2026 -------------------------------§!\n§HMOD VERSION, 3.36.1 by TTFTCUTS, xahkarias & Dodosman§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nThe §YMatrioskha Brain Uplinks§! and the §YSquareworld§! have been updated to 4.0! Alongside a myriad of other fixes, notably to Tankbound.\n\n§B--------------------------- January 1st, 2026 -------------------------------§!\n§HMOD VERSION, 3.36.0 - 'PONDERING THE ORB', by TTFTCUTS, dodomans & xahkarias§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR§!\n§YREVAMPED BIRCH WORLD§!\nThe Birch World has been updated to 4.0+ standards! Insulae and Sectors are back with improved UI and access to district specializations. Aiondia too has been updated to take advantage of this design, integrating Aeternum closer with more recent Birch systems. Alongside, of course, many miscellaneous fixes.\n§B-------------------------- November 9th, 2025 ------------------------------§!\n\n§HMOD VERSION, 3.35.2, by Tempest, xahkarias and dodosman§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YRE-ENABLED MAGINOT WORLDS§!\nThe Maginot World is back, alongside numerous bugfixes.\n\n§B------------------------ September 25th, 2025 ----------------------------§!\n§HMOD VERSION, 3.35.0 - 'SPARBLERONI PIZZA' by Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YREWORKED ALDERSON DISK.§!\nThe Alderson Disk is back, with giant 4-zone districts!\n\n§YBULK MATTER REWORK§!\nLarge megastructures now require Bulk Matter harvested from planets. Get dismantling!\n\n§YPLANETARY SEEDER NEXUS§!\nBuilt around a Gas Giant and creates food deposits across a whole system! Suggested by Reddit user markjsno1 on r/Stellaris.\n\n§B------------------------ September 22nd, 2025 ----------------------------§!\n§HMOD VERSION, 3.34.3 by Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\nVersion 3.34.3 brings compatibility with 4.1 for planetviews and tankbound. Report any missed issues on the Discord!\n\n§B--------------------------- June 16th, 2025 ---------------------------------§!\n§HMOD VERSION, 3.34 by TTFTCUTS, PIECAT & Elowiny§!\n§GSee the Discord for full/detailed patchnotes.§!\nVersion 3.34.1 at last re-enable the §YKatzenartig Imperium§!, alongside a plethora of other bugfixes!\n\n§B---------------------------- May 6th, 2025 ----------------------------------§!\n§HMOD VERSION, 3.34 by Elowiny & TTFTCUTS§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nVersion 3.34 brings §Ypartial compatibility§! with §Y4.0§!! However, some parts of the mod remain disabled for now while we fix them, these include the §YFrameworld§!, §YOrbital Elysium§!, §YAlderson Disk§!, §YAsteroid Industry§!, §YMatrioskha Brain VR§! (M.B. output doubled to compensate), the §YRingworld Variants§!, the §YInterstellar Habitat§!. the §YKatzenartig Imperium§!, §YSirenalia§! and the full scope of the §YBirch World§! (still available, but simplified). Expect §Yhotfixes§! bringing them back progressively over the next couple days and weeks!\n\n§B---------------------------- April 3rd, 2025 ----------------------------------§!\n§HMOD VERSION, 3.33 by PIECAT, Tempest, Elowiny & TTFTCUTS§!\n§GSee the Discord for full/detailed patchnotes.§!\n\nVersion 3.33 brings a rework to the §YB.I.G. Vat§!, the new easier §YAlpha Aeternum§! difficulty, a §Yrework§! to the menu, numerous QoL fixes, and the new §YConfiguration§! selection screen before the menu!\n\n§YIF YOU HAVE FEEDBACK ABOUT THE NEW CONFIGURATION SELECTION MENU, MAKE SURE TO LEAVE IT ON THE DISCORD!§!\n\n§B--------------------------- January 2nd, 2025 -------------------------------§!\n§HMOD VERSION, 3.32.3 by PIECAT & Tempest§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR§!\nVersion 3.32.3 brings numerous much-needed fixes as well a second page for presets since we ran out of space.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\nFinally updated the §YBlokkat Portraits§!, §YPaluush Portraits§! and §YKatzen Portraits§! sub/standalone mods to 3.14! You can check them all out of the Workshop via the §YElowiny's Mods§! collection.\n\n§B-------------------------- November 20th, 2024 -----------------------------§!\n§HMOD VERSION, 3.32 by PIECAT§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YMACROATMOSPHERIC STABILIZER§!\nReworked Gas Districts to provide powerful ruler jobs which provide Exotic Gas output to technicians on the planet.\n\n§B-------------------------- November 16th, 2024 -----------------------------§!\n§HMOD VERSION 3.32 - 'CUE THE TRIUMPHANT RETURN'§!\n§GSee the Discord for full/detailed patchnotes.§!\n\n§YTHE SUPERMASSIVE E.H.O.F.§!\nBuilt around an Inactive Core, provides immense buffs to fleet mobility.\n\n§YREWORKED TERRAFORMING MEGASTRUCTURES§!\nThey are now built from a singular site, and rather than terraforming by themselves, enable the terraformation of their planet via conventional terraforming.\n\n§YREWORKED STRIPMINE/S.U.C.C./MEGABORE§!\nThey no longer run out, and instead generate and buff Mote/Gas/Crystal deposits on their planet.\n\n§Y14 NEW SPECIMENS§!\nMostly related to events and crises. Can you find them all?\n\n§YASCENSION PERKS MERGED§!\nAlderson Disk no longer requires a perk, Systemcraft perk merged with Celestial Assembly perk.\n\n§YKATZENARTIG IMPERIUM DISABLED BY DEFAULT§!\nDue to how disruptive Kaiser can be to the unprepared player, the decision has been made to disable him by default."
   
   BLOKKAT:99 "Blokkat"
   giga_menu.101.name:99 "Gigastructures"
@@ -440,7 +440,7 @@
   giga_menu.2.refresh.tooltip:99 "Here you can double check your active settings."
   
   giga_menu.1.name:99 ""
-  giga_menu.1.desc:99 "v 3.35.0"
+  giga_menu.1.desc:99 "v 3.36.1"
   
   giga_menu.10.title:99 "Select your preferred style of play"
   giga_menu.10.confirm:99 "Start Game with Configuration"
@@ -1089,6 +1089,13 @@
   giga_the_vat_u:99 "£menu_u£§M$name_the_vat$§!"
   giga_the_vat_disabled:99 "£menu_disabled£§R$name_the_vat$§!"
   
+  giga_planetary_seeder_nexus_1:99 "£menu_1£§H$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_2:99 "£menu_2£§Y$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_3:99 "£menu_3£§G$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_r:99 "£menu_r£§B$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_u:99 "£menu_u£§M$name_planetary_seeder_nexus$§!"
+  giga_planetary_seeder_nexus_disabled:99 "£menu_disabled£§R$name_planetary_seeder_nexus$§!"
+  
   giga_maginot_1:99 "£menu_1£§H$name_maginot$§!"
   giga_maginot_2:99 "£menu_2£§Y$name_maginot$§!"
   giga_maginot_3:99 "£menu_3£§G$name_maginot$§!"
@@ -1247,6 +1254,7 @@
   giga_menu_presets_14:99 "Contributor: §LMegumin§!"
   giga_menu_presets_patreon_33:99 "Contributor: §LLucy§!"
   giga_menu_presets_18:99 "Contributor: §LTempest§!"
+  giga_menu_presets_19:99 "Contributor: §LXahkarias§!"
   
   giga_menu_presets_patreon_01:99 "Patreon: §MASpec§!"
   giga_menu_presets_patreon_02:99 "Patreon: §MArnieKuma§!"
@@ -1851,7 +1859,7 @@
   
   # Stage 2
   ehof_reality_code.1002.name:99 "Reality Code - the $ehof_the_sphere_named$ II"
-  ehof_reality_code.1002.desc:99 "Our attempts at breaching the $ehof_the_sphere$ have progressed. After deploying multiple additional emitter pylons and cycling an $whof_epcs$ broadcast, the size of the aperture at the structure's top increased.\n\nIt appears that the opening's size increases exponentially in correlation to the number of transmission sources: adding a second pylon increased the entrance's radius to sixteen meters and lasted sixteen seconds, adding a third resulted in an eighty-one meter radius lasting the same number of seconds, a fourth, two-hundred and fifty-six meters and seconds.\n\nFrom these results, our [Owner.GetScientistPlural] believe that the entrance scales in a tesseractic fashion. Based on the rate of growth, it will take thirty-two pylons to fully open the $ehof_the_sphere$."
+  ehof_reality_code.1002.desc:99 "Our attempts at breaching the $ehof_the_sphere$ have progressed. After deploying multiple additional emitter pylons and cycling an $ehof_epcs$ broadcast, the size of the aperture at the structure's top increased.\n\nIt appears that the opening's size increases exponentially in correlation to the number of transmission sources: adding a second pylon increased the entrance's radius to sixteen meters and lasted sixteen seconds, adding a third resulted in an eighty-one meter radius lasting the same number of seconds, a fourth, two-hundred and fifty-six meters and seconds.\n\nFrom these results, our [Owner.GetScientistPlural] believe that the entrance scales in a tesseractic fashion. Based on the rate of growth, it will take thirty-two pylons to fully open the $ehof_the_sphere$."
   
   # Stage 3
   ehof_reality_code.1003.name:99 "Reality Code - the $ehof_the_sphere_named$ III"
@@ -2507,6 +2515,7 @@
   giga_sr_bulk_matter_desc:99 "Bulk Matter represents large amounts of low value unrefined material harvested from celestial objects, used as filler in the construction of large megastructures."
   
   mod_station_gatherers_food_produces_mult:99 "£food£ from $mod_station_researchers_produces_mult$"
+  mod_station_gatherers_alloys_produces_mult:99 "$mining_station$ $alloys$ Output"
   
   #######################
   # Negative Mass #
@@ -2536,19 +2545,21 @@
   job_ehof_energy_converter:99 "Energy Converter"
   job_ehof_energy_converter_plural:99 "$job_ehof_energy_converter$s"
   job_ehof_energy_converter_desc:99 "$job_ehof_energy_converter_plural$ turn positive £energy£ §Y$energy$§! into §Y$giga_sr_negative_mass$§!, which has a multitude of uses in all fields of our empire"
-  job_ehof_energy_converter_effect_desc:99 "£job_ehof_energy_converter£ $job_ehof_energy_converter_plural$ turn positive £energy£ §Y$energy$§! into £giga_sr_negative_mass£ §Y$giga_sr_negative_mass$§!"
-  mod_job_ehof_energy_converter_add:99 "$job_ehof_energy_converter$ Jobs"
-  mod_job_ehof_energy_converter_per_pop:99 "§G+1§! $job_ehof_energy_converter$ Job per $VALUE$ Pops"
+  job_ehof_energy_converter_effect_desc:99 "$job_ehof_energy_converter_swap_plural_with_icon$ turn positive £energy£ §Y$energy$§! into £giga_sr_negative_mass£ §Y$giga_sr_negative_mass$§!"
+  job_ehof_energy_converter_swap_plural_with_icon:99 "[ehof_energy_converter.GetIcon] [ehof_energy_converter.GetNamePlural]"
+  mod_job_ehof_energy_converter_add:99 "[ehof_energy_converter.GetName] Jobs"
+  mod_job_ehof_energy_converter_per_pop:99 "§G+1§! [ehof_energy_converter.GetName] Job per $VALUE$ Pops"
   mod_job_ehof_energy_converter_per_pop_short:99 "\n§G+1§! £mod_job_ehof_energy_converter_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_ehof_energy_converter_drone:99 "Energy Converter Drone"
   job_ehof_energy_converter_drone_plural:99 "$job_ehof_energy_converter_drone$s"
   job_ehof_energy_converter_drone_desc:99 "$job_ehof_energy_converter_drone_plural$ turn positive £energy£ §Y$energy$§! into §Y$giga_sr_negative_mass$§!, which has a multitude of uses in all fields of our collective"
-  job_ehof_energy_converter_drone_effect_desc:99 "£job_ehof_energy_converter_drone£ $job_ehof_energy_converter_drone_plural$ turn positive £energy£ §Y$energy$§! into £giga_sr_negative_mass£ §Y$giga_sr_negative_mass$§!"
-  mod_job_ehof_energy_converter_drone_add:99 "$job_ehof_energy_converter_drone$ Jobs"
-  mod_job_ehof_energy_converter_drone_per_pop:99 "§G+1§! $job_ehof_energy_converter_drone$ Job per $VALUE$ Pops"
-  mod_job_ehof_energy_converter_drone_per_pop_short:99 "\n§G+1§! £mod_job_ehof_energy_converter_drone_add£ per $VALUE$ £pop£"
+  job_ehof_energy_converter_drone_effect_desc:99 "$job_ehof_energy_converter_drone_swap_plural_with_icon$ turn positive £energy£ §Y$energy$§! into £giga_sr_negative_mass£ §Y$giga_sr_negative_mass$§!"
+  job_ehof_energy_converter_drone_swap_plural_with_icon:99 "[ehof_energy_converter_drone.GetIcon] [ehof_energy_converter_drone.GetNamePlural]"
+  mod_job_ehof_energy_converter_drone_add:99 "[ehof_energy_converter_drone.GetName] Jobs"
+  mod_job_ehof_energy_converter_drone_per_pop:99 "§G+1§! [ehof_energy_converter_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_ehof_energy_converter_drone_per_pop_short:99 "\n§G+1§! £mod_job_ehof_energy_converter_add£ per $VALUE$ £pop£"
   
   ##################
   # Sentient Metal #
@@ -2576,18 +2587,20 @@
   job_ehof_cultivator:99 "Cultivator"
   job_ehof_cultivator_plural:99 "$job_ehof_cultivator$s"
   job_ehof_cultivator_desc:99 "$job_ehof_cultivator_plural$ use £alloys£ §Y$alloys$§! and £energy£ §Y$energy$§! as a raw material for £giga_sr_sentient_metal£ §Y$giga_sr_sentient_metal$§! replication."
-  job_ehof_cultivator_effect_desc:99 "£job_ehof_cultivator£ $job_ehof_cultivator_plural$ turn £alloys£ §Y$alloys$§! and £energy£ §Y$energy$§! into £giga_sr_sentient_metal£ §YSentient Metal§!"
-  mod_job_ehof_cultivator_add:99 "$job_ehof_cultivator$ Jobs"
-  mod_job_ehof_cultivator_per_pop:99 "§G+1§! $job_ehof_cultivator$ Job per $VALUE$ Pops"
+  job_ehof_cultivator_effect_desc:99 "$job_ehof_cultivator_swap_plural_with_icon$ turn £alloys£ §Y$alloys$§! and £energy£ §Y$energy$§! into £giga_sr_sentient_metal£ §YSentient Metal§!"
+  job_ehof_cultivator_swap_plural_with_icon:99 "[ehof_cultivator.GetIcon] [ehof_cultivator.GetNamePlural]"
+  mod_job_ehof_cultivator_add:99 "[ehof_cultivator.GetName] Jobs"
+  mod_job_ehof_cultivator_per_pop:99 "§G+1§! [ehof_cultivator.GetName] Job per $VALUE$ Pops"
   mod_job_ehof_cultivator_per_pop_short:99 "\n§G+1§! £mod_job_ehof_cultivator_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_ehof_cultivation_drone:99 "Cultivation Drone"
   job_ehof_cultivation_drone_plural:99 "$job_ehof_cultivation_drone$s"
   job_ehof_cultivation_drone_desc:99 "$job_ehof_cultivation_drone_plural$ use £alloys£ §Y$alloys$§! and £energy£ §Y$energy$§! as raw material for £giga_sr_sentient_metal£ §YSentient Metal§! replication."
-  job_ehof_cultivation_drone_effect_desc:99 "£job_ehof_cultivation_drone£ $job_ehof_cultivation_drone_plural$ turn £alloys£ §Y$alloys$§! and £energy£ §Y$energy$§! into £giga_sr_sentient_metal£ §YSentient Metal§!"
-  mod_job_ehof_cultivation_drone_add:99 "$job_ehof_cultivation_drone$ Jobs"
-  mod_job_ehof_cultivation_drone_per_pop:99 "§G+1§! $job_ehof_cultivation_drone$ Job per $VALUE$ Pops"
+  job_ehof_cultivation_drone_effect_desc:99 "$job_ehof_cultivation_drone_swap_plural_with_icon$ turn £alloys£ §Y$alloys$§! and £energy£ §Y$energy$§! into £giga_sr_sentient_metal£ §YSentient Metal§!"
+  job_ehof_cultivation_drone_swap_plural_with_icon:99 "[ehof_cultivation_drone.GetIcon] [ehof_cultivation_drone.GetNamePlural]"
+  mod_job_ehof_cultivation_drone_add:99 "[ehof_cultivation_drone.GetName] Jobs"
+  mod_job_ehof_cultivation_drone_per_pop:99 "§G+1§! [ehof_cultivation_drone.GetName] Job per $VALUE$ Pops"
   mod_job_ehof_cultivation_drone_per_pop_short:99 "\n§G+1§! £mod_job_ehof_cultivation_drone_add£ per $VALUE$ £pop£"
   
   #############################################################################################################################################
@@ -3669,11 +3682,11 @@
   mod_pc_alderson_slice_gaia_habitability:99 "Gaia Habitability"
   trait_pc_alderson_slice_gaia_preference:99 "Gaia Preference"
   trait_pc_alderson_slice_gaia_preference_desc:99 "§LClimate preference is determined at the genetic level, by eons of evolution or skillful manipulation.§!"
-
-  trait_auto_pc_alderson_slice_preference: "$pc_alderson_slice_gaia$ Mutations"
-  trait_auto_pc_alderson_slice_preference_tt: "$pc_alderson_slice_gaia$ Habitability: §G100%§!\n$t$- $IDEAL_PREFERENCE_TT$"
-  trait_auto_pc_alderson_slice_preference_desc: "$trait_auto_hab_preference_desc$"
-
+  
+  trait_auto_pc_alderson_slice_preference:99 "$pc_alderson_slice_gaia$ Mutations"
+  trait_auto_pc_alderson_slice_preference_tt:99 "$pc_alderson_slice_gaia$ Habitability: §G100%§!\n$t$- $IDEAL_PREFERENCE_TT$"
+  trait_auto_pc_alderson_slice_preference_desc:99 "$trait_auto_hab_preference_desc$"
+  
   mod_pc_alderson_slice_pc_habitability:99 "Planetary Computer Habitability"
   trait_pc_alderson_slice_pc_preference:99 "Planetary Computer Preference"
   trait_pc_alderson_slice_pc_preference_desc:99 "§LClimate preference is determined at the genetic level, by eons of evolution or skillful manipulation.§!"
@@ -3697,6 +3710,10 @@
   mod_pc_squareworld_habitable_habitability:99 "Squareworld Habitability"
   trait_pc_squareworld_habitable_preference:99 "Squareworld Preference"
   trait_pc_squareworld_habitable_preference_desc:99 "§LClimate preference is determined at the genetic level, by eons of evolution or skillful manipulation.§!"
+  
+  trait_auto_pc_squareworld_preference:99 "$pc_squareworld_habitable$ Mutations"
+  trait_auto_pc_squareworld_preference_tt:99 "$pc_squareworld_habitable$ Habitability: §G100%§!\n$t$- $IDEAL_PREFERENCE_TT$"
+  trait_auto_pc_squareworld_preference_desc:99 "$trait_auto_hab_preference_desc$"
   
   mod_pc_ll_temperate_habitability:99 "Lifeless Habitability"
   trait_pc_ll_temperate_preference:99 "Lifeless Preference"
@@ -3991,9 +4008,15 @@
   district_rw_strat_res_plural:99 "Manufactory Segments"
   district_rw_strat_res_desc:99 "A district for manufacturing the important Strategic Resources used throughout the empire."
   
-  district_rw_quberine:99 "Quberine Extractor"
-  district_rw_quberine_plural:99 "Quberine Extractors"
-  district_rw_quberine_desc:99 "Automated harvesters which retrieve self-regenerating Quberine from the Squareworld's frame and break it down into usable Alloys and Minerals."
+  #########################################
+  ### Squareworld Ringworld districts #########
+  #########################################
+  district_giga_squareworld_livingmetal:99 "Extractor Segment"
+  district_giga_squareworld_livingmetal_plural:99 "Extractor Segments"
+  district_giga_squareworld_livingmetal_desc:99 "$zone_squareworld_livingmetal_desc$"
+  zone_squareworld_livingmetal:99 "Quberine Extractor"
+  zone_squareworld_livingmetal_desc:99 "Automated harvesters which retrieve self-regenerating Quberine from the Squareworld's frame and break it down into usable Alloys and Minerals."
+  zone_squareworld_livingmetal_automated_subtitle:99 "Automated Extractor"
   
   #########################################
   ### Virtual Ringworld districts #########
@@ -4222,7 +4245,7 @@
   zone_alderson_cg:99 "Superheavy Fabricators"
   zone_alderson_cg_desc:99 "Billions of square kilometers dedicated entirely to the production of popular goods. Almost fast enough to keep up with modern trends."
   zone_alderson_factory:99 "Megasprawl Manufactories"
-  zone_alderson_factory_desc:99 "Anything solid that has ever been engineering by the sapient mind can be found here, somewhere, amongst the millions and billions of towering exhaust stacks. Don't ask me where."
+  zone_alderson_factory_desc:99 "Anything solid that has ever been engineered by the sapient mind can be found here, somewhere, amongst the millions and billions of towering exhaust stacks. Don't ask where."
   zone_alderson_fortress:99 "Solar Bulwark"
   zone_alderson_fortress_desc:99 "An impenetrable network of fortresses and barracks sustaining armies more populous than entire worlds."
   
@@ -4332,18 +4355,20 @@
   job_giga_interstellar_scavenger:99 "Interstellar Scavenger"
   job_giga_interstellar_scavenger_plural:99 "Interstellar Scavengers"
   job_giga_interstellar_scavenger_desc:99 "These specialists delve deep into interstellar space, looking for celestial bodies to mine and spaceship debris to recycle."
-  job_giga_interstellar_scavenger_effect_desc:99 "£job_giga_interstellar_scavenger£ $job_giga_interstellar_scavenger_plural$ explore interstellar space, gathering £minerals£ §Y$minerals$§!, £alloys£ §YAlloys§! and £engineering_research£ §Y$engineering_research$§! "
-  mod_job_giga_interstellar_scavenger_add:99 "$job_giga_interstellar_scavenger$ Jobs"
-  mod_job_giga_interstellar_scavenger_per_pop:99 "§G+1§! $job_giga_interstellar_scavenger$ Job per $VALUE$ Pops"
+  job_giga_interstellar_scavenger_effect_desc:99 "$job_giga_interstellar_scavenger_swap_plural_with_icon$ explore interstellar space, gathering £minerals£ §Y$minerals$§!, £alloys£ §YAlloys§! and £engineering_research£ §Y$engineering_research$§! "
+  job_giga_interstellar_scavenger_swap_plural_with_icon:99 "[giga_interstellar_scavenger.GetIcon] [giga_interstellar_scavenger.GetNamePlural]"
+  mod_job_giga_interstellar_scavenger_add:99 "[giga_interstellar_scavenger.GetName] Jobs"
+  mod_job_giga_interstellar_scavenger_per_pop:99 "§G+1§! [giga_interstellar_scavenger.GetName] Job per $VALUE$ Pops"
   mod_job_giga_interstellar_scavenger_per_pop_short:99 "\n§G+1§! £mod_job_giga_interstellar_scavenger_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_interstellar_scavenger_drone:99 "Interstellar Scavenger Drone"
   job_giga_interstellar_scavenger_drone_plural:99 "Interstellar Scavenger Drones"
   job_giga_interstellar_scavenger_drone_desc:99 "These specialists delve deep into interstellar space, looking for celestial bodies to mine and spaceship debris to recycle."
-  job_giga_interstellar_scavenger_drone_effect_desc:99 "£job_giga_interstellar_scavenger_drone£ $job_giga_interstellar_scavenger_drone_plural$ explore interstellar space, gathering £minerals£ §Y$minerals$§!, £alloys£ §YAlloys§! and £engineering_research£ §Y$engineering_research$§! "
-  mod_job_giga_interstellar_scavenger_drone_add:99 "$job_giga_interstellar_scavenger_drone$ Jobs"
-  mod_job_giga_interstellar_scavenger_drone_per_pop:99 "§G+1§! $job_giga_interstellar_scavenger_drone$ Job per $VALUE$ Pops"
+  job_giga_interstellar_scavenger_drone_effect_desc:99 "$job_giga_interstellar_scavenger_drone_swap_plural_with_icon$ explore interstellar space, gathering £minerals£ §Y$minerals$§!, £alloys£ §YAlloys§! and £engineering_research£ §Y$engineering_research$§! "
+  job_giga_interstellar_scavenger_drone_swap_plural_with_icon:99 "[giga_interstellar_scavenger_drone.GetIcon] [giga_interstellar_scavenger_drone.GetNamePlural]"
+  mod_job_giga_interstellar_scavenger_drone_add:99 "[giga_interstellar_scavenger_drone.GetName] Jobs"
+  mod_job_giga_interstellar_scavenger_drone_per_pop:99 "§G+1§! [giga_interstellar_scavenger_drone.GetName] Job per $VALUE$ Pops"
   mod_job_giga_interstellar_scavenger_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_interstellar_scavenger_drone_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
@@ -4351,18 +4376,20 @@
   job_giga_interstellar_researcher:99 "Interstellar Researcher"
   job_giga_interstellar_researcher_plural:99 "Interstellar Researchers"
   job_giga_interstellar_researcher_desc:99 "Interstellar Researchers study the vast void between star, where experiments can be conducted with little to no external interference."
-  job_giga_interstellar_researcher_effect_desc:99 "£job_giga_interstellar_researcher£ $job_giga_interstellar_researcher_plural$ study the interstellar medium, generating £physics_research£ §Y$physics_research$§! "
-  mod_job_giga_interstellar_researcher_add:99 "$job_giga_interstellar_researcher$ Jobs"
-  mod_job_giga_interstellar_researcher_per_pop:99 "§G+1§! $job_giga_interstellar_researcher$ Job per $VALUE$ Pops"
+  job_giga_interstellar_researcher_effect_desc:99 "$job_giga_interstellar_researcher_swap_plural_with_icon$ study the interstellar medium, generating £physics_research£ §Y$physics_research$§! "
+  job_giga_interstellar_researcher_swap_plural_with_icon:99 "[giga_interstellar_researcher.GetIcon] [giga_interstellar_researcher.GetNamePlural]"
+  mod_job_giga_interstellar_researcher_add:99 "[giga_interstellar_researcher.GetName] Jobs"
+  mod_job_giga_interstellar_researcher_per_pop:99 "§G+1§! [giga_interstellar_researcher.GetName] Job per $VALUE$ Pops"
   mod_job_giga_interstellar_researcher_per_pop_short:99 "\n§G+1§! £mod_job_giga_interstellar_researcher_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_interstellar_researcher_drone:99 "Interstellar Researcher Drone"
   job_giga_interstellar_researcher_drone_plural:99 "Interstellar Researcher Drones"
   job_giga_interstellar_researcher_drone_desc:99 "Interstellar Researcher Drones study the vast void between star, where experiments can be conducted with little to no external interference."
-  job_giga_interstellar_researcher_drone_effect_desc:99 "£job_giga_interstellar_researcher_drone£ $job_giga_interstellar_researcher_drone_plural$ study the interstellar medium, generating £physics_research£ §Y$physics_research$§! "
-  mod_job_giga_interstellar_researcher_drone_add:99 "$job_giga_interstellar_researcher_drone$ Jobs"
-  mod_job_giga_interstellar_researcher_drone_per_pop:99 "§G+1§! $job_giga_interstellar_researcher_drone$ Job per $VALUE$ Pops"
+  job_giga_interstellar_researcher_drone_effect_desc:99 "$job_giga_interstellar_researcher_drone_swap_plural_with_icon$ study the interstellar medium, generating £physics_research£ §Y$physics_research$§! "
+  job_giga_interstellar_researcher_drone_swap_plural_with_icon:99 "[giga_interstellar_researcher_drone.GetIcon] [giga_interstellar_researcher_drone.GetNamePlural]"
+  mod_job_giga_interstellar_researcher_drone_add:99 "[giga_interstellar_researcher_drone.GetName] Jobs"
+  mod_job_giga_interstellar_researcher_drone_per_pop:99 "§G+1§! [giga_interstellar_researcher_drone.GetName] Job per $VALUE$ Pops"
   mod_job_giga_interstellar_researcher_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_interstellar_researcher_drone_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
@@ -4370,18 +4397,20 @@
   job_giga_zro_extractor:99 "Zro Harvester"
   job_giga_zro_extractor_plural:99 "Zro Harvesters"
   job_giga_zro_extractor_desc:99 "Zro Harvesters gather Zro from local deposits."
-  job_giga_zro_extractor_effect_desc:99 "£job_giga_zro_extractor£ $job_giga_zro_extractor_plural$ harvest £sr_zro£ §Y$sr_zro$§! "
-  mod_job_giga_zro_extractor_add:99 "$job_giga_zro_extractor$ Jobs"
-  mod_job_giga_zro_extractor_per_pop:99 "§G+1§! $job_giga_zro_extractor$ Job per $VALUE$ Pops"
+  job_giga_zro_extractor_effect_desc:99 "$job_giga_zro_extractor_swap_plural_with_icon$ harvest £sr_zro£ §Y$sr_zro$§! "
+  job_giga_zro_extractor_swap_plural_with_icon:99 "[giga_zro_extractor.GetIcon] [giga_zro_extractor.GetNamePlural]"
+  mod_job_giga_zro_extractor_add:99 "[giga_zro_extractor.GetName] Jobs"
+  mod_job_giga_zro_extractor_per_pop:99 "§G+1§! [giga_zro_extractor.GetName] Job per $VALUE$ Pops"
   mod_job_giga_zro_extractor_per_pop_short:99 "\n§G+1§! £mod_job_giga_zro_extractor_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_zro_extractor_drone:99 "Zro Harvester Drone"
   job_giga_zro_extractor_drone_plural:99 "Zro Harvester Drones"
   job_giga_zro_extractor_drone_desc:99 "Zro Harvesters gather Zro from local deposits."
-  job_giga_zro_extractor_drone_effect_desc:99 "£job_giga_zro_extractor_drone£ $job_giga_zro_extractor_drone_plural$ harvest £sr_zro£ §Y$sr_zro$§! "
-  mod_job_giga_zro_extractor_drone_add:99 "$job_giga_zro_extractor_drone$ Jobs"
-  mod_job_giga_zro_extractor_drone_per_pop:99 "§G+1§! $job_giga_zro_extractor_drone$ Job per $VALUE$ Pops"
+  job_giga_zro_extractor_drone_effect_desc:99 "$job_giga_zro_extractor_drone_swap_plural_with_icon$ harvest £sr_zro£ §Y$sr_zro$§! "
+  job_giga_zro_extractor_drone_swap_plural_with_icon:99 "[giga_zro_extractor_drone.GetIcon] [giga_zro_extractor_drone.GetNamePlural]"
+  mod_job_giga_zro_extractor_drone_add:99 "[giga_zro_extractor_drone.GetName] Jobs"
+  mod_job_giga_zro_extractor_drone_per_pop:99 "§G+1§! [giga_zro_extractor_drone.GetName] Job per $VALUE$ Pops"
   mod_job_giga_zro_extractor_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_zro_extractor_drone_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
@@ -4389,18 +4418,20 @@
   job_giga_preserver:99 "Preserve Keeper"
   job_giga_preserver_plural:99 "Preserve Keepers"
   job_giga_preserver_desc:99 "These rugged rangers maintain massive nature preserves on the ring's inner surface."
-  job_giga_preserver_effect_desc:99 "£job_giga_preserver£ $job_giga_preserver_plural$ increase £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! locally and on every $habitat_0$ in the system, while producing £unity£ §Y$unity$§! and £society_research£ §Y$society_research$§!"
-  mod_job_giga_preserver_add:99 "$job_giga_preserver$ Jobs"
-  mod_job_giga_preserver_per_pop:99 "§G+1§! $job_giga_preserver$ Job per $VALUE$ Pops"
+  job_giga_preserver_effect_desc:99 "$job_giga_preserver_swap_plural_with_icon$ increase £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! locally and on every $habitat_0$ in the system, while producing £unity£ §Y$unity$§! and £society_research£ §Y$society_research$§!"
+  job_giga_preserver_swap_plural_with_icon:99 "[giga_preserver.GetIcon] [giga_preserver.GetNamePlural]"
+  mod_job_giga_preserver_add:99 "[giga_preserver.GetName] Jobs"
+  mod_job_giga_preserver_per_pop:99 "§G+1§! [giga_preserver.GetName] Job per $VALUE$ Pops"
   mod_job_giga_preserver_per_pop_short:99 "\n§G+1§! £mod_job_giga_preserver_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_preserver_drone:99 "Preserve Keeper Drone"
   job_giga_preserver_drone_plural:99 "Preserve Keeper Drones"
   job_giga_preserver_drone_desc:99 "These custodial drones maintain massive nature preserves on the ring's inner surface."
-  job_giga_preserver_drone_effect_desc:99 "£job_giga_preserver£ $job_giga_preserver_plural$ increase £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! locally and on every $habitat_0$ in the system, while producing £unity£ §Y$unity$§! and £society_research£ §Y$society_research$§!"
-  mod_job_giga_preserver_drone_add:99 "$job_giga_preserver_drone$ Jobs"
-  mod_job_giga_preserver_drone_per_pop:99 "§G+1§! $job_giga_preserver_drone$ Job per $VALUE$ Pops"
+  job_giga_preserver_drone_effect_desc:99 "$job_giga_preserver_drone_swap_plural_with_icon$ increase £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! locally and on every $habitat_0$ in the system, while producing £unity£ §Y$unity$§! and £society_research£ §Y$society_research$§!"
+  job_giga_preserver_drone_swap_plural_with_icon:99 "[giga_preserver_drone.GetIcon] [giga_preserver_drone.GetNamePlural]"
+  mod_job_giga_preserver_drone_add:99 "[giga_preserver_drone.GetName] Jobs"
+  mod_job_giga_preserver_drone_per_pop:99 "§G+1§! [giga_preserver_drone.GetName] Job per $VALUE$ Pops"
   mod_job_giga_preserver_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_preserver_drone_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
@@ -4408,19 +4439,21 @@
   job_giga_gas_harvester:99 "Exotic Gas Harvester"
   job_giga_gas_harvester_plural:99 "Exotic Gas Harvesters"
   job_giga_gas_harvester_desc:99 "Gas Harvesters operate spacecraft and machinery that reach into the depths of the Gas Giant's atmosphere and tap into pockets of exotic gas."
-  job_giga_gas_harvester_effect_desc:99 "£job_giga_gas_harvester£ $job_giga_gas_harvester_plural$ gather £exotic_gases£ §Y$exotic_gases$§!"
-  mod_job_giga_gas_harvester_add:99 "$job_giga_gas_harvester$ Jobs"
-  mod_job_giga_gas_harvester_per_pop:99 "§G+1§! $job_giga_gas_harvester$ Job per $VALUE$ Pops"
+  job_giga_gas_harvester_effect_desc:99 "$job_giga_gas_harvester_swap_plural_with_icon$ gather £exotic_gases£ §Y$exotic_gases$§!"
+  job_giga_gas_harvester_swap_plural_with_icon:99 "[giga_gas_harvester.GetIcon] [giga_gas_harvester.GetNamePlural]"
+  mod_job_giga_gas_harvester_add:99 "[giga_gas_harvester.GetName] Jobs"
+  mod_job_giga_gas_harvester_per_pop:99 "§G+1§! [giga_gas_harvester.GetName] Job per $VALUE$ Pops"
   mod_job_giga_gas_harvester_per_pop_short:99 "\n§G+1§! £mod_job_giga_gas_harvester_add£ per $VALUE$ £pop£"
   
   # Gestalt
   job_giga_gas_harvesting_drone:99 "Exotic Gas Harvester Drone"
   job_giga_gas_harvesting_drone_plural:99 "Exotic Gas Harvester Drones"
   job_giga_gas_harvesting_drone_desc:99 "Gas Harvesters operate spacecraft and machinery that reach into the depths of the Gas Giant's atmosphere and tap into pockets of exotic gas."
-  job_giga_gas_harvesting_drone_effect_desc:99 "£job_giga_gas_harvesting_drone£ $job_giga_gas_harvesting_drone_plural$ gather £exotic_gases£ §Y$exotic_gases$§!"
-  mod_job_giga_gas_harvesting_drone_add:99 "$job_giga_gas_harvesting_drone$ Jobs"
-  mod_job_giga_gas_harvesting_drone_per_pop:99 "§G+1§! $job_giga_gas_harvesting_drone$ Job per $VALUE$ Pops"
-  mod_job_giga_gas_harvesting_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_gas_harvesting_drone_add£ per $VALUE$ £pop£"
+  job_giga_gas_harvesting_drone_effect_desc:99 "$job_giga_gas_harvesting_drone_swap_plural_with_icon$ gather £exotic_gases£ §Y$exotic_gases$§!"
+  job_giga_gas_harvesting_drone_swap_plural_with_icon:99 "[giga_gas_harvesting_drone.GetIcon] [giga_gas_harvesting_drone.GetNamePlural]"
+  mod_job_giga_gas_harvesting_drone_add:99 "[giga_gas_harvesting_drone.GetName] Jobs"
+  mod_job_giga_gas_harvesting_drone_per_pop:99 "§G+1§! [giga_gas_harvesting_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_gas_harvesting_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_gas_harvester_add£ per $VALUE$ £pop£"
   
   ########################################################################################################################################################
   # Regular
@@ -7351,18 +7384,20 @@
   job_giga_iodizium_miner:99 "Iodizium Miner"
   job_giga_iodizium_miner_plural:99 "Iodizium Miners"
   job_giga_iodizium_miner_desc:99 "These specialist miners are equipped for the extraction of physics-defying iodizium crystals."
-  job_giga_iodizium_miner_effect_desc:99 "£job_giga_iodizium_miner£ $job_giga_iodizium_miner_plural$ use £consumer_goods£ §Y$consumer_goods$§! to safely extract £giga_sr_iodizium£ §Y$giga_sr_iodizium$§!"
-  mod_job_giga_iodizium_miner_add:99 "$job_giga_iodizium_miner$ Jobs"
-  mod_job_giga_iodizium_miner_per_pop:99 "§G+1§! $job_giga_iodizium_miner$ Job per $VALUE$ Pops"
+  job_giga_iodizium_miner_effect_desc:99 "$job_giga_iodizium_miner_swap_plural_with_icon$ use £consumer_goods£ §Y$consumer_goods$§! to safely extract £giga_sr_iodizium£ §Y$giga_sr_iodizium$§!"
+  job_giga_iodizium_miner_swap_plural_with_icon:99 "[giga_iodizium_miner.GetIcon] [giga_iodizium_miner.GetNamePlural]"
+  mod_job_giga_iodizium_miner_add:99 "[giga_iodizium_miner.GetName] Jobs"
+  mod_job_giga_iodizium_miner_per_pop:99 "§G+1§! [giga_iodizium_miner.GetName] Job per $VALUE$ Pops"
   mod_job_giga_iodizium_miner_per_pop_short:99 "\n§G+1§! £mod_job_giga_iodizium_miner_add£ per $VALUE$ £pop£"
   
   job_giga_iodizium_mining_drone:99 "Iodizium Mining Drone"
   job_giga_iodizium_mining_drone_plural:99 "Iodizium Mining Drones"
   job_giga_iodizium_mining_drone_desc:99 "These specialist miners are equipped for the extraction of physics-defying iodizium crystals."
-  job_giga_iodizium_mining_drone_effect_desc:99 "£job_giga_iodizium_mining_drone£ $job_giga_iodizium_mining_drone_plural$ use £energy£ §Y$energy$§! to safely extract £giga_sr_iodizium£ §Y$giga_sr_iodizium$§!"
-  mod_job_giga_iodizium_mining_drone_add:99 "$job_giga_iodizium_mining_drone$ Jobs"
-  mod_job_giga_iodizium_mining_drone_per_pop:99 "§G+1§! $job_giga_iodizium_mining_drone$ Job per $VALUE$ Pops"
-  mod_job_giga_iodizium_mining_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_iodizium_mining_drone_add£ per $VALUE$ £pop£"
+  job_giga_iodizium_mining_drone_effect_desc:99 "$job_giga_iodizium_mining_drone_swap_plural_with_icon$ use £energy£ §Y$energy$§! to safely extract £giga_sr_iodizium£ §Y$giga_sr_iodizium$§!"
+  job_giga_iodizium_mining_drone_swap_plural_with_icon:99 "[giga_iodizium_mining_drone.GetIcon] [giga_iodizium_mining_drone.GetNamePlural]"
+  mod_job_giga_iodizium_mining_drone_add:99 "[giga_iodizium_mining_drone.GetName] Jobs"
+  mod_job_giga_iodizium_mining_drone_per_pop:99 "§G+1§! [giga_iodizium_mining_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_iodizium_mining_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_iodizium_miner_add£ per $VALUE$ £pop£"
   
   #########################################
   ### Nicoll Dyson Beam ###################
@@ -9338,7 +9373,7 @@
   ehof_trader_machines:99 "The Excognitor"
   ehof_trader_new_system:99 "[urmazin_capital.GetName]"
   ehof_trader_old_system:99 "[urmazin_system_01.GetName]"
-  ehof_trader_realm:99 "the realm of the one that dreams."
+  ehof_trader_realm:99 "the realm of the one that dreams"
   ehof_galactic_market:99 "$galactic_market_station$"
   ehof_trader_gateway:99 "§S$ehof_trader$ Wormhole§!"
   ehof_trader_gateway_plural:99 "§S$ehof_trader$ Wormholes§!"
@@ -9381,7 +9416,7 @@
   ehof_mega_trader.007.b.response.b:99 "Many years passed since the terraforming machines were first sent on their journey. They had long since terraformed $ehof_trader_new_system$. As time passed, though, the machines became self-aware, and grew to love the $ehof_trader_new_system$ system and view themselves as its rightful keepers.\n\nThis drove a wedge between the empire and their machines that would inevitably boil over into all-out war.\n\nWhen the two empires did finally fight, they found themselves evenly matched. If the war would have continued the way it was, it would have led to the extinction of both. In order to prevent the loss of two species, the $ehof_trader_d$ proposed a solution that would not only end the war, but also solve the problems between the two: it would unify the organics of $ehof_trader_old_system$ and the machines of $ehof_trader_new_system$ into a new kind of being...\n\n... us.\n\nAfter our people were born, we made it our goal to create a perfect utopia in $ehof_trader_new_system$, and have since left the scarred $ehof_trader_old_system$ as a monument to the foolishness of those who came before us."
   
   ehof_mega_trader.007.c:99 "What are the $ehof_trader_d$ and the $ehof_trader_t$?"
-  ehof_mega_trader.007.c.response:99 "The $ehof_trader_d$ is an immaterial entity inhabiting $ehof_trader_realm$. It is unknown when the $ehof_trader_dt$ was created, but it certainly predates our organic forerunners.\n\n§HNegative Mass§! keeps the $ehof_trader_dt$ open, but it is also what allows us to open and maintain wormholes to other systems. Unfortunately, the amount of §HNegative Mass§! within the $ehof_trader_dt$ is finite. One day, either our expansion would end or the $ehof_trader_t$ would collapse and cut our connection to the$ehof_trader_d$, which would lead to the loss of our psionic abilities and $ehof_trader_d$ guidance. Both of these events would lead to the collapse of our civilization, which is why we need your §HNegative Mass§! to avoid this fate."
+  ehof_mega_trader.007.c.response:99 "The $ehof_trader_d$ is an immaterial entity inhabiting $ehof_trader_realm$. It is unknown when the $ehof_trader_dt$ was created, but it certainly predates our organic forerunners.\n\n§HNegative Mass§! keeps the $ehof_trader_dt$ open, but it is also what allows us to open and maintain wormholes to other systems. Unfortunately, the amount of §HNegative Mass§! within the $ehof_trader_dt$ is finite. One day, either our expansion would end or the $ehof_trader_t$ would collapse and cut our connection to the $ehof_trader_d$, which would lead to the loss of our psionic abilities and $ehof_trader_d$ guidance. Both of these events would lead to the collapse of our civilization, which is why we need your §HNegative Mass§! to avoid this fate."
   
   ehof_mega_trader.006.a:99 "§HTrade§!"
   ehof_mega_trader.101.desc:99 "We have a few dream-relics we can exchange for §HNegative Mass§!. Keep in mind that since they are phantasmal reflections which we fish out of the $ehof_trader_dt$, they are §Rone time use§! items - and that we only replenish our stock every §Y5 years§! £time£.\n\nWhich of these reflections-made-real would you like to trade for?"
@@ -9901,7 +9936,7 @@
   annihilator_dialog.007.a.b.response:99 "Indeed. The $ehof_the_creators$ could send a pulse of concentrated psionic energy through the $ehof_shroud$ to any location they desired - even one within the $ehof_shroud$ itself.\n\nOnce they became aware of our defection, they targeted me with one such blast. It was enough to kill all the rebel $ehof_the_creators$ aboard, and almost killed me too."
   
   annihilator_dialog.007.a.c:99 "$ehof_shroud_ftl$?"
-  annihilator_dialog.007.a.c.response:99 "An extremely advanced FTL travel method.\n\nWhile I know a few of this galaxy's species are psionic, no one in this galactic cluster has ever been able to directly travel through it other than the $ehof_the_creators$.\n\nSome may have access to psionic jump drives, but they are nothing compared to direct Shroud travel. With it, hyperlanes are unnecessary for FTL, travel distance is unlimited, and the speed is enormous. It may not be instantaneous like jump drives, but it has no drawbacks. The only thing one needs is an incredibly strong control over the $ehof_shroud$.\n\nFor the$ehof_the_creators$, this is, of course, an easy feat."
+  annihilator_dialog.007.a.c.response:99 "An extremely advanced FTL travel method.\n\nWhile I know a few of this galaxy's species are psionic, no one in this galactic cluster has ever been able to directly travel through it other than the $ehof_the_creators$.\n\nSome may have access to psionic jump drives, but they are nothing compared to direct Shroud travel. With it, hyperlanes are unnecessary for FTL, travel distance is unlimited, and the speed is enormous. It may not be instantaneous like jump drives, but it has no drawbacks. The only thing one needs is an incredibly strong control over the $ehof_shroud$.\n\nFor the $ehof_the_creators$, this is, of course, an easy feat."
   
   annihilator_dialog.007.a.d:99 "What was your hibernation mode for?"
   annihilator_dialog.007.a.d.response:99 "My hibernation mode is a method to protect against harmful outside influence.\n\nAs your [Owner.GetScientistPlural] discovered, a supersolid covers my hull while I'm in hibernation mode. It is composed of metastable hyperspace time crystals that create a shell of curved higher-dimensional space around me.\n\nThis shell has a similar effect to the event horizon of a black hole: time stands still for me, so to speak, until something interrupts the process.\n\nThe intense gravitational waves emitted by the creation of so many $ehof_wormholes_text$ roused me from my slumber. In my damaged state, could not do much more than observe the galaxy. I knew I had to warn you all when the $ehof_the_compound_text$ attacked, and barely mustered the strength to do so."
@@ -9910,7 +9945,7 @@
   annihilator_dialog.007.b.response:99 "The $ehof_the_compound_text$ is an intelligent organism composed of pseudo-biological dark matter.\n\nUnlike \"normal\" dark matter, this substance interacts not only via gravity, but also via the electromagnetic force.\n\nThis is why $ehof_the_compound_text$ forms, despite being composed of dark matter, are visible. Its unique properties are likely why it can support life, as well."
   
   annihilator_dialog.007.d:99 "Can you really fight the $ehof_the_compound_text$ in their cluster?"
-  annihilator_dialog.007.d.response:99 "The home cluster of the $ehof_the_compound_text$ is, without doubt, one of the most fortified locations in the entire galaxy.\n\nEven with negative mass enhanced weaponry, it will be a huge challenge for your fleets.n\nWith the combined fleets of your galaxy, you may be able to do it without my help.\n\nI, on the other hand, am especially equipped to fight against $ehof_the_compound_text$, and I'm also attuned to resist their weaponry.\n\nThey may still be able to damage me critically, which is why I need your support."
+  annihilator_dialog.007.d.response:99 "The home cluster of the $ehof_the_compound_text$ is, without doubt, one of the most fortified locations in the entire galaxy.\n\nEven with negative mass enhanced weaponry, it will be a huge challenge for your fleets.\nWith the combined fleets of your galaxy, you may be able to do it without my help.\n\nI, on the other hand, am especially equipped to fight against $ehof_the_compound_text$, and I'm also attuned to resist their weaponry.\n\nThey may still be able to damage me critically, which is why I need your support."
   
   annihilator_dialog.007.e:99 "What are you going to do after the $ehof_the_compound_text$ has been destroyed?"
   annihilator_dialog.008.a.response:99 "For now, my only goal is to put an end to the $ehof_the_compound_text$ and fulfill my destiny. After that, I may try to find out more about the current state of the $ehof_the_creators$."
@@ -10915,9 +10950,9 @@
   
   kaiser_moon_moon_tooltip:99 "§YMondkruste§!\n\n§GFunctional | No armor penalties§!\n\nSabotage Requirements:\n§HSignificant Partisan Activity in the Katzen Herzlands\n§HSignificant Partisan Activity in Lyuinstaat\n\n§LSeveral kilometers of rocks intertwined with structural supports protect the moon's delicate interior. This thick crust effectively grant the vessel immense survivability when faced with enemy fleets."
   
-  kaiser_moon_thrusters_tooltip:99 "§YMovement Systems§!\n\n§GFunctional | No jump charge time penalties§!\n\nSabotage Requirements:\n§RExtreme Partisan Activity in Linteria§!\n§YModerate Partisan Activity in Wacegien§!\n\n§LA gargantuan thruster paired with a colossal hyperdrive allows the Kaiser Moon to fly through both space and hyperspace. Powered by an advanced antimatter reactor of Katzen designs, they dwarf anything else employed in the Katzen Armed Forces.\n\n§BThe Kaiser Moon will lose the ability to recall when Flusion is threatened if this is sabotaged!§!"
+  kaiser_moon_thrusters_tooltip:99 "§YMovement Systems§!\n\n§GFunctional | No jump charge time penalties§!\n\nSabotage Requirements:\n§RExtreme Partisan Activity in Linteria§!\n§YModerate Partisan Activity in Arivoejien§!\n\n§LA gargantuan thruster paired with a colossal hyperdrive allows the Kaiser Moon to fly through both space and hyperspace. Powered by an advanced antimatter reactor of Katzen designs, they dwarf anything else employed in the Katzen Armed Forces.\n\n§BThe Kaiser Moon will lose the ability to recall when Flusion is threatened if this is sabotaged!§!"
   
-  kaiser_moon_wings_tooltip:99 "§YVakuumwings§!\n\n§GFunctional | No speed penalties§!\n\nSabotage Requirements:\n§YModerate Partisan Activity in Linteria§!\n§RExtreme Partisan Activity in Wacegien§!\n\n§LThese wings might appear useless at first, but they actually contain an array of thrusters lined up along their rear-facing end. These thrusters help the moon maneuver through space with greater ease."
+  kaiser_moon_wings_tooltip:99 "§YVakuumwings§!\n\n§GFunctional | No speed penalties§!\n\nSabotage Requirements:\n§YModerate Partisan Activity in Linteria§!\n§RExtreme Partisan Activity in Arivoejien§!\n\n§LThese wings might appear useless at first, but they actually contain an array of thrusters lined up along their rear-facing end. These thrusters help the moon maneuver through space with greater ease."
   
   #sabo
   kaiser_moon_barrel_sabo_tooltip:99 "§YRiesigekatzenwaffe§!\n\n§RSabotaged | -30% weapons damage§!\n\n§LThe Kaiser Moon's main weapon is a titanic railgun. Based on old Katzen designs for planetary weaponry, it accelerates an extremely dense projectile close to the speed of light. The projectile packs the energy of several billion nuclear warheads concentrated within a single point, rendering it incredibly deadly."
@@ -10951,10 +10986,10 @@
   giga_katrebels.2021.desc:99 "We can support the §YRoqualian Freedom Fighters§! in a mission to damage the Kaiser Moon's planetary crust.\n\nWith their control of the §YKatzen Herzlands§! and §YLyuinstaat§!, and with a healthy amount of bribes, they will be able to sneak in double agents posing as maintenance workers, who will set up explosives within structural points inside the crust.\n\n§YIf successful§!:\nThe Kaiser Moon will suffer from §Y-40% armor HP§! for §Y3 years§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y85%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2022.name:99 "Sabotaging the Kaiser Moon's §YMovement Systems§!"
-  giga_katrebels.2022.desc:99 "We can support the §YRoqualian Freedom Fighters§! in a mission to damage the Kaiser Moon's movement systems.\n\nWith their control of §YLinteria§! and §YWacegien§!, and with a healthy amount of bribes, they will be able to destroy vital installations that produce the advanced components necessary to maintain the moon's jump drive.\n\n§YIf successful§!:\nThe Kaiser Moon will suffer from §Y+500% jump charge time§! for §Y3 years§!, and will lose the ability to §Yrecall§! to Flusion if it gets bombed or invaded.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y85%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
+  giga_katrebels.2022.desc:99 "We can support the §YRoqualian Freedom Fighters§! in a mission to damage the Kaiser Moon's movement systems.\n\nWith their control of §YLinteria§! and §YArivoejien§!, and with a healthy amount of bribes, they will be able to destroy vital installations that produce the advanced components necessary to maintain the moon's jump drive.\n\n§YIf successful§!:\nThe Kaiser Moon will suffer from §Y+500% jump charge time§! for §Y3 years§!, and will lose the ability to §Yrecall§! to Flusion if it gets bombed or invaded.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y85%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2023.name:99 "Sabotaging the Kaiser Moon's §YVakuumwings§!"
-  giga_katrebels.2023.desc:99 "We can support the §YRoqualian Freedom Fighters§! in a mission to damage the Kaiser Moon's... wings.\n\nWith their control of §YLinteria§! and §YWacegien§!, and with a healthy amount of bribes, they will be able to sabotage the facilities that produce the fuel and energy needed to power the wing's maneuvering thrusters..\n\n§YIf successful§!:\nThe Kaiser Moon will suffer from §Y-40% sublight speed§! for §Y3 years§!\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y85%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
+  giga_katrebels.2023.desc:99 "We can support the §YRoqualian Freedom Fighters§! in a mission to damage the Kaiser Moon's... wings.\n\nWith their control of §YLinteria§! and §YArivoejien§!, and with a healthy amount of bribes, they will be able to sabotage the facilities that produce the fuel and energy needed to power the wing's maneuvering thrusters..\n\n§YIf successful§!:\nThe Kaiser Moon will suffer from §Y-40% sublight speed§! for §Y3 years§!\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y85%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   #map stuff
   res_total_count:99 "0/10"
@@ -10979,7 +11014,7 @@
   giga_katrebels.2013.desc:99 "We can support the §YRoqualian Freedom Fighters§! alongside various Galletian groups to undertake an operation in the land of §YLyuinstaat§!. They will target Katzenarmee research centers where the Katzens experiment with shield designs for their vessels.\n\n§YIf successful§!:\nPartisan activities in §YLyuinstaat§! will §Gincrease§!.\nThe Katzens will suffer from §Ydecreased shield HP§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HHigh Katzen Grasp in Lyuinstaat§!: §R-30%§!\n§BPartisans in Ravkanien§!: §G+[flusion_primitives_country.ravka_res_perc]%§!\n§BPartisans in Katzen Herzlands§!: §G+[flusion_primitives_country.katzen_res_perc]%§!\n§BPartisans in Rokalien§!: §G+[flusion_primitives_country.solak_res_perc]%§!\n§BPartisans in Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2014.name:99 "Resistance Operations in §YGeschwollen§!"
-  giga_katrebels.2014.desc:99 "We can support the §YRoqualian Freedom Fighters§! alongside a myriad of groups made up of miscellaneous species to undertake an operation in the land of §YGeschwollen§!. They will target Katzenarmee munition plants where the Katzens produce and store munition for their kinetic weaponry, and the uranium mines the Katzens use to harvest valuable uranium for their kinetic weapons.\n\n§YIf successful§!:\nPartisan activities in §YGeschwollen§! will §Gincrease§!.\nThe Katzens will suffer from §Ydecreased kinetic damage§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HHigh Katzen Grasp in Geschwollen§!: §R-30%§!\n§BPartisans in Linteria§!: §G+[flusion_primitives_country.zousa_res_perc]%§!\n§BPartisans in Zuspristaat§!: §G+[flusion_primitives_country.ezicania_res_perc]%§!\n§BPartisans in Lyuinstaat§!: §G+[flusion_primitives_country.lyuin_res_perc]%§!\n§BPartisans in Wacegien§!: §G+[flusion_primitives_country.symby_res_perc]%§!\n§BPartisans in Laurendaar§!: §G+[flusion_primitives_country.laurn_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
+  giga_katrebels.2014.desc:99 "We can support the §YRoqualian Freedom Fighters§! alongside a myriad of groups made up of miscellaneous species to undertake an operation in the land of §YGeschwollen§!. They will target Katzenarmee munition plants where the Katzens produce and store munition for their kinetic weaponry, and the uranium mines the Katzens use to harvest valuable uranium for their kinetic weapons.\n\n§YIf successful§!:\nPartisan activities in §YGeschwollen§! will §Gincrease§!.\nThe Katzens will suffer from §Ydecreased kinetic damage§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HHigh Katzen Grasp in Geschwollen§!: §R-30%§!\n§BPartisans in Linteria§!: §G+[flusion_primitives_country.zousa_res_perc]%§!\n§BPartisans in Zuspristaat§!: §G+[flusion_primitives_country.ezicania_res_perc]%§!\n§BPartisans in Lyuinstaat§!: §G+[flusion_primitives_country.lyuin_res_perc]%§!\n§BPartisans in Arivoejien§!: §G+[flusion_primitives_country.symby_res_perc]%§!\n§BPartisans in Laurendaar§!: §G+[flusion_primitives_country.laurn_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2015.name:99 "Resistance Operations in §YLaurendaar§!"
   giga_katrebels.2015.desc:99 "We can support the §YRoqualian Freedom Fighters§! alongside some rebellious native Laurnaise to undertake an operation in the land of §YLaurendaar§!. They will target Katzen propaganda studios where the Katzens record flattering movies and films about their empire.\n\n§YIf successful§!:\nPartisan activities in §YLaurendaar§! will §Gincrease§!.\nThe Katzens will suffer from §Ydecreased army morale§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HModerate Katzen Grasp in Laurendaar§!: §R-20%§!\n§BPartisans in Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
@@ -10987,8 +11022,8 @@
   giga_katrebels.2016.name:99 "Resistance Operations in §YMercurreich§!"
   giga_katrebels.2016.desc:99 "We can support the §YRoqualian Freedom Fighters§! alongside native Mercurians in the land of §YMercuria§!. They will target laboratories and testing ground where the Katzens design new explosive weaponry.\n\n§YIf successful§!:\nPartisan activities in §YMercurreich§! will §Gincrease§!.\nThe Katzens will suffer from §Ydecreased missile damage§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HLow Katzen Grasp in Mercurreich§!: §R-10%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
-  giga_katrebels.2017.name:99 "Resistance Operations in §YWacegien§!"
-  giga_katrebels.2017.desc:99 "We can support the §YRoqualian Freedom Fighters§! alongside the few Wacegi that still live in §YWacegien§! in an operation to cripple Katzen fuel production facilities and thruster testing grounds.\n\n§YIf successful§!:\nPartisan activities in §YWacegien§! will §Gincrease§!.\nThe Katzens will suffer from §Ydecreased ship speed§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HModerate Katzen Grasp in Wacegien§!: §R-20%§!\n§BPartisans in Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
+  giga_katrebels.2017.name:99 "Resistance Operations in §YArivoejien§!"
+  giga_katrebels.2017.desc:99 "We can support the §YRoqualian Freedom Fighters§! alongside rebellious Nederkattens within §YArivoejien§! to cripple Katzen fuel production facilities and thruster testing grounds.\n\n§YIf successful§!:\nPartisan activities in §YArivoejien§! will §Gincrease§!.\nThe Katzens will suffer from §Ydecreased ship speed§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HModerate Katzen Grasp in Arivoejien§!: §R-20%§!\n§BPartisans in Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
   
   giga_katrebels.2018.name:99 "Resistance Operations in the §YKatzen Herzlands§!"
   giga_katrebels.2018.desc:99 "We can support the §YRoqualian Freedom Fighters§! and the very few individuals opposed to Katzen rule in the §YKatzen Herzlands§!. They will attempt to cripple Katzen military factories and industry across the region, which will undoubtedly have a drastic impact on their weapons' performances.\n\n§YIf successful§!:\nPartisan activities in the §YKatzen Herzlands§! will §Gincrease§!.\nThe Katzens will suffer from §Ydecreased weapons damage§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HExtreme Katzen Grasp in the Katzen Herzlands§!: §R-40%§!\n§BPartisans in Rokalien§!: §G+[flusion_primitives_country.solak_res_perc]%§!\n§BPartisans in Lyuinstaat§!: §G+[flusion_primitives_country.lyuin_res_perc]%§!\n§BPartisans in Zuspristaat§!: §G+[flusion_primitives_country.ezicania_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
@@ -11077,7 +11112,7 @@
   mercuria_res_ext_tooltip:99 "$mercuria_name$\n\n§HMain Function§! - §BMissile Silos§!\n\nKatzen grasp is §GLow§!\nPartisan activity is §RExtreme§!\nKatzen modifiers: §R-40% Missile Damage§!\n\n$mercuria_desc$"
   
   puffy_name:99 "§YGeschwollen§!"
-  puffy_desc:99 "§LGeschwollen is a mixed bag, a large area home to several different species such as the Kronks, the Yinjites, the Ilyanians, and the Axolins. The Katzens have concentrated a huge chunk of their munition plants in the region's vast, uranium-rich lands.§!"
+  puffy_desc:99 "§LGeschwollen is a mixed bag, a large area home to several different species such as the Kronks, the Yinjites, the Axolins and a large amount of Puffians against which the Katzens once waged a major war. The Katzens have concentrated a huge chunk of their munition plants in the region's vast, uranium-rich lands.§!"
   
   puffy_res_low_tooltip:99 "$puffy_name$\n\n§HMain Function§! - §BMunition Plants§!\n\nKatzen grasp is §RHigh§!\nPartisan activity is §GNegligible§!\nKatzen modifiers: §G+30% Kinetics Damage§!\n\n$puffy_desc$"
   
@@ -11088,8 +11123,8 @@
   puffy_res_ext_tooltip:99 "$puffy_name$\n\n§HMain Function§! - §BMunition Plants§!\n\nKatzen grasp is §RHigh§!\nPartisan activity is §RExtreme§!\nKatzen modifiers: §R-30% Kinetics Damage§!\n\n$puffy_desc$"
   
   
-  symby_name:99 "§YWacegien§!"
-  symby_desc:99 "§LWacegien is home to the Wacegi, a fungoid species with whom the Katzens once waged a colossal war, even before the Kaiser's unification wars. Nowadays, the Katzens use the rugged and sparsely-populated land as a place to experiment with new engine designs.§!"
+  symby_name:99 "§YArivoejien§!"
+  symby_desc:99 "§LMuch like Geschwollen up north, Arivoejien is home to several species and most prominently a more aquatic-oriented type of Katzens known as Nederkattens, on which the Katzens rely for local compliance. The Katzens use the area to experiment with new engine designs.§!"
   
   symby_res_low_tooltip:99 "$symby_name$\n\n§HMain Function§! - §BThruster Fabricators§!\n\nKatzen grasp is §YModerate§!\nPartisan activity is §GNegligible§!\nKatzen modifiers: §G+40% Ship Speed§!\n\n$symby_desc$"
   
@@ -12146,9 +12181,9 @@
   giga_aeternum.43281.desc.d:99 "Our expedition reports that they have conducted a thorough analysis of the colossal reservoir located on Aiondia.\n\nA thorough survey has located a singular mass laying at the bottom of the reservoir, and a followup expedition has revealed it to be a §Ygigantic skeleton§!! Measuring well over a hundred kilometers in length, this gargantuan specimen was seemingly bioengineered by Aeternum in the distant past, perhaps as an attempt to find out just how large living creatures can be.\n\nThe skeleton shows evidence of highly-advanced genetic tailoring in order to maximize the creature's size and longevity, and rough calculations show that the entire beast likely weighed more than a small moon.\n\nHow long the creature lived for is unknown, but the bones show clear signs of having gone through violent rupturing, indicating that even with the buoyancy of water, it was simply too large to not collapse under its own weight. The project was likely scrapped by Aeternum following this failure, and they have made no apparent attempts at replicating or improving it.\n\nThis has however yielded some incredible insight on Aeternite bioengineering technologies, and their scientific methods as a whole."
   giga_aeternum.43281.d:99 "Poor thing..."
   
-  birch_gain_20_pops:99 "We gain §Y20 [aet_birch_civilisation.GetName]§! Pops."
-  birch_gain_40_pops:99 "We gain §Y40 [aet_birch_civilisation.GetName]§! Pops."
-  birch_gain_80_pops:99 "We gain §Y80 [aet_birch_civilisation.GetName]§! Pops."
+  birch_gain_20_pops:99 "We gain §Y2000 [aet_birch_civilisation.GetName]§! Pops."
+  birch_gain_40_pops:99 "We gain §Y4000 [aet_birch_civilisation.GetName]§! Pops."
+  birch_gain_80_pops:99 "We gain §Y8000 [aet_birch_civilisation.GetName]§! Pops."
   
   giga_aeternum.4327.name:99 "Aiondia Expedition: §BCivilization§!"
   giga_aeternum.4327.desc.a:99 "Our Aiondia expedition has made a fascinating find. Upon arriving in a more habitable section of the Birch World, modelled to resemble a typical planetary surface, they stumbled upon an entire primitive civilization inhabiting said section!\n\nWith a population estimated to be §Yseveral hundred millions§! to a §Yfew billions§!, these beings, known as the §Y[aet_birch_civilisation.GetName]§!, have developed entirely on the Birch World and are divided into dozens and dozens of smaller nationstates spread out across this habitable section. Preliminary surveys have revealed that they are not aware of their world's true nature, and seemingly believe it to be an endless flat plane stretching out into the distance in all directions.\n\nTheir \"knowledge\" of what lies beyond their world is limited to rumors, beliefs and myths, with many of their greatest thinkers and scientists debating whether or not their world is truly infinite, or if it eventually stops and drops straight into space. The surface area of their habitable segment is equal to roughly a thousand average-sized continental worlds, of which they barely occupy a few percents.\n\nWe have several ways of dealing with them. First, we could attempt to launch a diplomatic mission and convince them to peacefully join us, which our expedition estimates would have a §GComplexity§! of §Y[ROOT.aet_anomaly_complexity]§!. We could also attempt to take them over, which would be relatively simple given their low technological base. We estimate their §PResilience§! to be roughly §Y[ROOT.aet_anomaly_resilience]§!.\n\nFinally, it might be possible to simply observe their development from afar.\n\n§BThe expedition currently has:\n$aet_display_exp_stats$"
@@ -12882,7 +12917,7 @@
   
   giga_aeternum.2000.name:99 "The Aeternite Forerunners"
   
-  giga_aeternum.2000.desc.a:99 "§B<<INITIATING GREETINGS PROTOCOLS>>§!\n\nGreetings, §Y[ROOT.GetName]§!. I am an automated §YAeternite Psykosynthetic Diplomatic Unit§!, deployed to serve as an interface between §YAeternum§! and the rest of the galaxy. In accordance with diplomatic protocols, a scan will now be conducted on your civilization.\n\n§B<<ANALYZING SOCIETAL AND INTELLECTUAL DEVELOPMENT OF RECIPIENT>>§!\n\nDue to your current level of technological development, your request to communicate directly with the §YAeternite Forerunners§! has been §R<<DENIED>>§!\n\nIn order to quench your species' desire for knowledge and ensure noninterference in Aeternite affairs, we have compiled basic information regarding our civilization within a §BDatabank§!, which you may peruse if you so desire.\n\n§B<<TERMINATING GREETING PROTOCOLS>>§!"
+  giga_aeternum.2000.desc.a:99 "§B<<INITIATING GREETINGS PROTOCOLS>>§!\n\nGreetings, §Y[ROOT.GetName]§!. I am an automated §YAeternite Psikosynthetic Diplomatic Unit§!, deployed to serve as an interface between §YAeternum§! and the rest of the galaxy. In accordance with diplomatic protocols, a scan will now be conducted on your civilization.\n\n§B<<ANALYZING SOCIETAL AND INTELLECTUAL DEVELOPMENT OF RECIPIENT>>§!\n\nDue to your current level of technological development, your request to communicate directly with the §YAeternite Forerunners§! has been §R<<DENIED>>§!\n\nIn order to quench your species' desire for knowledge and ensure noninterference in Aeternite affairs, we have compiled basic information regarding our civilization within a §BDatabank§!, which you may peruse if you so desire.\n\n§B<<TERMINATING GREETING PROTOCOLS>>§!"
   
   giga_aeternum.2000.who:99 "Who are the Aeternites? | §BDATABANK§!"
   giga_aeternum.2000.who.response:99 "§B<<RETRIEVING DATABANK INFORMATION>>§!\n\n§YAeternum§! consists of a civilization residing on §YAiondia§!, a §YBirch World§! constructed around the §YGalactic Core§!. The original Aeternite homeworld of §YKouihmatalla§! is no longer inhabited, with all population currently residing on the Birch World. In accordance with the protocols, they do not wish to be disturbed, and under no circumstances should the external galaxy be allowed to meddle in Aeternite affairs.\n\nAiondia's population currently totals §Y10.6 quintillions§!, occupying roughly §Y0.014%§! of the structure's habitable area, with the remaining §Y99.986%§! being §R<<MISSING DATA>>§!\n\nThreatening Aeternite safety will result in your §Rimmediate termination§!.\n\n§B<<END OF DATA LOG>>§!"
@@ -13035,7 +13070,7 @@
   building_giga_aeternum_birch_capital_desc:99 "A building which houses the centralized Aeternite government ruling over their Birch World and the rest of their empire. It is filled with various kinds of computers and machinery to help streamline governmental tasks."
   
   building_giga_aeternum_ruler_computer:99 "Aeternite Regal Computing Complex"
-  building_giga_aeternum_ruler_computer_desc:99 "This humongous networked complex serves as the Aeternite ruler's personal computer, and is used to coordinate and manage the empire whenever needed. Its vast databanks contain most of Aeternite scientific and cultural knowledge, and other secrets of invaluable value."
+  building_giga_aeternum_ruler_computer_desc:99 "This humongous networked complex serves as the Aeternite ruler's personal computer, and is used to coordinate and manage the empire whenever needed. Its vast databanks contain the sum of Aeternite scientific and cultural knowledge, and other secrets of incalculable value."
   
   building_giga_aeternum_housing:99 "Aeternite Habitation Megaplexes"
   building_giga_aeternum_housing_desc:99 "Vast habitation complexes built with Loop-Quantum Aeternite technology. Able to bend spacetime itself, these esoteric habitats can provide more internal space than their external volume suggests, and are capable of autonomously adjusting themselves to fit the need of their inhabitants."
@@ -13054,6 +13089,29 @@
   
   building_giga_aeternum_synthetizer:99 "Aeternite Esoteric Synthesizer"
   building_giga_aeternum_synthetizer_desc:99 "A complex network of buildings that employ Loop-Quantum-based technologies to autonomously fabricate and assemble various advanced resources in order to sustain the Aeternite industry."
+  
+  building_giga_aeternum_megacity_energy:99 "Energiankaupunki"
+  building_giga_aeternum_megacity_energy_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_energy$§! is entirely dedicated to coordinating the flow of energy across Aiondia. Beside the adjacent loop-quantum reactor facilities, the energy from collectors around Aiondiaukko and Aiondia's twin Psionic Hypersiphons are also managed here."
+  
+  building_giga_aeternum_megacity_psionic:99 "Psioniikankaupunki"
+  building_giga_aeternum_megacity_psionic_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_psionic$§! manages the streams of psionic energy flowing through Aiondia and oversees everything related to applied psionics. It also contains the main part of the §HKirkasmajakka§!, the device responsible for psionic detection of cloaked vessels throughout Aeternum space."
+  
+  building_giga_aeternum_megacity_research:99 "Tutkimuskaupunki"
+  building_giga_aeternum_megacity_research_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_research$§! was once responsible for coordinating all Aeternum technological advancement, but has long since been vacated by all but the few curious residents who still wish to perform their own experiments. The surrounding countryside is dotted with incomplete and abandoned projects from the Aeternite golden age."
+  
+  building_giga_aeternum_megacity_unity:99 "Arkistonkaupunki"
+  building_giga_aeternum_megacity_unity_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_unity$§! is a grand archive of technical and cultural knowledge. While initially intended to record a glorious history of intergalactic expansion, it has since been filled with millions of years worth of entertainment media produced by the hedonistic Aeternite population. Enterprising explorers could spend lifetimes here delving into the vastness of Aeternum's cultural heritage."
+  
+  building_giga_aeternum_megacity_military:99 "Sodankaupunki"
+  building_giga_aeternum_megacity_military_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_military$§! is responsible for the coordination of Aiondia's vast shipyard facilities and its legions of Psikosynthetic wardens keeping watch over the surface. Nowadays it performs little more than automated maintenance tasks, and on rare occasions sends a fleet or two to ward off interlopers."
+  
+  building_giga_aeternum_megacity_megaconstruction:99 "Seostenkaupunki"
+  building_giga_aeternum_megacity_megaconstruction_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_megaconstruction$§! is a manufacturing hub for substrates used in megaconstruction and other advanced architectural projects. Once involved in the refinement of entire planetary bodies into usable materials, nowadays it sees little use beyond occasional structural maintenance."
+  
+  building_giga_aeternum_megacity_factory:99 "Tuotantokaupunki"
+  building_giga_aeternum_megacity_factory_desc:99 "One of the eight great Aeternite megacities, §H$building_giga_aeternum_megacity_factory$§! is where the vast majority of advanced goods and technology used by modern Aeternite society is manufactured. While it was once the site of great technological marvels during Aeternum's golden age, these days it has been relegated to producing a never-ending stream of mundane consumer goods."
+  
+  
   
   aeternum_birch_world:99 "Precursor Birch World"
   aeternum_birch_world_desc:99 "This Birch World is extremely ancient, and was built at least a million years ago by a precursor civilization. It is built with fantastically advanced technologies and offers surreal living conditions to its inhabitants."
@@ -13436,7 +13494,7 @@
   decision_dump_matter_on_planet_5:99 "Dump §Y5§! £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! Onto Planet"
   decision_dump_matter_on_planet_5_desc:99 "We can rather easily enlarge this world by dumping excess mass onto it. This may result in geological instability."
   decision_dump_matter_on_gas_giant:99 "Inject §Y25§! £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! For Helioforming"
-  decision_dump_matter_on_gas_giant_desc:99 "By injecting tremendous quantities of bulk matter into this gas giant, we can render sufficiently massive to allow for ignition it into a proper star."
+  decision_dump_matter_on_gas_giant_desc:99 "By injecting tremendous quantities of bulk matter into this gas giant, we can render it sufficiently massive enough to allow for ignition into a proper star."
   decision_dump_matter_on_gas_giant_tooltip:99 "We will be able to use a §YSubstellar Compressor§! to ignite this §YGas Giant§! into a §YStar§!, generating energy and potentially rending its moons habitable."
   decision_dump_matter_on_planet_tooltip:99 "We can go up to size §Y50§! with this method, beyond which it would become too unstable and massive to be exploited further."
   
@@ -15848,6 +15906,7 @@
   planetary_drive_yard_fortress_modifier_desc:99 "A Planetary Defense Nexus above this world is providing its inhabitants with plenty of military occupations and extensive protection from orbital bombardment."
   
   corvette_defense_squadron:99 "[event_target:planet_deploying_ships.GetName] Defense Squadron"
+  mauler_defense_squadron:99 "[event_target:planet_deploying_ships.GetName] Defense Squadron"
   
   sm_planetary_drive_yard_uplink:99 "Planetary Dockyard Uplink"
   sm_planetary_drive_yard_uplink_desc:99 "Connects this Starbase to every §YPlanetary Dockyard§! within its star system. The effects stack up to §Y20§! Planetary Dockyards.\nBuild cost reduction is capped at §Y-30%§!."
@@ -15864,7 +15923,7 @@
   giga_tech_planetary_drive_yard_shipyard:99 "Enhanced Planetary Yards"
   giga_tech_planetary_drive_yard_shipyard_desc:99 "Additional upgrades made to our decentralized Planetary Dockyards such as expanded infrastructures will further enhance our shipbuilding capabilities in the long run."
   allow_planetary_drive_yard_shipyard:99 "§HUnlock Megastructure§!: Planetary Drive Yards"
-  desc_planetary_drive_yard_shipyard:99 "Upgraded from the §YPlanetary Dockyard§!, the §YPlanetary Drive Yards§! double the shipyards and build speed bonus granted by the megastructure and reduce the cost of ships built at the system's starbase. Also enhances trade collection range."
+  desc_planetary_drive_yard_shipyard:99 "Upgraded from the §YPlanetary Dockyard§!, the §YPlanetary Drive Yards§! double the shipyards and build speed bonus granted by the megastructure and reduce the cost of ships built at the system's starbase."
   
   allow_planetary_drive_yard_defense:99 "§HUnlocks Megastructure§!: Planetary Defense Nexus"
   desc_planetary_drive_yard_defense:99 "Upgraded from the §YPlanetary Dockyard§!, the §YPlanetary Defense Nexus§! shifts the megastructure's focus from shipbuilding to planetary defense. It most importantly gains the ability to autonomously build and maintain its own force of §YStrike Corvettes§!, which will be automatically deployed if a hostile fleet gets too close."
@@ -15882,11 +15941,11 @@
   giga_dialog.13402.a:99 "Wonderful."
   
   giga_dialog.13404.name:99 "Planetary Drive Yards Operational"
-  giga_dialog.13404.desc:99 "A Planetary Dockyard has been upgraded into §YPlanetary Drive Yards§!.\n\nFocusing even further on ship construction, the upgrade has effectively §Ydoubled§! the amount of shipyards and build speed bonus provided to the §Y[giga_system.GetName]§! system starbase.\n\nAdditionally, it will grant a §Y7.5%§! cost reduction to ships built at the starbase, which can stack up to §Y30%§!. The Drive Yards will help collect trading flowing into the system, increasing the starbase's §YTrade Collection Range§! by §Y2§!.\n\nWe do not need to build a new Uplink building if we already have one."
+  giga_dialog.13404.desc:99 "A Planetary Dockyard has been upgraded into §YPlanetary Drive Yards§!.\n\nFocusing even further on ship construction, the upgrade has effectively §Ydoubled§! the amount of shipyards and build speed bonus provided to the §Y[giga_system.GetName]§! system starbase.\n\nAdditionally, it will grant a §Y7.5%§! cost reduction to ships built at the starbase, which can stack up to §Y30%§!.\n\nWe do not need to build a new Uplink building if we already have one."
   giga_dialog.13404.a:99 "Great."
   
   planetary_drive_yard_1_shipyard:99 "Planetary Drive Yards"
-  planetary_drive_yard_1_shipyard_DESC:99 "An upgraded version of the Planetary Dockyard, which further focuses on shipbuilding facilities. Doubles the amount of shipyards, naval capacity and ship build speed granted by the megastructure while also reducing the cost of ships at the system's starbase by 7.5% (up to 30%) and increasing trade collection range by 2."
+  planetary_drive_yard_1_shipyard_DESC:99 "An upgraded version of the Planetary Dockyard, which further focuses on shipbuilding facilities. Doubles the amount of shipyards, naval capacity and ship build speed granted by the megastructure while also reducing the cost of ships at the system's starbase by 7.5% (up to 30%)"
   
   planetary_drive_yard_1_fortress:99 "Planetary Defense Nexus"
   planetary_drive_yard_1_fortress_DESC:99 "An upgraded version of the Planetary Dockyard focusing on planetary defense. Increases command limit, protects its planet from orbital bombardment and gains the ability to automatically deploy a number of §YStrike Corvettes§! towards hostile fleets."
@@ -17369,7 +17428,7 @@
   giga_flusionoperations.5007.name:99 "Flusionian Population Mourns Loris"
   giga_flusionoperations.5007.desc:99 "The assassination of §YLoris Von Kattensbach§! has not gone unnoticed by the common folk of Flusion. Despite the fact he was the head Katzen governor, and thus represented the Kaiser's dominance over Flusion, he was surprisingly popular amongst the various species subjugated by the Kaiser during his conquest of the planet.\n\nLoris had undertaken a series of reforms that, while they did not grant much freedom from the Kaiser's rule, nonetheless established numerous instances of local democracy across Flusion. He also had ensured the Kaiser's views of equality between every species were properly applied to every part of the planet and worked tirelessly to make Katzen rule compatible with the lives of Flusion's inhabitants.\n\nEverybody is well aware that the Roqualians were behind this act, and with Loris gone, many Flusionians who were previously supportive of the §YRoqualian Freedom Fighters§! have turned away from the movement, evidently fearing that Dofus and his entourage have become too radical and restless in their quest to overthrow the Kaiser."
   giga_flusionoperations.5007.a:99 "Why do they care?"
-  giga_flusionoperations.5007.a.tooltip:99 "Resistance in §YGeschwollen§!, §YWacegien§!, §YRavkanien§! and the §YKatzen Herzlands§! decreases by §Y1§!."
+  giga_flusionoperations.5007.a.tooltip:99 "Resistance in §YGeschwollen§!, §YArivoejien§!, §YRavkanien§! and the §YKatzen Herzlands§! decreases by §Y1§!."
   
   giga_flusionoperations.5002.name:99 "Loris Assassination Successful... except not."
   giga_flusionoperations.5002.desc:99 "Our Roqualian allies report that the operation to poison Loris took place without issues. They managed to infiltrate Loris' surroundings and slip an extremely violent poison with delayed activation into his food, which slipped past notice and killed him within seconds of him ingesting it.\n\nUnfortunately for us, we failed to account for the fact that the Katzens had established a §YSoulbot Factory§! on §YKleinkalien Isle§!, which immediately produced a purpose-made backup synthetic chassis into which Loris' consciousness could be uploaded, effectively bringing him back to life and negating the entire operation...\n\nThe success chance was §Y[flusion_primitives_country.flusion_operation_odds]%§!"
@@ -17847,19 +17906,19 @@
   sm_orbital_ring_giga_farming_district_desc:99 "Automated factories produce vast quantities of fertilizer and distribute them to previously inhospitable parts of the planet's surface to permit agriculture.\n\n§YEfficiency is lower on Tomb Worlds and higher on Gaia Worlds. Does not function on Irradiated Desert Worlds.§!\n"
   
   sm_ring_giga_crystals_hub:99 "Laser Crystal Bore"
-  sm_ring_giga_crystals_hub_desc:99 "Immense laser drills cutting into the planet's crust to help planetside rare crystal mining. Other extracted materials supplement the crystal refining process.\n\n§TProvides §G+1§! £job_crystal_miner£ §YCrystal Mining§! Job per §G4§! £district£ §Y$district_mining_plural$§!.\n"
+  sm_ring_giga_crystals_hub_desc:99 "Immense laser drills cutting into the planet's crust to help planetside rare crystal mining. Other extracted materials supplement the crystal refining process.\n\n§TProvides §G+25§! £job_crystal_miner£ §YCrystal Mining§! Jobs per £district£ §Y$district_mining$§!.\n"
   ring_giga_crystals_hub_condition:99 "§RPlanet must have deposits of £rare_crystals£ §Y$rare_crystals$.§!"
   
   sm_ring_giga_motes_hub:99 "Hypersonic Mote Sifter"
-  sm_ring_giga_motes_hub_desc:99 "Powerful sonic emitters blast ultrasound waves into the atmosphere and towards mote harvesting sites, stirring up dust deserts with just the right frequency to bring plenty of Volatile Motes to the surface. Electromagnetic nets can also capture materials valuable to the mote refining process.\n\n§TProvides §G+1§! £job_mote_harvester£ §YMote Harvesting§! Job per §G4§! £district£ §Y$district_mining_plural$§!.\n"
+  sm_ring_giga_motes_hub_desc:99 "Powerful sonic emitters blast ultrasound waves into the atmosphere and towards mote harvesting sites, stirring up dust deserts with just the right frequency to bring plenty of Volatile Motes to the surface. Electromagnetic nets can also capture materials valuable to the mote refining process.\n\n§TProvides §G+25§! £job_mote_harvester£ §YMote Harvesting§! Job per £district£ §Y$district_generator$§!.\n"
   ring_giga_motes_hub_condition:99 "§RPlanet must have deposits of £volatile_motes£ §Y$volatile_motes$.§!"
   
   sm_ring_giga_gas_hub:99 "Atmospheric Gas Stabilizer"
-  sm_ring_giga_gas_hub_desc:99 "Chemical plants which inject stabilizing agents into the atmosphere near naturally-occurring gas deposits, making extraction safer and easier. As a side effect, local microbes can be more effectively utilised to refine gases from biomass.\n\n§TProvides §G+1§! £job_gas_extractor£ §YGas Extraction§! Job per §G4§! £district£ §Y$district_mining_plural$§!.\n"
+  sm_ring_giga_gas_hub_desc:99 "Chemical plants which inject stabilizing agents into the atmosphere near naturally-occurring gas deposits, making extraction safer and easier. As a side effect, local microbes can be more effectively utilised to refine gases from biomass.\n\n§TProvides §G+25§! £job_gas_extractor£ §YGas Extraction§! Jobs per £district£ §Y$district_farming$§!.\n"
   ring_giga_gas_hub_condition:99 "§RPlanet must have deposits of £exotic_gases£ §Y$exotic_gases$.§!"
   
   sm_ring_giga_iodizium_hub:99 "Field Isolation Grid"
-  sm_ring_giga_iodizium_hub_desc:99 "Shield projectors focused on Iodizium mining facilities ensure that explosive chain reactions are kept to a minimum, greatly improving the efficiency of planetside crystal handling.\n\n§TProvides §G+1§! £job_giga_iodizium_miner£ §YIodizium Mining§! Job per active £building£ §Y$building_giga_iodizium_mines$§! Building§!\n"
+  sm_ring_giga_iodizium_hub_desc:99 "Shield projectors focused on Iodizium mining facilities ensure that explosive chain reactions are kept to a minimum, greatly improving the efficiency of planetside crystal handling.\n\n§TProvides §G+100§! £job_giga_iodizium_miner£ §YIodizium Mining§! Jobs per active £building£ §Y$building_giga_iodizium_mines$§! Building§!\n"
   ring_giga_iodizium_hub_condition:99 "§RPlanet must be able to support at least one £building£ §Y$building_giga_iodizium_mines$§! Building.§!"
   
   sm_ring_giga_orbital_arcology:99 "Orbital Arcology"
